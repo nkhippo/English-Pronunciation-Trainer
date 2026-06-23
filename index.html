@@ -43,7 +43,7 @@
   .pill[aria-pressed="true"]{border-color:var(--signal);background:var(--signal-soft);color:var(--signal)}
   .start{width:100%;margin-top:6px;border:none;border-radius:11px;cursor:pointer;background:var(--ink);color:#fff;font-family:var(--ui);font-weight:700;font-size:15px;padding:15px;letter-spacing:.03em;transition:transform .08s}
   .start:active{transform:translateY(1px)}
-  .countnote{text-align:center;font-size:11px;color:var(--faint);margin-top:10px;font-family:var(--mono)}
+  .countnote{font-size:11px;color:var(--faint);margin-top:8px;font-family:var(--mono)}
 
   .card-top{display:flex;justify-content:flex-end;align-items:center;margin-bottom:16px}
   .qno{font-family:var(--mono);font-size:11px;color:var(--faint)}
@@ -184,6 +184,7 @@
         <button class="pill" data-lvl="A1" aria-pressed="false">A1 only</button>
         <button class="pill" data-lvl="A2" aria-pressed="false">A2 only</button>
       </div>
+      <div class="countnote" id="lvlPoolNote"></div>
     </div>
 
     <div class="field hidden" id="grpField">
@@ -195,10 +196,10 @@
         <button class="pill" data-grp="team" aria-pressed="false">Vowel teams</button>
         <button class="pill" data-grp="r" aria-pressed="false">R-colored vowels</button>
       </div>
+      <div class="countnote" id="grpPoolNote"></div>
     </div>
 
     <button class="start" id="startBtn" disabled>Loading…</button>
-    <div class="countnote" id="poolNote"></div>
   </section>
 
   <!-- DECODE CARD -->
@@ -287,7 +288,8 @@ async function loadWordlist() {
 }
 
 loadWordlist().catch(err => {
-  $("poolNote").textContent = "Failed to load word list";
+  $("lvlPoolNote").textContent = "Failed to load word list";
+  $("grpPoolNote").textContent = "Failed to load word list";
   $("startBtn").textContent = "Load failed";
   console.error(err);
 });
