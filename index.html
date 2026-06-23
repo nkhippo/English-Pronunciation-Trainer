@@ -86,6 +86,7 @@
   .skip button{background:none;border:none;color:var(--faint);font-size:12px;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
   .playmini{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--signal);color:var(--signal);background:#fff;border-radius:999px;padding:8px 16px;cursor:pointer;font-weight:600;font-size:12.5px;margin-top:14px}
   .playmini svg{width:14px;height:14px}
+  .playmini:disabled{opacity:.55;cursor:wait}
 
   /* IPA keyboard (encode mode) */
   .build{border:1.5px solid var(--hair);border-radius:11px;background:#fff;min-height:58px;display:flex;align-items:center;justify-content:center;padding:10px 14px;margin:4px 0 12px}
@@ -198,13 +199,13 @@
       </div>
     </div>
 
-    <div class="field" id="apiField">
-      <div class="flabel">OpenAI API キー <span style="font-weight:400;text-transform:none;letter-spacing:0">(音声合成 · ブラウザに保存)</span></div>
+    <div class="field" id="gasField">
+      <div class="flabel">GAS Web App URL <span style="font-weight:400;text-transform:none;letter-spacing:0">(音声合成プロキシ · ブラウザに保存)</span></div>
       <div class="answer" style="margin-top:0">
-        <input id="apiKey" type="password" autocomplete="off" placeholder="sk-..." spellcheck="false">
-        <button class="go" id="apiSave" type="button">保存</button>
+        <input id="gasUrl" type="url" autocomplete="off" placeholder="https://script.google.com/macros/s/.../exec" spellcheck="false">
+        <button class="go" id="gasSave" type="button">保存</button>
       </div>
-      <div class="countnote" id="apiNote" style="margin-top:8px;text-align:left"></div>
+      <div class="countnote" id="gasNote" style="margin-top:8px;text-align:left"></div>
     </div>
 
     <button class="start" id="startBtn" disabled>読み込み中…</button>
@@ -214,7 +215,9 @@
   <!-- DECODE CARD -->
   <section id="cardDecode" class="panel hidden">
     <div class="card-top"><div class="tagrow" id="dTags"></div><div class="qno" id="dNo"></div></div>
-    <div class="readout"><div class="ipa" id="dIpa"></div></div>
+    <div class="readout"><div class="ipa" id="dIpa"></div>
+      <div><button class="playmini" id="dPlay" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>音を聞く</button></div>
+    </div>
     <div class="info" id="dInfo"></div>
     <div class="info-hint">記号をタップ → 口の形・コツ</div>
     <div class="hints" id="dHints">
@@ -250,6 +253,7 @@
       <div class="verdict" id="verdict"></div>
       <div class="word" id="rWord"></div>
       <div class="yourtry" id="rTry"></div>
+      <div><button class="playmini" id="rPlay" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>音を聞く</button></div>
       <div class="readout" style="padding-top:0"><div class="ipa" id="rIpa"></div></div>
       <div class="info" id="rInfo"></div>
       <div class="note">
@@ -269,7 +273,7 @@
     <div class="sumbtns"><button class="again" id="againBtn">もう一周</button><button class="weak" id="weakBtn">苦手だけ復習</button></div>
   </section>
 
-  <div class="foot">CEFR-J Wordlist × CMU Pronouncing Dictionary 由来 · 約2,840語<br>日常語(A1/A2) + 綴り↔音が規則的な語(1,490語/パターン付き) · General American<br>音声は OpenAI gpt-4o-mini-tts · 出題は wordlist テーブルから</div>
+  <div class="foot">CEFR-J Wordlist × CMU Pronouncing Dictionary 由来 · 約2,840語<br>日常語(A1/A2) + 綴り↔音が規則的な語(1,490語/パターン付き) · General American<br>音声は GAS → OpenAI gpt-4o-mini-tts（Drive キャッシュ · ブラウザ localStorage キャッシュ）</div>
 </div>
 
 <script>
@@ -395,72 +399,121 @@ function updatePool(){const n=filteredPool().length;$("poolNote").textContent="�
 updatePool();
 
 
-/* ---------- speech (OpenAI TTS) ---------- */
-const TTS_MODEL = "gpt-4o-mini-tts";
-const TTS_VOICE = "alloy";
-const audioCache = new Map();
+/* ---------- speech (GAS → Drive → localStorage) ---------- */
+const LS_TTS_PREFIX = "ipa_tts_v1:";
+const memAudioCache = new Map();
 let currentAudio = null;
+let speakBusy = false;
 
-function getApiKey() {
-  return localStorage.getItem("openai_api_key") || "";
+function getGasUrl() {
+  return (localStorage.getItem("gas_tts_url") || "").replace(/\/$/, "");
 }
 
-function setApiNote(msg, ok) {
-  const el = $("apiNote");
+function setGasNote(msg, ok) {
+  const el = $("gasNote");
   el.textContent = msg;
   el.style.color = ok ? "var(--ok)" : "var(--muted)";
 }
 
-function initApiKeyField() {
-  const saved = getApiKey();
+function initGasUrlField() {
+  const saved = getGasUrl();
   if (saved) {
-    $("apiKey").value = saved;
-    setApiNote("APIキー保存済み · 音声再生に使用します", true);
+    $("gasUrl").value = saved;
+    setGasNote("GAS URL 保存済み · 音声は Drive / localStorage から再生します", true);
   } else {
-    setApiNote("音声を聞くには OpenAI API キーが必要です", false);
+    setGasNote("音声を聞くには GAS Web App URL が必要です（gas/README.md 参照）", false);
   }
-  $("apiSave").addEventListener("click", () => {
-    const key = $("apiKey").value.trim();
-    if (!key) {
-      localStorage.removeItem("openai_api_key");
-      setApiNote("APIキーを削除しました", false);
+  $("gasSave").addEventListener("click", () => {
+    const url = $("gasUrl").value.trim().replace(/\/$/, "");
+    if (!url) {
+      localStorage.removeItem("gas_tts_url");
+      setGasNote("GAS URL を削除しました", false);
       return;
     }
-    localStorage.setItem("openai_api_key", key);
-    setApiNote("APIキーを保存しました", true);
+    if (!/^https:\/\/script\.google\.com\/macros\/s\/.+\/exec$/.test(url)) {
+      setGasNote("URL は https://script.google.com/macros/s/.../exec 形式で入力してください", false);
+      return;
+    }
+    localStorage.setItem("gas_tts_url", url);
+    setGasNote("GAS URL を保存しました", true);
   });
 }
-initApiKeyField();
+initGasUrlField();
+
+function lsKey(w) { return LS_TTS_PREFIX + w.toLowerCase(); }
+
+function bytesFromB64(b64) {
+  const bin = atob(b64);
+  const bytes = new Uint8Array(bin.length);
+  for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+  return bytes;
+}
+
+function loadAudioFromLS(w) {
+  try {
+    const raw = localStorage.getItem(lsKey(w));
+    if (!raw) return null;
+    const data = JSON.parse(raw);
+    if (!data || !data.b64) return null;
+    const blob = new Blob([bytesFromB64(data.b64)], { type: data.mime || "audio/mpeg" });
+    return URL.createObjectURL(blob);
+  } catch (err) {
+    console.warn("localStorage audio load failed", err);
+    return null;
+  }
+}
+
+function saveAudioToLS(w, mime, b64) {
+  try {
+    localStorage.setItem(lsKey(w), JSON.stringify({ mime: mime || "audio/mpeg", b64 }));
+  } catch (err) {
+    console.warn("localStorage audio save failed", err);
+  }
+}
+
+async function fetchAudioFromGas(w) {
+  const gasUrl = getGasUrl();
+  if (!gasUrl) throw new Error("GAS Web App URL が未設定です");
+  const res = await fetch(gasUrl + "?word=" + encodeURIComponent(w));
+  if (!res.ok) throw new Error("GAS HTTP " + res.status);
+  const data = await res.json();
+  if (!data.ok) throw new Error(data.error || "GAS error");
+  return data;
+}
+
+function setSpeakerBusy(busy) {
+  speakBusy = busy;
+  ["dPlay", "ePlay", "rPlay"].forEach(id => {
+    const btn = $(id);
+    if (btn) btn.disabled = busy;
+  });
+}
 
 async function speak(w) {
-  const key = getApiKey();
-  if (!key) {
-    setApiNote("先に OpenAI API キーを保存してください", false);
-    $("apiField").scrollIntoView({ behavior: "smooth", block: "center" });
-    return;
-  }
+  if (!w || speakBusy) return;
   if (currentAudio) {
     currentAudio.pause();
     currentAudio = null;
   }
+  setSpeakerBusy(true);
   try {
-    let url = audioCache.get(w);
+    let url = memAudioCache.get(w);
     if (!url) {
-      const res = await fetch("https://api.openai.com/v1/audio/speech", {
-        method: "POST",
-        headers: {
-          Authorization: "Bearer " + key,
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({ model: TTS_MODEL, input: w, voice: TTS_VOICE })
-      });
-      if (!res.ok) {
-        const detail = await res.text();
-        throw new Error(res.status + " " + detail.slice(0, 120));
+      url = loadAudioFromLS(w);
+      if (url) memAudioCache.set(w, url);
+    }
+    if (!url) {
+      const gasUrl = getGasUrl();
+      if (!gasUrl) {
+        setGasNote("先に GAS Web App URL を保存してください", false);
+        $("gasField").scrollIntoView({ behavior: "smooth", block: "center" });
+        return;
       }
-      const blob = await res.blob();
+      const data = await fetchAudioFromGas(w);
+      saveAudioToLS(w, data.mimeType, data.audio);
+      const blob = new Blob([bytesFromB64(data.audio)], { type: data.mimeType || "audio/mpeg" });
       url = URL.createObjectURL(blob);
-      audioCache.set(w, url);
+      memAudioCache.set(w, url);
     }
     const audio = new Audio(url);
     currentAudio = audio;
@@ -468,7 +521,9 @@ async function speak(w) {
     await audio.play();
   } catch (err) {
     console.error(err);
-    setApiNote("音声の取得に失敗しました: " + err.message, false);
+    setGasNote("音声の取得に失敗しました: " + err.message, false);
+  } finally {
+    setSpeakerBusy(false);
   }
 }
 
@@ -548,6 +603,7 @@ function decodeCheck(){
 $("dCheck").addEventListener("click",decodeCheck);
 $("dInput").addEventListener("keydown",e=>{if(e.key==="Enter")decodeCheck();});
 $("dDunno").addEventListener("click",()=>{if(!S.revealed)reveal("bad",{type:"decode",tryRaw:""});});
+$("dPlay").addEventListener("click",()=>{if(S.cur)speak(S.cur.w);});
 
 /* ENCODE + IPA keyboard */
 const KEYGROUPS=[
@@ -656,6 +712,7 @@ function nextCard(){
   S.idx++;renderCard();
 }
 $("nextBtn").addEventListener("click",nextCard);
+$("rPlay").addEventListener("click",()=>{if(S.cur)speak(S.cur.w);});
 
 /* ---------- summary ---------- */
 function renderSummary(){
