@@ -17,6 +17,14 @@ GitHub Pages: https://nkhippo.github.io/English-Pronunciation-Trainer/
 
 1. 方向・出題セット・レベルを選び「はじめる」
 
+## ドキュメント
+
+| ファイル | 説明 |
+|---------|------|
+| [`docs/PURPOSE.md`](docs/PURPOSE.md) | 目的・モード構成の正本 |
+| [`docs/DESIGN.md`](docs/DESIGN.md) | 実装設計仕様 |
+| [`docs/SPECIFICATION.md`](docs/SPECIFICATION.md) | 仕様書（課題・画面設計・データ管理の正本） |
+
 ## ファイル
 
 | ファイル | 説明 |
