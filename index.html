@@ -25,6 +25,9 @@
   .brand .sub{font-family:var(--mono);font-size:10px;color:var(--faint);text-transform:uppercase;letter-spacing:.14em}
   .meter{font-family:var(--mono);font-size:11px;color:var(--muted);text-align:right;letter-spacing:.04em}
   .meter b{color:var(--ink);font-weight:700}
+  .topbar-actions{display:flex;flex-direction:column;align-items:flex-end;gap:6px}
+  .backtop{border:1px solid var(--hair);background:#fff;border-radius:999px;padding:5px 12px;cursor:pointer;font-family:var(--mono);font-size:10px;font-weight:600;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+  .backtop:hover{border-color:var(--signal);color:var(--signal)}
   .panel{background:var(--panel);border:1px solid var(--hair);border-radius:14px;padding:24px 20px}
   .panel + .panel{margin-top:14px}
 
@@ -79,8 +82,6 @@
   .answer input{flex:1;border:1.5px solid var(--hair);border-radius:10px;padding:13px 14px;font-size:17px;font-family:var(--ui);color:var(--ink);background:#fff}
   .answer input:focus{outline:none;border-color:var(--signal)}
   .answer .go{border:none;background:var(--signal);color:#fff;border-radius:10px;padding:0 18px;font-weight:700;cursor:pointer;font-size:14px}
-  .skip{margin-top:12px;text-align:center}
-  .skip button{background:none;border:none;color:var(--faint);font-size:12px;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
   .playicon{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border:1px solid var(--hair);background:#fff;border-radius:50%;color:var(--signal);cursor:pointer;margin-top:10px;transition:border-color .15s,background .15s,transform .08s}
   .playicon svg{width:18px;height:18px}
   .playicon:hover{border-color:var(--signal);background:var(--signal-soft)}
@@ -154,7 +155,10 @@
     <div class="brand"><span class="mark">/iː/</span>
       <div><div class="name">IPA Dictation · Decoder / Encoder</div><div class="sub">CEFR A1–A2 · General American</div></div>
     </div>
-    <div class="meter" id="meter"></div>
+    <div class="topbar-actions">
+      <button class="backtop hidden" id="backTopBtn" type="button">Back to TOP</button>
+      <div class="meter" id="meter"></div>
+    </div>
   </div>
 
   <!-- SETUP -->
@@ -218,7 +222,6 @@
       <input id="dInput" type="text" inputmode="latin" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" placeholder="Type the word">
       <button class="go" id="dCheck">Check</button>
     </div>
-    <div class="skip"><button id="dDunno">Don&rsquo;t know &rarr; show answer</button></div>
   </section>
 
   <!-- ENCODE CARD -->
@@ -233,7 +236,6 @@
       <button class="clear" id="eClear">Clear</button>
       <button class="check" id="eCheck">Check</button>
     </div>
-    <div class="skip"><button id="eDunno">Don&rsquo;t know &rarr; show answer</button></div>
   </section>
 
   <!-- REVEAL -->
@@ -367,6 +369,21 @@ let S={dir:"decode",set:"daily",lvl:"A1A2",grp:"all",queue:[],idx:0,correct:0,we
 const $=id=>document.getElementById(id);
 const show=(id,on)=>$(id).classList.toggle("hidden",!on);
 
+function setSetupVisible(on){
+  show("setup",on);
+  show("cardDecode",false);
+  show("cardEncode",false);
+  show("reveal",false);
+  show("summary",false);
+  $("backTopBtn").classList.toggle("hidden",on);
+  if(on){
+    if(currentAudio){currentAudio.pause();currentAudio=null;}
+    $("meter").textContent="";
+  }
+}
+function goToTop(){setSetupVisible(true);}
+$("backTopBtn").addEventListener("click",goToTop);
+
 /* ---------- setup ---------- */
 function bindPills(group,key,parse){
   $(group).querySelectorAll(".pill,.opt").forEach(b=>b.addEventListener("click",()=>{
@@ -491,7 +508,7 @@ function startSession(weakOnly){
   shuffle(pool);
   pool=pool.slice(0,QUESTION_COUNT);
   S.queue=pool;S.idx=0;S.correct=0;S.weak={};S.missed=[];
-  show("setup",false);show("summary",false);renderCard();
+  show("setup",false);show("summary",false);$("backTopBtn").classList.remove("hidden");renderCard();
 }
 $("startBtn").addEventListener("click",()=>startSession(false));
 $("againBtn").addEventListener("click",()=>startSession(false));
@@ -549,7 +566,6 @@ function decodeCheck(){
 }
 $("dCheck").addEventListener("click",decodeCheck);
 $("dInput").addEventListener("keydown",e=>{if(e.key==="Enter")decodeCheck();});
-$("dDunno").addEventListener("click",()=>{if(!S.revealed)reveal("bad",{type:"decode",tryRaw:""});});
 $("dPlay").addEventListener("click",()=>{if(S.cur)speak(S.cur.w);});
 
 /* ENCODE + IPA keyboard */
@@ -604,7 +620,6 @@ function encodeCheck(){
   reveal(res,{type:"encode",usr:usr});
 }
 $("eCheck").addEventListener("click",encodeCheck);
-$("eDunno").addEventListener("click",()=>{if(!S.revealed)reveal("bad",{type:"encode",usr:S.built.slice()});});
 
 /* ---------- reveal ---------- */
 function autoNote(c){
