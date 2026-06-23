@@ -215,8 +215,9 @@
       <div class="flabel" id="flabelLvl">Level</div>
       <div class="pills" id="lvlPills">
         <button class="pill" data-lvl="A1A2" aria-pressed="true" id="lvlAll">A1+A2</button>
-        <button class="pill" data-lvl="A1" aria-pressed="false" id="lvlA1">A1 only</button>
-        <button class="pill" data-lvl="A2" aria-pressed="false" id="lvlA2">A2 only</button>
+        <button class="pill" data-lvl="B1" aria-pressed="false" id="lvlB1">B1</button>
+        <button class="pill" data-lvl="B2" aria-pressed="false" id="lvlB2">B2</button>
+        <button class="pill" data-lvl="C1" aria-pressed="false" id="lvlC1">C1</button>
       </div>
       <div class="countnote" id="lvlPoolNote"></div>
     </div>
@@ -379,8 +380,9 @@ function applyI18n() {
   $("setPhonicsD").textContent = t("set.phonics_d");
   $("flabelLvl").textContent = t("lvl.label");
   $("lvlAll").textContent = t("lvl.all");
-  $("lvlA1").textContent = t("lvl.a1");
-  $("lvlA2").textContent = t("lvl.a2");
+  $("lvlB1").textContent = t("lvl.b1");
+  $("lvlB2").textContent = t("lvl.b2");
+  $("lvlC1").textContent = t("lvl.c1");
   $("flabelGrp").textContent = t("grp.label");
   $("grpAll").textContent = t("grp.all");
   $("grpShort").textContent = t("grp.short");
@@ -493,10 +495,14 @@ $("setOpts").querySelectorAll(".opt").forEach(b=>b.addEventListener("click",()=>
   b.setAttribute("aria-pressed","true");S.set=b.dataset.set;
   show("lvlField",S.set==="daily");show("grpField",S.set==="phonics");updatePool();
 }));
+function matchesLevel(cefr){
+  if(S.lvl==="A1A2")return cefr==="A1"||cefr==="A2";
+  return cefr===S.lvl;
+}
 function filteredPool(){
   let p;
   if(S.set==="phonics"){p=PRESET.filter(w=>w.grp&&(S.grp==="all"||w.grp===S.grp));}
-  else{p=PRESET.filter(w=>(w.cefr==="A1"||w.cefr==="A2")&&(S.lvl==="A1A2"||w.cefr===S.lvl));}
+  else{p=PRESET.filter(w=>matchesLevel(w.cefr));}
   return p;
 }
 function updatePool(){
@@ -504,6 +510,7 @@ function updatePool(){
   const text=t("lvl.pool",{n});
   $("lvlPoolNote").textContent=text;
   $("grpPoolNote").textContent=text;
+  if(wordlistReady)$("startBtn").disabled=n===0;
 }
 
 

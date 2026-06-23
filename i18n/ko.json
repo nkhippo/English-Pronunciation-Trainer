@@ -3,7 +3,7 @@
   "lead_html": "이미 아는 단어의 <b>발음만</b> 다시 훈련합니다. &ldquo;낼 수 없는 소리는 들리지 않는다&rdquo;는 간극을 메웁니다. <b>일상 어휘</b>와 <b>철자&ndash;소리 규칙</b>(예: ai &rarr; /eɪ/)으로 IPA 읽기를 연습하세요.",
   "dir": { "label": "방향", "decode_t": "읽기 · IPA &rarr; 단어", "decode_d": "IPA를 읽고 철자를 맞추기", "encode_t": "쓰기 · 단어 &rarr; IPA", "encode_d": "IPA 키보드로 발음 조립하기" },
   "set": { "label": "문제 세트", "daily_t": "일상 어휘 · CEFR A1–A2", "daily_d": "자주 쓰는 단어(불규칙 철자 포함)", "phonics_t": "규칙 패턴 · 철자 &harr; 소리", "phonics_d": "철자와 소리가 규칙적으로 대응하는 단어" },
-  "lvl": { "label": "레벨", "all": "A1+A2", "a1": "A1만", "a2": "A2만", "pool": "대상 {n}개 단어" },
+  "lvl": { "label": "레벨", "all": "A1+A2", "b1": "B1", "b2": "B2", "c1": "C1", "pool": "대상 {n}개 단어" },
   "grp": { "label": "철자 규칙 그룹", "all": "전체", "short": "단모음", "long": "장모음·묵음 e", "team": "모음 팀", "r": "r색 모음" },
   "start": "시작", "loading": "불러오는 중…", "load_fail": "불러오기 실패", "wordlist_fail": "단어 목록을 불러오지 못했습니다",
   "back_top": "처음", "settings_btn": "설정", "settings_lang": "언어", "settings_close": "닫기",

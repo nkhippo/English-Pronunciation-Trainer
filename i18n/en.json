@@ -3,7 +3,7 @@
   "lead_html": "Retrain <b>pronunciation only</b> for words you already know. Bridge the gap: <b>if you can&rsquo;t say a sound, you can&rsquo;t hear it</b>. Practice with <b>everyday words</b> plus <b>regular spelling&ndash;sound patterns</b> (e.g. ai &rarr; /eɪ/) to build IPA reading skills.",
   "dir": { "label": "Direction", "decode_t": "Decode · IPA &rarr; word", "decode_d": "Read the IPA and spell the word", "encode_t": "Encode · word &rarr; IPA", "encode_d": "Build the pronunciation with the IPA keyboard" },
   "set": { "label": "Question set", "daily_t": "Daily words · CEFR A1–A2", "daily_d": "Common words (including irregular spellings)", "phonics_t": "Phonics patterns · spelling &harr; sound", "phonics_d": "Words with regular spelling&ndash;sound correspondences" },
-  "lvl": { "label": "Level", "all": "A1+A2", "a1": "A1 only", "a2": "A2 only", "pool": "Pool: {n} words" },
+  "lvl": { "label": "Level", "all": "A1+A2", "b1": "B1", "b2": "B2", "c1": "C1", "pool": "Pool: {n} words" },
   "grp": { "label": "Spelling pattern group", "all": "All", "short": "Short vowels", "long": "Long vowels · silent e", "team": "Vowel teams", "r": "R-colored vowels" },
   "start": "Start", "loading": "Loading…", "load_fail": "Load failed", "wordlist_fail": "Failed to load word list",
   "back_top": "Menu", "settings_btn": "Settings", "settings_lang": "Language", "settings_close": "Close",

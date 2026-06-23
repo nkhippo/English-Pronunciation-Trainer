@@ -3,7 +3,7 @@
   "lead_html": "专为<b>已学单词</b>重练<b>发音</b>。弥合&ldquo;不会发的音就听不出来&rdquo;的缺口。通过<b>日常词汇</b>和<b>拼写&ndash;读音规则</b>（如 ai &rarr; /eɪ/）训练IPA阅读能力。",
   "dir": { "label": "方向", "decode_t": "解码 · IPA &rarr; 单词", "decode_d": "读IPA并拼写单词", "encode_t": "编码 · 单词 &rarr; IPA", "encode_d": "用IPA键盘拼出发音" },
   "set": { "label": "题库", "daily_t": "日常词 · CEFR A1–A2", "daily_d": "常用词（含不规则拼写）", "phonics_t": "拼读规则 · 拼写 &harr; 音", "phonics_d": "拼写与读音规则对应的词" },
-  "lvl": { "label": "级别", "all": "A1+A2", "a1": "仅A1", "a2": "仅A2", "pool": "词库 {n} 词" },
+  "lvl": { "label": "级别", "all": "A1+A2", "b1": "B1", "b2": "B2", "c1": "C1", "pool": "词库 {n} 词" },
   "grp": { "label": "拼写规则组", "all": "全部", "short": "短元音", "long": "长元音·不发音e", "team": "元音组合", "r": "r化元音" },
   "start": "开始", "loading": "加载中…", "load_fail": "加载失败", "wordlist_fail": "词表加载失败",
   "back_top": "首页", "settings_btn": "设置", "settings_lang": "语言", "settings_close": "关闭",
