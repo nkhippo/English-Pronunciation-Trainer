@@ -81,9 +81,11 @@
   .answer .go{border:none;background:var(--signal);color:#fff;border-radius:10px;padding:0 18px;font-weight:700;cursor:pointer;font-size:14px}
   .skip{margin-top:12px;text-align:center}
   .skip button{background:none;border:none;color:var(--faint);font-size:12px;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
-  .playmini{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--signal);color:var(--signal);background:#fff;border-radius:999px;padding:8px 16px;cursor:pointer;font-weight:600;font-size:12.5px;margin-top:14px}
-  .playmini svg{width:14px;height:14px}
-  .playmini:disabled{opacity:.55;cursor:wait}
+  .playicon{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border:1px solid var(--hair);background:#fff;border-radius:50%;color:var(--signal);cursor:pointer;margin-top:10px;transition:border-color .15s,background .15s,transform .08s}
+  .playicon svg{width:18px;height:18px}
+  .playicon:hover{border-color:var(--signal);background:var(--signal-soft)}
+  .playicon:active{transform:scale(.96)}
+  .playicon:disabled{opacity:.55;cursor:wait}
 
   /* IPA keyboard (encode mode) */
   .build{border:1.5px solid var(--hair);border-radius:11px;background:#fff;min-height:58px;display:flex;align-items:center;justify-content:center;padding:10px 14px;margin:4px 0 12px}
@@ -203,7 +205,7 @@
   <section id="cardDecode" class="panel hidden">
     <div class="card-top"><div class="qno" id="dNo"></div></div>
     <div class="readout"><div class="ipa" id="dIpa"></div>
-      <div><button class="playmini" id="dPlay" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>音を聞く</button></div>
+      <button class="playicon" id="dPlay" type="button" aria-label="音を聞く"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg></button>
     </div>
     <div class="info" id="dInfo"></div>
     <div class="hints" id="dHints">
@@ -222,7 +224,7 @@
   <section id="cardEncode" class="panel hidden">
     <div class="card-top"><div class="qno" id="eNo"></div></div>
     <div class="readout"><div class="wordbig" id="eWord"></div>
-      <div><button class="playmini" id="ePlay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>音を聞く(任意)</button></div>
+      <button class="playicon" id="ePlay" type="button" aria-label="音を聞く"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg></button>
     </div>
     <div class="build" id="eBuild"><span class="ph">下のIPAキーをタップして発音を組み立てる</span></div>
     <div class="kbd" id="eKbd"></div>
@@ -238,8 +240,9 @@
     <div class="reveal">
       <div class="word" id="rWord"></div>
       <div class="yourtry" id="rTry"></div>
-      <div><button class="playmini" id="rPlay" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>音を聞く</button></div>
-      <div class="readout" style="padding-top:0"><div class="ipa" id="rIpa"></div></div>
+      <div class="readout" style="padding-top:0"><div class="ipa" id="rIpa"></div>
+        <button class="playicon" id="rPlay" type="button" aria-label="音を聞く"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg></button>
+      </div>
       <div class="info" id="rInfo"></div>
       <div class="note">
         <div class="nh">この単語の発音ポイント</div>
