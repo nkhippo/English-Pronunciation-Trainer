@@ -15,8 +15,8 @@ GitHub Pages: https://nkhippo.github.io/English-Pronunciation-Trainer/
 
 ## 使い方
 
-1. `gas/README.md` に従い GAS をデプロイし、OpenAI API キーを Script Properties に設定
-2. セットアップ画面で GAS Web App URL を入力して「保存」
+1. `gas/README.md` に従い GAS をデプロイし、OpenAI API キーを Script Properties に設定（済みの場合は不要）
+2. セットアップ画面で GAS Web App URL を確認（デフォルト URL が設定済み。変更時のみ「保存」）
 3. 方向・出題セット・レベル・出題数を選び「はじめる」
 
 ## ファイル

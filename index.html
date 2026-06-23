@@ -202,7 +202,7 @@
     <div class="field" id="gasField">
       <div class="flabel">GAS Web App URL <span style="font-weight:400;text-transform:none;letter-spacing:0">(音声合成プロキシ · ブラウザに保存)</span></div>
       <div class="answer" style="margin-top:0">
-        <input id="gasUrl" type="url" autocomplete="off" placeholder="https://script.google.com/macros/s/.../exec" spellcheck="false">
+        <input id="gasUrl" type="url" autocomplete="off" placeholder="https://script.google.com/macros/s/AKfycbz.../exec" spellcheck="false">
         <button class="go" id="gasSave" type="button">保存</button>
       </div>
       <div class="countnote" id="gasNote" style="margin-top:8px;text-align:left"></div>
@@ -400,13 +400,14 @@ updatePool();
 
 
 /* ---------- speech (GAS → Drive → localStorage) ---------- */
+const DEFAULT_GAS_TTS_URL = "https://script.google.com/macros/s/AKfycbzUN8XntWeS68Gf3OqC5UP5J3jqAkEf254sp5JP8ik-PTmI20x_yx5nYi8NkH7UaiuQ/exec";
 const LS_TTS_PREFIX = "ipa_tts_v1:";
 const memAudioCache = new Map();
 let currentAudio = null;
 let speakBusy = false;
 
 function getGasUrl() {
-  return (localStorage.getItem("gas_tts_url") || "").replace(/\/$/, "");
+  return (localStorage.getItem("gas_tts_url") || DEFAULT_GAS_TTS_URL).replace(/\/$/, "");
 }
 
 function setGasNote(msg, ok) {
@@ -416,18 +417,19 @@ function setGasNote(msg, ok) {
 }
 
 function initGasUrlField() {
-  const saved = getGasUrl();
+  const saved = localStorage.getItem("gas_tts_url");
+  $("gasUrl").value = saved || DEFAULT_GAS_TTS_URL;
   if (saved) {
-    $("gasUrl").value = saved;
     setGasNote("GAS URL 保存済み · 音声は Drive / localStorage から再生します", true);
   } else {
-    setGasNote("音声を聞くには GAS Web App URL が必要です（gas/README.md 参照）", false);
+    setGasNote("デフォルト GAS URL を使用中 · 変更する場合は保存してください", true);
   }
   $("gasSave").addEventListener("click", () => {
     const url = $("gasUrl").value.trim().replace(/\/$/, "");
     if (!url) {
       localStorage.removeItem("gas_tts_url");
-      setGasNote("GAS URL を削除しました", false);
+      $("gasUrl").value = DEFAULT_GAS_TTS_URL;
+      setGasNote("カスタム URL を削除 · デフォルト GAS URL を使用中", true);
       return;
     }
     if (!/^https:\/\/script\.google\.com\/macros\/s\/.+\/exec$/.test(url)) {
