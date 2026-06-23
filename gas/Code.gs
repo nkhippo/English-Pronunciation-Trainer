@@ -6,8 +6,10 @@
  */
 
 const FOLDER_NAME = 'IPA-TTS-Audio';
+const TTS_CACHE_VER = 'v2';
 const TTS_MODEL = 'gpt-4o-mini-tts';
 const TTS_VOICE = 'alloy';
+const TTS_INSTRUCTIONS = 'Pronounce the single English word in a clear General American accent. Use the citation (dictionary) form: full, unreduced vowels and the correct lexical stress — do not use the weak or reduced connected-speech form, even for function words. Say the word once, at a calm pace slightly slower than conversational, with neutral falling intonation. Articulate consonants precisely and keep contrasts distinct — especially /θ/–/f/, /ð/–/d/, /l/–/r/, /s/–/ʃ/, /b/–/v/, and word-final consonants — but stay natural and never exaggerate them into distortion. Do not spell the word, do not add any other words, do not pause, and do not use emotional or expressive delivery. Keep the delivery identical and consistent across all words.';
 
 function getFolder_() {
   const folders = DriveApp.getFoldersByName(FOLDER_NAME);
@@ -16,7 +18,7 @@ function getFolder_() {
 }
 
 function fileNameForWord_(word) {
-  return String(word).toLowerCase().replace(/[^a-z0-9]/g, '_') + '.mp3';
+  return String(word).toLowerCase().replace(/[^a-z0-9]/g, '_') + '_' + TTS_CACHE_VER + '.mp3';
 }
 
 function getAudioFromDrive_(word) {
@@ -41,6 +43,7 @@ function fetchFromOpenAI_(word) {
       model: TTS_MODEL,
       input: word,
       voice: TTS_VOICE,
+      instructions: TTS_INSTRUCTIONS,
     }),
     muteHttpExceptions: true,
   });

@@ -1,6 +1,9 @@
 {
   "brand": { "name": "IPA Dictation · Decoder / Encoder", "sub": "CEFR A1–A2 · General American" },
-  "lead_html": "Retrain <b>pronunciation only</b> for words you already know. Bridge the gap: <b>if you can&rsquo;t say a sound, you can&rsquo;t hear it</b>. Practice with <b>everyday words</b> plus <b>regular spelling&ndash;sound patterns</b> (e.g. ai &rarr; /eɪ/) to build IPA reading skills.",
+  "lead_html": "Drill <b>IPA reading and writing</b> for words you already know&mdash;sound by sound. Target <b>trap phonemes</b> (θ, ð, æ, ʒ, ɝ) or your <b>weak spots</b> from practice history. Objective scoring only; build symbol coverage, not vocabulary lists.",
+  "focus": { "label": "Phoneme focus", "all": "All sounds", "traps": "Trap sounds", "traps_d": "θ ð æ ʒ ɝ", "weak": "Weak spots", "weak_d": "From practice history" },
+  "reg": { "label": "Spelling type", "all": "All", "regular": "Regular patterns", "regular_d": "Phonics / spelling&ndash;sound rules", "irregular": "Irregular", "irregular_d": "Common words, irregular spelling" },
+  "pool": { "count": "Pool: {n} words" },
   "dir": { "label": "Direction", "decode_t": "Decode · IPA &rarr; word", "decode_d": "Read the IPA and spell the word", "encode_t": "Encode · word &rarr; IPA", "encode_d": "Build the pronunciation with the IPA keyboard" },
   "set": { "label": "Question set", "daily_t": "Daily words · CEFR A1–A2", "daily_d": "Common words (including irregular spellings)", "phonics_t": "Phonics patterns · spelling &harr; sound", "phonics_d": "Words with regular spelling&ndash;sound correspondences" },
   "lvl": { "label": "Level", "all": "A1+A2", "b1": "B1", "b2": "B2", "c1": "C1", "pool": "Pool: {n} words" },
@@ -18,7 +21,7 @@
   "you": "You: {a}", "see_answer": "See the answer",
   "syl": "{n} syllable", "syl_pl": "{n} syllables",
   "summary": { "line": "{c} / {t} correct · {m} to review", "weak_head": "Sounds to practice next", "weak_none_t": "No weak sounds detected", "weak_none_d": "No missed sounds. Try a higher level.", "review": "Review list: {list}", "again": "Play again", "weak_btn": "Review misses only" },
-  "info": { "mouth": "Mouth", "watch": "Watch out" },
+  "info": { "mouth": "Mouth", "watch": "Watch out", "examples": "Examples" },
   "kbd": { "stress": "Stress", "vowels": "Vowels", "r_vowels": "R-colored", "diphthongs": "Diphthongs", "consonants": "Consonants" },
   "pos": {
     "限定詞": "determiner", "名詞": "noun", "動詞": "verb", "形容詞": "adjective", "副詞": "adverb",

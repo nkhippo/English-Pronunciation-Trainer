@@ -1,6 +1,9 @@
 {
   "brand": { "name": "IPA音写 · Decoder / Encoder", "sub": "CEFR A1–A2 · General American" },
-  "lead_html": "既知の単語の<b>発音だけ</b>を鍛え直すツール。&ldquo;発音できない音は聞き取れない&rdquo; のギャップを埋めます。<b>日常語</b>と<b>綴りと音の規則パターン</b>（例: ai &rarr; /eɪ/）でIPAの読み方を鍛えます。",
+  "lead_html": "既知の単語で<b>IPAの読み書き</b>を音素単位で鍛えるツール。<b>トラップ音</b>（θ, ð, æ, ʒ, ɝ）や<b>練習履歴の苦手音</b>を狙って出題。客観採点のみで、語彙リストではなく記号カバーを伸ばします。",
+  "focus": { "label": "音素フォーカス", "all": "すべて", "traps": "トラップ音", "traps_d": "θ ð æ ʒ ɝ", "weak": "苦手音", "weak_d": "練習履歴から" },
+  "reg": { "label": "綴りの種類", "all": "すべて", "regular": "規則パターン", "regular_d": "フォニックス / 綴りと音の規則", "irregular": "不規則", "irregular_d": "日常語・不規則綴り" },
+  "pool": { "count": "対象 {n} 語" },
   "dir": { "label": "方向", "decode_t": "読む · IPA &rarr; 単語", "decode_d": "発音記号を読んで綴りを当てる", "encode_t": "書く · 単語 &rarr; IPA", "encode_d": "IPAキーボードで発音を組み立てる" },
   "set": { "label": "出題セット", "daily_t": "日常語 · CEFR A1–A2", "daily_d": "よく使う語（不規則綴りを含む）", "phonics_t": "規則パターン · 綴り &harr; 音", "phonics_d": "綴りと発音が規則的に対応する語" },
   "lvl": { "label": "レベル", "all": "A1+A2", "b1": "B1", "b2": "B2", "c1": "C1", "pool": "対象 {n} 語" },
@@ -18,7 +21,7 @@
   "you": "あなた: {a}", "see_answer": "答えを確認",
   "syl": "{n}音節", "syl_pl": "{n}音節",
   "summary": { "line": "{c} / {t} 正解 · 復習 {m} 語", "weak_head": "次に練習すべき音", "weak_none_t": "苦手音は検出されませんでした", "weak_none_d": "ミスした音はありません。レベルを上げてもOK。", "review": "復習リスト: {list}", "again": "もう一周", "weak_btn": "苦手だけ復習" },
-  "info": { "mouth": "口の形", "watch": "注意" },
+  "info": { "mouth": "口の形", "watch": "注意", "examples": "例語" },
   "kbd": { "stress": "強勢", "vowels": "母音", "r_vowels": "r母音", "diphthongs": "二重母音", "consonants": "子音" },
   "pos": {
     "限定詞": "限定詞", "名詞": "名詞", "動詞": "動詞", "形容詞": "形容詞", "副詞": "副詞",

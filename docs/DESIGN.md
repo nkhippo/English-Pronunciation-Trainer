@@ -204,3 +204,5 @@ Keep the delivery identical and consistent across all words.
 2. **ステップ3**：多言語UI／gloss品質点検（別チャット）。
 3. **ステップ4**：データ拡張（必須語・neighbors・B/C・カジュアル）（別チャット）。
 4. **Mode B 実装**（gloss品質とB/C語彙が揃ってから）。
+
+**運用メモ（2026-06-24）:** 実装順は Mode A → ステップ3 → ステップ4 → Mode B で確定。Mode A の新規 UI 文字列は i18n キー経由（`zh`/`ko` はステップ3で確定）。

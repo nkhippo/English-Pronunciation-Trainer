@@ -1,6 +1,9 @@
 {
   "brand": { "name": "IPA听写 · Decoder / Encoder", "sub": "CEFR A1–A2 · 美式英语" },
-  "lead_html": "专为<b>已学单词</b>重练<b>发音</b>。弥合&ldquo;不会发的音就听不出来&rdquo;的缺口。通过<b>日常词汇</b>和<b>拼写&ndash;读音规则</b>（如 ai &rarr; /eɪ/）训练IPA阅读能力。",
+  "lead_html": "Drill <b>IPA reading and writing</b> for words you already know&mdash;sound by sound. Target <b>trap phonemes</b> (θ, ð, æ, ʒ, ɝ) or your <b>weak spots</b> from practice history. Objective scoring only; build symbol coverage, not vocabulary lists.",
+  "focus": { "label": "Phoneme focus", "all": "All sounds", "traps": "Trap sounds", "traps_d": "θ ð æ ʒ ɝ", "weak": "Weak spots", "weak_d": "From practice history" },
+  "reg": { "label": "Spelling type", "all": "All", "regular": "Regular patterns", "regular_d": "Phonics / spelling&ndash;sound rules", "irregular": "Irregular", "irregular_d": "Common words, irregular spelling" },
+  "pool": { "count": "Pool: {n} words" },
   "dir": { "label": "方向", "decode_t": "解码 · IPA &rarr; 单词", "decode_d": "读IPA并拼写单词", "encode_t": "编码 · 单词 &rarr; IPA", "encode_d": "用IPA键盘拼出发音" },
   "set": { "label": "题库", "daily_t": "日常词 · CEFR A1–A2", "daily_d": "常用词（含不规则拼写）", "phonics_t": "拼读规则 · 拼写 &harr; 音", "phonics_d": "拼写与读音规则对应的词" },
   "lvl": { "label": "级别", "all": "A1+A2", "b1": "B1", "b2": "B2", "c1": "C1", "pool": "词库 {n} 词" },
@@ -18,7 +21,7 @@
   "you": "你的答案: {a}", "see_answer": "查看答案",
   "syl": "{n}个音节", "syl_pl": "{n}个音节",
   "summary": { "line": "{c} / {t} 正确 · 复习 {m} 词", "weak_head": "建议练习的音", "weak_none_t": "未检测到薄弱音", "weak_none_d": "没有错过的音。可尝试更高难度。", "review": "复习列表: {list}", "again": "再来一轮", "weak_btn": "只复习错题" },
-  "info": { "mouth": "口型", "watch": "注意" },
+  "info": { "mouth": "口型", "watch": "注意", "examples": "Examples" },
   "kbd": { "stress": "重音", "vowels": "元音", "r_vowels": "r化元音", "diphthongs": "双元音", "consonants": "辅音" },
   "pos": {
     "限定詞": "限定词", "名詞": "名词", "動詞": "动词", "形容詞": "形容词", "副詞": "副词",

@@ -78,6 +78,10 @@
   .info .iex{font-family:var(--mono);font-size:11px;color:var(--muted)}
   .info .irow{font-size:12.5px;color:var(--ink);margin-top:4px}
   .info .irow span{color:var(--muted);font-weight:600;margin-right:6px}
+  .info .exwords{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+  .info .exchip{display:inline-flex;align-items:center;gap:4px;font-family:var(--mono);font-size:11px;background:var(--signal-soft);border-radius:8px;padding:4px 8px;color:var(--ink)}
+  .info .exchip .eipa{font-family:var(--ipa);color:var(--signal)}
+  .info .explay{border:none;background:transparent;cursor:pointer;color:var(--signal);font-size:11px;padding:0 2px;line-height:1}
 
   .hints{display:none}
 
@@ -204,22 +208,22 @@
     </div>
 
     <div class="field">
-      <div class="flabel" id="flabelSet">Question set</div>
-      <div class="opts" id="setOpts">
-        <button class="opt" data-set="daily" aria-pressed="true"><span class="ot" id="setDailyT">Daily words · CEFR A1–A2</span><span class="od" id="setDailyD">Common words (including irregular spellings)</span></button>
-        <button class="opt" data-set="phonics" aria-pressed="false"><span class="ot" id="setPhonicsT">Phonics patterns · spelling &harr; sound</span><span class="od" id="setPhonicsD">Words with regular spelling&ndash;sound correspondences</span></button>
+      <div class="flabel" id="flabelFocus">Phoneme focus</div>
+      <div class="pills" id="focusPills">
+        <button class="pill" data-focus="all" aria-pressed="true" id="focusAll">All sounds</button>
+        <button class="pill" data-focus="traps" aria-pressed="false" id="focusTraps">Trap sounds</button>
+        <button class="pill" data-focus="weak" aria-pressed="false" id="focusWeak">Weak spots</button>
       </div>
+      <div class="countnote" id="focusTrapNote"></div>
     </div>
 
-    <div class="field" id="lvlField">
-      <div class="flabel" id="flabelLvl">Level</div>
-      <div class="pills" id="lvlPills">
-        <button class="pill" data-lvl="A1A2" aria-pressed="true" id="lvlAll">A1+A2</button>
-        <button class="pill" data-lvl="B1" aria-pressed="false" id="lvlB1">B1</button>
-        <button class="pill" data-lvl="B2" aria-pressed="false" id="lvlB2">B2</button>
-        <button class="pill" data-lvl="C1" aria-pressed="false" id="lvlC1">C1</button>
+    <div class="field">
+      <div class="flabel" id="flabelReg">Spelling type</div>
+      <div class="opts" id="regOpts">
+        <button class="opt" data-reg="all" aria-pressed="true"><span class="ot" id="regAllT">All</span><span class="od" id="regAllD"></span></button>
+        <button class="opt" data-reg="regular" aria-pressed="false"><span class="ot" id="regRegularT">Regular patterns</span><span class="od" id="regRegularD"></span></button>
+        <button class="opt" data-reg="irregular" aria-pressed="false"><span class="ot" id="regIrregularT">Irregular</span><span class="od" id="regIrregularD"></span></button>
       </div>
-      <div class="countnote" id="lvlPoolNote"></div>
     </div>
 
     <div class="field hidden" id="grpField">
@@ -231,8 +235,9 @@
         <button class="pill" data-grp="team" aria-pressed="false" id="grpTeam">Vowel teams</button>
         <button class="pill" data-grp="r" aria-pressed="false" id="grpR">R-colored vowels</button>
       </div>
-      <div class="countnote" id="grpPoolNote"></div>
     </div>
+
+    <div class="countnote" id="poolNote"></div>
 
     <button class="start" id="startBtn" disabled>Loading…</button>
   </section>
@@ -268,7 +273,7 @@
   <section id="reveal" class="panel hidden">
     <div class="reveal">
       <div class="word" id="rWord"></div>
-      <div class="word-gloss hidden" id="rGloss"></div>
+      <div class="word-gloss" id="rGloss"></div>
       <div class="yourtry" id="rTry"></div>
       <div class="readout" style="padding-top:0"><div class="ipa" id="rIpa"></div>
         <button class="playicon" id="rPlay" type="button" aria-label="Listen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg></button>
@@ -360,29 +365,34 @@ function localizePattern(pat) {
 }
 
 function wordGloss(c) {
-  if (!c || !c.gloss || LANG === "en") return "";
-  return c.gloss[LANG] || "";
+  if (!c || !c.gloss) return c ? c.w : "";
+  return c.gloss[LANG] || c.gloss.en || c.w;
 }
 
 function posLabel(pos) { return (UI.pos && UI.pos[pos]) || pos || "—"; }
 
 function applyI18n() {
+  document.title = t("brand.name");
+  $("brandName").textContent = t("brand.name");
+  $("brandSub").textContent = t("brand.sub");
   $("lead").innerHTML = t("lead_html");
   $("flabelDir").textContent = t("dir.label");
   $("dirDecodeT").innerHTML = t("dir.decode_t");
   $("dirDecodeD").textContent = t("dir.decode_d");
   $("dirEncodeT").innerHTML = t("dir.encode_t");
   $("dirEncodeD").textContent = t("dir.encode_d");
-  $("flabelSet").textContent = t("set.label");
-  $("setDailyT").textContent = t("set.daily_t");
-  $("setDailyD").textContent = t("set.daily_d");
-  $("setPhonicsT").innerHTML = t("set.phonics_t");
-  $("setPhonicsD").textContent = t("set.phonics_d");
-  $("flabelLvl").textContent = t("lvl.label");
-  $("lvlAll").textContent = t("lvl.all");
-  $("lvlB1").textContent = t("lvl.b1");
-  $("lvlB2").textContent = t("lvl.b2");
-  $("lvlC1").textContent = t("lvl.c1");
+  $("flabelFocus").textContent = t("focus.label");
+  $("focusAll").textContent = t("focus.all");
+  $("focusTraps").textContent = t("focus.traps");
+  $("focusWeak").textContent = t("focus.weak");
+  $("focusTrapNote").textContent = t("focus.traps_d");
+  $("flabelReg").textContent = t("reg.label");
+  $("regAllT").textContent = t("reg.all");
+  $("regAllD").textContent = "";
+  $("regRegularT").textContent = t("reg.regular");
+  $("regRegularD").textContent = t("reg.regular_d");
+  $("regIrregularT").textContent = t("reg.irregular");
+  $("regIrregularD").textContent = t("reg.irregular_d");
   $("flabelGrp").textContent = t("grp.label");
   $("grpAll").textContent = t("grp.all");
   $("grpShort").textContent = t("grp.short");
@@ -409,6 +419,7 @@ function applyI18n() {
     b.textContent = t("lang_opts." + b.dataset.lang);
     b.setAttribute("aria-pressed", b.dataset.lang === LANG ? "true" : "false");
   });
+  updateSetupFields();
   updatePool();
   if (!S.built.length && $("eBuild")) renderBuild();
 }
@@ -420,9 +431,7 @@ async function setLang(lang) {
   applyI18n();
   buildKeyboard();
   if (S.cur && !$("reveal").classList.contains("hidden")) {
-    const g = wordGloss(S.cur);
-    $("rGloss").textContent = g;
-    $("rGloss").classList.toggle("hidden", !g);
+    $("rGloss").textContent = wordGloss(S.cur);
     $("rNote").textContent = autoNote(S.cur);
   }
   if (!$("summary").classList.contains("hidden")) renderSummary();
@@ -436,8 +445,7 @@ async function initApp() {
   applyI18n();
   buildKeyboard();
   loadWordlist().catch(err => {
-    $("lvlPoolNote").textContent = t("wordlist_fail");
-    $("grpPoolNote").textContent = t("wordlist_fail");
+    $("poolNote").textContent = t("wordlist_fail");
     $("startBtn").textContent = t("load_fail");
     console.error(err);
   });
@@ -459,8 +467,54 @@ function stressSyllable(ipa){const tk=tokenize(ipa);let n=0;for(let k=0;k<tk.len
 /* ---------- state ---------- */
 const TRAPSET=new Set(["θ","ð","æ","ʒ","ɝ"]);
 const QUESTION_COUNT = 10;
-function sylLabel(n){return n===1?t("syl",{n}):t("syl_pl",{n});}
-let S={dir:"decode",set:"daily",lvl:"A1A2",grp:"all",queue:[],idx:0,correct:0,weak:{},missed:[],cur:null,revealed:false,built:[]};
+const LS_HIST_KEY = "ept_hist_v1";
+const LS_SYM_KEY = "ept_sym_v1";
+const BOX_INTERVAL_MS = [0, 3600000, 86400000, 259200000, 604800000, 2592000000];
+let S={dir:"decode",focus:"all",reg:"all",grp:"all",queue:[],idx:0,correct:0,weak:{},missed:[],cur:null,revealed:false,built:[]};
+
+const PH_EXAMPLES={
+  "p":[["pay","/peɪ/"],["up","/ʌp/"],["pea","/pi/"]],
+  "b":[["be","/bi/"],["boy","/bɔɪ/"],["bad","/bæd/"]],
+  "t":[["at","/æt/"],["eat","/it/"],["eight","/eɪt/"]],
+  "d":[["add","/æd/"],["day","/deɪ/"],["do","/du/"]],
+  "k":[["key","/ki/"],["cow","/kaʊ/"],["oak","/oʊk/"]],
+  "ɡ":[["egg","/ɛɡ/"],["go","/ɡoʊ/"],["guy","/ɡaɪ/"]],
+  "f":[["if","/ɪf/"],["off","/ɔf/"],["fee","/fi/"]],
+  "v":[["of","/ʌv/"],["vow","/vaʊ/"],["arrive","/ɚˈaɪv/"]],
+  "θ":[["thigh","/θaɪ/"],["earth","/ɝθ/"],["oath","/oʊθ/"]],
+  "ð":[["the","/ðə/"],["they","/ðeɪ/"],["though","/ðoʊ/"]],
+  "s":[["say","/seɪ/"],["saw","/sɔ/"],["ice","/aɪs/"]],
+  "z":[["zoo","/zu/"],["is","/ɪz/"],["as","/æz/"]],
+  "ʃ":[["she","/ʃi/"],["shoe","/ʃu/"],["show","/ʃoʊ/"]],
+  "ʒ":[["garage","/ɡɚˈɑʒ/"],["leisure","/ˈlɛʒɚ/"],["pleasure","/ˈplɛʒɚ/"]],
+  "tʃ":[["chew","/tʃu/"],["each","/itʃ/"],["itch","/ɪtʃ/"]],
+  "dʒ":[["joy","/dʒɔɪ/"],["age","/eɪdʒ/"],["edge","/ɛdʒ/"]],
+  "m":[["me","/mi/"],["may","/meɪ/"],["am","/æm/"]],
+  "n":[["in","/ɪn/"],["an","/æn/"],["knee","/ni/"]],
+  "ŋ":[["king","/kɪŋ/"],["ring","/rɪŋ/"],["long","/lɔŋ/"]],
+  "l":[["ill","/ɪl/"],["all","/ɔl/"],["low","/loʊ/"]],
+  "r":[["are","/ɑr/"],["ear","/ir/"],["or","/ɔr/"]],
+  "w":[["we","/wi/"],["way","/weɪ/"],["were","/wɝ/"]],
+  "j":[["you","/ju/"],["use","/jus/"],["yeah","/jæ/"]],
+  "h":[["he","/hi/"],["hi","/haɪ/"],["her","/hɝ/"]],
+  "i":[["be","/bi/"],["each","/itʃ/"],["see","/si/"]],
+  "ɪ":[["if","/ɪf/"],["in","/ɪn/"],["is","/ɪz/"]],
+  "ɛ":[["egg","/ɛɡ/"],["air","/ɛr/"],["edge","/ɛdʒ/"]],
+  "æ":[["add","/æd/"],["am","/æm/"],["an","/æn/"]],
+  "ə":[["a","/ə/"],["the","/ðə/"],["ago","/əˈɡoʊ/"]],
+  "ʌ":[["up","/ʌp/"],["us","/ʌs/"],["of","/ʌv/"]],
+  "ɑ":[["are","/ɑr/"],["on","/ɑn/"],["raw","/rɑ/"]],
+  "ɔ":[["all","/ɔl/"],["off","/ɔf/"],["or","/ɔr/"]],
+  "ʊ":[["book","/bʊk/"],["cook","/kʊk/"],["could","/kʊd/"]],
+  "u":[["do","/du/"],["new","/nu/"],["zoo","/zu/"]],
+  "ɝ":[["her","/hɝ/"],["sir","/sɝ/"],["were","/wɝ/"]],
+  "ɚ":[["hour","/ˈaʊɚ/"],["arrive","/ɚˈaɪv/"],["water","/ˈwɔtɚ/"]],
+  "eɪ":[["day","/deɪ/"],["age","/eɪdʒ/"],["eight","/eɪt/"]],
+  "aɪ":[["eye","/aɪ/"],["buy","/baɪ/"],["my","/maɪ/"]],
+  "ɔɪ":[["boy","/bɔɪ/"],["toy","/tɔɪ/"],["joy","/dʒɔɪ/"]],
+  "oʊ":[["go","/ɡoʊ/"],["owe","/oʊ/"],["show","/ʃoʊ/"]],
+  "aʊ":[["how","/haʊ/"],["cow","/kaʊ/"],["hour","/ˈaʊɚ/"]]
+};
 
 function setSetupVisible(on){
   show("setup",on);
@@ -481,42 +535,85 @@ function goToTop(){setSetupVisible(true);}
 $("backTopBtn").addEventListener("click",goToTop);
 
 /* ---------- setup ---------- */
-function bindPills(group,key,parse){
+function bindPills(group,key,parse,after){
   $(group).querySelectorAll(".pill,.opt").forEach(b=>b.addEventListener("click",()=>{
     $(group).querySelectorAll(".pill,.opt").forEach(x=>x.setAttribute("aria-pressed","false"));
-    b.setAttribute("aria-pressed","true");S[key]=parse(b);updatePool();
+    b.setAttribute("aria-pressed","true");S[key]=parse(b);
+    if(after)after();
+    updateSetupFields();updatePool();
   }));
 }
 bindPills("dirOpts","dir",b=>b.dataset.dir);
-bindPills("lvlPills","lvl",b=>b.dataset.lvl);
+bindPills("focusPills","focus",b=>b.dataset.focus);
 bindPills("grpPills","grp",b=>b.dataset.grp);
-$("setOpts").querySelectorAll(".opt").forEach(b=>b.addEventListener("click",()=>{
-  $("setOpts").querySelectorAll(".opt").forEach(x=>x.setAttribute("aria-pressed","false"));
-  b.setAttribute("aria-pressed","true");S.set=b.dataset.set;
-  show("lvlField",S.set==="daily");show("grpField",S.set==="phonics");updatePool();
-}));
-function matchesLevel(cefr){
-  if(S.lvl==="A1A2")return cefr==="A1"||cefr==="A2";
-  return cefr===S.lvl;
+bindPills("regOpts","reg",b=>b.dataset.reg);
+function updateSetupFields(){
+  show("grpField",S.reg==="regular");
+  $("focusTrapNote").textContent=S.focus==="traps"?t("focus.traps_d"):S.focus==="weak"?t("focus.weak_d"):"";
+}
+function hasTrapPhoneme(w){
+  return phonemesOf(w.ipa).some(s=>TRAPSET.has(s));
+}
+function loadHist(){try{return JSON.parse(localStorage.getItem(LS_HIST_KEY)||"{}")||{};}catch(e){return {};}}
+function saveHist(h){try{localStorage.setItem(LS_HIST_KEY,JSON.stringify(h));}catch(e){}}
+function loadSym(){try{return JSON.parse(localStorage.getItem(LS_SYM_KEY)||"{}")||{};}catch(e){return {};}}
+function saveSym(s){try{localStorage.setItem(LS_SYM_KEY,JSON.stringify(s));}catch(e){}}
+function histEntry(word){const h=loadHist();return h[word]||null;}
+function isDue(entry){
+  if(!entry)return false;
+  const iv=BOX_INTERVAL_MS[Math.min(entry.box,BOX_INTERVAL_MS.length-1)]||0;
+  return Date.now()-entry.ts>=iv;
+}
+function topWeakSymbols(n){
+  const sym=loadSym();
+  return Object.entries(sym).filter(([,e])=>e.att>0).map(([s,e])=>[s,e.err/e.att]).sort((a,b)=>b[1]-a[1]).slice(0,n).map(([s])=>s);
+}
+function matchesWeakFocus(w){
+  const tops=topWeakSymbols(5);
+  if(!tops.length)return true;
+  const ph=phonemesOf(w.ipa);
+  return tops.some(s=>ph.includes(s));
 }
 function filteredPool(){
-  let p;
-  if(S.set==="phonics"){p=PRESET.filter(w=>w.grp&&(S.grp==="all"||w.grp===S.grp));}
-  else{p=PRESET.filter(w=>matchesLevel(w.cefr));}
+  let p=PRESET.slice();
+  if(S.reg==="regular")p=p.filter(w=>w.grp);
+  else if(S.reg==="irregular")p=p.filter(w=>!w.grp);
+  if(S.reg==="regular"&&S.grp!=="all")p=p.filter(w=>w.grp===S.grp);
+  if(S.focus==="traps")p=p.filter(hasTrapPhoneme);
+  else if(S.focus==="weak")p=p.filter(matchesWeakFocus);
   return p;
 }
 function updatePool(){
   const n=filteredPool().length;
-  const text=t("lvl.pool",{n});
-  $("lvlPoolNote").textContent=text;
-  $("grpPoolNote").textContent=text;
+  $("poolNote").textContent=t("pool.count",{n});
   if(wordlistReady)$("startBtn").disabled=n===0;
+}
+function recordHist(word,res){
+  const h=loadHist();
+  const e=h[word]||{box:1,seen:0,ok:0,ng:0,ts:0};
+  e.seen++;e.ts=Date.now();
+  if(res==="bad"){e.box=1;e.ng++;}
+  else if(res==="ok"){e.box=Math.min(e.box+1,5);e.ok++;}
+  h[word]=e;saveHist(h);
+}
+function recordSymEncode(c,usr){
+  const tgtSeg=stripStress(tokenize(c.ipa));
+  const usrSeg=stripStress(usr||[]);
+  const matched=lcsMark(tgtSeg,usrSeg);
+  const sym=loadSym();
+  tgtSeg.forEach((tok,i)=>{
+    if(!PH[tok])return;
+    if(!sym[tok])sym[tok]={att:0,err:0};
+    sym[tok].att++;
+    if(!matched.has(i))sym[tok].err++;
+  });
+  saveSym(sym);
 }
 
 
 /* ---------- speech (GAS → Drive → localStorage) ---------- */
 const GAS_TTS_URL = "https://script.google.com/macros/s/AKfycbzUN8XntWeS68Gf3OqC5UP5J3jqAkEf254sp5JP8ik-PTmI20x_yx5nYi8NkH7UaiuQ/exec";
-const LS_TTS_PREFIX = "ipa_tts_v1:";
+const LS_TTS_PREFIX = "ipa_tts_v2:";
 const memAudioCache = new Map();
 let currentAudio = null;
 let speakBusy = false;
@@ -602,11 +699,39 @@ async function speak(w) {
 
 /* ---------- start ---------- */
 function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function buildSessionQueue(pool,count){
+  const hist=loadHist();
+  const cold=Object.keys(hist).length<3;
+  if(cold){
+    const scaffold=pool.filter(w=>w.cefr==="A1").sort((a,b)=>syllableCount(a.ipa)-syllableCount(b.ipa));
+    return shuffle(scaffold.length?scaffold:pool).slice(0,count);
+  }
+  let wDue=0.4,wSym=0.4;
+  if(S.focus==="weak"){wDue=0.25;wSym=0.55;}
+  const nDue=Math.round(count*wDue),nSym=Math.round(count*wSym),nNew=Math.max(0,count-nDue-nSym);
+  const used=new Set(),out=[];
+  const tops=topWeakSymbols(5);
+  const dueCands=shuffle(pool.filter(w=>{const e=histEntry(w.w);return e&&isDue(e);}));
+  for(const w of dueCands){if(out.length>=nDue)break;if(!used.has(w.w)){out.push(w);used.add(w.w);}}
+  const symCands=shuffle(pool.filter(w=>{
+    if(used.has(w.w))return false;
+    if(!tops.length)return false;
+    return phonemesOf(w.ipa).some(s=>tops.includes(s));
+  }));
+  for(const w of symCands){if(out.length>=nDue+nSym)break;if(!used.has(w.w)){out.push(w);used.add(w.w);}}
+  const newCands=pool.filter(w=>!used.has(w.w)&&!histEntry(w.w)).sort((a,b)=>syllableCount(a.ipa)-syllableCount(b.ipa));
+  for(const w of newCands){if(out.length>=nDue+nSym+nNew)break;out.push(w);used.add(w.w);}
+  const rest=shuffle(pool.filter(w=>!used.has(w.w)));
+  for(const w of rest){if(out.length>=count)break;out.push(w);used.add(w.w);}
+  return shuffle(out).slice(0,count);
+}
 function startSession(weakOnly){
   let pool=filteredPool().slice();
-  if(weakOnly&&S.missed.length)pool=PRESET.filter(w=>S.missed.includes(w.w));
-  shuffle(pool);
-  pool=pool.slice(0,QUESTION_COUNT);
+  if(weakOnly&&S.missed.length){
+    pool=shuffle(PRESET.filter(w=>S.missed.includes(w.w))).slice(0,QUESTION_COUNT);
+  }else{
+    pool=buildSessionQueue(pool,QUESTION_COUNT);
+  }
   S.queue=pool;S.idx=0;S.correct=0;S.weak={};S.missed=[];
   setSetupVisible(false);renderCard();
 }
@@ -615,9 +740,17 @@ $("againBtn").addEventListener("click",()=>startSession(false));
 $("weakBtn").addEventListener("click",()=>startSession(true));
 
 /* ---------- info rendering ---------- */
-function renderInfo(boxId,sym){const p=PH[sym];const box=$(boxId);if(!p){box.classList.remove("on");return;}
+function renderInfo(boxId,sym){
+  const p=PH[sym];const box=$(boxId);if(!p){box.classList.remove("on");return;}
+  let exHtml="";
+  const examples=PH_EXAMPLES[sym];
+  if(examples&&examples.length){
+    exHtml='<div class="irow"><span>'+t("info.examples")+'</span></div><div class="exwords">'+
+      examples.map(([w,ipa])=>'<span class="exchip"><span class="ew">'+w+' <span class="eipa">'+ipa+'</span></span><button type="button" class="explay" data-w="'+w+'" aria-label="'+t("listen")+'">▶</button></span>').join("")+'</div>';
+  }
   box.innerHTML='<div class="ih"><span class="isym">'+sym+'</span><span class="ilab">'+p.lab+'</span><span class="iex">'+p.ex+'</span></div>'+
-    '<div class="irow"><span>'+t("info.mouth")+'</span>'+p.mouth+'</div>'+(p.trap&&p.trap!=="—"?'<div class="irow"><span>'+t("info.watch")+'</span>'+p.trap+'</div>':'');
+    '<div class="irow"><span>'+t("info.mouth")+'</span>'+p.mouth+'</div>'+(p.trap&&p.trap!=="—"?'<div class="irow"><span>'+t("info.watch")+'</span>'+p.trap+'</div>':'')+exHtml;
+  box.querySelectorAll(".explay").forEach(btn=>btn.addEventListener("click",e=>{e.stopPropagation();speak(btn.dataset.w);}));
   box.classList.add("on");
 }
 function renderIpaInto(container,ipa,infoBoxId,markTokens){
@@ -756,6 +889,8 @@ function autoNote(c){
 function tryLine(html){return t("you",{a:html});}
 function reveal(res,ctx){
   const c=S.cur;S.revealed=true;
+  recordHist(c.w,res);
+  if(ctx.type==="encode")recordSymEncode(c,ctx.usr||[]);
   if(res==="ok")S.correct++;
   if(res==="bad"&&!S.missed.includes(c.w))S.missed.push(c.w);
   show("cardDecode",false);show("cardEncode",false);show("reveal",true);
@@ -763,9 +898,7 @@ function reveal(res,ctx){
   panel.classList.remove("res-ok","res-near","res-bad");
   panel.classList.add("res-"+res);
   $("rWord").textContent=c.w;
-  const g=wordGloss(c);
-  $("rGloss").textContent=g;
-  $("rGloss").classList.toggle("hidden",!g);
+  $("rGloss").textContent=wordGloss(c);
   if(ctx.type==="decode"){
     const raw=ctx.tryRaw?ctx.tryRaw.replace(/[<>]/g,""):"";
     $("rTry").innerHTML=raw?tryLine('<span class="try">'+raw+'</span>'):t("see_answer");
