@@ -10,6 +10,8 @@ const TTS_CACHE_VER = 'v2';
 const TTS_MODEL = 'gpt-4o-mini-tts';
 const TTS_VOICE = 'alloy';
 const TTS_INSTRUCTIONS = 'Pronounce the single English word in a clear General American accent. Use the citation (dictionary) form: full, unreduced vowels and the correct lexical stress — do not use the weak or reduced connected-speech form, even for function words. Say the word once, at a calm pace slightly slower than conversational, with neutral falling intonation. Articulate consonants precisely and keep contrasts distinct — especially /θ/–/f/, /ð/–/d/, /l/–/r/, /s/–/ʃ/, /b/–/v/, and word-final consonants — but stay natural and never exaggerate them into distortion. Do not spell the word, do not add any other words, do not pause, and do not use emotional or expressive delivery. Keep the delivery identical and consistent across all words.';
+// Normal single-word MP3s are ~12 KB+; near-silent glitches (e.g. flight at 5.7 KB) stay below this.
+const TTS_MIN_BYTES = 9000;
 
 function getFolder_() {
   const folders = DriveApp.getFoldersByName(FOLDER_NAME);
@@ -27,6 +29,17 @@ function getAudioFromDrive_(word) {
   const files = folder.getFilesByName(name);
   if (!files.hasNext()) return null;
   return files.next().getBlob();
+}
+
+function isAudioBlobTooShort_(blob) {
+  return blob.getBytes().length < TTS_MIN_BYTES;
+}
+
+function trashAudioOnDrive_(word) {
+  const folder = getFolder_();
+  const name = fileNameForWord_(word);
+  const files = folder.getFilesByName(name);
+  while (files.hasNext()) files.next().setTrashed(true);
 }
 
 function fetchFromOpenAI_(word) {
@@ -54,6 +67,12 @@ function fetchFromOpenAI_(word) {
   return res.getBlob();
 }
 
+function fetchFromOpenAIWithRetry_(word) {
+  const blob = fetchFromOpenAI_(word);
+  if (!isAudioBlobTooShort_(blob)) return blob;
+  return fetchFromOpenAI_(word);
+}
+
 function saveToDrive_(word, blob) {
   const folder = getFolder_();
   const name = fileNameForWord_(word);
@@ -76,10 +95,14 @@ function doGet(e) {
 
     let blob = getAudioFromDrive_(word);
     let source = 'drive';
+    if (blob && isAudioBlobTooShort_(blob)) {
+      trashAudioOnDrive_(word);
+      blob = null;
+    }
     if (!blob) {
-      blob = fetchFromOpenAI_(word);
-      saveToDrive_(word, blob);
+      blob = fetchFromOpenAIWithRetry_(word);
       source = 'openai';
+      if (!isAudioBlobTooShort_(blob)) saveToDrive_(word, blob);
     }
 
     return jsonResponse_({
