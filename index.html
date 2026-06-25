@@ -127,6 +127,7 @@
   #reveal.res-ok .yourtry .try{color:var(--ok);font-weight:600}
   #reveal.res-near .yourtry .try{color:var(--stress);font-weight:600;text-decoration:line-through;text-decoration-color:color-mix(in srgb,var(--stress) 55%,transparent)}
   #reveal.res-bad .yourtry .try{color:var(--bad);font-weight:600;text-decoration:line-through;text-decoration-color:color-mix(in srgb,var(--bad) 55%,transparent)}
+  .alt-ipa{font-family:var(--ipa);font-size:13px;color:var(--faint);margin-top:6px}
   .yourtry .uipa{font-family:var(--ipa)}
   #reveal.res-ok .yourtry .uipa{color:var(--ok)}
   #reveal.res-near .yourtry .uipa{color:var(--stress)}
@@ -162,6 +163,9 @@
   .modal-head{margin-bottom:12px}
   .modal-title{margin:0;font-size:14px;font-weight:700;letter-spacing:.02em}
   .langopts{display:flex;flex-direction:column;gap:8px}
+  .settings-section{margin-top:16px}
+  .settings-section:first-of-type{margin-top:0}
+  .modal-sub{font-family:var(--mono);font-size:10px;color:var(--faint);text-transform:uppercase;letter-spacing:.14em;margin:0 0 8px}
   .langopt{border:1px solid var(--hair);background:#fff;border-radius:10px;padding:12px 14px;cursor:pointer;font-family:var(--ui);font-size:14px;font-weight:600;color:var(--ink);text-align:left}
   .langopt[aria-pressed="true"]{border-color:var(--signal);background:var(--signal-soft);color:var(--signal)}
   body.in-play .wrap{padding:12px 14px 20px}
@@ -306,6 +310,7 @@
       <div class="readout" style="padding-top:0"><div class="ipa" id="rIpa"></div>
         <button class="playicon" id="rPlay" type="button" aria-label="Listen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg></button>
       </div>
+      <div class="alt-ipa hidden" id="rAltIpa"></div>
       <div class="info" id="rInfo"></div>
       <div class="note">
         <div class="nh" id="tipsHead">Pronunciation tips</div>
@@ -328,12 +333,22 @@
 <div class="modal hidden" id="settingsModal" role="dialog" aria-modal="true" aria-labelledby="settingsTitle">
   <button class="modal-scrim" id="settingsScrim" type="button" aria-label="Close"></button>
   <div class="modal-card panel">
-    <div class="modal-head"><h2 class="modal-title" id="settingsTitle">Language</h2></div>
-    <div class="langopts" id="langOpts">
-      <button class="langopt" type="button" data-lang="en" aria-pressed="true">English</button>
-      <button class="langopt" type="button" data-lang="ja" aria-pressed="false">日本語</button>
-      <button class="langopt" type="button" data-lang="zh" aria-pressed="false">中文</button>
-      <button class="langopt" type="button" data-lang="ko" aria-pressed="false">한국어</button>
+    <div class="modal-head"><h2 class="modal-title" id="settingsTitle">Settings</h2></div>
+    <div class="settings-section">
+      <div class="modal-sub" id="settingsLangLabel">Language</div>
+      <div class="langopts" id="langOpts">
+        <button class="langopt" type="button" data-lang="en" aria-pressed="true">English</button>
+        <button class="langopt" type="button" data-lang="ja" aria-pressed="false">日本語</button>
+        <button class="langopt" type="button" data-lang="zh" aria-pressed="false">中文</button>
+        <button class="langopt" type="button" data-lang="ko" aria-pressed="false">한국어</button>
+      </div>
+    </div>
+    <div class="settings-section">
+      <div class="modal-sub" id="settingsAccentLabel">Accent</div>
+      <div class="langopts" id="accentOpts">
+        <button class="langopt" type="button" data-accent="ga" aria-pressed="true">American (GA)</button>
+        <button class="langopt" type="button" data-accent="rp" aria-pressed="false">British (RP)</button>
+      </div>
     </div>
   </div>
 </div>
@@ -349,6 +364,7 @@ let connectedReady = false;
 
 function normalizeWord(row) {
   const w = { w: row.w, ipa: row.ipa, cefr: row.cefr, pos: row.pos };
+  if (row.rp_ipa) w.rp_ipa = row.rp_ipa;
   if (row.src) w.src = row.src;
   if (row.pattern) w.pat = row.pattern;
   if (row.group) w.grp = row.group;
@@ -367,7 +383,7 @@ async function loadWordlist() {
 }
 
 function normalizeConnected(row) {
-  return {
+  const c = {
     w: row.w,
     ipa: row.ipa,
     cs_type: row.cs_type,
@@ -375,6 +391,8 @@ function normalizeConnected(row) {
     gloss: row.gloss,
     src: row.src || "connected_speech"
   };
+  if (row.rp_ipa) c.rp_ipa = row.rp_ipa;
+  return c;
 }
 
 async function loadConnected() {
@@ -391,8 +409,18 @@ function dataReady() {
 
 /* ---------- i18n ---------- */
 let LANG = localStorage.getItem("app_lang") || "en";
+let ACCENT = localStorage.getItem("app_accent") || "ga";
 let UI = {};
 let PH = {};
+
+function activeIpa(c) {
+  if (!c) return "";
+  return ACCENT === "rp" ? (c.rp_ipa || c.ipa) : c.ipa;
+}
+function altIpa(c) {
+  if (!c) return null;
+  return ACCENT === "rp" ? c.ipa : (c.rp_ipa || null);
+}
 
 function t(path, vars) {
   let v = path.split(".").reduce((o, k) => (o && o[k] != null ? o[k] : null), UI);
@@ -492,11 +520,17 @@ function applyI18n() {
   ["dPlay", "ePlay", "rPlay"].forEach(id => { const b = $(id); if (b) b.setAttribute("aria-label", t("listen")); });
   $("settingsBtn").setAttribute("aria-label", t("settings_btn"));
   $("settingsScrim").setAttribute("aria-label", t("settings_close"));
-  $("settingsTitle").textContent = t("settings_lang");
+  $("settingsTitle").textContent = t("settings_title");
+  $("settingsLangLabel").textContent = t("settings_lang");
+  $("settingsAccentLabel").textContent = t("accent.label");
   $("backTopBtn").textContent = t("back_top");
   $("langOpts").querySelectorAll(".langopt").forEach(b => {
     b.textContent = t("lang_opts." + b.dataset.lang);
     b.setAttribute("aria-pressed", b.dataset.lang === LANG ? "true" : "false");
+  });
+  $("accentOpts").querySelectorAll(".langopt").forEach(b => {
+    b.textContent = t("accent." + b.dataset.accent);
+    b.setAttribute("aria-pressed", b.dataset.accent === ACCENT ? "true" : "false");
   });
   updateSetupFields();
   updatePool();
@@ -518,8 +552,20 @@ async function setLang(lang) {
       $("rCsMeta").classList.add("hidden");
     }
     $("rNote").textContent = autoNote(S.cur);
+    refreshRevealIpa();
   }
   if (!$("summary").classList.contains("hidden")) renderSummary();
+}
+
+function setAccent(accent) {
+  ACCENT = accent;
+  localStorage.setItem("app_accent", accent);
+  $("accentOpts").querySelectorAll(".langopt").forEach(b => {
+    b.setAttribute("aria-pressed", b.dataset.accent === ACCENT ? "true" : "false");
+  });
+  buildKeyboard();
+  if (S.cur && S.revealed) refreshRevealIpa();
+  else if (S.cur && !S.revealed) renderCard();
 }
 
 function openSettings(){show("settingsModal",true);}
@@ -541,18 +587,23 @@ async function initApp() {
   });
 }
 
-const MULTI=["tʃ","dʒ","eɪ","aɪ","ɔɪ","oʊ","aʊ"];
-const VOWELS=new Set(["i","ɪ","ɛ","æ","ə","ʌ","ɑ","ɔ","ʊ","u","ɝ","ɚ","eɪ","aɪ","ɔɪ","oʊ","aʊ"]);
+const MULTI_GA=["tʃ","dʒ","eɪ","aɪ","ɔɪ","oʊ","aʊ"];
+const MULTI_RP=["tʃ","dʒ","eɪ","aɪ","ɔɪ","əʊ","aʊ","ɪə","eə","ʊə","iː","uː","ɑː","ɔː","ɜː"];
+const VOWELS_GA=new Set(["i","ɪ","ɛ","æ","ə","ʌ","ɑ","ɔ","ʊ","u","ɝ","ɚ","eɪ","aɪ","ɔɪ","oʊ","aʊ"]);
+const VOWELS_RP=new Set(["iː","ɪ","e","æ","ə","ʌ","ɑː","ɒ","ɔː","ʊ","uː","ɜː","eɪ","aɪ","ɔɪ","əʊ","aʊ","ɪə","eə","ʊə"]);
+function multiList(){return ACCENT==="rp"?MULTI_RP:MULTI_GA;}
+function vowelSet(){return ACCENT==="rp"?VOWELS_RP:VOWELS_GA;}
 
 function tokenize(raw){
+  const MULTI=multiList();
   const s=raw.replace(/\//g,"");const out=[];let i=0;
   while(i<s.length){let m=null;for(const x of MULTI){if(s.startsWith(x,i)){m=x;break;}}if(m){out.push(m);i+=m.length;}else{out.push(s[i]);i++;}}
   return out;
 }
-function nucleusIndex(tk){const si=tk.indexOf("ˈ");const from=si>=0?si+1:0;for(let k=from;k<tk.length;k++)if(VOWELS.has(tk[k]))return k;for(let k=0;k<tk.length;k++)if(VOWELS.has(tk[k]))return k;return -1;}
+function nucleusIndex(tk){const VOWELS=vowelSet();const si=tk.indexOf("ˈ");const from=si>=0?si+1:0;for(let k=from;k<tk.length;k++)if(VOWELS.has(tk[k]))return k;for(let k=0;k<tk.length;k++)if(VOWELS.has(tk[k]))return k;return -1;}
 function phonemesOf(ipa){return tokenize(ipa).filter(t=>PH[t]&&t!=="ˈ"&&t!=="ˌ");}
-function syllableCount(ipa){return tokenize(ipa).filter(t=>VOWELS.has(t)).length||1;}
-function stressSyllable(ipa){const tk=tokenize(ipa);let n=0;for(let k=0;k<tk.length;k++){if(tk[k]==="ˈ"){let c=0;for(let j=0;j<k;j++)if(VOWELS.has(tk[j]))c++;return c+1;}}return 1;}
+function syllableCount(ipa){const VOWELS=vowelSet();return tokenize(ipa).filter(t=>VOWELS.has(t)).length||1;}
+function stressSyllable(ipa){const VOWELS=vowelSet();const tk=tokenize(ipa);let n=0;for(let k=0;k<tk.length;k++){if(tk[k]==="ˈ"){let c=0;for(let j=0;j<k;j++)if(VOWELS.has(tk[j]))c++;return c+1;}}return 1;}
 
 /* ---------- state ---------- */
 const TRAPSET=new Set(["θ","ð","æ","ʒ","ɝ"]);
@@ -710,7 +761,7 @@ function recordHist(word,res){
   h[word]=e;saveHist(h);
 }
 function recordSymEncode(c,usr){
-  const tgtSeg=stripStress(tokenize(c.ipa));
+  const tgtSeg=stripStress(tokenize(activeIpa(c)));
   const usrSeg=stripStress(usr||[]);
   const matched=lcsMark(tgtSeg,usrSeg);
   const sym=loadSym();
@@ -917,7 +968,7 @@ function unlockInputScroll(){
 function renderDecode(c){
   show("cardEncode",false);show("cardDecode",true);
   $("dNo").textContent="#"+String(S.idx+1).padStart(2,"0");
-  renderIpaInto($("dIpa"),c.ipa,"dInfo",null);$("dInfo").classList.remove("on");
+  renderIpaInto($("dIpa"),activeIpa(c),"dInfo",null);$("dInfo").classList.remove("on");
   const inp=$("dInput");inp.value="";
   if(!COARSE)inp.focus({preventScroll:true});
 }
@@ -952,6 +1003,14 @@ $("dPlay").addEventListener("click",()=>{if(S.cur)speak(S.cur.w,{connected:isCon
 
 /* ENCODE + IPA keyboard */
 function keyGroups(){
+  if(ACCENT==="rp"){
+    return [
+      {label:t("kbd.stress"),keys:["ˈ","ˌ"],cls:"stress"},
+      {label:t("kbd.vowels"),keys:["iː","ɪ","e","æ","ə","ʌ","ɑː","ɒ","ɔː","ʊ","uː","ɜː","ː"]},
+      {label:t("kbd.diphthongs"),keys:["eɪ","aɪ","ɔɪ","əʊ","aʊ","ɪə","eə","ʊə"]},
+      {label:t("kbd.consonants"),keys:["p","b","t","d","k","ɡ","f","v","θ","ð","s","z","ʃ","ʒ","tʃ","dʒ","m","n","ŋ","l","r","w","j","h"]}
+    ];
+  }
   return [
     {label:t("kbd.stress"),keys:["ˈ","ˌ"],cls:"stress"},
     {label:t("kbd.vowels"),keys:["i","ɪ","ɛ","æ","ə","ʌ","ɑ","ɔ","ʊ","u"]},
@@ -995,7 +1054,7 @@ function lcsMark(target,user){ // returns Set of target indices matched (segment
 }
 function encodeCheck(){
   if(S.revealed)return;const c=S.cur;
-  const tgt=tokenize(c.ipa),usr=S.built.slice();
+  const tgt=tokenize(activeIpa(c)),usr=S.built.slice();
   const tgtSeg=stripStress(tgt),usrSeg=stripStress(usr);
   const segEqual=tgtSeg.join("")===usrSeg.join("");
   const stressEqual=tgt.join("")===usr.join("");
@@ -1015,15 +1074,28 @@ function autoNote(c){
   }
   const parts=[];
   if(c.pat)parts.push(t("note.pattern",{p:localizePattern(c.pat)}));
-  const sy=syllableCount(c.ipa);
-  if(sy>1)parts.push(t("note.stress",{n:stressSyllable(c.ipa),sy}));
-  const tk=tokenize(c.ipa);
+  const ipa=activeIpa(c);
+  const sy=syllableCount(ipa);
+  if(sy>1)parts.push(t("note.stress",{n:stressSyllable(ipa),sy}));
+  const tk=tokenize(ipa);
   if(tk.includes("ə")||tk.includes("ɚ"))parts.push(t("note.schwa"));
-  const traps=[...new Set(tokenize(c.ipa))].filter(tk=>PH[tk]&&PH[tk].t===1&&tk!=="ˈ"&&tk!=="ˌ");
+  const traps=[...new Set(tokenize(ipa))].filter(tk=>PH[tk]&&PH[tk].t===1&&tk!=="ˈ"&&tk!=="ˌ");
   if(traps.length)parts.push(t("note.tricky",{s:traps.join(" ")}));
   return parts.join(" · ");
 }
 function tryLine(html){return t("you",{a:html});}
+function refreshRevealIpa(marker){
+  const c=S.cur;if(!c)return;
+  const main=activeIpa(c);
+  renderIpaInto($("rIpa"),main,"rInfo",marker||null);$("rInfo").classList.remove("on");
+  const alt=altIpa(c);
+  const altEl=$("rAltIpa");
+  if(alt&&alt!==main){
+    const label=ACCENT==="rp"?t("reveal.ga_note"):t("reveal.rp_note");
+    altEl.textContent=label+": "+alt;
+    altEl.classList.remove("hidden");
+  }else altEl.classList.add("hidden");
+}
 function reveal(res,ctx){
   const c=S.cur;S.revealed=true;
   recordHist(c.w,res);
@@ -1054,17 +1126,17 @@ function reveal(res,ctx){
   }
   let marker=null;
   if(ctx.type==="encode"){
-    const tgt=tokenize(c.ipa),tgtSeg=stripStress(tgt),usrSeg=stripStress(ctx.usr||[]);
+    const tgt=tokenize(activeIpa(c)),tgtSeg=stripStress(tgt),usrSeg=stripStress(ctx.usr||[]);
     const matched=lcsMark(tgtSeg,usrSeg);
     // map seg index -> token index
     const segIdxOf=[];tgt.forEach((t,k)=>{if(t!=="ˈ"&&t!=="ˌ")segIdxOf.push(k);});
     const okTokens=new Set();matched.forEach(si=>okTokens.add(segIdxOf[si]));
     marker=(k,t)=>{if(t==="ˈ"||t==="ˌ")return null;return okTokens.has(k)?"tok-ok":"tok-bad";};
   }
-  renderIpaInto($("rIpa"),c.ipa,"rInfo",marker);$("rInfo").classList.remove("on");
+  refreshRevealIpa(marker);
   $("rNote").textContent=autoNote(c);
   if(!isConnectedItem(c)){
-    const traps=[...new Set(phonemesOf(c.ipa))].filter(s=>PH[s].t===1);
+    const traps=[...new Set(phonemesOf(activeIpa(c)))].filter(s=>PH[s].t===1);
     $("rTraps").innerHTML=traps.map(s=>'<span class="trapchip" data-sym="'+s+'">'+s+'</span>').join("");
     $("rTraps").querySelectorAll(".trapchip").forEach(ch=>ch.addEventListener("click",()=>renderInfo("rInfo",ch.dataset.sym)));
   }
@@ -1072,7 +1144,7 @@ function reveal(res,ctx){
 }
 function nextCard(){
   const c=S.cur;
-  if(S.missed.includes(c.w))phonemesOf(c.ipa).forEach(s=>{if(PH[s].t===1)S.weak[s]=(S.weak[s]||0)+1;});
+  if(S.missed.includes(c.w))phonemesOf(activeIpa(c)).forEach(s=>{if(PH[s].t===1)S.weak[s]=(S.weak[s]||0)+1;});
   S.idx++;renderCard();
 }
 $("nextBtn").addEventListener("click",nextCard);
@@ -1093,7 +1165,7 @@ function renderSummary(){
   }
   const list=S.missed.length?S.missed.map(w=>{
     const o=PRESET.find(x=>x.w===w)||CONNECTED.find(x=>x.w===w);
-    return o?'<b>'+o.ipa+'</b> '+w:"";
+    return o?'<b>'+activeIpa(o)+'</b> '+w:"";
   }).filter(Boolean).join(" · "):"";
   $("reviewList").innerHTML=list?t("summary.review",{list}):"";
   $("weakBtn").disabled=S.missed.length===0;
@@ -1102,6 +1174,7 @@ function renderSummary(){
 $("settingsBtn").addEventListener("click",openSettings);
 $("settingsScrim").addEventListener("click",closeSettings);
 $("langOpts").querySelectorAll(".langopt").forEach(b=>b.addEventListener("click",()=>{setLang(b.dataset.lang);closeSettings();}));
+$("accentOpts").querySelectorAll(".langopt").forEach(b=>b.addEventListener("click",()=>setAccent(b.dataset.accent)));
 initApp();
 </script>
 </body>

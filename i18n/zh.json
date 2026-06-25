@@ -78,8 +78,18 @@
   "wordlist_fail": "词表加载失败",
   "back_top": "首页",
   "settings_btn": "设置",
+  "settings_title": "设置",
   "settings_lang": "语言",
   "settings_close": "关闭",
+  "accent": {
+    "label": "口音",
+    "ga": "美式",
+    "rp": "英式"
+  },
+  "reveal": {
+    "rp_note": "RP（英）",
+    "ga_note": "GA（美）"
+  },
   "lang_opts": {
     "en": "English",
     "ja": "日本語",

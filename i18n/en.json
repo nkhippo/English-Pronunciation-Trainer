@@ -78,8 +78,18 @@
   "wordlist_fail": "Failed to load word list",
   "back_top": "Menu",
   "settings_btn": "Settings",
+  "settings_title": "Settings",
   "settings_lang": "Language",
   "settings_close": "Close",
+  "accent": {
+    "label": "Accent",
+    "ga": "American (GA)",
+    "rp": "British (RP)"
+  },
+  "reveal": {
+    "rp_note": "RP",
+    "ga_note": "GA"
+  },
   "lang_opts": {
     "en": "English",
     "ja": "日本語",
