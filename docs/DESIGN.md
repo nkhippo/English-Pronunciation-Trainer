@@ -129,6 +129,7 @@ aʊ: how /haʊ/, cow /kaʊ/, hour /ˈaʊɚ/
 
 - **オフライン事前計算:** 各語に音素近傍トップK（K=8目安）を `neighbors` フィールドとして付与（IPAトークンのLevenshtein距離。同バンド優先）。実行時計算ゼロ。
 - **実行時:** `neighbors` から **2語抽選 ＋ 同バンドのランダム1語**を混ぜ、選択肢にはその語の `gloss[UI言語]` を表示。順序シャッフル。近傍が不足する語はランダムで補填。
+- **RPアクセント（2026-06-26 確定）:** `neighbors_rp` の再計算は**保留**。GA `neighbors` を RP Mode B でも流用（検証: 近傍ペアの約95%が RP でも距離≤2。詳細は `docs/rp-neighbors-priority-decision.md`）。再計算トリガーが発生したら `gen_neighbors.py` を `rp_ipa` 入力で実行し `neighbors_rp` フィールドを追加。
 - **効果:** セット暗記（毎回違う）と消去法（音を聞かないと選べない）を同時に潰し、MCQを実質ミニマルペア知覚テストにする。
   - 例：three /θri/ の選択肢に free /fri/（θvs f）、those /ðoʊz/ に doze /doʊz/（ð vs d）、ship /ʃɪp/ に chip /tʃɪp/（ʃ vs tʃ）。
 - 難度調整：純近傍だけだと難しすぎるため既定は「近傍2＋ランダム1」。定数で切替可。

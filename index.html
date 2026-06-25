@@ -440,6 +440,7 @@ function normalizeWord(row) {
   if (row.group) w.grp = row.group;
   if (row.gloss) w.gloss = row.gloss;
   if (row.neighbors) w.neighbors = row.neighbors;
+  if (row.neighbors_rp) w.neighbors_rp = row.neighbors_rp;
   return w;
 }
 
@@ -494,6 +495,12 @@ function activeIpa(c) {
 function altIpa(c) {
   if (!c) return null;
   return ACCENT === "rp" ? c.ipa : (c.rp_ipa || null);
+}
+/** GA neighbors for Mode B MCQ; RP-specific list deferred (see docs/rp-neighbors-priority-decision.md). */
+function activeNeighbors(c) {
+  if (!c) return [];
+  if (ACCENT === "rp" && c.neighbors_rp && c.neighbors_rp.length) return c.neighbors_rp;
+  return c.neighbors || [];
 }
 
 function t(path, vars) {
@@ -929,7 +936,7 @@ function isValidDistractor(cand,correct,used){
 }
 function buildMcqChoices(correct){
   const used=new Set([modeBGloss(correct)]),picks=[];
-  const neighbors=(correct.neighbors||[]).map(w=>WORD_BY_W[w]).filter(Boolean);
+  const neighbors=activeNeighbors(correct).map(w=>WORD_BY_W[w]).filter(Boolean);
   shuffle(neighbors.slice()).forEach(n=>{
     if(picks.length>=MODEB_DISTRACTOR.fromNeighbors)return;
     if(isValidDistractor(n,correct,used)){picks.push(n);used.add(modeBGloss(n));}

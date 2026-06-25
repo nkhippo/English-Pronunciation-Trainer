@@ -89,7 +89,7 @@ Mode B は Mode A の SRS データを**一切更新しない**。
 
 | 項目 | 扱い |
 |------|------|
-| RP neighbors | GA neighbors 流用 |
+| RP neighbors | **保留**（GA neighbors 流用。`docs/rp-neighbors-priority-decision.md` 参照） |
 | RP TTS | GA 音声のまま |
 | 連結句 Mode B | 対象外 |
 | Encode 方向 Mode B | なし |
@@ -107,5 +107,5 @@ Mode B は Mode A の SRS データを**一切更新しない**。
 ## 7. Claude への申し送り
 
 - distractor 同義語除外は gloss 比較で全言語対応
-- neighbors は GA 基準。RP 併用時の近傍ズレは稼働後評価
-- 残: RP neighbors（条件付き）、RP TTS、多言語学習ガイド
+- neighbors は GA 基準。**RP neighbors 再計算は保留**（判断レポート確定）
+- 残: RP TTS、多言語学習ガイド
