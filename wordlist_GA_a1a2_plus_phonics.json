@@ -116,6 +116,7 @@
   "neighbors": [
    "section",
    "anxious",
+   "cushion",
    "fashion",
    "fiction",
    "nation"
@@ -689,7 +690,8 @@
   },
   "neighbors": [
    "brother",
-   "mother"
+   "mother",
+   "neither"
   ]
  },
  {
@@ -841,7 +843,8 @@
    "apron",
    "apple",
    "opera",
-   "angel"
+   "angel",
+   "rural"
   ]
  },
  {
@@ -3147,7 +3150,7 @@
    "ticket",
    "basket",
    "budget",
-   "bust"
+   "bullet"
   ]
  },
  {
@@ -3549,7 +3552,7 @@
    "tall",
    "wall",
    "coal",
-   "core"
+   "coil"
   ]
  },
  {
@@ -4299,7 +4302,8 @@
    "cousin",
    "open",
    "reason",
-   "woken"
+   "woken",
+   "poison"
   ]
  },
  {
@@ -4567,12 +4571,12 @@
   "neighbors": [
    "class",
    "clone",
+   "clothe",
    "alone",
    "blow",
    "case",
    "clean",
-   "climb",
-   "clock"
+   "climb"
   ]
  },
  {
@@ -4596,6 +4600,7 @@
    "cold",
    "clause",
    "clone",
+   "clothe",
    "pleased"
   ]
  },
@@ -4639,6 +4644,7 @@
    "ko": "옷"
   },
   "neighbors": [
+   "clothe",
    "close",
    "closed",
    "clause",
@@ -5092,7 +5098,7 @@
    "tool",
    "you'll",
    "coal",
-   "curl"
+   "coil"
   ]
  },
  {
@@ -5286,6 +5292,7 @@
    "should've",
    "would've",
    "couldn't",
+   "cushion",
    "wooden"
   ]
  },
@@ -5309,6 +5316,7 @@
    "could've",
    "didn't",
    "hadn't",
+   "cushion",
    "wooden"
   ]
  },
@@ -5359,7 +5367,7 @@
    "reason",
    "common",
    "couple",
-   "oven"
+   "cushion"
   ]
  },
  {
@@ -7106,13 +7114,13 @@
   },
   "neighbors": [
    "other",
+   "neither",
    "each",
    "ear",
    "easy",
    "eat",
    "father",
-   "fever",
-   "fire"
+   "fever"
   ]
  },
  {
@@ -7812,6 +7820,7 @@
    "ko": "농장주"
   },
   "neighbors": [
+   "farther",
    "farm",
    "father",
    "form",
@@ -7889,11 +7898,11 @@
    "bother",
    "feather",
    "further",
+   "farther",
    "dollar",
    "either",
    "farm",
-   "farmer",
-   "fever"
+   "farmer"
   ]
  },
  {
@@ -13842,7 +13851,7 @@
    "detail",
    "level",
    "local",
-   "metal"
+   "loyal"
   ]
  },
  {
@@ -14687,6 +14696,7 @@
    "many",
    "merry",
    "marry",
+   "measure",
    "member",
    "summary"
   ]
@@ -15221,7 +15231,7 @@
    "coast",
    "host",
    "mist",
-   "roast"
+   "moist"
   ]
  },
  {
@@ -15472,9 +15482,9 @@
    "bust",
    "dust",
    "mist",
+   "moist",
    "best",
-   "bus",
-   "but"
+   "bus"
   ]
  },
  {
@@ -17233,7 +17243,9 @@
    "purple",
    "certain",
    "passage",
-   "purpose"
+   "poison",
+   "purpose",
+   "version"
   ]
  },
  {
@@ -17669,9 +17681,9 @@
    "letter",
    "player",
    "leather",
+   "measure",
    "pepper",
-   "pressure",
-   "treasure"
+   "pressure"
   ]
  },
  {
@@ -17740,11 +17752,11 @@
    "paint",
    "joint",
    "pint",
+   "appoint",
    "aunt",
    "can't",
    "don't",
-   "join",
-   "lent"
+   "join"
   ]
  },
  {
@@ -18518,7 +18530,7 @@
    "ending",
    "heating",
    "meaning",
-   "rating"
+   "pudding"
   ]
  },
  {
@@ -18617,8 +18629,8 @@
    "ribbon",
    "ridden",
    "written",
-   "recent",
-   "robin"
+   "poison",
+   "recent"
   ]
  },
  {
@@ -22424,6 +22436,7 @@
    "shower",
    "sure",
    "tiger",
+   "butcher",
    "cooker"
   ]
  },
@@ -24335,6 +24348,7 @@
   },
   "neighbors": [
    "ticket",
+   "bullet",
    "pilot",
    "talent",
    "wallet"
@@ -26846,6 +26860,7 @@
    "would've",
    "wouldn't",
    "common",
+   "cushion",
    "lemon"
   ]
  },
@@ -27857,6 +27872,7 @@
   "neighbors": [
    "count",
    "about",
+   "appoint",
    "can't",
    "mount"
   ]
@@ -28821,7 +28837,7 @@
    "support",
    "upon",
    "upset",
-   "heart"
+   "appoint"
   ]
  },
  {
@@ -29667,7 +29683,8 @@
    "bark",
    "barn",
    "borrow",
-   "farmer"
+   "farmer",
+   "farther"
   ]
  },
  {
@@ -30400,9 +30417,9 @@
    "bell",
    "bowl",
    "bull",
+   "coil",
    "soil",
-   "toil",
-   "boiled"
+   "toil"
   ]
  },
  {
@@ -30572,7 +30589,7 @@
    "further",
    "gather",
    "leather",
-   "rather"
+   "neither"
   ]
  },
  {
@@ -30852,6 +30869,31 @@
   ]
  },
  {
+  "w": "bullet",
+  "ipa": "/ˈbʊlət/",
+  "cefr": "A2",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "bullet",
+   "ja": "弾丸",
+   "zh": "子弹",
+   "ko": "총알"
+  },
+  "neighbors": [
+   "belt",
+   "pilot",
+   "wallet",
+   "blurt",
+   "bolt",
+   "bucket",
+   "built",
+   "toilet"
+  ]
+ },
+ {
   "w": "burn",
   "ipa": "/bɝn/",
   "cefr": "A2",
@@ -31068,7 +31110,8 @@
    "ko": "수도"
   },
   "neighbors": [
-   "captain"
+   "captain",
+   "casual"
   ]
  },
  {
@@ -31289,13 +31332,13 @@
   },
   "neighbors": [
    "sudden",
+   "version",
    "button",
    "circle",
    "eaten",
    "gotten",
    "person",
-   "seven",
-   "stain"
+   "seven"
   ]
  },
  {
@@ -32034,10 +32077,10 @@
    "alone",
    "clean",
    "close",
+   "clothe",
    "flown",
    "cone",
-   "loan",
-   "claim"
+   "loan"
   ]
  },
  {
@@ -32132,12 +32175,12 @@
   "neighbors": [
    "can",
    "cane",
+   "coil",
    "cone",
    "join",
    "keen",
    "been",
-   "boil",
-   "burn"
+   "boil"
   ]
  },
  {
@@ -32302,12 +32345,12 @@
   "neighbors": [
    "column",
    "comic",
+   "cushion",
    "lemon",
    "robin",
    "cousin",
    "fallen",
-   "gotten",
-   "kitchen"
+   "gotten"
   ]
  },
  {
@@ -32817,7 +32860,7 @@
    "killer",
    "maker",
    "book",
-   "cake"
+   "butcher"
   ]
  },
  {
@@ -32838,6 +32881,7 @@
    "cooker",
    "during",
    "hiking",
+   "pudding",
    "walking",
    "cookie"
   ]
@@ -33392,6 +33436,31 @@
   ]
  },
  {
+  "w": "cushion",
+  "ipa": "/ˈkʊʃən/",
+  "cefr": "A2",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "cushion",
+   "ja": "クッション、座布団",
+   "zh": "垫子、靠垫",
+   "ko": "쿠션, 방석"
+  },
+  "neighbors": [
+   "common",
+   "fashion",
+   "nation",
+   "wooden",
+   "action",
+   "could've",
+   "couldn't",
+   "cousin"
+  ]
+ },
+ {
   "w": "custom",
   "ipa": "/ˈkʌstəm/",
   "cefr": "A2",
@@ -33696,6 +33765,24 @@
    "seaside",
    "design",
    "inside"
+  ]
+ },
+ {
+  "w": "decision",
+  "ipa": "/dɪˈsɪʒən/",
+  "cefr": "A2",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "decision",
+   "ja": "決定、決断",
+   "zh": "决定、决策",
+   "ko": "결정, 결단"
+  },
+  "neighbors": [
+   "division"
   ]
  },
  {
@@ -34710,10 +34797,10 @@
    "drawing",
    "drill",
    "earring",
+   "pudding",
    "string",
    "boring",
-   "bring",
-   "doing"
+   "bring"
   ]
  },
  {
@@ -35113,6 +35200,45 @@
   "neighbors": []
  },
  {
+  "w": "employee",
+  "ipa": "/ɛmˈplɔɪi/",
+  "cefr": "A2",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "employee",
+   "ja": "従業員、社員",
+   "zh": "员工、雇员",
+   "ko": "직원, 종업원"
+  },
+  "neighbors": [
+   "employer",
+   "employ",
+   "empty"
+  ]
+ },
+ {
+  "w": "employer",
+  "ipa": "/ɛmˈplɔɪɚ/",
+  "cefr": "A2",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "employer",
+   "ja": "雇用主、雇い主",
+   "zh": "雇主",
+   "ko": "고용주"
+  },
+  "neighbors": [
+   "employee",
+   "employ"
+  ]
+ },
+ {
   "w": "empty",
   "ipa": "/ˈɛmpti/",
   "cefr": "A2",
@@ -35127,6 +35253,8 @@
    "ko": "비어 있는"
   },
   "neighbors": [
+   "employee",
+   "employ",
    "tempt"
   ]
  },
@@ -35178,6 +35306,7 @@
   },
   "neighbors": [
    "annoying",
+   "pudding",
    "wedding",
    "anything",
    "reading"
@@ -36075,6 +36204,7 @@
    "ko": "패션"
   },
   "neighbors": [
+   "cushion",
    "fiction",
    "nation",
    "action",
@@ -36150,12 +36280,12 @@
   "neighbors": [
    "further",
    "leather",
+   "whether",
    "father",
    "weather",
    "bother",
    "error",
-   "ever",
-   "fare"
+   "ever"
   ]
  },
  {
@@ -38648,6 +38778,7 @@
   "neighbors": [
    "village",
    "merge",
+   "voyage",
    "women"
   ]
  },
@@ -39968,12 +40099,12 @@
   "neighbors": [
    "feather",
    "leisure",
+   "whether",
    "letter",
    "weather",
    "bother",
    "error",
-   "ever",
-   "further"
+   "ever"
   ]
  },
  {
@@ -39992,13 +40123,13 @@
   },
   "neighbors": [
    "leather",
+   "measure",
    "letter",
    "pleasure",
    "error",
    "ever",
    "feather",
-   "latter",
-   "lawyer"
+   "latter"
   ]
  },
  {
@@ -40293,8 +40424,8 @@
    "circle",
    "focus",
    "little",
-   "mobile",
-   "social"
+   "loyal",
+   "mobile"
   ]
  },
  {
@@ -40637,8 +40768,8 @@
    "injure",
    "male",
    "manner",
-   "mirror",
-   "murder"
+   "measure",
+   "mirror"
   ]
  },
  {
@@ -40942,6 +41073,31 @@
   ]
  },
  {
+  "w": "measure",
+  "ipa": "/ˈmɛʒɚ/",
+  "cefr": "A2",
+  "pos": "動詞 / 名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "measure",
+   "ja": "測る、対策、寸法",
+   "zh": "测量、措施、尺寸",
+   "ko": "측정하다, 대책, 치수"
+  },
+  "neighbors": [
+   "leisure",
+   "error",
+   "ever",
+   "feather",
+   "leather",
+   "major",
+   "maker",
+   "manner"
+  ]
+ },
+ {
   "w": "medal",
   "ipa": "/ˈmɛdəl/",
   "cefr": "A2",
@@ -41025,6 +41181,7 @@
    "ko": "회원"
   },
   "neighbors": [
+   "measure",
    "memory",
    "number"
   ]
@@ -41465,8 +41622,8 @@
    "major",
    "maker",
    "manner",
-   "mirror",
-   "modern"
+   "measure",
+   "mirror"
   ]
  },
  {
@@ -41607,6 +41764,7 @@
    "ko": "국가"
   },
   "neighbors": [
+   "cushion",
    "fashion",
    "patient",
    "action",
@@ -41682,11 +41840,11 @@
    "feature",
    "major",
    "maker",
+   "neither",
+   "butcher",
    "later",
    "nail",
-   "name",
-   "never",
-   "paper"
+   "name"
   ]
  },
  {
@@ -41742,6 +41900,31 @@
    "ko": "부정적인"
   },
   "neighbors": []
+ },
+ {
+  "w": "neither",
+  "ipa": "/ˈniðɚ/",
+  "cefr": "A2",
+  "pos": "副詞 / 限定詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "neither",
+   "ja": "どちらも〜ない",
+   "zh": "两者都不",
+   "ko": "어느 쪽도 ~아니다"
+  },
+  "neighbors": [
+   "either",
+   "bother",
+   "feather",
+   "feature",
+   "further",
+   "gather",
+   "leather",
+   "nature"
+  ]
  },
  {
   "w": "nervous",
@@ -41923,6 +42106,22 @@
   ]
  },
  {
+  "w": "northern",
+  "ipa": "/ˈnɔrðɚn/",
+  "cefr": "A2",
+  "pos": "形容詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "northern",
+   "ja": "北の、北部の",
+   "zh": "北方的、北部的",
+   "ko": "북쪽의, 북부의"
+  },
+  "neighbors": []
+ },
+ {
   "w": "notice",
   "ipa": "/ˈnoʊtəs/",
   "cefr": "A2",
@@ -42032,6 +42231,22 @@
   ]
  },
  {
+  "w": "occasion",
+  "ipa": "/əˈkeɪʒən/",
+  "cefr": "A2",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "occasion",
+   "ja": "機会、場合、行事",
+   "zh": "场合、机会、活动",
+   "ko": "경우, 기회, 행사"
+  },
+  "neighbors": []
+ },
+ {
   "w": "occupation",
   "ipa": "/ˌɑkjəˈpeɪʃən/",
   "cefr": "A2",
@@ -42112,7 +42327,7 @@
    "i'll",
    "owl",
    "boil",
-   "soil"
+   "coil"
   ]
  },
  {
@@ -42831,8 +43046,8 @@
    "feather",
    "leather",
    "leisure",
-   "pear",
-   "pence"
+   "measure",
+   "pear"
   ]
  },
  {
@@ -43158,14 +43373,14 @@
    "ko": "조종사"
   },
   "neighbors": [
+   "bullet",
    "diet",
    "plate",
    "polite",
    "pollute",
    "private",
    "wallet",
-   "palace",
-   "pint"
+   "palace"
   ]
  },
  {
@@ -43408,7 +43623,8 @@
    "ko": "복수"
   },
   "neighbors": [
-   "playful"
+   "playful",
+   "rural"
   ]
  },
  {
@@ -43434,6 +43650,27 @@
    "flood",
    "glove",
    "less"
+  ]
+ },
+ {
+  "w": "poison",
+  "ipa": "/ˈpɔɪzən/",
+  "cefr": "A2",
+  "pos": "名詞 / 動詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "poison",
+   "ja": "毒、毒を盛る",
+   "zh": "毒、毒药",
+   "ko": "독, 독을 넣다"
+  },
+  "neighbors": [
+   "chosen",
+   "cousin",
+   "person",
+   "reason"
   ]
  },
  {
@@ -44257,6 +44494,28 @@
   ]
  },
  {
+  "w": "pudding",
+  "ipa": "/ˈpʊdɪŋ/",
+  "cefr": "A2",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "pudding",
+   "ja": "プリン、プディング",
+   "zh": "布丁",
+   "ko": "푸딩"
+  },
+  "neighbors": [
+   "cooking",
+   "during",
+   "ending",
+   "wedding",
+   "reading"
+  ]
+ },
+ {
   "w": "pull",
   "ipa": "/pʊl/",
   "cefr": "A2",
@@ -44659,7 +44918,7 @@
    "latter",
    "leather",
    "manner",
-   "rap"
+   "neither"
   ]
  },
  {
@@ -45753,14 +46012,14 @@
    "ko": "감청색"
   },
   "neighbors": [
+   "loyal",
    "awful",
    "boil",
    "roll",
    "ruin",
    "apple",
-   "rail",
-   "real",
-   "role"
+   "coil",
+   "rail"
   ]
  },
  {
@@ -48045,6 +48304,28 @@
   ]
  },
  {
+  "w": "southern",
+  "ipa": "/ˈsʌðɚn/",
+  "cefr": "A2",
+  "pos": "形容詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "southern",
+   "ja": "南の、南部の",
+   "zh": "南方的、南部的",
+   "ko": "남쪽의, 남부의"
+  },
+  "neighbors": [
+   "sudden",
+   "summary",
+   "supper",
+   "mother",
+   "summer"
+  ]
+ },
+ {
   "w": "space",
   "ipa": "/speɪs/",
   "cefr": "A2",
@@ -48867,11 +49148,11 @@
    "certain",
    "oven",
    "soda",
+   "southern",
    "wooden",
    "button",
    "cousin",
-   "ridden",
-   "seven"
+   "ridden"
   ]
  },
  {
@@ -48969,6 +49250,7 @@
    "summer",
    "scenery",
    "someday",
+   "southern",
    "supper",
    "memory",
    "sunny"
@@ -49077,8 +49359,8 @@
    "pepper",
    "runner",
    "soap",
-   "such",
-   "summary"
+   "southern",
+   "such"
   ]
  },
  {
@@ -49262,13 +49544,13 @@
   },
   "neighbors": [
    "sweat",
+   "whether",
    "better",
    "letter",
    "sister",
    "swear",
    "sweet",
-   "swell",
-   "waiter"
+   "swell"
   ]
  },
  {
@@ -50138,6 +50420,22 @@
   ]
  },
  {
+  "w": "tourism",
+  "ipa": "/ˈtʊˌrɪzəm/",
+  "cefr": "A2",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "tourism",
+   "ja": "観光、観光業",
+   "zh": "旅游、旅游业",
+   "ko": "관광, 관광업"
+  },
+  "neighbors": []
+ },
+ {
   "w": "tourist",
   "ipa": "/ˈtʊrəst/",
   "cefr": "A2",
@@ -50339,6 +50637,7 @@
   },
   "neighbors": [
    "leisure",
+   "measure",
    "pressure",
    "pleasure",
    "tread",
@@ -50874,7 +51173,8 @@
   },
   "neighbors": [
    "apart",
-   "cassette"
+   "cassette",
+   "appoint"
   ]
  },
  {
@@ -50951,7 +51251,9 @@
    "ko": "평소"
   },
   "neighbors": [
-   "usually"
+   "usually",
+   "casual",
+   "visual"
   ]
  },
  {
@@ -51023,6 +51325,26 @@
   ]
  },
  {
+  "w": "version",
+  "ipa": "/ˈvɝʒən/",
+  "cefr": "A2",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "version",
+   "ja": "版、バージョン",
+   "zh": "版本、版",
+   "ko": "버전, 판"
+  },
+  "neighbors": [
+   "vision",
+   "certain",
+   "person"
+  ]
+ },
+ {
   "w": "view",
   "ipa": "/vju/",
   "cefr": "A2",
@@ -51063,7 +51385,9 @@
   },
   "neighbors": [
    "image",
-   "knowledge"
+   "knowledge",
+   "vision",
+   "voyage"
   ]
  },
  {
@@ -51197,6 +51521,7 @@
    "ko": "지갑"
   },
   "neighbors": [
+   "bullet",
    "fault",
    "pilot",
    "salt",
@@ -51361,6 +51686,7 @@
   },
   "neighbors": [
    "ending",
+   "pudding",
    "walking",
    "reading"
   ]
@@ -51561,6 +51887,31 @@
    "ko": "바퀴 달린 의자"
   },
   "neighbors": []
+ },
+ {
+  "w": "whether",
+  "ipa": "/ˈwɛðɚ/",
+  "cefr": "A2",
+  "pos": "接続詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "whether",
+   "ja": "〜かどうか",
+   "zh": "是否",
+   "ko": "~인지 아닌지"
+  },
+  "neighbors": [
+   "feather",
+   "leather",
+   "bother",
+   "error",
+   "ever",
+   "further",
+   "gather",
+   "leisure"
+  ]
  },
  {
   "w": "while",
@@ -51933,11 +52284,11 @@
    "woman",
    "would've",
    "wouldn't",
+   "cushion",
    "sudden",
    "could've",
    "couldn't",
-   "ridden",
-   "should've"
+   "ridden"
   ]
  },
  {
@@ -52303,6 +52654,31 @@
    "ate",
    "eight",
    "up"
+  ]
+ },
+ {
+  "w": "appoint",
+  "ipa": "/əˈpɔɪnt/",
+  "cefr": "B1",
+  "pos": "動詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "appoint",
+   "ja": "任命する、指定する",
+   "zh": "任命、指定",
+   "ko": "임명하다, 지정하다"
+  },
+  "neighbors": [
+   "point",
+   "joint",
+   "account",
+   "apart",
+   "paint",
+   "pint",
+   "spent",
+   "upon"
   ]
  },
  {
@@ -53256,6 +53632,31 @@
   ]
  },
  {
+  "w": "butcher",
+  "ipa": "/ˈbʊtʃɚ/",
+  "cefr": "B1",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "butcher",
+   "ja": "肉屋",
+   "zh": "肉店、屠夫",
+   "ko": "정육점, 푸주한"
+  },
+  "neighbors": [
+   "bull",
+   "batch",
+   "beach",
+   "better",
+   "book",
+   "bother",
+   "burger",
+   "bush"
+  ]
+ },
+ {
   "w": "cage",
   "ipa": "/keɪdʒ/",
   "cefr": "B1",
@@ -53278,6 +53679,26 @@
    "case",
    "page",
    "sage"
+  ]
+ },
+ {
+  "w": "casual",
+  "ipa": "/ˈkæʒəwəl/",
+  "cefr": "B1",
+  "pos": "形容詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "casual",
+   "ja": "何気ない、カジュアルな",
+   "zh": "随意的、休闲的",
+   "ko": "평상시의, 캐주얼한"
+  },
+  "neighbors": [
+   "visual",
+   "capital",
+   "usual"
   ]
  },
  {
@@ -53473,11 +53894,11 @@
    "clip",
    "clear",
    "click",
+   "clothe",
    "lift",
    "loaf",
    "slip",
-   "claim",
-   "clam"
+   "claim"
   ]
  },
  {
@@ -53502,7 +53923,32 @@
    "click",
    "flip",
    "lip",
-   "crop"
+   "clothe"
+  ]
+ },
+ {
+  "w": "clothe",
+  "ipa": "/kloʊð/",
+  "cefr": "B1",
+  "pos": "動詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "clothe",
+   "ja": "服を着せる",
+   "zh": "给…穿衣",
+   "ko": "옷을 입히다"
+  },
+  "neighbors": [
+   "clone",
+   "close",
+   "clothes",
+   "cliff",
+   "clip",
+   "coal",
+   "crow",
+   "flow"
   ]
  },
  {
@@ -53520,14 +53966,14 @@
    "ko": "석탄"
   },
   "neighbors": [
+   "coil",
    "pole",
    "soul",
    "bowl",
    "call",
    "coach",
    "coat",
-   "code",
-   "coke"
+   "code"
   ]
  },
  {
@@ -53554,6 +54000,63 @@
    "could",
    "god"
   ]
+ },
+ {
+  "w": "coil",
+  "ipa": "/kɔɪl/",
+  "cefr": "B1",
+  "pos": "名詞 / 動詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "coil",
+   "ja": "コイル、巻く",
+   "zh": "线圈、卷",
+   "ko": "코일, 감다"
+  },
+  "neighbors": [
+   "coal",
+   "soil",
+   "boil",
+   "call",
+   "coin",
+   "cool",
+   "curl",
+   "kill"
+  ]
+ },
+ {
+  "w": "collision",
+  "ipa": "/kəˈlɪʒən/",
+  "cefr": "B1",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "collision",
+   "ja": "衝突",
+   "zh": "碰撞、冲突",
+   "ko": "충돌"
+  },
+  "neighbors": []
+ },
+ {
+  "w": "conclusion",
+  "ipa": "/kənˈkluʒən/",
+  "cefr": "B1",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "conclusion",
+   "ja": "結論、終わり",
+   "zh": "结论、结束",
+   "ko": "결론, 마무리"
+  },
+  "neighbors": []
  },
  {
   "w": "craft",
@@ -53931,6 +54434,25 @@
   ]
  },
  {
+  "w": "division",
+  "ipa": "/dɪˈvɪʒən/",
+  "cefr": "B1",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "division",
+   "ja": "分割、部門、割り算",
+   "zh": "分割、部门、除法",
+   "ko": "분할, 부서, 나눗셈"
+  },
+  "neighbors": [
+   "decision",
+   "revision"
+  ]
+ },
+ {
   "w": "doc",
   "ipa": "/dɑk/",
   "cefr": "B1",
@@ -54156,6 +54678,58 @@
   ]
  },
  {
+  "w": "employ",
+  "ipa": "/ɛmˈplɔɪ/",
+  "cefr": "B1",
+  "pos": "動詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "employ",
+   "ja": "雇う、用いる",
+   "zh": "雇用、使用",
+   "ko": "고용하다, 사용하다"
+  },
+  "neighbors": [
+   "employee",
+   "employer",
+   "empty"
+  ]
+ },
+ {
+  "w": "ensure",
+  "ipa": "/ɛnˈʃʊr/",
+  "cefr": "B1",
+  "pos": "動詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "ensure",
+   "ja": "確実にする、保証する",
+   "zh": "确保、保证",
+   "ko": "보장하다, 확실히 하다"
+  },
+  "neighbors": []
+ },
+ {
+  "w": "exposure",
+  "ipa": "/ɪkˈspoʊʒɚ/",
+  "cefr": "B1",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "exposure",
+   "ja": "露出、さらすこと",
+   "zh": "暴露、曝光",
+   "ko": "노출, 드러냄"
+  },
+  "neighbors": []
+ },
+ {
   "w": "fade",
   "ipa": "/feɪd/",
   "cefr": "B1",
@@ -54228,6 +54802,30 @@
    "faith",
    "fame",
    "fate"
+  ]
+ },
+ {
+  "w": "farther",
+  "ipa": "/ˈfɑrðɚ/",
+  "cefr": "B1",
+  "pos": "副詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "farther",
+   "ja": "より遠くに",
+   "zh": "更远",
+   "ko": "더 멀리"
+  },
+  "neighbors": [
+   "farmer",
+   "father",
+   "barber",
+   "bother",
+   "farm",
+   "feather",
+   "further"
   ]
  },
  {
@@ -55639,11 +56237,11 @@
    "point",
    "join",
    "ant",
+   "appoint",
    "bent",
    "faint",
    "gene",
-   "haunt",
-   "hunt"
+   "haunt"
   ]
  },
  {
@@ -55669,6 +56267,31 @@
    "rug",
    "tug",
    "dull"
+  ]
+ },
+ {
+  "w": "jury",
+  "ipa": "/ˈdʒʊri/",
+  "cefr": "B1",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "jury",
+   "ja": "陪審、審査員",
+   "zh": "陪审团、评审团",
+   "ko": "배심원, 심사위원"
+  },
+  "neighbors": [
+   "jar",
+   "agree",
+   "bury",
+   "carry",
+   "cookie",
+   "curry",
+   "fairy",
+   "free"
   ]
  },
  {
@@ -56022,6 +56645,31 @@
   ]
  },
  {
+  "w": "loyal",
+  "ipa": "/ˈlɔɪəl/",
+  "cefr": "B1",
+  "pos": "形容詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "loyal",
+   "ja": "忠実な、誠実な",
+   "zh": "忠诚的",
+   "ko": "충실한, 충성스러운"
+  },
+  "neighbors": [
+   "royal",
+   "coil",
+   "soil",
+   "voyage",
+   "apple",
+   "awful",
+   "boil",
+   "level"
+  ]
+ },
+ {
   "w": "lung",
   "ipa": "/lʌŋ/",
   "cefr": "B1",
@@ -56045,6 +56693,22 @@
    "sung",
    "young"
   ]
+ },
+ {
+  "w": "luxury",
+  "ipa": "/ˈlʌɡʒɚi/",
+  "cefr": "B1",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "luxury",
+   "ja": "贅沢、高級品",
+   "zh": "奢侈、奢侈品",
+   "ko": "사치, 고급품"
+  },
+  "neighbors": []
  },
  {
   "w": "main",
@@ -56120,6 +56784,22 @@
    "map",
    "match"
   ]
+ },
+ {
+  "w": "massage",
+  "ipa": "/məˈsɑʒ/",
+  "cefr": "B1",
+  "pos": "名詞 / 動詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "massage",
+   "ja": "マッサージ、揉む",
+   "zh": "按摩、揉",
+   "ko": "마사지, 주무르다"
+  },
+  "neighbors": []
  },
  {
   "w": "melt",
@@ -56269,6 +56949,31 @@
    "meal",
    "mice",
    "might"
+  ]
+ },
+ {
+  "w": "moist",
+  "ipa": "/mɔɪst/",
+  "cefr": "B1",
+  "pos": "形容詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "moist",
+   "ja": "湿った、しっとりした",
+   "zh": "潮湿的、湿润的",
+   "ko": "촉촉한, 축축한"
+  },
+  "neighbors": [
+   "mist",
+   "most",
+   "must",
+   "beast",
+   "boast",
+   "burst",
+   "bust",
+   "feast"
   ]
  },
  {
@@ -56572,6 +57277,22 @@
   ]
  },
  {
+  "w": "otherwise",
+  "ipa": "/ˈʌðɚˌwaɪz/",
+  "cefr": "B1",
+  "pos": "副詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "otherwise",
+   "ja": "さもなければ、その他の点で",
+   "zh": "否则、另外",
+   "ko": "그렇지 않으면, 그 외에는"
+  },
+  "neighbors": []
+ },
+ {
   "w": "owe",
   "ipa": "/oʊ/",
   "cefr": "B1",
@@ -56594,6 +57315,31 @@
    "i",
    "go",
    "know"
+  ]
+ },
+ {
+  "w": "oyster",
+  "ipa": "/ˈɔɪstɚ/",
+  "cefr": "B1",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "oyster",
+   "ja": "牡蠣",
+   "zh": "牡蛎、生蚝",
+   "ko": "굴"
+  },
+  "neighbors": [
+   "moist",
+   "stir",
+   "actor",
+   "after",
+   "better",
+   "butter",
+   "daughter",
+   "east"
   ]
  },
  {
@@ -57522,6 +58268,24 @@
   ]
  },
  {
+  "w": "revision",
+  "ipa": "/riˈvɪʒən/",
+  "cefr": "B1",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "revision",
+   "ja": "改訂、見直し、復習",
+   "zh": "修订、复习",
+   "ko": "개정, 수정, 복습"
+  },
+  "neighbors": [
+   "division"
+  ]
+ },
+ {
   "w": "rid",
   "ipa": "/rɪd/",
   "cefr": "B1",
@@ -57644,6 +58408,26 @@
    "run",
    "rung",
    "rush"
+  ]
+ },
+ {
+  "w": "rural",
+  "ipa": "/ˈrʊrəl/",
+  "cefr": "B1",
+  "pos": "形容詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "rural",
+   "ja": "田舎の、農村の",
+   "zh": "乡村的、农村的",
+   "ko": "시골의, 농촌의"
+  },
+  "neighbors": [
+   "april",
+   "plural",
+   "royal"
   ]
  },
  {
@@ -57820,6 +58604,22 @@
    "screen",
    "screw"
   ]
+ },
+ {
+  "w": "secure",
+  "ipa": "/sɪˈkjʊr/",
+  "cefr": "B1",
+  "pos": "形容詞 / 動詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "secure",
+   "ja": "安全な、確保する",
+   "zh": "安全的、确保",
+   "ko": "안전한, 확보하다"
+  },
+  "neighbors": []
  },
  {
   "w": "sex",
@@ -58193,7 +58993,7 @@
    "slow",
    "soap",
    "clip",
-   "flow"
+   "clothe"
   ]
  },
  {
@@ -58262,13 +59062,13 @@
   },
   "neighbors": [
    "cell",
+   "coil",
    "soul",
    "boil",
    "sail",
    "sale",
    "seal",
-   "sell",
-   "toil"
+   "sell"
   ]
  },
  {
@@ -58440,10 +59240,10 @@
    "spill",
    "soil",
    "cell",
+   "coil",
    "pale",
    "pole",
-   "soul",
-   "spice"
+   "soul"
   ]
  },
  {
@@ -58643,7 +59443,7 @@
    "stern",
    "cell",
    "fur",
-   "per"
+   "oyster"
   ]
  },
  {
@@ -59844,6 +60644,72 @@
    "voice",
    "ice",
    "chase"
+  ]
+ },
+ {
+  "w": "vision",
+  "ipa": "/ˈvɪʒən/",
+  "cefr": "B1",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "vision",
+   "ja": "視力、展望、幻",
+   "zh": "视力、远见、幻象",
+   "ko": "시력, 비전, 환상"
+  },
+  "neighbors": [
+   "version",
+   "chicken",
+   "given",
+   "kitchen",
+   "listen",
+   "ribbon",
+   "ridden",
+   "village"
+  ]
+ },
+ {
+  "w": "visual",
+  "ipa": "/ˈvɪʒəwəl/",
+  "cefr": "B1",
+  "pos": "形容詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "visual",
+   "ja": "視覚の、目に見える",
+   "zh": "视觉的、可见的",
+   "ko": "시각의, 눈에 보이는"
+  },
+  "neighbors": [
+   "casual",
+   "usual"
+  ]
+ },
+ {
+  "w": "voyage",
+  "ipa": "/ˈvɔɪədʒ/",
+  "cefr": "B1",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "voyage",
+   "ja": "航海、旅",
+   "zh": "航行、旅程",
+   "ko": "항해, 여행"
+  },
+  "neighbors": [
+   "loyal",
+   "image",
+   "royal",
+   "village",
+   "voice"
   ]
  },
  {
@@ -61414,11 +62280,11 @@
    "pearl",
    "call",
    "coal",
+   "coil",
    "cool",
    "curse",
    "curve",
-   "girl",
-   "kill"
+   "girl"
   ]
  },
  {
@@ -64063,12 +64929,12 @@
   "neighbors": [
    "mint",
    "list",
+   "moist",
    "most",
    "must",
    "wrist",
    "midst",
-   "miss",
-   "boost"
+   "miss"
   ]
  },
  {
@@ -67550,11 +68416,11 @@
    "tail",
    "toll",
    "boil",
+   "coil",
    "soil",
    "tale",
    "tall",
-   "tell",
-   "tile"
+   "tell"
   ]
  },
  {

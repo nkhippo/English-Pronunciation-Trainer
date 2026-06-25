@@ -1,0 +1,602 @@
+[
+ {
+  "w": "version",
+  "ipa": "/ˈvɝʒən/",
+  "cefr": "A2",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "version",
+   "ja": "版、バージョン",
+   "zh": "版本、版",
+   "ko": "버전, 판"
+  }
+ },
+ {
+  "w": "decision",
+  "ipa": "/dɪˈsɪʒən/",
+  "cefr": "A2",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "decision",
+   "ja": "決定、決断",
+   "zh": "决定、决策",
+   "ko": "결정, 결단"
+  }
+ },
+ {
+  "w": "division",
+  "ipa": "/dɪˈvɪʒən/",
+  "cefr": "B1",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "division",
+   "ja": "分割、部門、割り算",
+   "zh": "分割、部门、除法",
+   "ko": "분할, 부서, 나눗셈"
+  }
+ },
+ {
+  "w": "vision",
+  "ipa": "/ˈvɪʒən/",
+  "cefr": "B1",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "vision",
+   "ja": "視力、展望、幻",
+   "zh": "视力、远见、幻象",
+   "ko": "시력, 비전, 환상"
+  }
+ },
+ {
+  "w": "visual",
+  "ipa": "/ˈvɪʒəwəl/",
+  "cefr": "B1",
+  "pos": "形容詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "visual",
+   "ja": "視覚の、目に見える",
+   "zh": "视觉的、可见的",
+   "ko": "시각의, 눈에 보이는"
+  }
+ },
+ {
+  "w": "measure",
+  "ipa": "/ˈmɛʒɚ/",
+  "cefr": "A2",
+  "pos": "動詞 / 名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "measure",
+   "ja": "測る、対策、寸法",
+   "zh": "测量、措施、尺寸",
+   "ko": "측정하다, 대책, 치수"
+  }
+ },
+ {
+  "w": "casual",
+  "ipa": "/ˈkæʒəwəl/",
+  "cefr": "B1",
+  "pos": "形容詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "casual",
+   "ja": "何気ない、カジュアルな",
+   "zh": "随意的、休闲的",
+   "ko": "평상시의, 캐주얼한"
+  }
+ },
+ {
+  "w": "occasion",
+  "ipa": "/əˈkeɪʒən/",
+  "cefr": "A2",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "occasion",
+   "ja": "機会、場合、行事",
+   "zh": "场合、机会、活动",
+   "ko": "경우, 기회, 행사"
+  }
+ },
+ {
+  "w": "exposure",
+  "ipa": "/ɪkˈspoʊʒɚ/",
+  "cefr": "B1",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "exposure",
+   "ja": "露出、さらすこと",
+   "zh": "暴露、曝光",
+   "ko": "노출, 드러냄"
+  }
+ },
+ {
+  "w": "luxury",
+  "ipa": "/ˈlʌɡʒɚi/",
+  "cefr": "B1",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "luxury",
+   "ja": "贅沢、高級品",
+   "zh": "奢侈、奢侈品",
+   "ko": "사치, 고급품"
+  }
+ },
+ {
+  "w": "massage",
+  "ipa": "/məˈsɑʒ/",
+  "cefr": "B1",
+  "pos": "名詞 / 動詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "massage",
+   "ja": "マッサージ、揉む",
+   "zh": "按摩、揉",
+   "ko": "마사지, 주무르다"
+  }
+ },
+ {
+  "w": "revision",
+  "ipa": "/riˈvɪʒən/",
+  "cefr": "B1",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "revision",
+   "ja": "改訂、見直し、復習",
+   "zh": "修订、复习",
+   "ko": "개정, 수정, 복습"
+  }
+ },
+ {
+  "w": "conclusion",
+  "ipa": "/kənˈkluʒən/",
+  "cefr": "B1",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "conclusion",
+   "ja": "結論、終わり",
+   "zh": "结论、结束",
+   "ko": "결론, 마무리"
+  }
+ },
+ {
+  "w": "collision",
+  "ipa": "/kəˈlɪʒən/",
+  "cefr": "B1",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "collision",
+   "ja": "衝突",
+   "zh": "碰撞、冲突",
+   "ko": "충돌"
+  }
+ },
+ {
+  "w": "employee",
+  "ipa": "/ɛmˈplɔɪi/",
+  "cefr": "A2",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "employee",
+   "ja": "従業員、社員",
+   "zh": "员工、雇员",
+   "ko": "직원, 종업원"
+  }
+ },
+ {
+  "w": "employer",
+  "ipa": "/ɛmˈplɔɪɚ/",
+  "cefr": "A2",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "employer",
+   "ja": "雇用主、雇い主",
+   "zh": "雇主",
+   "ko": "고용주"
+  }
+ },
+ {
+  "w": "employ",
+  "ipa": "/ɛmˈplɔɪ/",
+  "cefr": "B1",
+  "pos": "動詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "employ",
+   "ja": "雇う、用いる",
+   "zh": "雇用、使用",
+   "ko": "고용하다, 사용하다"
+  }
+ },
+ {
+  "w": "voyage",
+  "ipa": "/ˈvɔɪədʒ/",
+  "cefr": "B1",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "voyage",
+   "ja": "航海、旅",
+   "zh": "航行、旅程",
+   "ko": "항해, 여행"
+  }
+ },
+ {
+  "w": "loyal",
+  "ipa": "/ˈlɔɪəl/",
+  "cefr": "B1",
+  "pos": "形容詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "loyal",
+   "ja": "忠実な、誠実な",
+   "zh": "忠诚的",
+   "ko": "충실한, 충성스러운"
+  }
+ },
+ {
+  "w": "oyster",
+  "ipa": "/ˈɔɪstɚ/",
+  "cefr": "B1",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "oyster",
+   "ja": "牡蠣",
+   "zh": "牡蛎、生蚝",
+   "ko": "굴"
+  }
+ },
+ {
+  "w": "poison",
+  "ipa": "/ˈpɔɪzən/",
+  "cefr": "A2",
+  "pos": "名詞 / 動詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "poison",
+   "ja": "毒、毒を盛る",
+   "zh": "毒、毒药",
+   "ko": "독, 독을 넣다"
+  }
+ },
+ {
+  "w": "appoint",
+  "ipa": "/əˈpɔɪnt/",
+  "cefr": "B1",
+  "pos": "動詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "appoint",
+   "ja": "任命する、指定する",
+   "zh": "任命、指定",
+   "ko": "임명하다, 지정하다"
+  }
+ },
+ {
+  "w": "moist",
+  "ipa": "/mɔɪst/",
+  "cefr": "B1",
+  "pos": "形容詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "moist",
+   "ja": "湿った、しっとりした",
+   "zh": "潮湿的、湿润的",
+   "ko": "촉촉한, 축축한"
+  }
+ },
+ {
+  "w": "coil",
+  "ipa": "/kɔɪl/",
+  "cefr": "B1",
+  "pos": "名詞 / 動詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "coil",
+   "ja": "コイル、巻く",
+   "zh": "线圈、卷",
+   "ko": "코일, 감다"
+  }
+ },
+ {
+  "w": "whether",
+  "ipa": "/ˈwɛðɚ/",
+  "cefr": "A2",
+  "pos": "接続詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "whether",
+   "ja": "〜かどうか",
+   "zh": "是否",
+   "ko": "~인지 아닌지"
+  }
+ },
+ {
+  "w": "northern",
+  "ipa": "/ˈnɔrðɚn/",
+  "cefr": "A2",
+  "pos": "形容詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "northern",
+   "ja": "北の、北部の",
+   "zh": "北方的、北部的",
+   "ko": "북쪽의, 북부의"
+  }
+ },
+ {
+  "w": "southern",
+  "ipa": "/ˈsʌðɚn/",
+  "cefr": "A2",
+  "pos": "形容詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "southern",
+   "ja": "南の、南部の",
+   "zh": "南方的、南部的",
+   "ko": "남쪽의, 남부의"
+  }
+ },
+ {
+  "w": "neither",
+  "ipa": "/ˈniðɚ/",
+  "cefr": "A2",
+  "pos": "副詞 / 限定詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "neither",
+   "ja": "どちらも〜ない",
+   "zh": "两者都不",
+   "ko": "어느 쪽도 ~아니다"
+  }
+ },
+ {
+  "w": "otherwise",
+  "ipa": "/ˈʌðɚˌwaɪz/",
+  "cefr": "B1",
+  "pos": "副詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "otherwise",
+   "ja": "さもなければ、その他の点で",
+   "zh": "否则、另外",
+   "ko": "그렇지 않으면, 그 외에는"
+  }
+ },
+ {
+  "w": "clothe",
+  "ipa": "/kloʊð/",
+  "cefr": "B1",
+  "pos": "動詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "clothe",
+   "ja": "服を着せる",
+   "zh": "给…穿衣",
+   "ko": "옷을 입히다"
+  }
+ },
+ {
+  "w": "farther",
+  "ipa": "/ˈfɑrðɚ/",
+  "cefr": "B1",
+  "pos": "副詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "farther",
+   "ja": "より遠くに",
+   "zh": "更远",
+   "ko": "더 멀리"
+  }
+ },
+ {
+  "w": "secure",
+  "ipa": "/sɪˈkjʊr/",
+  "cefr": "B1",
+  "pos": "形容詞 / 動詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "secure",
+   "ja": "安全な、確保する",
+   "zh": "安全的、确保",
+   "ko": "안전한, 확보하다"
+  }
+ },
+ {
+  "w": "ensure",
+  "ipa": "/ɛnˈʃʊr/",
+  "cefr": "B1",
+  "pos": "動詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "ensure",
+   "ja": "確実にする、保証する",
+   "zh": "确保、保证",
+   "ko": "보장하다, 확실히 하다"
+  }
+ },
+ {
+  "w": "tourism",
+  "ipa": "/ˈtʊˌrɪzəm/",
+  "cefr": "A2",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "tourism",
+   "ja": "観光、観光業",
+   "zh": "旅游、旅游业",
+   "ko": "관광, 관광업"
+  }
+ },
+ {
+  "w": "rural",
+  "ipa": "/ˈrʊrəl/",
+  "cefr": "B1",
+  "pos": "形容詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "rural",
+   "ja": "田舎の、農村の",
+   "zh": "乡村的、农村的",
+   "ko": "시골의, 농촌의"
+  }
+ },
+ {
+  "w": "butcher",
+  "ipa": "/ˈbʊtʃɚ/",
+  "cefr": "B1",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "butcher",
+   "ja": "肉屋",
+   "zh": "肉店、屠夫",
+   "ko": "정육점, 푸주한"
+  }
+ },
+ {
+  "w": "cushion",
+  "ipa": "/ˈkʊʃən/",
+  "cefr": "A2",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "cushion",
+   "ja": "クッション、座布団",
+   "zh": "垫子、靠垫",
+   "ko": "쿠션, 방석"
+  }
+ },
+ {
+  "w": "bullet",
+  "ipa": "/ˈbʊlət/",
+  "cefr": "A2",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "bullet",
+   "ja": "弾丸",
+   "zh": "子弹",
+   "ko": "총알"
+  }
+ },
+ {
+  "w": "pudding",
+  "ipa": "/ˈpʊdɪŋ/",
+  "cefr": "A2",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "pudding",
+   "ja": "プリン、プディング",
+   "zh": "布丁",
+   "ko": "푸딩"
+  }
+ },
+ {
+  "w": "jury",
+  "ipa": "/ˈdʒʊri/",
+  "cefr": "B1",
+  "pos": "名詞",
+  "src": "phoneme_fill",
+  "pattern": null,
+  "group": null,
+  "gloss": {
+   "en": "jury",
+   "ja": "陪審、審査員",
+   "zh": "陪审团、评审团",
+   "ko": "배심원, 심사위원"
+  }
+ }
+]
