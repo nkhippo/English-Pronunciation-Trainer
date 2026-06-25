@@ -1,7 +1,7 @@
 # Cursor 実装レポート — RP neighbors 優先度判断の反映
 
 > 作成日: 2026-06-26  
-> 対象ブランチ: `main`（コミット後に追記）  
+> 対象ブランチ: `main`（`2e66329`）  
 > 判断レポート: `docs/rp-neighbors-priority-decision.md`（Claude 検証済み）  
 > 前提: STEP5 RP / STEP7 Mode B 稼働後
 
@@ -96,7 +96,7 @@ Claude 値と同程度。結論（保留）に変更不要。
 
 | 項目 | 値 |
 |------|-----|
-| ブランチ | `main` |
+| ブランチ | `main`（`2e66329`） |
 
 ---
 
