@@ -1,7 +1,7 @@
 # Cursor 実装レポート — RP TTS 対応
 
 > 作成日: 2026-06-26  
-> 対象ブランチ: `main`（コミット後に追記）  
+> 対象ブランチ: `main`（`99bfc6f`）  
 > 設計レポート: `docs/rp-tts-design-and-priority.md`（Claude 検討済み）  
 > 前提: STEP5 GA/RP 切替、`activeIpa()` 対応済み
 
@@ -102,7 +102,7 @@ RP 選択時は IPA 表示・キーボードは STEP5 で対応済みだが、TT
 
 | 項目 | 値 |
 |------|-----|
-| ブランチ | `main` |
+| ブランチ | `main`（`99bfc6f`） |
 | GitHub Pages | クライアント側は push 後即反映 |
 | GAS | **Naoya 手動再デプロイ要** |
 
