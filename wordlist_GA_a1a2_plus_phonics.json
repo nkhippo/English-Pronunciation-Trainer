@@ -2043,7 +2043,7 @@
       "ja": "前に",
       "zh": "前",
       "ko": "~ 전에",
-      "fil": "bago"
+      "fil": "bago, dati"
     },
     "neighbors": [
       "because",
@@ -4883,7 +4883,7 @@
       "ja": "頭がいい",
       "zh": "聪明的",
       "ko": "영리한",
-      "fil": "matalino"
+      "fil": "matalino, mautak"
     },
     "neighbors": [
       "cover",
@@ -5692,7 +5692,7 @@
       "ja": "ソファー",
       "zh": "长椅",
       "ko": "침상",
-      "fil": "sopa"
+      "fil": "sopa, mahabang upuan"
     },
     "neighbors": [
       "catch",
@@ -6523,7 +6523,7 @@
       "ja": "違う",
       "zh": "不同的",
       "ko": "다른",
-      "fil": "iba"
+      "fil": "iba, magkaiba"
     },
     "neighbors": [
       "difference",
@@ -6544,7 +6544,7 @@
       "ja": "難しい",
       "zh": "难的",
       "ko": "어려운",
-      "fil": "mahirap"
+      "fil": "mahirap (gawin)"
     },
     "neighbors": [
       "difficulty"
@@ -7535,7 +7535,7 @@
       "ja": "簡単",
       "zh": "简单的",
       "ko": "쉬운",
-      "fil": "madali"
+      "fil": "madali (gawin)"
     },
     "neighbors": [
       "Z",
@@ -7889,7 +7889,7 @@
       "ja": "夕方",
       "zh": "晚上",
       "ko": "저녁",
-      "fil": "gabi"
+      "fil": "gabi (maaga)"
     },
     "neighbors": [
       "even",
@@ -16220,7 +16220,8 @@
       "en": "minute",
       "ja": "分",
       "zh": "分钟",
-      "ko": "분"
+      "ko": "분",
+      "fil": "minuto"
     },
     "neighbors": [
       "mint",
@@ -16246,7 +16247,8 @@
       "en": "miss",
       "ja": "逃す、ミス、恋しい",
       "zh": "错过、失误、想念",
-      "ko": "놓치다, 실수, 그리워하다"
+      "ko": "놓치다, 실수, 그리워하다",
+      "fil": "makaligtaan, mali, mangulila"
     },
     "neighbors": [
       "kiss",
@@ -16272,7 +16274,8 @@
       "en": "mobile",
       "ja": "携帯、移動式",
       "zh": "移动的、手机",
-      "ko": "이동식, 휴대전화"
+      "ko": "이동식, 휴대전화",
+      "fil": "mobile, naililipat"
     },
     "neighbors": [
       "middle",
@@ -16298,7 +16301,8 @@
       "en": "mom",
       "ja": "お母さん",
       "zh": "妈妈",
-      "ko": "엄마"
+      "ko": "엄마",
+      "fil": "nanay"
     },
     "neighbors": [
       "mum",
@@ -16324,7 +16328,8 @@
       "en": "moment",
       "ja": "一瞬",
       "zh": "片刻",
-      "ko": "순간"
+      "ko": "순간",
+      "fil": "sandali"
     },
     "neighbors": [
       "mustn't"
@@ -16343,7 +16348,8 @@
       "en": "monday",
       "ja": "月曜日",
       "zh": "周一",
-      "ko": "월요일"
+      "ko": "월요일",
+      "fil": "Lunes"
     },
     "neighbors": [
       "money",
@@ -16369,7 +16375,8 @@
       "en": "money",
       "ja": "お金",
       "zh": "钱",
-      "ko": "돈"
+      "ko": "돈",
+      "fil": "pera"
     },
     "neighbors": [
       "funny",
@@ -16395,7 +16402,8 @@
       "en": "monkey",
       "ja": "猿",
       "zh": "猴",
-      "ko": "원숭이"
+      "ko": "원숭이",
+      "fil": "unggoy"
     },
     "neighbors": [
       "lucky",
@@ -16417,7 +16425,8 @@
       "en": "month",
       "ja": "月",
       "zh": "月",
-      "ko": "월"
+      "ko": "월",
+      "fil": "buwan"
     },
     "neighbors": [
       "money",
@@ -16443,7 +16452,8 @@
       "en": "moon",
       "ja": "月",
       "zh": "月亮",
-      "ko": "달"
+      "ko": "달",
+      "fil": "buwan (sa langit)"
     },
     "neighbors": [
       "june",
@@ -16469,7 +16479,8 @@
       "en": "more",
       "ja": "もっと",
       "zh": "更多的",
-      "ko": "더"
+      "ko": "더",
+      "fil": "mas marami"
     },
     "neighbors": [
       "door",
@@ -16495,7 +16506,8 @@
       "en": "morning",
       "ja": "朝",
       "zh": "早晨",
-      "ko": "아침"
+      "ko": "아침",
+      "fil": "umaga"
     },
     "neighbors": [
       "boring",
@@ -16515,7 +16527,8 @@
       "en": "most",
       "ja": "ほとんど",
       "zh": "最多",
-      "ko": "최대"
+      "ko": "최대",
+      "fil": "pinakamarami"
     },
     "neighbors": [
       "ghost",
@@ -16541,7 +16554,8 @@
       "en": "mother",
       "ja": "母親",
       "zh": "母亲",
-      "ko": "어머니"
+      "ko": "어머니",
+      "fil": "ina"
     },
     "neighbors": [
       "other",
@@ -16567,7 +16581,8 @@
       "en": "mountain",
       "ja": "山",
       "zh": "山",
-      "ko": "산"
+      "ko": "산",
+      "fil": "bundok"
     },
     "neighbors": [
       "downtown",
@@ -16587,7 +16602,8 @@
       "en": "mouse",
       "ja": "ねずみ",
       "zh": "老鼠",
-      "ko": "생쥐"
+      "ko": "생쥐",
+      "fil": "daga"
     },
     "neighbors": [
       "house",
@@ -16613,7 +16629,8 @@
       "en": "mouth",
       "ja": "口",
       "zh": "嘴",
-      "ko": "입"
+      "ko": "입",
+      "fil": "bibig"
     },
     "neighbors": [
       "mouse",
@@ -16639,7 +16656,8 @@
       "en": "move",
       "ja": "動く、引っ越す、手",
       "zh": "移动、搬家、一步棋",
-      "ko": "움직이다, 이사하다, 수"
+      "ko": "움직이다, 이사하다, 수",
+      "fil": "gumalaw, lumipat, hakbang"
     },
     "neighbors": [
       "moon",
@@ -16665,7 +16683,8 @@
       "en": "movie",
       "ja": "映画",
       "zh": "电影",
-      "ko": "영화"
+      "ko": "영화",
+      "fil": "pelikula"
     },
     "neighbors": [
       "move",
@@ -16691,7 +16710,8 @@
       "en": "much",
       "ja": "多くの",
       "zh": "很多",
-      "ko": "많이"
+      "ko": "많이",
+      "fil": "marami"
     },
     "neighbors": [
       "match",
@@ -16717,7 +16737,8 @@
       "en": "mum",
       "ja": "お母さん",
       "zh": "妈妈",
-      "ko": "침묵"
+      "ko": "침묵",
+      "fil": "inay"
     },
     "neighbors": [
       "come",
@@ -16743,7 +16764,8 @@
       "en": "music",
       "ja": "音楽",
       "zh": "音乐",
-      "ko": "음악"
+      "ko": "음악",
+      "fil": "musika"
     },
     "neighbors": [],
     "rp_ipa": "/ˈmjuːzɪk/"
@@ -16760,7 +16782,8 @@
       "en": "musician",
       "ja": "ミュージシャン",
       "zh": "音乐家",
-      "ko": "음악가"
+      "ko": "음악가",
+      "fil": "musikero"
     },
     "neighbors": [
       "musical"
@@ -16779,7 +16802,8 @@
       "en": "must",
       "ja": "しなければならない",
       "zh": "必须",
-      "ko": "~ 해야 하다"
+      "ko": "~ 해야 하다",
+      "fil": "dapat"
     },
     "neighbors": [
       "just",
@@ -16805,7 +16829,8 @@
       "en": "must not",
       "ja": "must notの短縮形",
       "zh": "must not的缩写",
-      "ko": "must not의 축약형"
+      "ko": "must not의 축약형",
+      "fil": "pinaikling must not"
     },
     "neighbors": [
       "doesn't",
@@ -16826,7 +16851,8 @@
       "en": "my",
       "ja": "私の",
       "zh": "我的",
-      "ko": "나의"
+      "ko": "나의",
+      "fil": "akin (pag-aari)"
     },
     "neighbors": [
       "Y",
@@ -16852,7 +16878,8 @@
       "en": "letter N",
       "ja": "文字 N",
       "zh": "字母 N",
-      "ko": "문자 N"
+      "ko": "문자 N",
+      "fil": "titik N"
     },
     "neighbors": [
       "F",
@@ -16878,7 +16905,8 @@
       "en": "name",
       "ja": "名前、名づける、評判",
       "zh": "名字、命名、名声",
-      "ko": "이름, 이름짓다, 명성"
+      "ko": "이름, 이름짓다, 명성",
+      "fil": "pangalan, pangalanan, reputasyon"
     },
     "neighbors": [
       "came",
@@ -16904,7 +16932,8 @@
       "en": "nationality",
       "ja": "国籍",
       "zh": "国籍",
-      "ko": "국적"
+      "ko": "국적",
+      "fil": "nasyonalidad"
     },
     "neighbors": [],
     "rp_ipa": "/ˌnæʃəˈnæləti/"
@@ -16921,7 +16950,8 @@
       "en": "near",
       "ja": "近く",
       "zh": "靠近",
-      "ko": "가까운"
+      "ko": "가까운",
+      "fil": "malapit sa"
     },
     "neighbors": [
       "dear",
@@ -16947,7 +16977,8 @@
       "en": "neck",
       "ja": "ネック",
       "zh": "脖子",
-      "ko": "목"
+      "ko": "목",
+      "fil": "leeg"
     },
     "neighbors": [
       "check",
@@ -16973,7 +17004,8 @@
       "en": "need",
       "ja": "必要",
       "zh": "需要",
-      "ko": "필요"
+      "ko": "필요",
+      "fil": "kailangan"
     },
     "neighbors": [
       "feed",
@@ -16999,7 +17031,8 @@
       "en": "never",
       "ja": "一度もない",
       "zh": "绝不",
-      "ko": "절대"
+      "ko": "절대",
+      "fil": "hinding-hindi"
     },
     "neighbors": [
       "ever",
@@ -17025,7 +17058,8 @@
       "en": "new",
       "ja": "新しい",
       "zh": "新的",
-      "ko": "새로운"
+      "ko": "새로운",
+      "fil": "bago (panibago)"
     },
     "neighbors": [
       "U",
@@ -17051,7 +17085,8 @@
       "en": "news",
       "ja": "ニュース",
       "zh": "消息",
-      "ko": "소식"
+      "ko": "소식",
+      "fil": "balita"
     },
     "neighbors": [
       "choose",
@@ -17077,7 +17112,8 @@
       "en": "newspaper",
       "ja": "新聞",
       "zh": "报纸",
-      "ko": "신문"
+      "ko": "신문",
+      "fil": "pahayagan"
     },
     "neighbors": [],
     "rp_ipa": "/ˈnjuːzˌpeɪpə/"
@@ -17094,7 +17130,8 @@
       "en": "nice",
       "ja": "ニース",
       "zh": "好的",
-      "ko": "멋진"
+      "ko": "멋진",
+      "fil": "mabait, maganda"
     },
     "neighbors": [
       "knife",
@@ -17120,7 +17157,8 @@
       "en": "night",
       "ja": "夜",
       "zh": "夜晚",
-      "ko": "밤"
+      "ko": "밤",
+      "fil": "gabi, magdamag"
     },
     "neighbors": [
       "fight",
@@ -17146,7 +17184,8 @@
       "en": "nine",
       "ja": "九",
       "zh": "九",
-      "ko": "아홉"
+      "ko": "아홉",
+      "fil": "siyam"
     },
     "neighbors": [
       "fine",
@@ -17172,7 +17211,8 @@
       "en": "nineteen",
       "ja": "19",
       "zh": "十九",
-      "ko": "십구"
+      "ko": "십구",
+      "fil": "labinsiyam"
     },
     "neighbors": [
       "ninety"
@@ -17191,7 +17231,8 @@
       "en": "ninety",
       "ja": "九十",
       "zh": "九十",
-      "ko": "구십"
+      "ko": "구십",
+      "fil": "siyamnapu"
     },
     "neighbors": [
       "nineteen",
@@ -17211,7 +17252,8 @@
       "en": "no",
       "ja": "いいえ",
       "zh": "不",
-      "ko": "아니요"
+      "ko": "아니요",
+      "fil": "hindi"
     },
     "neighbors": [
       "go",
@@ -17237,7 +17279,8 @@
       "en": "noise",
       "ja": "ノイズ",
       "zh": "噪音",
-      "ko": "소음"
+      "ko": "소음",
+      "fil": "ingay"
     },
     "neighbors": [
       "news",
@@ -17263,7 +17306,8 @@
       "en": "nose",
       "ja": "鼻",
       "zh": "鼻子",
-      "ko": "코"
+      "ko": "코",
+      "fil": "ilong"
     },
     "neighbors": [
       "chose",
@@ -17289,7 +17333,8 @@
       "en": "not",
       "ja": "ない",
       "zh": "不是",
-      "ko": "~ 아니다"
+      "ko": "~ 아니다",
+      "fil": "hindi (panghihindi)"
     },
     "neighbors": [
       "bought",
@@ -17315,7 +17360,8 @@
       "en": "note",
       "ja": "メモ、音符、注意",
       "zh": "笔记、音符、注意",
-      "ko": "메모, 음표, 주의"
+      "ko": "메모, 음표, 주의",
+      "fil": "tala, nota, pansinin"
     },
     "neighbors": [
       "boat",
@@ -17341,7 +17387,8 @@
       "en": "notebook",
       "ja": "ノート",
       "zh": "笔记本",
-      "ko": "공책"
+      "ko": "공책",
+      "fil": "kuwaderno"
     },
     "neighbors": [],
     "rp_ipa": "/ˈnəʊtˌbʊk/"
@@ -17358,7 +17405,8 @@
       "en": "nothing",
       "ja": "何もない",
       "zh": "没有什么",
-      "ko": "아무것도 아님"
+      "ko": "아무것도 아님",
+      "fil": "wala"
     },
     "neighbors": [
       "anything",
@@ -17379,7 +17427,8 @@
       "en": "november",
       "ja": "11月",
       "zh": "十一月",
-      "ko": "십일월"
+      "ko": "십일월",
+      "fil": "Nobyembre"
     },
     "neighbors": [],
     "rp_ipa": "/nəʊˈvembə/"
@@ -17396,7 +17445,8 @@
       "en": "now",
       "ja": "今",
       "zh": "现在",
-      "ko": "지금"
+      "ko": "지금",
+      "fil": "ngayon"
     },
     "neighbors": [
       "cow",
@@ -17422,7 +17472,8 @@
       "en": "number",
       "ja": "番号",
       "zh": "数字",
-      "ko": "숫자"
+      "ko": "숫자",
+      "fil": "numero"
     },
     "neighbors": [
       "summer",
@@ -17442,7 +17493,8 @@
       "en": "nurse",
       "ja": "看護師",
       "zh": "护士",
-      "ko": "간호사"
+      "ko": "간호사",
+      "fil": "nars"
     },
     "neighbors": [
       "nice",
@@ -17468,7 +17520,8 @@
       "en": "letter O",
       "ja": "文字 O",
       "zh": "字母 O",
-      "ko": "문자 O"
+      "ko": "문자 O",
+      "fil": "titik O"
     },
     "neighbors": [
       "A",
@@ -17494,7 +17547,8 @@
       "en": "october",
       "ja": "10月",
       "zh": "十月",
-      "ko": "십월"
+      "ko": "십월",
+      "fil": "Oktubre"
     },
     "neighbors": [],
     "rp_ipa": "/ɒkˈtəʊbə/"
@@ -17511,7 +17565,8 @@
       "en": "of",
       "ja": "の",
       "zh": "的",
-      "ko": "~의"
+      "ko": "~의",
+      "fil": "ng"
     },
     "neighbors": [
       "i've",
@@ -17537,7 +17592,8 @@
       "en": "off",
       "ja": "オフ、離れて",
       "zh": "离开、关闭",
-      "ko": "꺼짐, 떨어져"
+      "ko": "꺼짐, 떨어져",
+      "fil": "patay, palayo"
     },
     "neighbors": [
       "F",
@@ -17563,7 +17619,8 @@
       "en": "office",
       "ja": "オフィス",
       "zh": "办公室",
-      "ko": "사무실"
+      "ko": "사무실",
+      "fil": "opisina"
     },
     "neighbors": [
       "face",
@@ -17589,7 +17646,8 @@
       "en": "officer",
       "ja": "役員",
       "zh": "官",
-      "ko": "장교"
+      "ko": "장교",
+      "fil": "opisyal"
     },
     "neighbors": [
       "office",
@@ -17609,7 +17667,8 @@
       "en": "often",
       "ja": "頻繁",
       "zh": "经常",
-      "ko": "자주"
+      "ko": "자주",
+      "fil": "madalas"
     },
     "neighbors": [
       "orphan",
@@ -17635,7 +17694,8 @@
       "en": "old",
       "ja": "古い",
       "zh": "老的",
-      "ko": "오래된"
+      "ko": "오래된",
+      "fil": "luma, matanda"
     },
     "neighbors": [
       "cold",
@@ -17661,7 +17721,8 @@
       "en": "olympics",
       "ja": "オリンピック",
       "zh": "奥运会",
-      "ko": "올림픽"
+      "ko": "올림픽",
+      "fil": "Olympics"
     },
     "neighbors": [
       "olympic"
@@ -17680,7 +17741,8 @@
       "en": "on",
       "ja": "の上",
       "zh": "在",
-      "ko": "~에"
+      "ko": "~에",
+      "fil": "sa ibabaw"
     },
     "neighbors": [
       "N",
@@ -17706,7 +17768,8 @@
       "en": "once",
       "ja": "一度",
       "zh": "一次",
-      "ko": "한 번"
+      "ko": "한 번",
+      "fil": "minsan"
     },
     "neighbors": [
       "what's",
@@ -17732,7 +17795,8 @@
       "en": "one",
       "ja": "1つ",
       "zh": "一",
-      "ko": "하나"
+      "ko": "하나",
+      "fil": "isa"
     },
     "neighbors": [
       "fun",
@@ -17758,7 +17822,8 @@
       "en": "only",
       "ja": "だけ、唯一の",
       "zh": "仅仅、唯一的",
-      "ko": "오직, 유일한"
+      "ko": "오직, 유일한",
+      "fil": "tanging, lamang"
     },
     "neighbors": [
       "lonely",
@@ -17784,7 +17849,8 @@
       "en": "open",
       "ja": "開く、開ける、公開",
       "zh": "打开、开启、公开",
-      "ko": "열다, 열리다, 공개"
+      "ko": "열다, 열리다, 공개",
+      "fil": "buksan, bukas, pampubliko"
     },
     "neighbors": [
       "apple",
@@ -17810,7 +17876,8 @@
       "en": "opera",
       "ja": "オペラ",
       "zh": "歌剧",
-      "ko": "오페라"
+      "ko": "오페라",
+      "fil": "opera"
     },
     "neighbors": [
       "april",
@@ -17836,7 +17903,8 @@
       "en": "or",
       "ja": "または",
       "zh": "或者",
-      "ko": "또는"
+      "ko": "또는",
+      "fil": "o"
     },
     "neighbors": [
       "R",
@@ -17862,7 +17930,8 @@
       "en": "orange",
       "ja": "オレンジ、オレンジ色",
       "zh": "橙子、橙色",
-      "ko": "오렌지, 주황색"
+      "ko": "오렌지, 주황색",
+      "fil": "orange, kahel"
     },
     "neighbors": [
       "aren't",
@@ -17886,7 +17955,8 @@
       "en": "order",
       "ja": "注文、命令、順序",
       "zh": "点餐、命令、顺序",
-      "ko": "주문, 명령, 순서"
+      "ko": "주문, 명령, 순서",
+      "fil": "order, utos, pagkakasunod"
     },
     "neighbors": [
       "board",
@@ -17912,7 +17982,8 @@
       "en": "other",
       "ja": "他の",
       "zh": "其他",
-      "ko": "다른"
+      "ko": "다른",
+      "fil": "iba, kabilang"
     },
     "neighbors": [
       "either",
@@ -17938,7 +18009,8 @@
       "en": "our",
       "ja": "私たちの",
       "zh": "我们的",
-      "ko": "우리의"
+      "ko": "우리의",
+      "fil": "amin (pag-aari)"
     },
     "neighbors": [
       "out",
@@ -17964,7 +18036,8 @@
       "en": "ours",
       "ja": "私たちの",
       "zh": "我们的",
-      "ko": "우리 것"
+      "ko": "우리 것",
+      "fil": "sa amin"
     },
     "neighbors": [
       "hers",
@@ -17990,7 +18063,8 @@
       "en": "out",
       "ja": "外",
       "zh": "出去",
-      "ko": "밖으로"
+      "ko": "밖으로",
+      "fil": "labas"
     },
     "neighbors": [
       "at",
@@ -18016,7 +18090,8 @@
       "en": "outside",
       "ja": "外",
       "zh": "外部",
-      "ko": "밖의"
+      "ko": "밖의",
+      "fil": "sa labas"
     },
     "neighbors": [
       "beside",
@@ -18039,7 +18114,8 @@
       "en": "over",
       "ja": "以上",
       "zh": "超过",
-      "ko": "~ 위에"
+      "ko": "~ 위에",
+      "fil": "mahigit, sa ibabaw"
     },
     "neighbors": [
       "owner",
@@ -18065,7 +18141,8 @@
       "en": "own",
       "ja": "自分の",
       "zh": "自己的",
-      "ko": "소유하다"
+      "ko": "소유하다",
+      "fil": "sarili"
     },
     "neighbors": [
       "N",
@@ -18091,7 +18168,8 @@
       "en": "owner",
       "ja": "所有者",
       "zh": "所有者",
-      "ko": "소유자"
+      "ko": "소유자",
+      "fil": "may-ari"
     },
     "neighbors": [
       "over",
@@ -18117,7 +18195,8 @@
       "en": "letter P",
       "ja": "文字 P",
       "zh": "字母 P",
-      "ko": "문자 P"
+      "ko": "문자 P",
+      "fil": "titik P"
     },
     "neighbors": [
       "B",
@@ -18143,7 +18222,8 @@
       "en": "page",
       "ja": "ページ",
       "zh": "页",
-      "ko": "페이지"
+      "ko": "페이지",
+      "fil": "pahina"
     },
     "neighbors": [
       "cage",
@@ -18169,7 +18249,8 @@
       "en": "paint",
       "ja": "絵の具、塗る、描く",
       "zh": "颜料、涂、画",
-      "ko": "페인트, 칠하다, 그리다"
+      "ko": "페인트, 칠하다, 그리다",
+      "fil": "pintura, magpinta, gumuhit"
     },
     "neighbors": [
       "point",
@@ -18195,7 +18276,8 @@
       "en": "painting",
       "ja": "絵画",
       "zh": "绘画",
-      "ko": "그림"
+      "ko": "그림",
+      "fil": "larawan"
     },
     "neighbors": [
       "painter",
@@ -18215,7 +18297,8 @@
       "en": "pair",
       "ja": "ペア",
       "zh": "一对",
-      "ko": "쌍"
+      "ko": "쌍",
+      "fil": "pares"
     },
     "neighbors": [
       "bear",
@@ -18241,7 +18324,8 @@
       "en": "palace",
       "ja": "宮殿",
       "zh": "宫殿",
-      "ko": "궁전"
+      "ko": "궁전",
+      "fil": "palasyo"
     },
     "neighbors": [
       "pants",
@@ -18267,7 +18351,8 @@
       "en": "pants",
       "ja": "パンツ",
       "zh": "裤子",
-      "ko": "바지"
+      "ko": "바지",
+      "fil": "pantalon"
     },
     "neighbors": [
       "can't",
@@ -18293,7 +18378,8 @@
       "en": "paper",
       "ja": "紙",
       "zh": "纸",
-      "ko": "종이"
+      "ko": "종이",
+      "fil": "papel"
     },
     "neighbors": [
       "pepper",
@@ -18319,7 +18405,8 @@
       "en": "paragraph",
       "ja": "段落",
       "zh": "段落",
-      "ko": "절"
+      "ko": "절",
+      "fil": "talata"
     },
     "neighbors": [],
     "rp_ipa": "/ˈpærəˌɡrɑːf/"
@@ -18336,7 +18423,8 @@
       "en": "pardon",
       "ja": "許し",
       "zh": "赦免",
-      "ko": "뭐라고요"
+      "ko": "뭐라고요",
+      "fil": "paumanhin, anong sabi mo"
     },
     "neighbors": [
       "garden",
@@ -18356,7 +18444,8 @@
       "en": "parent",
       "ja": "親",
       "zh": "家长",
-      "ko": "조상"
+      "ko": "조상",
+      "fil": "magulang"
     },
     "neighbors": [
       "aren't",
@@ -18379,7 +18468,8 @@
       "en": "park",
       "ja": "公園、駐車する、止める",
       "zh": "公园、停车、停放",
-      "ko": "공원, 주차하다, 세우다"
+      "ko": "공원, 주차하다, 세우다",
+      "fil": "parke, magparada, ihinto"
     },
     "neighbors": [
       "dark",
@@ -18405,7 +18495,8 @@
       "en": "partner",
       "ja": "パートナー",
       "zh": "伙伴",
-      "ko": "파트너"
+      "ko": "파트너",
+      "fil": "katuwang"
     },
     "neighbors": [
       "party",
@@ -18425,7 +18516,8 @@
       "en": "party",
       "ja": "パーティー",
       "zh": "派对",
-      "ko": "파티"
+      "ko": "파티",
+      "fil": "pista, partido"
     },
     "neighbors": [
       "part",
@@ -18451,7 +18543,8 @@
       "en": "past",
       "ja": "過去",
       "zh": "过去的",
-      "ko": "과거"
+      "ko": "과거",
+      "fil": "nakaraan"
     },
     "neighbors": [
       "fast",
@@ -18477,7 +18570,8 @@
       "en": "pay",
       "ja": "給料、支払う",
       "zh": "工资、支付",
-      "ko": "급여, 지불하다"
+      "ko": "급여, 지불하다",
+      "fil": "sahod, magbayad"
     },
     "neighbors": [
       "J",
@@ -18503,7 +18597,8 @@
       "en": "peace",
       "ja": "平和",
       "zh": "和平",
-      "ko": "평화"
+      "ko": "평화",
+      "fil": "kapayapaan"
     },
     "neighbors": [
       "geese",
@@ -18529,7 +18624,8 @@
       "en": "pen",
       "ja": "ペン",
       "zh": "笔",
-      "ko": "펜"
+      "ko": "펜",
+      "fil": "pluma"
     },
     "neighbors": [
       "men",
@@ -18555,7 +18651,8 @@
       "en": "pencil",
       "ja": "鉛筆",
       "zh": "铅笔",
-      "ko": "연필"
+      "ko": "연필",
+      "fil": "lapis"
     },
     "neighbors": [
       "gentle"
@@ -18574,7 +18671,8 @@
       "en": "people",
       "ja": "人々",
       "zh": "人们",
-      "ko": "사람들"
+      "ko": "사람들",
+      "fil": "mga tao"
     },
     "neighbors": [
       "purple",
@@ -18597,7 +18695,8 @@
       "en": "period",
       "ja": "期間",
       "zh": "时期",
-      "ko": "기간"
+      "ko": "기간",
+      "fil": "yugto"
     },
     "neighbors": [
       "cereal"
@@ -18616,7 +18715,8 @@
       "en": "person",
       "ja": "人",
       "zh": "人",
-      "ko": "사람"
+      "ko": "사람",
+      "fil": "tao"
     },
     "neighbors": [
       "lesson",
@@ -18642,7 +18742,8 @@
       "en": "personal",
       "ja": "個人的",
       "zh": "个人的",
-      "ko": "개인의"
+      "ko": "개인의",
+      "fil": "pansarili"
     },
     "neighbors": [],
     "rp_ipa": "/ˈpɜːsɪnəl/"
@@ -18659,7 +18760,8 @@
       "en": "pet",
       "ja": "ペット",
       "zh": "宠物",
-      "ko": "애완 동물"
+      "ko": "애완 동물",
+      "fil": "alagang hayop"
     },
     "neighbors": [
       "get",
@@ -18685,7 +18787,8 @@
       "en": "phone",
       "ja": "電話、電話する",
       "zh": "电话、打电话",
-      "ko": "전화, 전화하다"
+      "ko": "전화, 전화하다",
+      "fil": "telepono, tumawag"
     },
     "neighbors": [
       "bone",
@@ -18711,7 +18814,8 @@
       "en": "photo",
       "ja": "写真",
       "zh": "照片",
-      "ko": "사진"
+      "ko": "사진",
+      "fil": "litrato"
     },
     "neighbors": [
       "boat",
@@ -18737,7 +18841,8 @@
       "en": "piano",
       "ja": "ピアノ",
       "zh": "钢琴",
-      "ko": "피아노"
+      "ko": "피아노",
+      "fil": "piyano"
     },
     "neighbors": [
       "plan",
@@ -18758,7 +18863,8 @@
       "en": "pick",
       "ja": "選ぶ、摘む、ピック",
       "zh": "挑选、采摘、拨片",
-      "ko": "고르다, 따다, 픽"
+      "ko": "고르다, 따다, 픽",
+      "fil": "pumili, mamitas, pick"
     },
     "neighbors": [
       "kick",
@@ -18784,7 +18890,8 @@
       "en": "picnic",
       "ja": "ピクニック",
       "zh": "野餐",
-      "ko": "피크닉"
+      "ko": "피크닉",
+      "fil": "piknik"
     },
     "neighbors": [
       "panic"
@@ -18803,7 +18910,8 @@
       "en": "picture",
       "ja": "絵、写真、想像する",
       "zh": "画、照片、想象",
-      "ko": "그림, 사진, 상상하다"
+      "ko": "그림, 사진, 상상하다",
+      "fil": "larawan, litrato, isipin"
     },
     "neighbors": [],
     "rp_ipa": "/ˈpɪktʃə/"
@@ -18820,7 +18928,8 @@
       "en": "piece",
       "ja": "ピース",
       "zh": "片",
-      "ko": "조각"
+      "ko": "조각",
+      "fil": "piraso"
     },
     "neighbors": [
       "geese",
@@ -18846,7 +18955,8 @@
       "en": "pig",
       "ja": "豚",
       "zh": "猪",
-      "ko": "돼지"
+      "ko": "돼지",
+      "fil": "baboy"
     },
     "neighbors": [
       "big",
@@ -18872,7 +18982,8 @@
       "en": "pink",
       "ja": "ピンク、ピンク色",
       "zh": "粉色、粉红色的",
-      "ko": "분홍, 분홍색"
+      "ko": "분홍, 분홍색",
+      "fil": "rosas"
     },
     "neighbors": [
       "think",
@@ -18898,7 +19009,8 @@
       "en": "pizza",
       "ja": "ピザ",
       "zh": "比萨",
-      "ko": "피자"
+      "ko": "피자",
+      "fil": "pizza"
     },
     "neighbors": [
       "pc"
@@ -18917,7 +19029,8 @@
       "en": "place",
       "ja": "場所、置く、順位",
       "zh": "地方、放置、名次",
-      "ko": "장소, 놓다, 순위"
+      "ko": "장소, 놓다, 순위",
+      "fil": "lugar, ilagay, ranggo"
     },
     "neighbors": [
       "plane",
@@ -18943,7 +19056,8 @@
       "en": "plan",
       "ja": "プラン",
       "zh": "计划",
-      "ko": "계획"
+      "ko": "계획",
+      "fil": "plano"
     },
     "neighbors": [
       "plane",
@@ -18969,7 +19083,8 @@
       "en": "plane",
       "ja": "飛行機",
       "zh": "飞机",
-      "ko": "비행기"
+      "ko": "비행기",
+      "fil": "eroplano"
     },
     "neighbors": [
       "place",
@@ -18995,7 +19110,8 @@
       "en": "play",
       "ja": "遊ぶ、演じる、演奏する",
       "zh": "玩、扮演、演奏",
-      "ko": "놀다, 연기하다, 연주하다"
+      "ko": "놀다, 연기하다, 연주하다",
+      "fil": "maglaro, gumanap, tumugtog"
     },
     "neighbors": [
       "pray",
@@ -19021,7 +19137,8 @@
       "en": "player",
       "ja": "プレーヤー",
       "zh": "玩家",
-      "ko": "플레이어"
+      "ko": "플레이어",
+      "fil": "manlalaro"
     },
     "neighbors": [
       "place",
@@ -19047,7 +19164,8 @@
       "en": "please",
       "ja": "お願いします",
       "zh": "请",
-      "ko": "제발"
+      "ko": "제발",
+      "fil": "pakiusap"
     },
     "neighbors": [
       "plead",
@@ -19073,7 +19191,8 @@
       "en": "pleasure",
       "ja": "喜び",
       "zh": "乐趣",
-      "ko": "기쁨"
+      "ko": "기쁨",
+      "fil": "kasiyahan"
     },
     "neighbors": [
       "leisure",
@@ -19099,7 +19218,8 @@
       "en": "pocket",
       "ja": "ポケット",
       "zh": "口袋",
-      "ko": "포켓"
+      "ko": "포켓",
+      "fil": "bulsa"
     },
     "neighbors": [
       "bucket",
@@ -19123,7 +19243,8 @@
       "en": "poem",
       "ja": "詩",
       "zh": "诗",
-      "ko": "시"
+      "ko": "시",
+      "fil": "tula"
     },
     "neighbors": [
       "autumn",
@@ -19149,7 +19270,8 @@
       "en": "point",
       "ja": "点、指す、要点",
       "zh": "点、指向、要点",
-      "ko": "점, 가리키다, 요점"
+      "ko": "점, 가리키다, 요점",
+      "fil": "puntos, ituro, punto"
     },
     "neighbors": [
       "paint",
@@ -19175,7 +19297,8 @@
       "en": "pollution",
       "ja": "汚染",
       "zh": "污染",
-      "ko": "오염"
+      "ko": "오염",
+      "fil": "polusyon"
     },
     "neighbors": [
       "solution",
@@ -19195,7 +19318,8 @@
       "en": "pool",
       "ja": "プール",
       "zh": "水池",
-      "ko": "수영장"
+      "ko": "수영장",
+      "fil": "swimming pool"
     },
     "neighbors": [
       "cool",
@@ -19221,7 +19345,8 @@
       "en": "poor",
       "ja": "貧しい",
       "zh": "贫穷的",
-      "ko": "가난한"
+      "ko": "가난한",
+      "fil": "mahirap, dukha"
     },
     "neighbors": [
       "pair",
@@ -19247,7 +19372,8 @@
       "en": "pop",
       "ja": "ポップ",
       "zh": "流行音乐",
-      "ko": "팝"
+      "ko": "팝",
+      "fil": "pop"
     },
     "neighbors": [
       "cop",
@@ -19273,7 +19399,8 @@
       "en": "post",
       "ja": "郵便、投稿、柱",
       "zh": "邮件、发帖、柱子",
-      "ko": "우편, 게시, 기둥"
+      "ko": "우편, 게시, 기둥",
+      "fil": "koreo, mag-post, poste"
     },
     "neighbors": [
       "ghost",
@@ -19299,7 +19426,8 @@
       "en": "poster",
       "ja": "ポスター",
       "zh": "海报",
-      "ko": "포스터"
+      "ko": "포스터",
+      "fil": "poster"
     },
     "neighbors": [
       "post",
@@ -19325,7 +19453,8 @@
       "en": "potato",
       "ja": "じゃがいも",
       "zh": "土豆",
-      "ko": "감자"
+      "ko": "감자",
+      "fil": "patatas"
     },
     "neighbors": [
       "tomato"
@@ -19344,7 +19473,8 @@
       "en": "practice",
       "ja": "練習する",
       "zh": "实践",
-      "ko": "관행"
+      "ko": "관행",
+      "fil": "magsanay, kasanayan"
     },
     "neighbors": [],
     "rp_ipa": "/ˈpræktɪs/"
@@ -19361,7 +19491,8 @@
       "en": "pray",
       "ja": "祈る",
       "zh": "祈祷",
-      "ko": "기도하다"
+      "ko": "기도하다",
+      "fil": "manalangin"
     },
     "neighbors": [
       "play",
@@ -19387,7 +19518,8 @@
       "en": "present",
       "ja": "贈り物、贈る、現在",
       "zh": "礼物、赠送、现在",
-      "ko": "선물, 주다, 현재"
+      "ko": "선물, 주다, 현재",
+      "fil": "regalo, magbigay, kasalukuyan"
     },
     "neighbors": [
       "pleasant",
@@ -19407,7 +19539,8 @@
       "en": "pretty",
       "ja": "かわいい、かなり",
       "zh": "漂亮的、相当",
-      "ko": "예쁜, 꽤"
+      "ko": "예쁜, 꽤",
+      "fil": "maganda, medyo"
     },
     "neighbors": [
       "pity",
@@ -19433,7 +19566,8 @@
       "en": "price",
       "ja": "価格",
       "zh": "价格",
-      "ko": "가격"
+      "ko": "가격",
+      "fil": "presyo"
     },
     "neighbors": [
       "press",
@@ -19459,7 +19593,8 @@
       "en": "prince",
       "ja": "王子",
       "zh": "王子",
-      "ko": "왕자"
+      "ko": "왕자",
+      "fil": "prinsipe"
     },
     "neighbors": [
       "prance",
@@ -19485,7 +19620,8 @@
       "en": "princess",
       "ja": "お姫様",
       "zh": "公主",
-      "ko": "공주"
+      "ko": "공주",
+      "fil": "prinsesa"
     },
     "neighbors": [
       "precise"
@@ -19504,7 +19640,8 @@
       "en": "problem",
       "ja": "問題",
       "zh": "问题",
-      "ko": "문제"
+      "ko": "문제",
+      "fil": "suliranin"
     },
     "neighbors": [],
     "rp_ipa": "/ˈprɒbləm/"
@@ -19521,7 +19658,8 @@
       "en": "purple",
       "ja": "紫、紫色",
       "zh": "紫色、紫色的",
-      "ko": "보라, 보라색"
+      "ko": "보라, 보라색",
+      "fil": "lila"
     },
     "neighbors": [
       "people",
@@ -19545,7 +19683,8 @@
       "en": "push",
       "ja": "押す",
       "zh": "推",
-      "ko": "푸시"
+      "ko": "푸시",
+      "fil": "itulak"
     },
     "neighbors": [
       "put",
@@ -19571,7 +19710,8 @@
       "en": "put",
       "ja": "置く",
       "zh": "放",
-      "ko": "놓다"
+      "ko": "놓다",
+      "fil": "ilagay"
     },
     "neighbors": [
       "pet",
@@ -19597,7 +19737,8 @@
       "en": "letter Q",
       "ja": "文字 Q",
       "zh": "字母 Q",
-      "ko": "문자 Q"
+      "ko": "문자 Q",
+      "fil": "titik Q"
     },
     "neighbors": [
       "clue",
@@ -19623,7 +19764,8 @@
       "en": "quarter",
       "ja": "四半期",
       "zh": "四分之一",
-      "ko": "4분의 1"
+      "ko": "4분의 1",
+      "fil": "kapat"
     },
     "neighbors": [
       "corner"
@@ -19642,7 +19784,8 @@
       "en": "question",
       "ja": "質問",
       "zh": "问题",
-      "ko": "질문"
+      "ko": "질문",
+      "fil": "tanong"
     },
     "neighbors": [],
     "rp_ipa": "/ˈkwestʃən/"
@@ -19659,7 +19802,8 @@
       "en": "quickly",
       "ja": "素早く",
       "zh": "迅速地",
-      "ko": "빠르게"
+      "ko": "빠르게",
+      "fil": "mabilis"
     },
     "neighbors": [
       "clearly",
@@ -19679,7 +19823,8 @@
       "en": "quiet",
       "ja": "静かな",
       "zh": "安静的",
-      "ko": "조용한"
+      "ko": "조용한",
+      "fil": "tahimik"
     },
     "neighbors": [
       "quite",
@@ -19702,7 +19847,8 @@
       "en": "letter R",
       "ja": "文字 R",
       "zh": "字母 R",
-      "ko": "문자 R"
+      "ko": "문자 R",
+      "fil": "titik R"
     },
     "neighbors": [
       "ear",
@@ -19728,7 +19874,8 @@
       "en": "rabbit",
       "ja": "うさぎ",
       "zh": "兔子",
-      "ko": "토끼"
+      "ko": "토끼",
+      "fil": "kuneho"
     },
     "neighbors": [
       "habit",
@@ -19752,7 +19899,8 @@
       "en": "radio",
       "ja": "無線",
       "zh": "收音机",
-      "ko": "라디오"
+      "ko": "라디오",
+      "fil": "radyo"
     },
     "neighbors": [
       "lady",
@@ -19775,7 +19923,8 @@
       "en": "rain",
       "ja": "雨、降る、雨が降る",
       "zh": "雨、下雨、降雨",
-      "ko": "비, 내리다, 강우"
+      "ko": "비, 내리다, 강우",
+      "fil": "ulan, umulan, pag-ulan"
     },
     "neighbors": [
       "ran",
@@ -19801,7 +19950,8 @@
       "en": "rainy",
       "ja": "雨の",
       "zh": "下雨的",
-      "ko": "비오는"
+      "ko": "비오는",
+      "fil": "maulan"
     },
     "neighbors": [
       "range",
@@ -19827,7 +19977,8 @@
       "en": "past tense of run",
       "ja": "走る、経営する、作動（runの過去形）",
       "zh": "跑、经营、运行（run的过去式）",
-      "ko": "달리다, 운영하다, 작동 (run의 과거형)"
+      "ko": "달리다, 운영하다, 작동 (run의 과거형)",
+      "fil": "tumakbo (past tense ng run)"
     },
     "neighbors": [
       "can",
@@ -19853,7 +20004,8 @@
       "en": "past tense of ring",
       "ja": "指輪、鳴る、輪（ringの過去形）",
       "zh": "戒指、响、环（ring的过去式）",
-      "ko": "반지, 울리다, 고리 (ring의 과거형)"
+      "ko": "반지, 울리다, 고리 (ring의 과거형)",
+      "fil": "tumunog (past tense ng ring)"
     },
     "neighbors": [
       "ran",
@@ -19879,7 +20031,8 @@
       "en": "rat",
       "ja": "ねずみ",
       "zh": "鼠",
-      "ko": "쥐"
+      "ko": "쥐",
+      "fil": "daga (malaki)"
     },
     "neighbors": [
       "bat",
@@ -19905,7 +20058,8 @@
       "en": "read",
       "ja": "読む、読書、読み取る",
       "zh": "读、阅读、读取",
-      "ko": "읽다, 독서, 판독하다"
+      "ko": "읽다, 독서, 판독하다",
+      "fil": "basahin, pagbasa, kabasahan"
     },
     "neighbors": [
       "bed",
@@ -19931,7 +20085,8 @@
       "en": "reader",
       "ja": "リーダー",
       "zh": "读者",
-      "ko": "리더"
+      "ko": "리더",
+      "fil": "mambabasa"
     },
     "neighbors": [
       "leader",
@@ -19957,7 +20112,8 @@
       "en": "reading",
       "ja": "読む",
       "zh": "阅读",
-      "ko": "독서"
+      "ko": "독서",
+      "fil": "pagbabasa"
     },
     "neighbors": [
       "feeling",
@@ -19983,7 +20139,8 @@
       "en": "ready",
       "ja": "準備ができて",
       "zh": "准备好",
-      "ko": "준비가 된"
+      "ko": "준비가 된",
+      "fil": "handa"
     },
     "neighbors": [
       "read",
@@ -20009,7 +20166,8 @@
       "en": "real",
       "ja": "本物、本当に",
       "zh": "真实的、真正地",
-      "ko": "진짜, 정말"
+      "ko": "진짜, 정말",
+      "fil": "totoo, talagang"
     },
     "neighbors": [
       "feel",
@@ -20035,7 +20193,8 @@
       "en": "really",
       "ja": "本当に",
       "zh": "真的",
-      "ko": "정말"
+      "ko": "정말",
+      "fil": "talaga"
     },
     "neighbors": [
       "lily",
@@ -20061,7 +20220,8 @@
       "en": "reason",
       "ja": "理由",
       "zh": "原因",
-      "ko": "이유"
+      "ko": "이유",
+      "fil": "dahilan"
     },
     "neighbors": [
       "chosen",
@@ -20087,7 +20247,8 @@
       "en": "red",
       "ja": "赤、赤い",
       "zh": "红色、红色的",
-      "ko": "빨강, 빨간색"
+      "ko": "빨강, 빨간색",
+      "fil": "pula"
     },
     "neighbors": [
       "bed",
@@ -20113,7 +20274,8 @@
       "en": "remember",
       "ja": "覚えて",
       "zh": "记住",
-      "ko": "기억하다"
+      "ko": "기억하다",
+      "fil": "tandaan"
     },
     "neighbors": [
       "december"
@@ -20132,7 +20294,8 @@
       "en": "repeat",
       "ja": "繰り返す",
       "zh": "重复",
-      "ko": "반복하다"
+      "ko": "반복하다",
+      "fil": "ulitin"
     },
     "neighbors": [
       "receipt",
@@ -20157,7 +20320,8 @@
       "en": "reporter",
       "ja": "レポーター",
       "zh": "记者",
-      "ko": "보고자"
+      "ko": "보고자",
+      "fil": "reporter"
     },
     "neighbors": [
       "report"
@@ -20176,7 +20340,8 @@
       "en": "restaurant",
       "ja": "レストラン",
       "zh": "餐厅",
-      "ko": "식당"
+      "ko": "식당",
+      "fil": "restawran"
     },
     "neighbors": [],
     "rp_ipa": "/ˈrestəˌrɒnt/"
@@ -20193,7 +20358,8 @@
       "en": "result",
       "ja": "結果",
       "zh": "结果",
-      "ko": "결과"
+      "ko": "결과",
+      "fil": "resulta"
     },
     "neighbors": [],
     "rp_ipa": "/rɪˈzʌlt/"
@@ -20210,7 +20376,8 @@
       "en": "review",
       "ja": "レビュー",
       "zh": "审查",
-      "ko": "검토"
+      "ko": "검토",
+      "fil": "pagsusuri"
     },
     "neighbors": [],
     "rp_ipa": "/ˌriːˈvjuː/"
@@ -20227,7 +20394,8 @@
       "en": "ribbon",
       "ja": "リボン",
       "zh": "丝带",
-      "ko": "리본"
+      "ko": "리본",
+      "fil": "laso"
     },
     "neighbors": [
       "ridden",
@@ -20253,7 +20421,8 @@
       "en": "rice",
       "ja": "米",
       "zh": "米",
-      "ko": "쌀"
+      "ko": "쌀",
+      "fil": "bigas, kanin"
     },
     "neighbors": [
       "mice",
@@ -20279,7 +20448,8 @@
       "en": "rich",
       "ja": "リッチ",
       "zh": "富有的",
-      "ko": "부자"
+      "ko": "부자",
+      "fil": "mayaman"
     },
     "neighbors": [
       "ring",
@@ -20305,7 +20475,8 @@
       "en": "past participle of ride",
       "ja": "乗車、乗る（rideの過去分詞）",
       "zh": "乘坐、骑车（ride的过去分词）",
-      "ko": "탑승, 타다 (ride의 과거분사)"
+      "ko": "탑승, 타다 (ride의 과거분사)",
+      "fil": "sumakay (past participle ng ride)"
     },
     "neighbors": [
       "ribbon",
@@ -20331,7 +20502,8 @@
       "en": "ride",
       "ja": "乗車、乗る",
       "zh": "乘坐、骑车",
-      "ko": "탑승, 타다"
+      "ko": "탑승, 타다",
+      "fil": "sakay, sumakay"
     },
     "neighbors": [
       "hide",
@@ -20357,7 +20529,8 @@
       "en": "right",
       "ja": "右、正しい、権利",
       "zh": "右边、正确的、权利",
-      "ko": "오른쪽, 옳은, 권리"
+      "ko": "오른쪽, 옳은, 권리",
+      "fil": "kanan, tama, karapatan"
     },
     "neighbors": [
       "fight",
@@ -20383,7 +20556,8 @@
       "en": "ring",
       "ja": "指輪、鳴る、輪",
       "zh": "戒指、响、环",
-      "ko": "반지, 울리다, 고리"
+      "ko": "반지, 울리다, 고리",
+      "fil": "singsing, tumunog, argolya"
     },
     "neighbors": [
       "king",
@@ -20409,7 +20583,8 @@
       "en": "river",
       "ja": "川",
       "zh": "河",
-      "ko": "강"
+      "ko": "강",
+      "fil": "ilog"
     },
     "neighbors": [
       "cover",
@@ -20435,7 +20610,8 @@
       "en": "past tense of ride",
       "ja": "乗車、乗る（rideの過去形）",
       "zh": "乘坐、骑车（ride的过去式）",
-      "ko": "탑승, 타다 (ride의 과거형)"
+      "ko": "탑승, 타다 (ride의 과거형)",
+      "fil": "sumakay (past tense ng ride)"
     },
     "neighbors": [
       "code",
@@ -20461,7 +20637,8 @@
       "en": "role",
       "ja": "役割",
       "zh": "角色",
-      "ko": "역할"
+      "ko": "역할",
+      "fil": "papel, tungkulin"
     },
     "neighbors": [
       "bowl",
@@ -20487,7 +20664,8 @@
       "en": "room",
       "ja": "部屋",
       "zh": "房间",
-      "ko": "방"
+      "ko": "방",
+      "fil": "silid"
     },
     "neighbors": [
       "rude",
@@ -20513,7 +20691,8 @@
       "en": "rose",
       "ja": "薔薇",
       "zh": "玫瑰",
-      "ko": "장미"
+      "ko": "장미",
+      "fil": "rosas (bulaklak)"
     },
     "neighbors": [
       "chose",
@@ -20539,7 +20718,8 @@
       "en": "row",
       "ja": "列、漕ぐ、喧嘩",
       "zh": "行、划船、争吵",
-      "ko": "줄, 젓다, 다툼"
+      "ko": "줄, 젓다, 다툼",
+      "fil": "hilera, sumagwan, away"
     },
     "neighbors": [
       "go",
@@ -20565,7 +20745,8 @@
       "en": "rude",
       "ja": "失礼",
       "zh": "粗鲁的",
-      "ko": "무례한"
+      "ko": "무례한",
+      "fil": "bastos"
     },
     "neighbors": [
       "food",
@@ -20591,7 +20772,8 @@
       "en": "rule",
       "ja": "ルール",
       "zh": "规则",
-      "ko": "규칙"
+      "ko": "규칙",
+      "fil": "alituntunin"
     },
     "neighbors": [
       "cool",
@@ -20617,7 +20799,8 @@
       "en": "ruler",
       "ja": "ルーラー",
       "zh": "统治者",
-      "ko": "자"
+      "ko": "자",
+      "fil": "ruler, panukat"
     },
     "neighbors": [
       "cooler",
@@ -20643,7 +20826,8 @@
       "en": "run",
       "ja": "走る、経営する、作動",
       "zh": "跑、经营、运行",
-      "ko": "달리다, 운영하다, 작동"
+      "ko": "달리다, 운영하다, 작동",
+      "fil": "tumakbo, pamahalaan, gumana"
     },
     "neighbors": [
       "fun",
@@ -20669,7 +20853,8 @@
       "en": "past participle of ring",
       "ja": "指輪、鳴る、輪（ringの過去分詞）",
       "zh": "戒指、响、环（ring的过去分词）",
-      "ko": "반지, 울리다, 고리 (ring의 과거분사)"
+      "ko": "반지, 울리다, 고리 (ring의 과거분사)",
+      "fil": "tumunog (past participle ng ring)"
     },
     "neighbors": [
       "rang",
@@ -20695,7 +20880,8 @@
       "en": "letter S",
       "ja": "文字 S",
       "zh": "字母 S",
-      "ko": "문자 S"
+      "ko": "문자 S",
+      "fil": "titik S"
     },
     "neighbors": [
       "F",
@@ -20721,7 +20907,8 @@
       "en": "sad",
       "ja": "悲しい",
       "zh": "伤心",
-      "ko": "슬픈"
+      "ko": "슬픈",
+      "fil": "malungkot"
     },
     "neighbors": [
       "bad",
@@ -20747,7 +20934,8 @@
       "en": "past tense / past participle of say",
       "ja": "言う（sayの過去形・過去分詞）",
       "zh": "说（say的过去式/过去分词）",
-      "ko": "말하다 (say의 과거형·과거분사)"
+      "ko": "말하다 (say의 과거형·과거분사)",
+      "fil": "sinabi (past tense/past participle ng say)"
     },
     "neighbors": [
       "bed",
@@ -20773,7 +20961,8 @@
       "en": "sailor",
       "ja": "船員",
       "zh": "水手",
-      "ko": "선원"
+      "ko": "선원",
+      "fil": "marino"
     },
     "neighbors": [
       "sale",
@@ -20799,7 +20988,8 @@
       "en": "salad",
       "ja": "サラダ",
       "zh": "沙拉",
-      "ko": "샐러드"
+      "ko": "샐러드",
+      "fil": "ensalada"
     },
     "neighbors": [
       "palace",
@@ -20821,7 +21011,8 @@
       "en": "sale",
       "ja": "販売",
       "zh": "销售",
-      "ko": "판매"
+      "ko": "판매",
+      "fil": "benta"
     },
     "neighbors": [
       "mail",
@@ -20847,7 +21038,8 @@
       "en": "same",
       "ja": "同じ、同様に",
       "zh": "相同的、同样",
-      "ko": "같은, 똑같이"
+      "ko": "같은, 똑같이",
+      "fil": "pareho, gayundin"
     },
     "neighbors": [
       "came",
@@ -20873,7 +21065,8 @@
       "en": "sandwich",
       "ja": "サンドイッチ",
       "zh": "三明治",
-      "ko": "샌드위치"
+      "ko": "샌드위치",
+      "fil": "sandwich"
     },
     "neighbors": [],
     "rp_ipa": "/ˈsænwɪtʃ/"
@@ -20890,7 +21083,8 @@
       "en": "past tense of sing",
       "ja": "歌う、歌唱、鳴く（singの過去形）",
       "zh": "唱、歌唱、鸣叫（sing的过去式）",
-      "ko": "노래하다, 가창, 울다 (sing의 과거형)"
+      "ko": "노래하다, 가창, 울다 (sing의 과거형)",
+      "fil": "kumanta (past tense ng sing)"
     },
     "neighbors": [
       "rang",
@@ -20916,7 +21110,8 @@
       "en": "past tense / past participle of sit",
       "ja": "座る、開催される、座らせる（sitの過去形・過去分詞）",
       "zh": "坐、举行、使就座（sit的过去式/过去分词）",
-      "ko": "앉다, 열리다, 앉히다 (sit의 과거형·과거분사)"
+      "ko": "앉다, 열리다, 앉히다 (sit의 과거형·과거분사)",
+      "fil": "umupo (past tense/past participle ng sit)"
     },
     "neighbors": [
       "bat",
@@ -20942,7 +21137,8 @@
       "en": "saturday",
       "ja": "土曜日",
       "zh": "周六",
-      "ko": "토요일"
+      "ko": "토요일",
+      "fil": "Sabado"
     },
     "neighbors": [
       "study",
@@ -20963,7 +21159,8 @@
       "en": "save",
       "ja": "救う、保存する、節約",
       "zh": "拯救、保存、节约",
-      "ko": "구하다, 저장하다, 절약"
+      "ko": "구하다, 저장하다, 절약",
+      "fil": "sagipin, i-save, magtipid"
     },
     "neighbors": [
       "gave",
@@ -20989,7 +21186,8 @@
       "en": "saw",
       "ja": "見た",
       "zh": "锯",
-      "ko": "봤다"
+      "ko": "봤다",
+      "fil": "nakita (past tense ng see)"
     },
     "neighbors": [
       "C",
@@ -21015,7 +21213,8 @@
       "en": "say",
       "ja": "言う",
       "zh": "说",
-      "ko": "말하다"
+      "ko": "말하다",
+      "fil": "sabihin"
     },
     "neighbors": [
       "C",
@@ -21041,7 +21240,8 @@
       "en": "school",
       "ja": "学校",
       "zh": "学校",
-      "ko": "학교"
+      "ko": "학교",
+      "fil": "paaralan"
     },
     "neighbors": [
       "skill",
@@ -21067,7 +21267,8 @@
       "en": "science",
       "ja": "科学",
       "zh": "科学",
-      "ko": "과학"
+      "ko": "과학",
+      "fil": "agham"
     },
     "neighbors": [
       "silence",
@@ -21089,7 +21290,8 @@
       "en": "scientist",
       "ja": "科学者",
       "zh": "科学家",
-      "ko": "과학자"
+      "ko": "과학자",
+      "fil": "siyentipiko"
     },
     "neighbors": [],
     "rp_ipa": "/ˈsaɪəntɪst/"
@@ -21106,7 +21308,8 @@
       "en": "sea",
       "ja": "海",
       "zh": "海",
-      "ko": "바다"
+      "ko": "바다",
+      "fil": "dagat"
     },
     "neighbors": [
       "B",
@@ -21132,7 +21335,8 @@
       "en": "seat",
       "ja": "席、座らせる、座る",
       "zh": "座位、使就座、坐",
-      "ko": "좌석, 앉히다, 앉다"
+      "ko": "좌석, 앉히다, 앉다",
+      "fil": "upuan, paupuin, umupo"
     },
     "neighbors": [
       "feet",
@@ -21158,7 +21362,8 @@
       "en": "second",
       "ja": "秒、第二",
       "zh": "秒、第二",
-      "ko": "초, 두 번째"
+      "ko": "초, 두 번째",
+      "fil": "segundo, ikalawa"
     },
     "neighbors": [
       "section",
@@ -21178,7 +21383,8 @@
       "en": "section",
       "ja": "セクション",
       "zh": "部分",
-      "ko": "부분"
+      "ko": "부분",
+      "fil": "bahagi"
     },
     "neighbors": [
       "action",
@@ -21203,7 +21409,8 @@
       "en": "see",
       "ja": "見る",
       "zh": "看",
-      "ko": "보다"
+      "ko": "보다",
+      "fil": "makita"
     },
     "neighbors": [
       "B",
@@ -21229,7 +21436,8 @@
       "en": "past participle of see",
       "ja": "見る（seeの過去分詞）",
       "zh": "看（see的过去分词）",
-      "ko": "보다 (see의 과거분사)"
+      "ko": "보다 (see의 과거분사)",
+      "fil": "nakita (past participle ng see)"
     },
     "neighbors": [
       "bean",
@@ -21255,7 +21463,8 @@
       "en": "self",
       "ja": "自己",
       "zh": "自己",
-      "ko": "본인"
+      "ko": "본인",
+      "fil": "sarili (pagkatao)"
     },
     "neighbors": [
       "shelf",
@@ -21281,7 +21490,8 @@
       "en": "sell",
       "ja": "売る",
       "zh": "卖",
-      "ko": "팔다"
+      "ko": "팔다",
+      "fil": "magbenta"
     },
     "neighbors": [
       "bell",
@@ -21307,7 +21517,8 @@
       "en": "past tense / past participle of send",
       "ja": "送信（sendの過去形・過去分詞）",
       "zh": "发送（send的过去式/过去分词）",
-      "ko": "보내다 (send의 과거형·과거분사)"
+      "ko": "보내다 (send의 과거형·과거분사)",
+      "fil": "ipinadala (past tense/past participle ng send)"
     },
     "neighbors": [
       "lent",
@@ -21333,7 +21544,8 @@
       "en": "sentence",
       "ja": "文",
       "zh": "句子",
-      "ko": "문장"
+      "ko": "문장",
+      "fil": "pangungusap"
     },
     "neighbors": [
       "entrance"
@@ -21352,7 +21564,8 @@
       "en": "september",
       "ja": "9月",
       "zh": "九月",
-      "ko": "구월"
+      "ko": "구월",
+      "fil": "Setyembre"
     },
     "neighbors": [],
     "rp_ipa": "/sepˈtembə/"
@@ -21369,7 +21582,8 @@
       "en": "set",
       "ja": "セット、設定する",
       "zh": "一套、设置",
-      "ko": "세트, 설정하다"
+      "ko": "세트, 설정하다",
+      "fil": "set, itakda"
     },
     "neighbors": [
       "get",
@@ -21395,7 +21609,8 @@
       "en": "seven",
       "ja": "セブン",
       "zh": "七",
-      "ko": "일곱"
+      "ko": "일곱",
+      "fil": "pito"
     },
     "neighbors": [
       "eleven",
@@ -21421,7 +21636,8 @@
       "en": "seventeen",
       "ja": "17",
       "zh": "十七",
-      "ko": "열일곱"
+      "ko": "열일곱",
+      "fil": "labimpito"
     },
     "neighbors": [
       "seventy"
@@ -21440,7 +21656,8 @@
       "en": "seventy",
       "ja": "70",
       "zh": "七十",
-      "ko": "칠십"
+      "ko": "칠십",
+      "fil": "pitumpu"
     },
     "neighbors": [
       "seventeen"
@@ -21459,7 +21676,8 @@
       "en": "shake",
       "ja": "振る、揺れる、握手",
       "zh": "摇、震动、握手",
-      "ko": "흔들다, 흔들리다, 악수"
+      "ko": "흔들다, 흔들리다, 악수",
+      "fil": "iling, mayanig, kamayan"
     },
     "neighbors": [
       "cake",
@@ -21485,7 +21703,8 @@
       "en": "share",
       "ja": "分ける、共有、株",
       "zh": "分享、共享、股份",
-      "ko": "나누다, 공유, 주식"
+      "ko": "나누다, 공유, 주식",
+      "fil": "hatiin, bahagi, sapi"
     },
     "neighbors": [
       "bear",
@@ -21511,7 +21730,8 @@
       "en": "she",
       "ja": "彼女",
       "zh": "她",
-      "ko": "그녀"
+      "ko": "그녀",
+      "fil": "siya (babae)"
     },
     "neighbors": [
       "B",
@@ -21537,7 +21757,8 @@
       "en": "she would / she had",
       "ja": "she would / she hadの短縮形",
       "zh": "she would / she had的缩写",
-      "ko": "she would / she had의 축약형"
+      "ko": "she would / she had의 축약형",
+      "fil": "pinaikling she would / she had"
     },
     "neighbors": [
       "feed",
@@ -21563,7 +21784,8 @@
       "en": "she will",
       "ja": "she willの短縮形",
       "zh": "she will的缩写",
-      "ko": "she will의 축약형"
+      "ko": "she will의 축약형",
+      "fil": "pinaikling she will"
     },
     "neighbors": [
       "feel",
@@ -21589,7 +21811,8 @@
       "en": "she is",
       "ja": "she isの短縮形",
       "zh": "she is的缩写",
-      "ko": "she is의 축약형"
+      "ko": "she is의 축약형",
+      "fil": "pinaikling she is"
     },
     "neighbors": [
       "cheese",
@@ -21615,7 +21838,8 @@
       "en": "sheep",
       "ja": "羊",
       "zh": "羊",
-      "ko": "양"
+      "ko": "양",
+      "fil": "tupa"
     },
     "neighbors": [
       "keep",
@@ -21641,7 +21865,8 @@
       "en": "shelf",
       "ja": "棚",
       "zh": "架子",
-      "ko": "선반"
+      "ko": "선반",
+      "fil": "istante"
     },
     "neighbors": [
       "self",
@@ -21667,7 +21892,8 @@
       "en": "plural of shelf",
       "ja": "棚（shelfの複数形）",
       "zh": "架子（shelf的复数）",
-      "ko": "선반 (shelf의 복수형)"
+      "ko": "선반 (shelf의 복수형)",
+      "fil": "mga istante (plural ng shelf)"
     },
     "neighbors": [
       "shelf",
@@ -21687,7 +21913,8 @@
       "en": "ship",
       "ja": "船、送る、乗船",
       "zh": "船、运送、乘船",
-      "ko": "배, 보내다, 승선"
+      "ko": "배, 보내다, 승선",
+      "fil": "barko, ipadala, sumakay sa barko"
     },
     "neighbors": [
       "sheep",
@@ -21713,7 +21940,8 @@
       "en": "shirt",
       "ja": "シャツ",
       "zh": "衬衫",
-      "ko": "셔츠"
+      "ko": "셔츠",
+      "fil": "kamiseta"
     },
     "neighbors": [
       "hurt",
@@ -21739,7 +21967,8 @@
       "en": "shoe",
       "ja": "靴",
       "zh": "鞋",
-      "ko": "구두"
+      "ko": "구두",
+      "fil": "sapatos"
     },
     "neighbors": [
       "U",
@@ -21765,7 +21994,8 @@
       "en": "shop",
       "ja": "店、買い物する、買う",
       "zh": "商店、购物、购买",
-      "ko": "가게, 쇼핑하다, 사다"
+      "ko": "가게, 쇼핑하다, 사다",
+      "fil": "tindahan, mamili, bumili"
     },
     "neighbors": [
       "cop",
@@ -21791,7 +22021,8 @@
       "en": "shopping",
       "ja": "買い物",
       "zh": "购物",
-      "ko": "쇼핑"
+      "ko": "쇼핑",
+      "fil": "pamimili"
     },
     "neighbors": [
       "topic"
@@ -21810,7 +22041,8 @@
       "en": "short",
       "ja": "短い、短く",
       "zh": "短的、突然",
-      "ko": "짧은, 갑자기"
+      "ko": "짧은, 갑자기",
+      "fil": "maikli, bigla"
     },
     "neighbors": [
       "court",
@@ -21836,7 +22068,8 @@
       "en": "should",
       "ja": "すべき",
       "zh": "应该",
-      "ko": "~해야 한다"
+      "ko": "~해야 한다",
+      "fil": "nararapat"
     },
     "neighbors": [
       "could",
@@ -21862,7 +22095,8 @@
       "en": "should have",
       "ja": "should haveの短縮形",
       "zh": "should have的缩写",
-      "ko": "should have의 축약형"
+      "ko": "should have의 축약형",
+      "fil": "pinaikling should have"
     },
     "neighbors": [
       "could've",
@@ -21884,7 +22118,8 @@
       "en": "shoulder",
       "ja": "ショルダー",
       "zh": "肩膀",
-      "ko": "어깨"
+      "ko": "어깨",
+      "fil": "balikat"
     },
     "neighbors": [
       "folder",
@@ -21910,7 +22145,8 @@
       "en": "should not",
       "ja": "should notの短縮形",
       "zh": "should not的缩写",
-      "ko": "should not의 축약형"
+      "ko": "should not의 축약형",
+      "fil": "pinaikling should not"
     },
     "neighbors": [
       "couldn't",
@@ -21934,7 +22170,8 @@
       "en": "show",
       "ja": "見せる、ショー、示す",
       "zh": "展示、演出、显示",
-      "ko": "보여주다, 쇼, 나타내다"
+      "ko": "보여주다, 쇼, 나타내다",
+      "fil": "ipakita, palabas, ipamalas"
     },
     "neighbors": [
       "go",
@@ -21960,7 +22197,8 @@
       "en": "past tense of show",
       "ja": "見せる、ショー、示す（showの過去形）",
       "zh": "展示、演出、显示（show的过去式）",
-      "ko": "보여주다, 쇼, 나타내다 (show의 과거형)"
+      "ko": "보여주다, 쇼, 나타내다 (show의 과거형)",
+      "fil": "ipinakita (past tense ng show)"
     },
     "neighbors": [
       "code",
@@ -21986,7 +22224,8 @@
       "en": "shower",
       "ja": "シャワー",
       "zh": "淋浴",
-      "ko": "샤워"
+      "ko": "샤워",
+      "fil": "shower, paliguan"
     },
     "neighbors": [
       "tower",
@@ -22012,7 +22251,8 @@
       "en": "past participle of show",
       "ja": "見せる、ショー、示す（showの過去分詞）",
       "zh": "展示、演出、显示（show的过去分词）",
-      "ko": "보여주다, 쇼, 나타내다 (show의 과거분사)"
+      "ko": "보여주다, 쇼, 나타내다 (show의 과거분사)",
+      "fil": "ipinakita (past participle ng show)"
     },
     "neighbors": [
       "bone",
@@ -22038,7 +22278,8 @@
       "en": "shy",
       "ja": "シャイ",
       "zh": "害羞的",
-      "ko": "수줍은"
+      "ko": "수줍은",
+      "fil": "mahiyain"
     },
     "neighbors": [
       "Y",
@@ -22064,7 +22305,8 @@
       "en": "sick",
       "ja": "病気",
       "zh": "生病的",
-      "ko": "아픈"
+      "ko": "아픈",
+      "fil": "may sakit"
     },
     "neighbors": [
       "kick",
@@ -22090,7 +22332,8 @@
       "en": "side",
       "ja": "側",
       "zh": "边",
-      "ko": "옆"
+      "ko": "옆",
+      "fil": "gilid"
     },
     "neighbors": [
       "hide",
@@ -22116,7 +22359,8 @@
       "en": "sight",
       "ja": "視力",
       "zh": "视线",
-      "ko": "시력"
+      "ko": "시력",
+      "fil": "paningin"
     },
     "neighbors": [
       "fight",
@@ -22142,7 +22386,8 @@
       "en": "sign",
       "ja": "標識、署名、兆候",
       "zh": "标志、签名、迹象",
-      "ko": "표지, 서명, 징후"
+      "ko": "표지, 서명, 징후",
+      "fil": "karatula, lagda, palatandaan"
     },
     "neighbors": [
       "fine",
@@ -22168,7 +22413,8 @@
       "en": "sing",
       "ja": "歌う、歌唱、鳴く",
       "zh": "唱、歌唱、鸣叫",
-      "ko": "노래하다, 가창, 울다"
+      "ko": "노래하다, 가창, 울다",
+      "fil": "kumanta, pag-awit, huni"
     },
     "neighbors": [
       "king",
@@ -22194,7 +22440,8 @@
       "en": "singer",
       "ja": "歌手",
       "zh": "歌手",
-      "ko": "가수"
+      "ko": "가수",
+      "fil": "mang-aawit"
     },
     "neighbors": [
       "sink",
@@ -22220,7 +22467,8 @@
       "en": "sir",
       "ja": "お客様",
       "zh": "先生",
-      "ko": "선생님"
+      "ko": "선생님",
+      "fil": "ginoo"
     },
     "neighbors": [
       "C",
@@ -22246,7 +22494,8 @@
       "en": "sister",
       "ja": "妹",
       "zh": "姐姐",
-      "ko": "자매"
+      "ko": "자매",
+      "fil": "kapatid na babae"
     },
     "neighbors": [
       "city",
@@ -22272,7 +22521,8 @@
       "en": "sit",
       "ja": "座る、開催される、座らせる",
       "zh": "坐、举行、使就座",
-      "ko": "앉다, 열리다, 앉히다"
+      "ko": "앉다, 열리다, 앉히다",
+      "fil": "umupo, idaos, paupuin"
     },
     "neighbors": [
       "sat",
@@ -22298,7 +22548,8 @@
       "en": "site",
       "ja": "サイト",
       "zh": "地点",
-      "ko": "대지"
+      "ko": "대지",
+      "fil": "lugar, site"
     },
     "neighbors": [
       "fight",
@@ -22324,7 +22575,8 @@
       "en": "six",
       "ja": "六",
       "zh": "六",
-      "ko": "육"
+      "ko": "육",
+      "fil": "anim"
     },
     "neighbors": [
       "fix",
@@ -22350,7 +22602,8 @@
       "en": "sixteen",
       "ja": "16",
       "zh": "十六",
-      "ko": "열여섯"
+      "ko": "열여섯",
+      "fil": "labing-anim"
     },
     "neighbors": [
       "sixty"
@@ -22369,7 +22622,8 @@
       "en": "sixty",
       "ja": "六十",
       "zh": "六十",
-      "ko": "육십"
+      "ko": "육십",
+      "fil": "animnapu"
     },
     "neighbors": [
       "sixteen",
@@ -22389,7 +22643,8 @@
       "en": "size",
       "ja": "サイズ",
       "zh": "尺寸",
-      "ko": "크기"
+      "ko": "크기",
+      "fil": "sukat"
     },
     "neighbors": [
       "side",
@@ -22415,7 +22670,8 @@
       "en": "skill",
       "ja": "スキル",
       "zh": "技能",
-      "ko": "기능"
+      "ko": "기능",
+      "fil": "kasanayan"
     },
     "neighbors": [
       "school",
@@ -22441,7 +22697,8 @@
       "en": "skirt",
       "ja": "スカート",
       "zh": "裙子",
-      "ko": "치마"
+      "ko": "치마",
+      "fil": "palda"
     },
     "neighbors": [
       "skate",
@@ -22467,7 +22724,8 @@
       "en": "sky",
       "ja": "空",
       "zh": "天空",
-      "ko": "하늘"
+      "ko": "하늘",
+      "fil": "langit"
     },
     "neighbors": [
       "spy",
@@ -22493,7 +22751,8 @@
       "en": "sleep",
       "ja": "眠る、睡眠、寝る",
       "zh": "睡觉、睡眠、入睡",
-      "ko": "자다, 수면, 잠자다"
+      "ko": "자다, 수면, 잠자다",
+      "fil": "matulog, tulog, mahimbing"
     },
     "neighbors": [
       "slap",
@@ -22519,7 +22778,8 @@
       "en": "past tense / past participle of sleep",
       "ja": "眠る、睡眠、寝る（sleepの過去形・過去分詞）",
       "zh": "睡觉、睡眠、入睡（sleep的过去式/过去分词）",
-      "ko": "자다, 수면, 잠자다 (sleep의 과거형·과거분사)"
+      "ko": "자다, 수면, 잠자다 (sleep의 과거형·과거분사)",
+      "fil": "natulog (past tense/past participle ng sleep)"
     },
     "neighbors": [
       "kept",
@@ -22545,7 +22805,8 @@
       "en": "slow",
       "ja": "遅い",
       "zh": "慢的",
-      "ko": "느린"
+      "ko": "느린",
+      "fil": "mabagal"
     },
     "neighbors": [
       "blow",
@@ -22571,7 +22832,8 @@
       "en": "small",
       "ja": "小さい",
       "zh": "小的",
-      "ko": "작은"
+      "ko": "작은",
+      "fil": "maliit"
     },
     "neighbors": [
       "smell",
@@ -22597,7 +22859,8 @@
       "en": "smart",
       "ja": "頭いい",
       "zh": "聪明的",
-      "ko": "똑똑한"
+      "ko": "똑똑한",
+      "fil": "matalino, magaling"
     },
     "neighbors": [
       "start",
@@ -22623,7 +22886,8 @@
       "en": "smell",
       "ja": "匂い",
       "zh": "闻",
-      "ko": "냄새가 나다"
+      "ko": "냄새가 나다",
+      "fil": "amoy"
     },
     "neighbors": [
       "small",
@@ -22649,7 +22913,8 @@
       "en": "smile",
       "ja": "笑顔、微笑む、笑み",
       "zh": "微笑、笑、笑容",
-      "ko": "미소, 미소짓다, 웃음"
+      "ko": "미소, 미소짓다, 웃음",
+      "fil": "ngiti, ngumiti, ngisi"
     },
     "neighbors": [
       "small",
@@ -22675,7 +22940,8 @@
       "en": "smith",
       "ja": "スミス",
       "zh": "史密斯",
-      "ko": "스미스"
+      "ko": "스미스",
+      "fil": "Smith (apelyido)"
     },
     "neighbors": [
       "myth",
@@ -22701,7 +22967,8 @@
       "en": "smoke",
       "ja": "煙、吸う",
       "zh": "烟、吸烟",
-      "ko": "연기, 피우다"
+      "ko": "연기, 피우다",
+      "fil": "usok, manigarilyo"
     },
     "neighbors": [
       "spoke",
@@ -22727,7 +22994,8 @@
       "en": "smoking",
       "ja": "喫煙",
       "zh": "吸烟",
-      "ko": "흡연"
+      "ko": "흡연",
+      "fil": "paninigarilyo"
     },
     "neighbors": [],
     "rp_ipa": "/ˈsməʊkɪŋ/"
@@ -22744,7 +23012,8 @@
       "en": "snake",
       "ja": "蛇",
       "zh": "蛇",
-      "ko": "뱀"
+      "ko": "뱀",
+      "fil": "ahas"
     },
     "neighbors": [
       "snack",
@@ -22770,7 +23039,8 @@
       "en": "snow",
       "ja": "雪、降る、雪が降る",
       "zh": "雪、下雪、降雪",
-      "ko": "눈, 내리다, 강설"
+      "ko": "눈, 내리다, 강설",
+      "fil": "niyebe, magniyebe, pag-ulan ng niyebe"
     },
     "neighbors": [
       "slow",
@@ -22796,7 +23066,8 @@
       "en": "snowy",
       "ja": "雪の多い",
       "zh": "下雪的",
-      "ko": "눈 내리는"
+      "ko": "눈 내리는",
+      "fil": "maniyebe"
     },
     "neighbors": [
       "snow",
@@ -22822,7 +23093,8 @@
       "en": "so",
       "ja": "それで",
       "zh": "所以",
-      "ko": "그래서"
+      "ko": "그래서",
+      "fil": "kaya, kung gayon"
     },
     "neighbors": [
       "C",
@@ -22848,7 +23120,8 @@
       "en": "soccer",
       "ja": "サッカー",
       "zh": "足球",
-      "ko": "축구"
+      "ko": "축구",
+      "fil": "soccer"
     },
     "neighbors": [
       "sock",
@@ -22874,7 +23147,8 @@
       "en": "social",
       "ja": "社交",
       "zh": "社会的",
-      "ko": "사회의"
+      "ko": "사회의",
+      "fil": "panlipunan"
     },
     "neighbors": [
       "circle",
@@ -22898,7 +23172,8 @@
       "en": "sofa",
       "ja": "ソファー",
       "zh": "沙发",
-      "ko": "소파"
+      "ko": "소파",
+      "fil": "sopa"
     },
     "neighbors": [
       "soda",
@@ -22924,7 +23199,8 @@
       "en": "past tense / past participle of sell",
       "ja": "売る（sellの過去形・過去分詞）",
       "zh": "卖（sell的过去式/过去分词）",
-      "ko": "팔다 (sell의 과거형·과거분사)"
+      "ko": "팔다 (sell의 과거형·과거분사)",
+      "fil": "ipinagbili (past tense/past participle ng sell)"
     },
     "neighbors": [
       "cold",
@@ -22950,7 +23226,8 @@
       "en": "solve",
       "ja": "解決する",
       "zh": "解决",
-      "ko": "해결하다"
+      "ko": "해결하다",
+      "fil": "lutasin"
     },
     "neighbors": [
       "doll",
@@ -22976,7 +23253,8 @@
       "en": "some",
       "ja": "いくつかの",
       "zh": "一些",
-      "ko": "일부"
+      "ko": "일부",
+      "fil": "ilang"
     },
     "neighbors": [
       "come",
@@ -23002,7 +23280,8 @@
       "en": "someone",
       "ja": "誰か",
       "zh": "某人",
-      "ko": "누구"
+      "ko": "누구",
+      "fil": "may tao"
     },
     "neighbors": [
       "somewhere"
@@ -23021,7 +23300,8 @@
       "en": "something",
       "ja": "何か",
       "zh": "某物",
-      "ko": "무엇"
+      "ko": "무엇",
+      "fil": "may bagay"
     },
     "neighbors": [
       "nothing"
@@ -23040,7 +23320,8 @@
       "en": "son",
       "ja": "息子",
       "zh": "儿子",
-      "ko": "아들"
+      "ko": "아들",
+      "fil": "anak na lalaki"
     },
     "neighbors": [
       "fun",
@@ -23066,7 +23347,8 @@
       "en": "song",
       "ja": "歌",
       "zh": "歌曲",
-      "ko": "노래"
+      "ko": "노래",
+      "fil": "awit"
     },
     "neighbors": [
       "long",
@@ -23092,7 +23374,8 @@
       "en": "soon",
       "ja": "すぐ",
       "zh": "很快",
-      "ko": "곧"
+      "ko": "곧",
+      "fil": "madali, hindi magtatagal"
     },
     "neighbors": [
       "june",
@@ -23118,7 +23401,8 @@
       "en": "sorry",
       "ja": "ごめん",
       "zh": "对不起",
-      "ko": "죄송합니다"
+      "ko": "죄송합니다",
+      "fil": "paumanhin, ikinalulungkot"
     },
     "neighbors": [
       "agree",
@@ -23144,7 +23428,8 @@
       "en": "soup",
       "ja": "スープ",
       "zh": "汤",
-      "ko": "국"
+      "ko": "국",
+      "fil": "sopas"
     },
     "neighbors": [
       "soon",
@@ -23170,7 +23455,8 @@
       "en": "speak",
       "ja": "話す",
       "zh": "说话",
-      "ko": "말하다"
+      "ko": "말하다",
+      "fil": "magsalita"
     },
     "neighbors": [
       "speech",
@@ -23196,7 +23482,8 @@
       "en": "special",
       "ja": "特別",
       "zh": "特别的",
-      "ko": "특별한"
+      "ko": "특별한",
+      "fil": "espesyal"
     },
     "neighbors": [
       "social"
@@ -23215,7 +23502,8 @@
       "en": "speech",
       "ja": "スピーチ",
       "zh": "演讲",
-      "ko": "연설"
+      "ko": "연설",
+      "fil": "talumpati"
     },
     "neighbors": [
       "speak",
@@ -23241,7 +23529,8 @@
       "en": "spell",
       "ja": "呪文、綴る",
       "zh": "咒语、拼写",
-      "ko": "주문, 철자를 맞히다"
+      "ko": "주문, 철자를 맞히다",
+      "fil": "engkanto, baybayin"
     },
     "neighbors": [
       "smell",
@@ -23267,7 +23556,8 @@
       "en": "spend",
       "ja": "過ごす",
       "zh": "花费",
-      "ko": "경비"
+      "ko": "경비",
+      "fil": "gumastos"
     },
     "neighbors": [
       "spent",
@@ -23293,7 +23583,8 @@
       "en": "past tense / past participle of spend",
       "ja": "過ごす（spendの過去形・過去分詞）",
       "zh": "花费（spend的过去式/过去分词）",
-      "ko": "경비 (spend의 과거형·과거분사)"
+      "ko": "경비 (spend의 과거형·과거분사)",
+      "fil": "ginastos (past tense/past participle ng spend)"
     },
     "neighbors": [
       "spend",
@@ -23319,7 +23610,8 @@
       "en": "past tense of speak",
       "ja": "話す（speakの過去形）",
       "zh": "说话（speak的过去式）",
-      "ko": "말하다 (speak의 과거형)"
+      "ko": "말하다 (speak의 과거형)",
+      "fil": "nagsalita (past tense ng speak)"
     },
     "neighbors": [
       "smoke",
@@ -23345,7 +23637,8 @@
       "en": "past participle of speak",
       "ja": "話す（speakの過去分詞）",
       "zh": "说话（speak的过去分词）",
-      "ko": "말하다 (speak의 과거분사)"
+      "ko": "말하다 (speak의 과거분사)",
+      "fil": "nagsalita (past participle ng speak)"
     },
     "neighbors": [
       "broken",
@@ -23365,7 +23658,8 @@
       "en": "sport",
       "ja": "スポーツ",
       "zh": "运动",
-      "ko": "스포츠"
+      "ko": "스포츠",
+      "fil": "isports"
     },
     "neighbors": [
       "port",
@@ -23391,7 +23685,8 @@
       "en": "spot",
       "ja": "スポット",
       "zh": "点",
-      "ko": "점"
+      "ko": "점",
+      "fil": "batik, lugar"
     },
     "neighbors": [
       "slot",
@@ -23417,7 +23712,8 @@
       "en": "spring",
       "ja": "春、泉、跳ぶ",
       "zh": "春天、泉水、跳跃",
-      "ko": "봄, 샘, 뛰다"
+      "ko": "봄, 샘, 뛰다",
+      "fil": "tagsibol, bukal, lumukso"
     },
     "neighbors": [
       "string",
@@ -23443,7 +23739,8 @@
       "en": "spy",
       "ja": "スパイ",
       "zh": "间谍",
-      "ko": "스파이"
+      "ko": "스파이",
+      "fil": "espiya"
     },
     "neighbors": [
       "sky",
@@ -23469,7 +23766,8 @@
       "en": "stage",
       "ja": "ステージ",
       "zh": "阶段",
-      "ko": "단계"
+      "ko": "단계",
+      "fil": "entablado, yugto"
     },
     "neighbors": [
       "stain",
@@ -23495,7 +23793,8 @@
       "en": "stand",
       "ja": "立つ、スタンド、耐える",
       "zh": "站立、摊位、忍受",
-      "ko": "서다, 가판대, 견디다"
+      "ko": "서다, 가판대, 견디다",
+      "fil": "tumayo, tindahan, tiisin"
     },
     "neighbors": [
       "sand",
@@ -23521,7 +23820,8 @@
       "en": "star",
       "ja": "星、主演、スター",
       "zh": "星星、主演、明星",
-      "ko": "별, 주연, 스타"
+      "ko": "별, 주연, 스타",
+      "fil": "bituin, bida, artista"
     },
     "neighbors": [
       "stop",
@@ -23547,7 +23847,8 @@
       "en": "start",
       "ja": "始める、出発、開始",
       "zh": "开始、出发、启动",
-      "ko": "시작하다, 출발, 시작"
+      "ko": "시작하다, 출발, 시작",
+      "fil": "magsimula, pagsisimula, umpisa"
     },
     "neighbors": [
       "smart",
@@ -23573,7 +23874,8 @@
       "en": "station",
       "ja": "駅",
       "zh": "车站",
-      "ko": "역"
+      "ko": "역",
+      "fil": "istasyon"
     },
     "neighbors": [
       "section",
@@ -23594,7 +23896,8 @@
       "en": "stay",
       "ja": "滞在する、留まる、泊まる",
       "zh": "停留、留下、住宿",
-      "ko": "머무르다, 남다, 묵다"
+      "ko": "머무르다, 남다, 묵다",
+      "fil": "manatili, tumira, tumuloy"
     },
     "neighbors": [
       "stew",
@@ -23620,7 +23923,8 @@
       "en": "step",
       "ja": "歩、段階、踏む",
       "zh": "步、阶段、踩",
-      "ko": "걸음, 단계, 밟다"
+      "ko": "걸음, 단계, 밟다",
+      "fil": "hakbang, baitang, tumapak"
     },
     "neighbors": [
       "stop",
@@ -23646,7 +23950,8 @@
       "en": "still",
       "ja": "まだ、静止した",
       "zh": "仍然、静止的",
-      "ko": "아직, 가만히"
+      "ko": "아직, 가만히",
+      "fil": "pa rin, tahimik"
     },
     "neighbors": [
       "skill",
@@ -23672,7 +23977,8 @@
       "en": "stone",
       "ja": "石",
       "zh": "石头",
-      "ko": "결석"
+      "ko": "결석",
+      "fil": "bato"
     },
     "neighbors": [
       "stain",
@@ -23698,7 +24004,8 @@
       "en": "past tense / past participle of stand",
       "ja": "立つ、スタンド、耐える（standの過去形・過去分詞）",
       "zh": "站立、摊位、忍受（stand的过去式/过去分词）",
-      "ko": "서다, 가판대, 견디다 (stand의 과거형·과거분사)"
+      "ko": "서다, 가판대, 견디다 (stand의 과거형·과거분사)",
+      "fil": "tumayo (past tense/past participle ng stand)"
     },
     "neighbors": [
       "could",
@@ -23724,7 +24031,8 @@
       "en": "stop",
       "ja": "止まる、停留所、やめる",
       "zh": "停止、车站、放弃",
-      "ko": "멈추다, 정류장, 그만두다"
+      "ko": "멈추다, 정류장, 그만두다",
+      "fil": "huminto, hintuan, itigil"
     },
     "neighbors": [
       "star",
@@ -23750,7 +24058,8 @@
       "en": "store",
       "ja": "店、保存する、蓄える",
       "zh": "商店、储存、积蓄",
-      "ko": "가게, 저장하다, 비축"
+      "ko": "가게, 저장하다, 비축",
+      "fil": "tindahan, mag-imbak, magtago"
     },
     "neighbors": [
       "star",
@@ -23776,7 +24085,8 @@
       "en": "story",
       "ja": "話",
       "zh": "故事",
-      "ko": "이야기"
+      "ko": "이야기",
+      "fil": "kuwento"
     },
     "neighbors": [
       "storm",
@@ -23802,7 +24112,8 @@
       "en": "straight",
       "ja": "まっすぐ、真っ直ぐな",
       "zh": "直的、笔直",
-      "ko": "똑바로, 곧은"
+      "ko": "똑바로, 곧은",
+      "fil": "diretso, tuwid"
     },
     "neighbors": [
       "street",
@@ -23828,7 +24139,8 @@
       "en": "strange",
       "ja": "奇妙な",
       "zh": "奇怪的",
-      "ko": "이상한"
+      "ko": "이상한",
+      "fil": "kakaiba"
     },
     "neighbors": [
       "strain",
@@ -23851,7 +24163,8 @@
       "en": "street",
       "ja": "通り",
       "zh": "街道",
-      "ko": "거리"
+      "ko": "거리",
+      "fil": "kalye"
     },
     "neighbors": [
       "straight",
@@ -23877,7 +24190,8 @@
       "en": "strict",
       "ja": "厳しい",
       "zh": "严格的",
-      "ko": "엄격한"
+      "ko": "엄격한",
+      "fil": "mahigpit"
     },
     "neighbors": [
       "straight",
@@ -23903,7 +24217,8 @@
       "en": "strong",
       "ja": "強い",
       "zh": "强的",
-      "ko": "강한"
+      "ko": "강한",
+      "fil": "malakas"
     },
     "neighbors": [
       "string",
@@ -23929,7 +24244,8 @@
       "en": "student",
       "ja": "学生",
       "zh": "学生",
-      "ko": "학생"
+      "ko": "학생",
+      "fil": "mag-aaral"
     },
     "neighbors": [],
     "rp_ipa": "/ˈstjuːdənt/"
@@ -23946,7 +24262,8 @@
       "en": "study",
       "ja": "勉強、研究、学ぶ",
       "zh": "学习、研究、研读",
-      "ko": "공부, 연구, 배우다"
+      "ko": "공부, 연구, 배우다",
+      "fil": "pag-aaral, pananaliksik, mag-aral"
     },
     "neighbors": [
       "cd",
@@ -23972,7 +24289,8 @@
       "en": "subject",
       "ja": "主題",
       "zh": "主题",
-      "ko": "주제"
+      "ko": "주제",
+      "fil": "paksa"
     },
     "neighbors": [
       "suggest"
@@ -23991,7 +24309,8 @@
       "en": "subway",
       "ja": "地下鉄",
       "zh": "地铁",
-      "ko": "지하철"
+      "ko": "지하철",
+      "fil": "tren sa ilalim ng lupa"
     },
     "neighbors": [
       "sunday",
@@ -24011,7 +24330,8 @@
       "en": "successful",
       "ja": "成功",
       "zh": "成功的",
-      "ko": "성공적인"
+      "ko": "성공적인",
+      "fil": "matagumpay"
     },
     "neighbors": [
       "successfully"
