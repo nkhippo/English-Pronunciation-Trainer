@@ -55,16 +55,15 @@ Start 後・再生ボタン押下の都度 `speak()` が GAS へ 1 件 fetch し
 
 ---
 
-## 3. 運用上の注意 ★
+## 3. GAS 本番デプロイ
 
-**GAS 再デプロイが必要。** `warm` エンドポイントはリポジトリ更新だけでは本番に反映されない。
+**再デプロイ済み**（2026-06-26）。`index.html` の `GAS_TTS_URL` を warm 対応デプロイ URL に更新。
 
-手順:
-1. GAS エディタで `gas/Code.gs` を反映
-2. 新バージョンでウェブアプリ再デプロイ（URL は既存のまま可）
-3. セッション開始 → Network で `warm=1` リクエストを確認
+```
+https://script.google.com/macros/s/AKfycbyN0SMY3mjSe_3mw5zKtgP_gERBGcUP4t94q6GBVaLM6S4hclwUHamM8gR07qzbAXNz/exec
+```
 
-再デプロイ前: warm は失敗するが、`speak()` の従来 fetch で動作は継続。
+セッション開始 → DevTools Network で `warm=1` リクエストを確認推奨。
 
 ---
 
@@ -79,7 +78,7 @@ Start 後・再生ボタン押下の都度 `speak()` が GAS へ 1 件 fetch し
 | prefetchToken 中断 | ✅ |
 | 連結句タブ warm 対象外 | ✅ |
 | speak() フォールバック | ✅ |
-| GAS 本番デプロイ | ⚠️ Naoya 手動要 |
+| GAS 本番デプロイ | ✅ 再デプロイ済み |
 
 ---
 
@@ -99,7 +98,7 @@ Start 後・再生ボタン押下の都度 `speak()` が GAS へ 1 件 fetch し
 |------|-----|
 | ブランチ | `main`（`cfa14da`） |
 | GitHub Pages | push 後即反映（クライアント） |
-| GAS | **再デプロイ要**（warm 有効化） |
+| GAS | 再デプロイ済み（上記 URL） |
 
 ---
 
