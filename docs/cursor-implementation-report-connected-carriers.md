@@ -1,8 +1,8 @@
 # Cursor 実装レポート — 連結句キャリア文出題
 
 > 作成日: 2026-06-26  
-> 指示書: `docs/cursor-connected-carriers.md`（Claude 設計）  
-> 入力: `connected_speech_with_carriers.json`（201句×4キャリア）
+> 対象ブランチ: `main`（`ee34157`）  
+> 指示書: `docs/cursor-connected-carriers.md`（Claude 設計）
 
 Claude 側への作業報告用サマリー。
 
@@ -74,7 +74,7 @@ Claude 側への作業報告用サマリー。
 
 | 項目 | 値 |
 |------|-----|
-| ブランチ | `main` |
+| ブランチ | `main`（`ee34157`） |
 | GitHub Pages | push 後即反映 |
 | GAS | 変更なし |
 
