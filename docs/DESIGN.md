@@ -3,7 +3,7 @@
 > `PURPOSE.md` で確定した目的・2モード構成を、Cursorが実装に落とせる粒度まで具体化した仕様。
 > 本ドキュメントは「何を作るか（what / how）」の正本。目的の正本は `PURPOSE.md`。
 >
-> **更新日:** 2026-06-26 ／ **ステータス:** Mode A・Mode B・GA/RP・連結句・RP TTS 実装済み
+> **更新日:** 2026-06-26 ／ **ステータス:** Mode A・Mode B・GA/RP・連結句・弱形タブ・RP TTS・UI 5言語（fil 含む）実装済み
 
 ---
 
@@ -72,7 +72,7 @@ reveal には必ず以下を表示する：
 
 - 出題語（headword）
 - 正解IPA（強勢核を琥珀色下線でハイライト）
-- **意味（gloss）を現在のUI言語で必ず添える** … glossはen/ja/zh/koを保持しているのでUI言語に追従。例：UI=ja なら `gloss.ja` を表示。
+- **意味（gloss）を現在のUI言語で必ず添える** … gloss は en/ja/zh/ko/fil を保持。UI=fil なら `gloss.fil`（**160/3,059語**、未マージ時は `gloss.en` にフォールバック）。
 - 自分の解答との差分（Encodeはトークン色分け）
 - 音声再生（後述TTS）
 - 規則語なら綴り規則パターン（`ai → /eɪ/` 等）
@@ -214,7 +214,19 @@ Keep the delivery identical and consistent across all words.
 - **単語:** `GET ?word=...&accent=ga|rp`（既定 `ga`）。`instructions` を GA/RP で分岐。voice は `alloy` 据え置き。
 - **キャッシュキー:** Drive `{slug}__{accent}_v2.mp3`、localStorage `ipa_tts_v2:{accent}:{slug}`。旧 `{slug}_v2.mp3` / 無 accent キーは GA として後方互換。
 - **連結句:** GA 固定（`?phrase=` + `accent=ga`）。RP 連結音声は別タスク。
-- 詳細: `docs/rp-tts-design-and-priority.md`
+- **弱形:** `GET ?weak=/IPA/&ww=word&accent=ga|rp`。`instructions` は弱形（連結内の reduced form）を強制。`input` はキャリア文内の機能語綴り。GA/RP で `TTS_WEAK_INSTRUCTIONS_*` を分岐。
+- 詳細: `docs/rp-tts-design-and-priority.md`、`docs/cursor-implementation-report-weak-forms.md`
+
+### 3.5 多言語 UI（fil 含む）
+
+| Tier | 内容 | fil 状態 |
+|------|------|----------|
+| Tier 1 | UI 文言 151 キー + 言語ピッカー | ✅ `i18n/fil.json` |
+| Tier 2 | 語義 gloss（3,059 語） | 🔄 **160/3,059**（batch01–02 マージ済み） |
+| Tier 3 | 音素解説 43 記号 + 学習ガイド | ✅ `phonemes/fil.json` + `guide.json` fil |
+| Tier 4 | 連結句・弱形ルール文 `cs_rule` | ⬜ en フォールバック |
+
+検証: `python3 tools/validate_i18n.py`。拡張手順: `docs/i18n-language-scaling.md`。
 
 ---
 
@@ -226,11 +238,15 @@ Keep the delivery identical and consistent across all words.
 | 高 | `neighbors` 全語事前計算 | ✅ 約2,600語 |
 | 高 | `ex`（記号別例語） | ✅ phonemes JSON に実装 |
 | 高 | `rp_ipa` 全語付与 | ✅ 3,059語 + 201連結句 |
+| 高 | 弱形 36語 + `?weak=` TTS | ✅ |
+| 高 | UI fil（Tier 1+3） | ✅ 151キー + phonemes + guide |
 | 中 | 本物のB/C日常語彙 | ⬜ 継続 |
 | 中 | カジュアル表現 | ✅ 一部（`casual` src） |
 | 中 | 薄い記号の補強 | 部分 |
 | 中 | `neighbors_rp` | ⏸ 保留 |
 | ― | gloss品質点検 | 継続（多言語学習ガイドと連動可） |
+| ― | gloss.fil（Tier 2） | 🔄 160/3,059（`tools/merge_gloss_fil.py`） |
+| ― | cs_rule.fil（Tier 4） | ⬜ 別タスク |
 | ― | 連結句 RP TTS | ⬜ 別タスク |
 
 ---
@@ -241,9 +257,12 @@ Keep the delivery identical and consistent across all words.
 |---|---|
 | Mode A（音素軸UI・SRS・reveal・例語・TTS v2） | ✅ |
 | GA/RP 切替（IPA・キーボード・RP TTS） | ✅ |
-| 連結句 201句 | ✅ |
+| 連結句 201句（キャリア文） | ✅ |
+| 弱形タブ 36語 + `?weak=` TTS | ✅ |
 | Mode B（Study/Quiz・vocab SRS） | ✅ |
-| 多言語学習ガイド | ✅ フェーズ1 |
+| UI 5言語（en/ja/zh/ko/fil） | ✅ Tier 1+3 |
+| 多言語学習ガイド（6言語） | ✅ フェーズ1 |
+| gloss.fil / cs_rule.fil | 🔄 160/3,059 gloss.fil。cs_rule.fil は en フォールバック |
 | 連結句 RP TTS | ⬜ |
 
 **運用メモ:** Mode A/B の新規 UI 文字列は i18n キー経由。GAS は RP TTS 対応版を再デプロイ済み（`index.html` `GAS_TTS_URL` 参照）。

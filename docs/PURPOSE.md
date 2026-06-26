@@ -1,9 +1,9 @@
-# English Pronunciation Trainer — 目的ステートメント（確定版 v2.1 / source of truth）
+# English Pronunciation Trainer — 目的ステートメント（確定版 v2.2 / source of truth）
 
 > アプリの**本丸（measured outcome）**と**モード構成**を確定し、背景メモ・Cursor仕様書・実装コードの目的を一致させる正本。
 > 目的・評価方針に関する記述が衝突した場合は、本ドキュメントを正とする。
 >
-> **更新日:** 2026-06-26 ／ **ステータス:** Mode A・Mode B 実装済み。GA/RP 切替・連結句・RP TTS 対応済み。
+> **更新日:** 2026-06-26 ／ **ステータス:** Mode A・Mode B 実装済み。GA/RP 切替・連結句・弱形タブ・RP TTS・UI 5言語（fil 含む）対応済み。
 > 詳細な実装仕様は `docs/DESIGN.md`、画面・データの正本は `docs/SPECIFICATION.md` を参照。
 
 ---
@@ -28,11 +28,13 @@
 | 採点 | 客観（ok/near/bad）のみ | 客観のみ |
 | 進捗記録 | `ept_hist_v1`（per-word）＋ `ept_sym_v1`（per-symbol） | `ept_vocab_v1` / `ept_vocab_band`（別名前空間） |
 
-**Mode A の練習タブ:** **Words**（単語）と **Connected Speech**（連結句・GA 音声前提）の2種。連結句は弱形・同化・脱落の聞き取り＋Decode を練習する補助軸。
+**Mode A の練習タブ:** **Words**（単語）・**Connected Speech**（連結句・GA 音声前提）・**Weak Forms**（機能語の弱形・36語）の3種。連結句は弱形・同化・脱落の聞き取り＋Decode を練習する補助軸。弱形タブは文中でのみ起きる機能語の弱読（/kən/ 等）をキャリア文＋IPA 埋め込みで練習する。
+
+**UI 言語:** en / ja / zh / ko / **fil**（タガログ語・Tier 1+3 実装済み）。語義 gloss.fil は **160/3,059語**（Tier 2 進行中）。未マージ語・連結/弱形ルール文は fil 未整備時 **en にフォールバック**（クラッシュなし）。
 
 **CEFRの位置づけ:** 主軸としてMode Aには不適（頻度はIPA読み書き難易度の弱い代理であり、本アプリは既知語前提のため頻度の意味が薄い）。CEFRは破棄せず **Mode B の主軸へ移設**する。Mode Aではコールドスタート時の出題順にのみ残す。
 
-**アクセント（GA / RP）:** 設定で切替。IPA 表示・Encode キーボード・TTS（単語）・reveal 補足が追従。連結句 TTS は GA 固定。Mode B の MCQ distractor は GA `neighbors` を RP でも流用（`neighbors_rp` 再計算は保留。`docs/rp-neighbors-priority-decision.md`）。
+**アクセント（GA / RP）:** 設定で切替。IPA 表示・Encode キーボード・TTS（単語・弱形）・reveal 補足が追従。連結句 TTS は GA 固定。Mode B の MCQ distractor は GA `neighbors` を RP でも流用（`neighbors_rp` 再計算は保留。`docs/rp-neighbors-priority-decision.md`）。
 
 ---
 
@@ -42,7 +44,8 @@
 - **主軸 = 音素カバー。** 41記号は有限・列挙可能でMECE。各語は記号集合に決定的に分解でき、本丸と適応出題に直結する。
 - **対象語に機能語・不規則屈折形・カジュアル表現を含める**（were/those/through/does/one、gonna 等）。フォーカスピル（トラップ音・弱点・アルファベット・短縮形・不規則形・カジュアル）で集中ドリル可能。
 - **適応出題:** localStorageの履歴をもとに、誤答語の再出題（Leitner）と弱点記号を含む語を優先する軽量SRS。
-- **連結句（201句）:** linking / assimilation / elision を L1–L3 で段階化。Decode のみ（連結 IPA → 元フレーズ）。TTS は自然な連結音声（GA）。
+- **連結句（201句）:** linking / assimilation / elision を L1–L3 で段階化。Decode のみ（連結 IPA → 元フレーズ）。キャリア文に IPA 埋め込み。TTS は自然な連結音声（GA）。
+- **弱形（36語）:** 高頻度機能語（to, can, of …）の弱形を L1–L3 で段階化。Decode のみ（弱形 IPA → 機能語 `w`）。連結句と同じキャリア文＋IPA 埋め込み。TTS は `?weak=`＋弱形 IPA（GA/RP）。
 - 発音産出・流暢性の総合訓練は姉妹アプリ English Listening Trainer と対面レッスンが担当。本アプリは**単語・短フレーズ単位**に特化。
 
 ---
@@ -63,16 +66,20 @@
 
 | 前提 | 状態 |
 |------|------|
-| gloss 品質（多言語UI） | 実装済み（4言語）。継続点検は別タスク |
+| gloss 品質（多言語UI） | en/ja/zh/ko 実装済み。**fil: 160/3,059語**（batch01–02 マージ済み。残りは en フォールバック） |
+| UI 言語 fil（Tier 1） | **実装済み**（151キー + 音素解説 fil + 言語ピッカー） |
+| 弱形タブ（36語） | **実装済み**（`weak_forms.json` + `?weak=` TTS） |
+| 連結句拡張（201句） | **実装済み**（STEP6・キャリア文出題） |
+| 多言語学習ガイド | ✅ フェーズ1（en/ja/ko/zh-Hant/zh-Hans/**fil**） |
 | `neighbors` 事前計算 | 実装済み（約2,600語） |
 | Mode B 実装 | **実装済み**（STEP7） |
 | GA/RP IPA・キーボード | **実装済み**（STEP5） |
 | RP TTS（単語） | **実装済み**（GAS 再デプロイ済み） |
-| 連結句拡張（201句） | **実装済み**（STEP6） |
 | `neighbors_rp` | **保留**（GA neighbors 流用） |
 | 連結句 RP TTS | 未着手（別タスク） |
+| gloss.fil（3,059語） | **進行中** 160/3,059（batch01–02）。未マージ語は en フォールバック |
+| cs_rule.fil（237件） | **未着手**（Tier 4・別タスク） |
 | 本物の B/C 語彙拡張 | 部分（phonics 語は Mode B で利用可。上級日常語の追加は継続） |
-| 多言語学習ガイド | ✅ フェーズ1（en/ja/ko/zh-Hant/zh-Hans） |
 
 ---
 
@@ -91,3 +98,4 @@
 | 2026-06-23 | v1 | 本丸をIPAリテラシーに確定（単一モード前提）。 |
 | 2026-06-24 | v2 | 2モード構成に拡張。Mode A＝音素カバー軸の本丸、Mode B＝CEFR軸の語彙サブテーマ。 |
 | 2026-06-26 | v2.1 | Mode A/B・GA/RP・連結句・RP TTS の実装完了を反映。依存表を実装状況に更新。 |
+| 2026-06-26 | v2.3 | gloss.fil batch01–02 マージ（160/3,059語）・`merge_gloss_fil.py` 追加。 |
