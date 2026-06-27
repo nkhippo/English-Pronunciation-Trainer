@@ -112,4 +112,5 @@ identical fil cells (Mode B distractor-collision candidates): 0
 
 ## 7. コミット
 
-（push 後に SHA を記載）
+- **SHA:** `1334e4a`
+- **メッセージ:** Complete gloss.fil Tier 2 for all 3059 words.
