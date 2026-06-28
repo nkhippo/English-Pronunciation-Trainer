@@ -30,6 +30,7 @@
   .langpick{display:flex;gap:4px}
   .langpick button{border:1px solid var(--hair);background:#fff;border-radius:6px;padding:3px 8px;font-family:var(--mono);font-size:9px;font-weight:700;cursor:pointer;color:var(--muted)}
   .langpick button[aria-pressed="true"]{border-color:var(--signal);color:var(--signal);background:var(--signal-soft)}
+  .topbar-btns{display:flex;gap:6px;align-items:center}
   .topbtn{border:1px solid var(--hair);background:#fff;border-radius:999px;width:34px;height:34px;padding:0;cursor:pointer;color:var(--muted);display:inline-flex;align-items:center;justify-content:center;flex-shrink:0}
   .topbtn svg{width:16px;height:16px}
   .topbtn:hover{border-color:var(--signal);color:var(--signal)}
@@ -177,8 +178,6 @@
   .modal-sub{font-family:var(--mono);font-size:10px;color:var(--faint);text-transform:uppercase;letter-spacing:.14em;margin:0 0 8px}
   .langopt{border:1px solid var(--hair);background:#fff;border-radius:10px;padding:12px 14px;cursor:pointer;font-family:var(--ui);font-size:14px;font-weight:600;color:var(--ink);text-align:left}
   .langopt[aria-pressed="true"]{border-color:var(--signal);background:var(--signal-soft);color:var(--signal)}
-  .guideopen{width:100%;margin-top:4px;border:1px solid var(--signal);background:var(--signal-soft);border-radius:10px;padding:12px 14px;cursor:pointer;font-family:var(--ui);font-size:14px;font-weight:600;color:var(--signal);text-align:left}
-  .guideopen:hover{background:#d4ebe9}
   .modal-card.guide-card{width:min(100%,560px);max-height:min(88vh,720px);display:flex;flex-direction:column;padding:18px 16px 14px}
   .guide-head{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;margin-bottom:10px}
   .guide-close{border:1px solid var(--hair);background:#fff;border-radius:999px;padding:6px 12px;cursor:pointer;font-family:var(--mono);font-size:10px;font-weight:600;color:var(--muted);letter-spacing:.04em;text-transform:uppercase;flex-shrink:0}
@@ -225,7 +224,10 @@
       <div><div class="name" id="brandName">IPA Dictation</div><div class="sub" id="brandSub">A1–A2 · GA</div></div>
     </div>
     <div class="topbar-actions">
-      <button class="topbtn settings" id="settingsBtn" type="button" aria-label="Settings"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg></button>
+      <div class="topbar-btns">
+        <button class="topbtn guide" id="guideBtn" type="button" aria-label="Guide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></button>
+        <button class="topbtn settings" id="settingsBtn" type="button" aria-label="Settings"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg></button>
+      </div>
       <button class="backtop hidden" id="backTopBtn" type="button">Menu</button>
       <div class="meter" id="meter"></div>
     </div>
@@ -439,9 +441,6 @@
         <button class="langopt" type="button" data-accent="ga" aria-pressed="true">American (GA)</button>
         <button class="langopt" type="button" data-accent="rp" aria-pressed="false">British (RP)</button>
       </div>
-    </div>
-    <div class="settings-section">
-      <button class="guideopen" id="guideOpenBtn" type="button">Guide</button>
     </div>
   </div>
 </div>
@@ -754,7 +753,7 @@ function applyI18n() {
   $("settingsTitle").textContent = t("settings_title");
   $("settingsLangLabel").textContent = t("settings_lang");
   $("settingsAccentLabel").textContent = t("accent.label");
-  $("guideOpenBtn").textContent = t("guide.open");
+  $("guideBtn").setAttribute("aria-label", t("guide.open"));
   $("guideTitle").textContent = t("guide.title");
   $("guideCloseBtn").textContent = t("guide.close");
   $("guideScrim").setAttribute("aria-label", t("guide.close"));
@@ -917,6 +916,7 @@ function setSetupVisible(on){
   show("summary",false);
   $("backTopBtn").classList.toggle("hidden",on);
   $("settingsBtn").classList.toggle("hidden",!on);
+  $("guideBtn").classList.toggle("hidden",!on);
   document.body.classList.toggle("in-play",!on);
   if(on){
     if(currentAudio){currentAudio.pause();currentAudio=null;}
@@ -1905,7 +1905,7 @@ function renderSummary(){
 
 $("settingsBtn").addEventListener("click",openSettings);
 $("settingsScrim").addEventListener("click",closeSettings);
-$("guideOpenBtn").addEventListener("click",openGuide);
+$("guideBtn").addEventListener("click",openGuide);
 $("guideScrim").addEventListener("click",closeGuide);
 $("guideCloseBtn").addEventListener("click",closeGuide);
 $("guideLangPills").querySelectorAll(".pill").forEach(b=>b.addEventListener("click",()=>renderGuide(b.dataset.guideLang)));
