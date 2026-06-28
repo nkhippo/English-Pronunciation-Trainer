@@ -3,7 +3,10 @@
     "welcome": {
       "title": "Welcome",
       "body": [
-        "This app is a pronunciation trainer, not a vocabulary app. Its job is narrow and deliberate: to help you re-learn the *sound* of words you already know, and to make you fluent at reading and writing the IPA — the phonetic alphabet that finally makes English spelling predictable. You are not here to memorize new words. You are here to repair the gap between the words you recognize on a page and the sounds those words actually make."
+        "This app is a pronunciation trainer, not a vocabulary app. Its job is narrow and deliberate: to help you re-learn the *sound* of words you already know, and to make you fluent at reading and writing the IPA — the phonetic alphabet that finally makes English spelling predictable. You are not here to memorize new words. You are here to repair the gap between the words you recognize on a page and the sounds those words actually make.",
+        "Most learners postpone this work. Vocabulary feels more productive, grammar feels more measurable, and pronunciation feels like polish you can add at the end. The trouble is that pronunciation does not behave like polish. The brain hears foreign sounds through the filter of the sounds it already knows, so when you meet an unfamiliar phoneme without training, your mind quietly bends it to the nearest sound in your first language and stores that bent version. Every time you read the word silently, listen to a podcast, or speak it aloud, you reinforce the wrong representation. Researchers call the eventual hardening of these habits *fossilization*: errors that started as harmless approximations become resistant to correction. The longer you delay this work, the more vocabulary you must later revisit, because every word you learned with a flawed sound is a word you will have to relearn — not in meaning, but in the body.",
+        "Learning to read and write the IPA gives you a permanent map. English spelling is famously unreliable, but the phonetic alphabet is not: each symbol is one sound, every time. Once those forty-odd symbols are second nature to you, every new word becomes self-decoding. You see *colonel* in a book and you already know what it sounds like; you hear *epitome* in a meeting and you already know how to write it down. Without this map, learners cycle through the same cracks for years — guessing at stress, misreading vowels, mishearing minimal pairs. With it, the time you spend on every later word collapses, because your eye and ear finally agree.",
+        "The most effective way to fix pronunciation is a patient human teacher who corrects you sound by sound. That works, but it costs time and money most learners cannot sustain. The most common substitute is searching each word online and pressing a play button, which is slow, lonely, and rarely turns into a habit. This app is the middle path: every word in the deck is voiced by a clean reference TTS, every IPA symbol is one tap away from a mouth-position note, and every answer is graded objectively against the citation form. You get the structured pressure of a lesson and the schedule of a self-study tool, without the friction that usually kills the habit before it starts."
       ]
     },
     "philosophy": {
@@ -58,7 +61,10 @@
     "welcome": {
       "title": "はじめに",
       "body": [
-        "このアプリは語彙を増やすためのものではなく、発音を鍛え直すためのトレーナーです。目的は意図的にひとつに絞られています。すでに意味を知っている単語の「音」だけを学び直し、英語の綴りをようやく予測可能にしてくれる発音記号（IPA）を、読めるだけでなく書けるようにすること。ここで新しい単語を覚える必要はありません。あなたが取り組むのは、紙の上で見覚えのある単語と、その単語が実際に出している音との間にあるズレを埋めることです。"
+        "このアプリは語彙を増やすためのものではなく、発音を鍛え直すためのトレーナーです。目的は意図的にひとつに絞られています。すでに意味を知っている単語の「音」だけを学び直し、英語の綴りをようやく予測可能にしてくれる発音記号（IPA）を、読めるだけでなく書けるようにすること。ここで新しい単語を覚える必要はありません。あなたが取り組むのは、紙の上で見覚えのある単語と、その単語が実際に出している音との間にあるズレを埋めることです。",
+        "多くの学習者は、この作業を後回しにします。語彙のほうが手応えがあり、文法のほうが点数で測りやすく、発音は最後に磨けばいいと感じるからです。しかし発音は「最後の仕上げ」のようには働きません。脳は外国語の音を、すでに身についた母語の音のフィルターを通して聞き取ります。だから新しい音素を訓練なしで耳にすると、あなたの頭はその音をひそかに母語の最も近い音へと曲げて、その曲げた姿のまま記憶に保存します。黙読するたび、ポッドキャストを聞くたび、声に出すたびに、その誤った表象が強化されていきます。研究者はこの硬直化を **fossilization（化石化）** と呼びます。無害な近似だった誤りが、やがて訂正をはねつけるほど固まってしまう現象です。発音を後回しにすればするほど、あとで戻って洗い直さなければならない語彙が増えていきます。意味は知っていても、身体に染みついた音が間違っていれば、その単語はもう一度、今度は身体で覚え直さなければならないのです。",
+        "IPA を読み書きできるようになることは、消えない地図を手に入れることです。英語の綴りは悪名高く不規則ですが、IPA は違います。どの記号も常にひとつの音に対応します。四十あまりの記号が体に染み込んでしまえば、新しい単語はそれ自身で読み解けるようになります。本で *colonel* という綴りに出会えば、もう音が頭に浮かびます。会議で *epitome* と聞こえれば、もう綴りが書けます。この地図がないままだと、学習者は同じ穴に何年も落ち続けます。強勢の位置を勘で当て、母音を読み間違え、ミニマルペアを聞き分けられないままです。地図があれば、それ以降に出会うすべての単語にかかる時間が圧縮されます。目と耳がようやく同じ言葉を語るようになるからです。",
+        "発音を直す最も効果的な方法は、忍耐強い人間の講師に一音ずつ訂正してもらうことです。これは確かに効きますが、ほとんどの学習者には続けられないコストと時間を要します。次に多い代替手段は、単語ごとにウェブで検索して再生ボタンを押すことです。手間がかかり、孤独で、習慣にはなかなか育ちません。このアプリはその中間にある現実解です。デッキの全単語が、整った辞書音声で発音されます。あらゆる IPA 記号は、タップひとつで口の構え方の解説に辿り着けます。あらゆる回答は、辞書発音に対して客観的に採点されます。レッスンの構造的な圧力と、自習ツールの自由なスケジュールを両立し、習慣を芽生える前に潰してしまう「面倒さ」を取り除いた状態を、ここで得られます。"
       ]
     },
     "philosophy": {
@@ -111,9 +117,12 @@
   },
   "ko": {
     "welcome": {
-      "title": "시작하며",
+      "title": "들어가며",
       "body": [
-        "이 앱은 어휘를 늘리기 위한 것이 아니라 발음을 다시 단련하기 위한 트레이너입니다. 목적은 의도적으로 하나로 좁혀져 있습니다. 이미 뜻을 아는 단어의 '소리'만을 다시 배우고, 영어 철자를 비로소 예측 가능하게 만들어 주는 발음 기호(IPA)를 읽을 수 있을 뿐 아니라 쓸 수 있게 하는 것. 여기서 새로운 단어를 외울 필요는 없습니다. 당신이 메우려는 것은, 종이 위에서 익숙한 단어와 그 단어가 실제로 내는 소리 사이의 틈입니다."
+        "이 앱은 어휘를 늘리는 도구가 아니라, 발음을 다시 훈련하기 위한 트레이너입니다. 목적은 의도적으로 하나로 좁혀져 있습니다. 이미 의미를 아는 단어의 *소리*만 다시 배우고, 영어 철자를 비로소 예측 가능하게 만들어 주는 발음 기호(IPA)를 읽을 뿐 아니라 쓸 수 있게 만드는 것. 여기서 새 단어를 외울 필요는 없습니다. 당신이 메우는 것은, 종이 위에서 익숙한 단어와, 그 단어가 실제로 내는 소리 사이의 틈입니다.",
+        "대부분의 학습자는 이 작업을 미룹니다. 어휘는 더 생산적으로 느껴지고, 문법은 더 측정 가능해 보이며, 발음은 마지막에 다듬으면 된다고 느끼기 때문입니다. 그러나 발음은 '마지막 광택'처럼 작동하지 않습니다. 뇌는 외국어의 소리를 이미 자리 잡은 모국어 소리의 필터를 통해 듣습니다. 그래서 훈련되지 않은 상태로 낯선 음소를 만나면, 당신의 머리는 그 소리를 모국어에서 가장 가까운 소리로 조용히 휘게 하고, 휘어진 상태 그대로 기억에 저장합니다. 묵독할 때마다, 팟캐스트를 들을 때마다, 소리 내어 말할 때마다 그 잘못된 표상이 강화됩니다. 연구자들은 이런 고착을 **화석화(fossilization)**라고 부릅니다. 처음에는 무해한 근사치였던 오류가, 결국 교정을 거부할 만큼 굳어지는 현상입니다. 발음을 늦출수록, 나중에 다시 손봐야 할 어휘가 더 많이 쌓입니다. 의미는 알지만 몸에 새겨진 소리가 틀린 단어는, 의미가 아니라 몸으로 다시 배워야 하는 단어가 되기 때문입니다.",
+        "IPA를 읽고 쓰는 능력은 사라지지 않는 지도를 손에 넣는 일입니다. 영어 철자는 악명 높게 불규칙하지만 IPA는 그렇지 않습니다. 모든 기호가 언제나 하나의 소리에 대응합니다. 마흔 개 남짓의 기호가 몸에 익으면, 새로 만나는 단어가 스스로 해독되기 시작합니다. 책에서 *colonel*이라는 철자를 보면 이미 그 소리가 들립니다. 회의에서 *epitome*이라는 단어를 들으면 이미 철자를 쓸 수 있습니다. 이 지도가 없으면 학습자는 몇 년이나 같은 구멍에 빠집니다. 강세 위치를 짐작으로 맞히고, 모음을 잘못 읽고, 최소대립쌍을 분간하지 못합니다. 지도가 생기면 그 뒤에 만나는 모든 단어에 드는 시간이 압축됩니다. 눈과 귀가 마침내 같은 말을 하게 되기 때문입니다.",
+        "발음을 고치는 가장 효과적인 방법은, 인내심 있는 사람 선생님에게 소리 하나하나를 교정받는 것입니다. 효과는 확실하지만, 대부분의 학습자가 감당하기 어려운 시간과 비용이 듭니다. 가장 흔한 대체 수단은 단어마다 웹에서 검색해 재생 버튼을 누르는 것인데, 손이 많이 가고 외롭고 좀처럼 습관으로 자라지 않습니다. 이 앱은 그 중간에 있는 현실적인 길입니다. 덱의 모든 단어가 깔끔한 사전 음성으로 발음됩니다. 모든 IPA 기호는 탭 한 번으로 입 모양 설명으로 이어집니다. 모든 답은 사전 발음을 기준으로 객관적으로 채점됩니다. 레슨의 구조적 압력과 자율 학습의 자유로운 일정을 함께 가지면서, 습관이 자리 잡기 전에 무너뜨리는 '귀찮음'은 제거된 상태가 여기 있습니다."
       ]
     },
     "philosophy": {
@@ -168,7 +177,10 @@
     "welcome": {
       "title": "前言",
       "body": [
-        "這個應用程式並非用來擴充詞彙，而是一套重新鍛鍊發音的訓練工具。它的目的刻意收得很窄：只重新學習你已經認識的單字的「聲音」，並讓你不僅能讀、更能寫出國際音標（IPA）——正是這套音標，終於讓英語的拼寫變得可以預測。你來這裡不是為了背新單字，而是為了填補一道縫隙：紙上眼熟的單字，和那個單字實際發出的聲音，兩者之間的落差。"
+        "這款應用程式不是用來擴充詞彙的工具，而是一個重新訓練發音的訓練器。目的被刻意收窄到一處：讓你重新學習已經知道意思的單字的*聲音*，並讓你能流暢地閱讀和書寫音標（IPA）——這套終於讓英文拼字變得可預測的字母。你不是來這裡記新單字的，而是來彌補一個缺口：紙面上你認識的單字，與這些單字實際發出的聲音之間的差距。",
+        "大多數學習者會把這件事往後推。詞彙看起來更有產出，文法更容易衡量，而發音感覺像是最後階段的打磨。問題在於，發音並不像打磨那樣運作。大腦會透過已經建立的母語聲音的濾鏡來聽外語聲音。所以當你未經訓練就遇到一個陌生音素時，你的大腦會悄悄把它彎成母語裡最接近的聲音，並把這個被彎曲的版本存進記憶。每一次默讀、聽 podcast、或開口說話，都在強化這個錯誤的表徵。研究者把這種最終的僵化稱為**化石化（fossilization）**：原本無傷大雅的近似，漸漸變得抗拒修正。你越拖延發音訓練，之後需要回頭重練的詞彙就越多。意思你知道，但身體裡印著的聲音是錯的，那麼這個詞就得用身體重新學一次——不是學意思，而是學聲音。",
+        "學會讀寫 IPA，等於拿到一份永久的地圖。英文拼字出了名地不可靠，但 IPA 不是：每一個符號始終對應一個聲音。當那四十多個符號變成本能，每一個新詞都開始能自我解碼。你在書裡看到 *colonel*，就已經知道它怎麼讀；你在會議上聽見 *epitome*，就已經能把它寫下來。沒有這張地圖，學習者會在同樣的坑裡轉好幾年——猜重音、錯讀母音、聽不出最小對立對。有了它，之後遇到的每一個詞所花的時間都會壓縮，因為你的眼睛和耳朵終於在說同一種話。",
+        "修正發音最有效的方法，是請一位有耐心的真人老師一個音一個音地糾正你。這確實有用，但大多數學習者負擔不起所需的時間和金錢。最常見的替代辦法是每個詞都去網路上搜尋然後按播放鍵——慢、孤獨，很難變成習慣。這款應用程式是中間路線：詞庫裡每個單字都由乾淨的參考語音朗讀，每個 IPA 符號點一下就能看到口型說明，每個答案都按照辭典發音被客觀評分。你能同時擁有課程的結構性壓力和自學工具的彈性節奏，而那些通常在習慣養成之前就把它扼殺掉的摩擦力，被拿掉了。"
       ]
     },
     "philosophy": {
@@ -223,7 +235,10 @@
     "welcome": {
       "title": "前言",
       "body": [
-        "这个应用并非用来扩充词汇，而是一套重新锤炼发音的训练工具。它的目的刻意收得很窄：只重新学习你已经认识的单词的\"声音\"，并让你不仅能读、更能写出国际音标（IPA）——正是这套音标，终于让英语的拼写变得可以预测。你来这里不是为了背新单词，而是为了填补一道缝隙：纸上眼熟的单词，和那个单词实际发出的声音，两者之间的落差。"
+        "这款应用不是用来扩充词汇的工具，而是一个重新训练发音的训练器。目的被刻意收窄到一处：让你重新学习已经知道意思的单词的*声音*，并让你能流畅地阅读和书写音标（IPA）——这套终于让英语拼写变得可预测的字母。你不是来这里记新单词的，而是来弥补一个缺口：纸面上你认识的单词，与这些单词实际发出的声音之间的差距。",
+        "大多数学习者会推迟做这件事。词汇看起来更有产出，语法更便于衡量，而发音感觉像是最后阶段的打磨。问题在于，发音并不像打磨那样运作。大脑会通过已经建立的母语声音的滤镜来听外语声音。所以当你未经训练就遇到一个陌生音素时，你的大脑会悄悄把它弯成母语里最接近的声音，并把这个被弯曲的版本存进记忆里。每一次默读、听播客、或开口说话，都在强化这个错误的表征。研究者把这种最终的僵化称为**化石化（fossilization）**：原本无伤大雅的近似，逐渐变得抗拒修正。你越拖延发音训练，以后需要回头重练的词汇就越多。意思你知道，但身体里印着的声音是错的，那么这个词就得用身体重新学一次——不是学意思，而是学声音。",
+        "学会读写 IPA，等于拿到一份永久的地图。英语拼写出了名地不可靠，但 IPA 不是：每一个符号始终对应一个声音。当那四十多个符号变成本能，每一个新词都开始能自我解码。你在书里看到 *colonel*，就已经知道它怎么读；你在会议上听见 *epitome*，就已经能把它写下来。没有这张地图，学习者会在同样的坑里转好几年——猜重音、错读元音、听不出最小对立对。有了它，之后遇到的每一个词所花的时间都会压缩，因为你的眼睛和耳朵终于在说同一种话。",
+        "修正发音最有效的方法，是请一位耐心的人类老师一个音一个音地纠正你。这确实有用，但大多数学习者负担不起所需的时间和金钱。最常见的替代办法是每个词都去网上搜然后按播放键——慢、孤独，很难变成习惯。这款应用是中间路线：词库里每个单词都由干净的参考语音朗读，每个 IPA 符号点一下就能看到口型说明，每个答案都按照词典发音被客观打分。你能同时拥有课程的结构性压力和自学工具的灵活节奏，而那些通常在习惯形成之前就把它扼杀掉的摩擦力，被去掉了。"
       ]
     },
     "philosophy": {
@@ -276,9 +291,12 @@
   },
   "fil": {
     "welcome": {
-      "title": "Maligayang pagdating",
+      "title": "Panimula",
       "body": [
-        "Ang app na ito ay isang pagsasanay sa pagbigkas, hindi isang app para sa bokabularyo. Tiyak at sinadya ang gawain nito: tulungan kang muling matutunan ang *tunog* ng mga salitang alam mo na, at gawin kang bihasa sa pagbasa at pagsulat ng IPA — ang ponetikong alpabeto na sa wakas ay nagpapahulaan sa baybay ng Ingles. Wala ka rito para magsaulo ng mga bagong salita. Nandito ka para ayusin ang puwang sa pagitan ng mga salitang nakikilala mo sa papel at ng mga tunog na talagang nililikha ng mga salitang iyon."
+        "Ang app na ito ay hindi panyaman ng bokabularyo kundi isang trainer para sa pagbigkas. Ang layunin ay sinadyang ipinokus sa iisa: muling matutuhan ang *tunog* ng mga salitang alam mo na ang kahulugan, at maging matatas sa pagbasa at pagsulat ng IPA — ang ponemikong alpabeto na sa wakas ay nagpapahulaan sa baybay ng Ingles. Wala kang kailangang isaulong bagong salita rito. Ang inaayos mo ay ang puwang sa pagitan ng salitang nakikilala mo sa papel at ng tunog na talagang nilalabas ng salitang iyon.",
+        "Karamihan sa mga nag-aaral ay ipinagpapaliban ang gawaing ito. Mas produktibo ang pakiramdam ng bokabularyo, mas masusukat ang gramatika, at parang pulido na lang ang pagbigkas na pwedeng idagdag sa dulo. Ang problema, hindi ganoon kumikilos ang pagbigkas. Pinapakinggan ng utak ang banyagang tunog sa pamamagitan ng salaan ng mga tunog na alam na nito sa unang wika. Kaya kapag nakakaengkwentro ka ng di-pamilyar na ponema nang walang pagsasanay, tahimik na binabaluktot ng utak mo ang tunog na iyon papunta sa pinakamalapit na tunog ng unang wika mo, at sa baluktot na anyong iyon ito iniimbak sa memorya. Bawat tahimik na pagbabasa, bawat pakikinig sa podcast, bawat pagbigkas nang malakas — pinatatatag nito ang maling representasyon. Tinatawag ng mga mananaliksik ang ganitong paninigas na **fossilization**: mga pagkakamali na noong una ay walang halagang aproksimasyon, na nauuwi sa pagiging matigas at hindi na mawawala. Habang ipinagpapaliban mo ang pagbigkas, mas marami ang bokabularyong kailangan mong balikan. Alam mo ang kahulugan, ngunit kung mali ang tunog na nakaukit na sa katawan mo, kailangan mo pang muling matuto ng salitang iyon — hindi sa kahulugan, kundi sa katawan.",
+        "Ang pag-aaral na basahin at isulat ang IPA ay nagbibigay sa iyo ng permanenteng mapa. Kilala sa pagiging di-mapagkakatiwalaan ang baybay ng Ingles, ngunit hindi ang IPA: bawat simbolo ay isang tunog, palaging gayon. Kapag naging likas na sa iyo ang halos apatnapung simbolo, bawat bagong salita ay nagsisimulang dekorpihin ang sarili nito. Nakikita mo ang *colonel* sa libro at alam mo na agad ang tunog. Naririnig mo ang *epitome* sa pulong at alam mo na agad kung paano isusulat. Kung walang ganitong mapa, paulit-ulit na nahuhulog sa parehong butas ang mga nag-aaral sa loob ng mga taon — hinuhulaan ang lokasyon ng diin, namamali sa pagbasa ng patinig, hindi nakakakilala ng minimal pairs. Kapag may mapa ka, gumuguho ang oras na kailangan para sa bawat susunod na salita, dahil sa wakas ay magkasundo na ang mata at tainga mo.",
+        "Ang pinaka-epektibong paraan ng pag-aayos sa pagbigkas ay ang isang matiyagang gurong tao na nagtutuwid ng tunog isa-isa. Talagang gumagana, ngunit nangangailangan ito ng oras at pera na hindi kayang panatilihin ng karamihan. Ang pinakamadalas na kahalili ay ang paghahanap sa bawat salita sa web at pagpindot sa play — mabagal, nag-iisa, at madalang maging gawi. Itong app ang gitnang daan: bawat salita sa deck ay binibigkas ng malinis na reference TTS, bawat simbolo ng IPA ay isang tap lang mula sa paliwanag tungkol sa kilos ng bibig, at bawat sagot ay obhetibong markahan laban sa porma ng diksyonaryo. Tinatanggap mo ang istrukturadong presyur ng aralin at ang sariling iskedyul ng self-study tool, nang wala ang alitan na karaniwang pumapatay sa gawi bago pa ito magsimula."
       ]
     },
     "philosophy": {
