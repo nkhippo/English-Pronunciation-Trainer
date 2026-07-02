@@ -215,6 +215,7 @@ aʊ: how /haʊ/, cow /kaʊ/, hour /ˈaʊɚ/
 - pilot 由来の誤 narrow 3語（`winter`, `twenty`, `ninety`）を `scripts/merge_phase2a_final.py` で除去。
 - `phase2b_respell_final_52.json` を `scripts/merge_respelling.py --draft phase2b_respell_final_52.json` でマージ。
 - **最終:** `respell_ga` 3,059/3,059語、`ipa_actual_ga` 192語（narrow 差分がある語のみ）。
+- **v2 品質パッチ（2026-07-02）:** 音節主音 n/l + 追加コーダ子音パターン（`tnt` 等）18語の `respell_ga` を `uh` 補完表記に修正（`generate_respelling.py` v2、`phase2b_respell_draft_v2.json`）。
 
 i18n: `vocab.*`（5 キー × 5 言語）。
 
