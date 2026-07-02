@@ -1,9 +1,9 @@
-# English Pronunciation Trainer — 目的ステートメント（確定版 v2.9 / source of truth）
+# English Pronunciation Trainer — 目的ステートメント（確定版 v3.0 / source of truth）
 
 > アプリの**本丸（measured outcome）**と**モード構成**を確定し、背景メモ・Cursor仕様書・実装コードの目的を一致させる正本。
 > 目的・評価方針に関する記述が衝突した場合は、本ドキュメントを正とする。
 >
-> **更新日:** 2026-06-26 ／ **ステータス:** Mode A・Mode B 実装済み。GA/RP 切替・連結句・弱形タブ・RP TTS・UI 5言語（fil 含む）対応済み。
+> **更新日:** 2026-07-02 ／ **ステータス:** Mode A・Mode B 実装済み。GA/RP 切替・連結句・弱形・RP TTS・語彙ブラウザ・TTS プリフェッチ・UI 5言語（fil 含む）・**narrow IPA + respelling 全3,059語**対応済み。
 > 詳細な実装仕様は `docs/DESIGN.md`、画面・データの正本は `docs/SPECIFICATION.md` を参照。
 
 ---
@@ -30,7 +30,9 @@
 
 **Mode A の練習タブ:** **Words**（単語）と **Connected Speech**（連結句＋弱形・GA 音声前提）の2種。Connected Speech 内の Type フィルタで linking / assimilation / elision / **Weak forms** を選択。弱形36語は連結発音現象の一部として内包（独立タブなし）。
 
-**UI 言語:** en / ja / zh / ko / **fil**（タガログ語・**Tier 1–4 すべて完了**）。語義 gloss.fil は **3,059/3,059語**（Tier 2 **完了**）。連結/弱形ルール文（cs_rule.fil）は **237/237件**（Tier 4 **完了**）。
+**UI 言語:** en / ja / zh / ko / **fil**（タガログ語・**Tier 1–4 すべて完了**、UI 文言 **156 キー**）。語義 gloss.fil は **3,059/3,059語**（Tier 2 **完了**）。連結/弱形ルール文（cs_rule.fil）は **237/237件**（Tier 4 **完了**）。英語定義 `def` は **3,059/3,059語**（Mode B Study reveal・語彙ブラウザで利用）。
+
+**語彙ブラウザ:** トップバーから全語彙（3,059語）・連結句（201句）を参照閲覧。検索・A–Z ジャンプ・TTS 付き。練習セッション中も利用可。
 
 **CEFRの位置づけ:** 主軸としてMode Aには不適（頻度はIPA読み書き難易度の弱い代理であり、本アプリは既知語前提のため頻度の意味が薄い）。CEFRは破棄せず **Mode B の主軸へ移設**する。Mode Aではコールドスタート時の出題順にのみ残す。
 
@@ -58,7 +60,8 @@
   1. 意味認識MCQ（音→意味）。**distractorは音素近傍語**を中心に毎回抽選＋順序シャッフル。
   2. 音声ディクテーション（音→綴り、Decode採点を流用）。
 - **音素近傍distractorの意義:** 選択肢暗記（セット記憶）と消去法を同時に潰し、MCQを実質ミニマルペアの知覚テストに変える。本丸の思想「発音できない音は聞き取れない」をサブテーマでも訓練する。
-- **主軸 = CEFR/頻度バンド。** 段階配列でA1→A2→B1…と進む（現データは主に A1/A2 + phonics 語彙）。
+- **主軸 = CEFR/頻度バンド。** 段階配列でA1→A2→B1…と進む（現データは主に A1/A2 + phonics 語彙）。アルファベット（`letter`）・短縮形（`contraction`）は Mode B プールから除外。バンド内 60% 以上が box 4+ に到達すると次バンドへ自動解放。
+- **TTS プリフェッチ:** Words / Mode B セッション開始時にキュー内の単語音声を先読み（GA+RP 両方 warm、現アクセント body を優先取得）。再生ボタンはキャッシュ準備完了まで無効化。
 
 ---
 
@@ -67,19 +70,24 @@
 | 前提 | 状態 |
 |------|------|
 | gloss 品質（多言語UI） | en/ja/zh/ko/fil **実装済み**（gloss.fil 3,059語完走） |
-| UI 言語 fil（Tier 1） | **実装済み**（151キー + 音素解説 fil + 言語ピッカー） |
+| UI 言語 fil（Tier 1） | **実装済み**（156キー + 音素解説 fil + 言語ピッカー） |
+| 英語定義 `def` | **完了**（3,059/3,059語。batch01–08） |
 | 弱形（36語） | **実装済み**（Connected Speech 内 Type=weak。`weak_forms.json` + `?weak=` TTS） |
 | 連結句拡張（201句） | **実装済み**（STEP6・キャリア文出題） |
 | 多言語学習ガイド | ✅ フェーズ1（en/ja/ko/zh-Hant/zh-Hans/**fil**） |
-| `neighbors` 事前計算 | 実装済み（約2,600語） |
+| 語彙ブラウザ | **実装済み**（Words 3,059 / Phrases 201） |
+| `neighbors` 事前計算 | 実装済み（2,623/3,059語） |
 | Mode B 実装 | **実装済み**（STEP7） |
 | GA/RP IPA・キーボード | **実装済み**（STEP5） |
 | RP TTS（単語） | **実装済み**（GAS 再デプロイ済み） |
+| TTS プリフェッチ（クライアント） | **実装済み**（セッション先読み + スピーカー gating） |
+| GA バッチ warm（GAS 時間トリガー） | **実装済み**（`BatchWarm.gs`・500語/回・20並列） |
 | `neighbors_rp` | **保留**（GA neighbors 流用） |
 | 連結句 RP TTS | 未着手（別タスク） |
 | gloss.fil（3,059語） | **完了**（batch01–34、files 23 改訂版） |
 | cs_rule.fil（237件） | **完了**（201連結 + 36弱形） |
 | 本物の B/C 語彙拡張 | 部分（phonics 語は Mode B で利用可。上級日常語の追加は継続） |
+| narrow IPA + respelling（全語彙） | **完了**（`ipa_actual_ga` 192語 + respelling 3,059/3,059語。VntV 52語は TTS 実音判定で確定） |
 
 ---
 
@@ -95,6 +103,9 @@
 
 | 日付 | 版 | 内容 |
 |------|----|------|
+| 2026-07-02 | v3.1 | narrow IPA + respelling を全3,059語で完了。VntV 52語は TTS 実音判定（nasal=kept, consonant=plain）で確定。 |
+| 2026-07-02 | v3.0 | 語彙ブラウザ・TTS プリフェッチ・GA バッチ warm・`def` 完走・i18n 156 キーを反映。 |
+| 2026-06-29 | v2.10 | 語彙ブラウザ・学習ガイド全章置換・`def` batch01–08 マージ。 |
 | 2026-06-23 | v1 | 本丸をIPAリテラシーに確定（単一モード前提）。 |
 | 2026-06-24 | v2 | 2モード構成に拡張。Mode A＝音素カバー軸の本丸、Mode B＝CEFR軸の語彙サブテーマ。 |
 | 2026-06-26 | v2.1 | Mode A/B・GA/RP・連結句・RP TTS の実装完了を反映。依存表を実装状況に更新。 |

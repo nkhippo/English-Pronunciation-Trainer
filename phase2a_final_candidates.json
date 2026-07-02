@@ -1,0 +1,418 @@
+[
+  {
+    "w": "candy",
+    "ipa": "/ˈkændi/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "contest",
+    "ipa": "/ˈkɑntɛst/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "interview",
+    "ipa": "/ˈɪntɚˌvju/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "interviewer",
+    "ipa": "/ˈɪntɚˌvjuɚ/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "into",
+    "ipa": "/ˈɪntu/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "monday",
+    "ipa": "/ˈmʌndi/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "ninety",
+    "ipa": "/ˈnaɪnti/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "painting",
+    "ipa": "/ˈpeɪntɪŋ/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "scientist",
+    "ipa": "/ˈsaɪəntɪst/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "seventy",
+    "ipa": "/ˈsɛvənti/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "sunday",
+    "ipa": "/ˈsʌnˌdeɪ/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "twenty",
+    "ipa": "/ˈtwɛnti/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "under",
+    "ipa": "/ˈʌndɚ/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "underline",
+    "ipa": "/ˈʌndɚˌlaɪn/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "understood",
+    "ipa": "/ˌʌndɚˈstʊd/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "window",
+    "ipa": "/ˈwɪndoʊ/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "winter",
+    "ipa": "/ˈwɪntɚ/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "wonderful",
+    "ipa": "/ˈwʌndɚfəl/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "advantage",
+    "ipa": "/ædˈvæntɪdʒ/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "calendar",
+    "ipa": "/ˈkæləndɚ/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "contact",
+    "ipa": "/ˈkɑnˌtækt/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "context",
+    "ipa": "/ˈkɑntɛkst/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "continent",
+    "ipa": "/ˈkɑntənənt/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "dentist",
+    "ipa": "/ˈdɛntəst/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "disadvantage",
+    "ipa": "/ˌdɪsədˈvæntɪdʒ/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "disappointed",
+    "ipa": "/ˌdɪsəˈpɔɪntɪd/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "disappointing",
+    "ipa": "/ˌdɪsəˈpɔɪntɪŋ/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "ending",
+    "ipa": "/ˈɛndɪŋ/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "enter",
+    "ipa": "/ˈɛntɚ/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "entertainment",
+    "ipa": "/ˌɛntɚˈteɪnmənt/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "gender",
+    "ipa": "/ˈdʒɛndɚ/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "granddad",
+    "ipa": "/ˈɡrænˌdæd/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "granddaughter",
+    "ipa": "/ˈɡrænˌdɔtɚ/",
+    "ipa_actual_ga": "/ˈɡrænˌdɔɾɚ/",
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "handicapped",
+    "ipa": "/ˈhændiˌkæpt/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "hunter",
+    "ipa": "/ˈhʌntɚ/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "independence",
+    "ipa": "/ˌɪndɪˈpɛndəns/",
+    "ipa_actual_ga": "/ˌɪndɪˈpɛndn̩s/",
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "indicate",
+    "ipa": "/ˈɪndəˌkeɪt/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "indoor",
+    "ipa": "/ˈɪnˌdɔr/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "international",
+    "ipa": "/ˌɪntɚˈnæʃənəl/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "kinda",
+    "ipa": "/ˈkaɪndə/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "painter",
+    "ipa": "/ˈpeɪntɚ/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "plenty",
+    "ipa": "/ˈplɛnti/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "printer",
+    "ipa": "/ˈprɪntɚ/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "romantic",
+    "ipa": "/roʊˈmæntɪk/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "roundabout",
+    "ipa": "/ˈraʊndəˌbaʊt/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "sandy",
+    "ipa": "/ˈsændi/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "thunderstorm",
+    "ipa": "/ˈθʌndɚˌstɔrm/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "understand",
+    "ipa": "/ˌʌndɚˈstænd/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "underwater",
+    "ipa": "/ˈʌndɚˌwɔtɚ/",
+    "ipa_actual_ga": "/ˈʌndɚˌwɔɾɚ/",
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "wander",
+    "ipa": "/ˈwɑndɚ/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "windy",
+    "ipa": "/ˈwɪndi/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  },
+  {
+    "w": "wonder",
+    "ipa": "/ˈwʌndɚ/",
+    "ipa_actual_ga": null,
+    "nasal": "kept",
+    "consonant": "plain",
+    "note": ""
+  }
+]

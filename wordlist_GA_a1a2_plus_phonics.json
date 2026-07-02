@@ -4514,7 +4514,9 @@
       "kind"
     ],
     "rp_ipa": "/ˈkændi/",
-    "def": "A sweet food made with sugar, such as chocolate or hard sweets."
+    "def": "A sweet food made with sugar, such as chocolate or hard sweets.",
+    "respell_ga": "KAN-dee",
+    "respell_rp": "KAN-dee"
   },
   {
     "w": "cap",
@@ -6117,7 +6119,9 @@
       "contrast"
     ],
     "rp_ipa": "/ˈkɒntest/",
-    "def": "A competition where people try to win by being best at something."
+    "def": "A competition where people try to win by being best at something.",
+    "respell_ga": "KAHN-tehst",
+    "respell_rp": "KON-tehst"
   },
   {
     "w": "conversation",
@@ -14815,7 +14819,9 @@
       "interviewer"
     ],
     "rp_ipa": "/ˈɪntəˌvjuː/",
-    "def": "A formal meeting where someone is asked questions."
+    "def": "A formal meeting where someone is asked questions.",
+    "respell_ga": "IN-ter-vyoo",
+    "respell_rp": "IN-tuh-vyoo"
   },
   {
     "w": "interviewer",
@@ -14836,7 +14842,9 @@
       "interview"
     ],
     "rp_ipa": "/ˈɪntəˌvjuːə/",
-    "def": "A person who asks questions in an interview."
+    "def": "A person who asks questions in an interview.",
+    "respell_ga": "IN-ter-vyoo-er",
+    "respell_rp": "IN-tuh-vyoo-uh"
   },
   {
     "w": "into",
@@ -14864,7 +14872,9 @@
       "hint"
     ],
     "rp_ipa": "/ˈɪntuː/",
-    "def": "Moving to the inside of something; becoming a different state."
+    "def": "Moving to the inside of something; becoming a different state.",
+    "respell_ga": "IN-too",
+    "respell_rp": "IN-too"
   },
   {
     "w": "introduce",
@@ -18346,7 +18356,9 @@
       "sunday"
     ],
     "rp_ipa": "/ˈmʌndi/",
-    "def": "The first day of the working week."
+    "def": "The first day of the working week.",
+    "respell_ga": "MUHN-dee",
+    "respell_rp": "MUHN-dee"
   },
   {
     "w": "money",
@@ -19332,8 +19344,10 @@
     ],
     "rp_ipa": "/ˈnaɪnti/",
     "def": "The number 90.",
-    "ipa_actual_ga": "/ˈnaɪɾi/",
-    "ipa_actual_rp": null
+    "ipa_actual_ga": null,
+    "ipa_actual_rp": null,
+    "respell_ga": "NYN-tee",
+    "respell_rp": "NYN-tee"
   },
   {
     "w": "no",
@@ -20500,7 +20514,9 @@
       "rating"
     ],
     "rp_ipa": "/ˈpeɪntɪŋ/",
-    "def": "A picture made with paint; the activity of applying paint."
+    "def": "A picture made with paint; the activity of applying paint.",
+    "respell_ga": "PAYN-ting",
+    "respell_rp": "PAYN-ting"
   },
   {
     "w": "pair",
@@ -23886,7 +23902,9 @@
     },
     "neighbors": [],
     "rp_ipa": "/ˈsaɪəntɪst/",
-    "def": "A person who studies or works in a science."
+    "def": "A person who studies or works in a science.",
+    "respell_ga": "SY-uhn-tist",
+    "respell_rp": "SY-uhn-tist"
   },
   {
     "w": "sea",
@@ -24298,7 +24316,9 @@
       "seventeen"
     ],
     "rp_ipa": "/ˈsevənti/",
-    "def": "The number 70."
+    "def": "The number 70.",
+    "respell_ga": "SEH-vuhn-tee",
+    "respell_rp": "SEH-vuhn-tee"
   },
   {
     "w": "shake",
@@ -27456,7 +27476,9 @@
       "sandy"
     ],
     "rp_ipa": "/ˈsʌnˌdeɪ/",
-    "def": "The last or first day of the week, traditionally a day of rest."
+    "def": "The last or first day of the week, traditionally a day of rest.",
+    "respell_ga": "SUHN-day",
+    "respell_rp": "SUHN-day"
   },
   {
     "w": "sung",
@@ -30480,8 +30502,10 @@
     ],
     "rp_ipa": "/ˈtwenti/",
     "def": "The number 20.",
-    "ipa_actual_ga": "/ˈtwɛɾi/",
-    "ipa_actual_rp": null
+    "ipa_actual_ga": null,
+    "ipa_actual_rp": null,
+    "respell_ga": "TWEHN-tee",
+    "respell_rp": "TWEHN-tee"
   },
   {
     "w": "two",
@@ -30675,7 +30699,9 @@
       "other"
     ],
     "rp_ipa": "/ˈʌndə/",
-    "def": "Below something; at a lower level than."
+    "def": "Below something; at a lower level than.",
+    "respell_ga": "UHN-der",
+    "respell_rp": "UHN-duh"
   },
   {
     "w": "underline",
@@ -30694,7 +30720,9 @@
     },
     "neighbors": [],
     "rp_ipa": "/ˈʌndəˌlaɪn/",
-    "def": "A line drawn under text for emphasis."
+    "def": "A line drawn under text for emphasis.",
+    "respell_ga": "UHN-der-lyn",
+    "respell_rp": "UHN-duh-lyn"
   },
   {
     "w": "understood",
@@ -30715,7 +30743,9 @@
       "understand"
     ],
     "rp_ipa": "/ˌʌndəˈstʊd/",
-    "def": "Past tense and past participle of 'understand': grasped the meaning."
+    "def": "Past tense and past participle of 'understand': grasped the meaning.",
+    "respell_ga": "uhn-der-STUUD",
+    "respell_rp": "uhn-duh-STUUD"
   },
   {
     "w": "until",
@@ -32452,7 +32482,9 @@
       "wonder"
     ],
     "rp_ipa": "/ˈwɪndəʊ/",
-    "def": "An opening in a wall fitted with glass to let in light."
+    "def": "An opening in a wall fitted with glass to let in light.",
+    "respell_ga": "WIN-doh",
+    "respell_rp": "WIN-doh"
   },
   {
     "w": "winter",
@@ -32481,8 +32513,10 @@
     ],
     "rp_ipa": "/ˈwɪntə/",
     "def": "The coldest season of the year, between autumn and spring.",
-    "ipa_actual_ga": "/ˈwɪɾɚ/",
-    "ipa_actual_rp": null
+    "ipa_actual_ga": null,
+    "ipa_actual_rp": null,
+    "respell_ga": "WIN-ter",
+    "respell_rp": "WIN-tuh"
   },
   {
     "w": "wish",
@@ -32796,7 +32830,9 @@
     },
     "neighbors": [],
     "rp_ipa": "/ˈwʌndəfəl/",
-    "def": "Inspiring delight or admiration; excellent."
+    "def": "Inspiring delight or admiration; excellent.",
+    "respell_ga": "WUHN-der-fuhl",
+    "respell_rp": "WUHN-duh-fuhl"
   },
   {
     "w": "word",
@@ -34235,7 +34271,9 @@
     },
     "neighbors": [],
     "rp_ipa": "/ədˈvɑːntɪdʒ/",
-    "def": "A condition giving a greater chance of success."
+    "def": "A condition giving a greater chance of success.",
+    "respell_ga": "ad-VAN-tij",
+    "respell_rp": "uhd-VAHN-tij"
   },
   {
     "w": "adventure",
@@ -37876,7 +37914,9 @@
     },
     "neighbors": [],
     "rp_ipa": "/ˈkæləndə/",
-    "def": "A chart showing the days, weeks, and months of a year."
+    "def": "A chart showing the days, weeks, and months of a year.",
+    "respell_ga": "KA-luhn-der",
+    "respell_rp": "KA-luhn-duh"
   },
   {
     "w": "camping",
@@ -39918,7 +39958,9 @@
       "contest"
     ],
     "rp_ipa": "/ˈkɒnˌtækt/",
-    "def": "Communication between people; to get in touch with someone."
+    "def": "Communication between people; to get in touch with someone.",
+    "respell_ga": "KAHN-takt",
+    "respell_rp": "KON-takt"
   },
   {
     "w": "container",
@@ -39962,7 +40004,9 @@
       "contrast"
     ],
     "rp_ipa": "/ˈkɒntekst/",
-    "def": "The circumstances surrounding an event that help explain it."
+    "def": "The circumstances surrounding an event that help explain it.",
+    "respell_ga": "KAHN-tehkst",
+    "respell_rp": "KON-tehkst"
   },
   {
     "w": "continent",
@@ -39983,7 +40027,9 @@
       "confident"
     ],
     "rp_ipa": "/ˈkɒntɪnənt/",
-    "def": "One of the seven large land masses of the earth."
+    "def": "One of the seven large land masses of the earth.",
+    "respell_ga": "KAHN-tuh-nuhnt",
+    "respell_rp": "KON-ti-nuhnt"
   },
   {
     "w": "continue",
@@ -41420,7 +41466,9 @@
     },
     "neighbors": [],
     "rp_ipa": "/ˈdentɪst/",
-    "def": "A medical professional who treats teeth and gums."
+    "def": "A medical professional who treats teeth and gums.",
+    "respell_ga": "DEHN-tuhst",
+    "respell_rp": "DEHN-tist"
   },
   {
     "w": "depend",
@@ -41878,7 +41926,9 @@
     },
     "neighbors": [],
     "rp_ipa": "/ˌdɪsədˈvɑːntɪdʒ/",
-    "def": "Something that makes success less likely; a drawback."
+    "def": "Something that makes success less likely; a drawback.",
+    "respell_ga": "di-suhd-VAN-tij",
+    "respell_rp": "di-suhd-VAHN-tij"
   },
   {
     "w": "disagree",
@@ -41941,7 +41991,9 @@
       "disappointing"
     ],
     "rp_ipa": "/ˌdɪsəˈpɔɪntɪd/",
-    "def": "Sad because something was not as good as expected."
+    "def": "Sad because something was not as good as expected.",
+    "respell_ga": "di-suh-POYN-tid",
+    "respell_rp": "di-suh-POYN-tid"
   },
   {
     "w": "disappointing",
@@ -41962,7 +42014,9 @@
       "disappointed"
     ],
     "rp_ipa": "/ˌdɪsəˈpɔɪntɪŋ/",
-    "def": "Failing to meet expectations; leaving you feeling let down."
+    "def": "Failing to meet expectations; leaving you feeling let down.",
+    "respell_ga": "di-suh-POYN-ting",
+    "respell_rp": "di-suh-POYN-ting"
   },
   {
     "w": "disco",
@@ -43226,7 +43280,9 @@
       "reading"
     ],
     "rp_ipa": "/ˈendɪŋ/",
-    "def": "The final part of a story, film, or event."
+    "def": "The final part of a story, film, or event.",
+    "respell_ga": "EHN-ding",
+    "respell_rp": "EHN-ding"
   },
   {
     "w": "energetic",
@@ -43329,7 +43385,9 @@
       "hunter"
     ],
     "rp_ipa": "/ˈentə/",
-    "def": "To go or come into a place; to type data into a computer."
+    "def": "To go or come into a place; to type data into a computer.",
+    "respell_ga": "EHN-ter",
+    "respell_rp": "EHN-tuh"
   },
   {
     "w": "entertainment",
@@ -43348,7 +43406,9 @@
     },
     "neighbors": [],
     "rp_ipa": "/ˌentəˈteɪnmənt/",
-    "def": "Activities that provide enjoyment and amusement."
+    "def": "Activities that provide enjoyment and amusement.",
+    "respell_ga": "ehn-ter-TAYN-muhnt",
+    "respell_rp": "ehn-tuh-TAYN-muhnt"
   },
   {
     "w": "entrance",
@@ -45923,7 +45983,9 @@
       "mend"
     ],
     "rp_ipa": "/ˈdʒendə/",
-    "def": "The fact of being male, female, or non-binary."
+    "def": "The fact of being male, female, or non-binary.",
+    "respell_ga": "JEHN-der",
+    "respell_rp": "JEHN-duh"
   },
   {
     "w": "generation",
@@ -46400,7 +46462,9 @@
       "grandpa"
     ],
     "rp_ipa": "/ˈɡrænˌdæd/",
-    "def": "Informal word for grandfather."
+    "def": "Informal word for grandfather.",
+    "respell_ga": "GRAN-dad",
+    "respell_rp": "GRAN-dad"
   },
   {
     "w": "granddaughter",
@@ -46420,7 +46484,9 @@
     "neighbors": [],
     "rp_ipa": "/ˈɡrænˌdɔːtə/",
     "def": "A daughter of your son or daughter.",
-    "ipa_actual_ga": "/ˈɡrænˌdɔɾɚ/"
+    "ipa_actual_ga": "/ˈɡrænˌdɔɾɚ/",
+    "respell_ga": "GRAN-daw-der",
+    "respell_rp": "GRAN-daw-tuh"
   },
   {
     "w": "grandson",
@@ -46749,7 +46815,9 @@
     },
     "neighbors": [],
     "rp_ipa": "/ˈhændiˌkæpt/",
-    "def": "Having a physical or mental condition limiting abilities."
+    "def": "Having a physical or mental condition limiting abilities.",
+    "respell_ga": "HAN-dee-kapt",
+    "respell_rp": "HAN-dee-kapt"
   },
   {
     "w": "handle",
@@ -47560,7 +47628,9 @@
       "haunt"
     ],
     "rp_ipa": "/ˈhʌntə/",
-    "def": "A person who hunts wild animals."
+    "def": "A person who hunts wild animals.",
+    "respell_ga": "HUHN-ter",
+    "respell_rp": "HUHN-tuh"
   },
   {
     "w": "id",
@@ -47962,7 +48032,9 @@
     "neighbors": [],
     "rp_ipa": "/ˌɪndɪˈpendəns/",
     "def": "The state of being free from control by others.",
-    "ipa_actual_ga": "/ˌɪndɪˈpɛndn̩s/"
+    "ipa_actual_ga": "/ˌɪndɪˈpɛndn̩s/",
+    "respell_ga": "in-di-PEHN-dns",
+    "respell_rp": "in-di-PEHN-duhns"
   },
   {
     "w": "indicate",
@@ -47981,7 +48053,9 @@
     },
     "neighbors": [],
     "rp_ipa": "/ˈɪndəˌkeɪt/",
-    "def": "To point to; to show or suggest something."
+    "def": "To point to; to show or suggest something.",
+    "respell_ga": "IN-duh-kayt",
+    "respell_rp": "IN-duh-kayt"
   },
   {
     "w": "indoor",
@@ -48003,7 +48077,9 @@
       "snore"
     ],
     "rp_ipa": "/ˈɪnˌdɔː/",
-    "def": "Located or happening inside a building."
+    "def": "Located or happening inside a building.",
+    "respell_ga": "IN-dor",
+    "respell_rp": "IN-daw"
   },
   {
     "w": "inexpensive",
@@ -48304,7 +48380,9 @@
     },
     "neighbors": [],
     "rp_ipa": "/ˌɪntəˈnæʃənəl/",
-    "def": "Relating to more than one country."
+    "def": "Relating to more than one country.",
+    "respell_ga": "in-ter-NA-shuh-nuhl",
+    "respell_rp": "in-tuh-NA-shuh-nuhl"
   },
   {
     "w": "invade",
@@ -48747,7 +48825,9 @@
       "wind"
     ],
     "rp_ipa": "/ˈkaɪndə/",
-    "def": "Informal for 'kind of'; somewhat or in a way."
+    "def": "Informal for 'kind of'; somewhat or in a way.",
+    "respell_ga": "KYN-duh",
+    "respell_rp": "KYN-duh"
   },
   {
     "w": "kindly",
@@ -52616,7 +52696,9 @@
       "painting"
     ],
     "rp_ipa": "/ˈpeɪntə/",
-    "def": "A person who paints pictures or walls."
+    "def": "A person who paints pictures or walls.",
+    "respell_ga": "PAYN-ter",
+    "respell_rp": "PAYN-tuh"
   },
   {
     "w": "pal",
@@ -53802,7 +53884,9 @@
       "twenty"
     ],
     "rp_ipa": "/ˈplenti/",
-    "def": "A large amount; more than enough."
+    "def": "A large amount; more than enough.",
+    "respell_ga": "PLEHN-tee",
+    "respell_rp": "PLEHN-tee"
   },
   {
     "w": "plural",
@@ -54548,7 +54632,9 @@
       "winter"
     ],
     "rp_ipa": "/ˈprɪntə/",
-    "def": "A machine that prints documents from a computer."
+    "def": "A machine that prints documents from a computer.",
+    "respell_ga": "PRIN-ter",
+    "respell_rp": "PRIN-tuh"
   },
   {
     "w": "private",
@@ -56616,7 +56702,9 @@
     },
     "neighbors": [],
     "rp_ipa": "/rəʊˈmæntɪk/",
-    "def": "Relating to love; ideal for romance."
+    "def": "Relating to love; ideal for romance.",
+    "respell_ga": "roh-MAN-tik",
+    "respell_rp": "roh-MAN-tik"
   },
   {
     "w": "roof",
@@ -56781,7 +56869,9 @@
     },
     "neighbors": [],
     "rp_ipa": "/ˈraʊndəˌbaʊt/",
-    "def": "A circular road junction where traffic goes around a central island."
+    "def": "A circular road junction where traffic goes around a central island.",
+    "respell_ga": "ROWN-duh-bowt",
+    "respell_rp": "ROWN-duh-bowt"
   },
   {
     "w": "royal",
@@ -57159,7 +57249,9 @@
       "sound"
     ],
     "rp_ipa": "/ˈsændi/",
-    "def": "Covered with sand; having a pale yellowish color."
+    "def": "Covered with sand; having a pale yellowish color.",
+    "respell_ga": "SAN-dee",
+    "respell_rp": "SAN-dee"
   },
   {
     "w": "satisfy",
@@ -61923,7 +62015,9 @@
     },
     "neighbors": [],
     "rp_ipa": "/ˈθʌndəˌstɔːm/",
-    "def": "A storm with thunder, lightning, and heavy rain."
+    "def": "A storm with thunder, lightning, and heavy rain.",
+    "respell_ga": "THUHN-der-storm",
+    "respell_rp": "THUHN-duh-stawm"
   },
   {
     "w": "tidy",
@@ -62842,7 +62936,9 @@
       "understood"
     ],
     "rp_ipa": "/ˌʌndəˈstænd/",
-    "def": "To know the meaning of; to comprehend."
+    "def": "To know the meaning of; to comprehend.",
+    "respell_ga": "uhn-der-STAND",
+    "respell_rp": "uhn-duh-STAND"
   },
   {
     "w": "underwater",
@@ -62862,7 +62958,9 @@
     "neighbors": [],
     "rp_ipa": "/ˈʌndəˌwɔːtə/",
     "def": "Below the surface of water.",
-    "ipa_actual_ga": "/ˈʌndɚˌwɔɾɚ/"
+    "ipa_actual_ga": "/ˈʌndɚˌwɔɾɚ/",
+    "respell_ga": "UHN-der-waw-der",
+    "respell_rp": "UHN-duh-waw-tuh"
   },
   {
     "w": "uneasy",
@@ -63714,7 +63812,9 @@
       "pond"
     ],
     "rp_ipa": "/ˈwɒndə/",
-    "def": "To walk slowly without a fixed destination."
+    "def": "To walk slowly without a fixed destination.",
+    "respell_ga": "WAHN-der",
+    "respell_rp": "WON-duh"
   },
   {
     "w": "wanna",
@@ -64392,7 +64492,9 @@
       "monday"
     ],
     "rp_ipa": "/ˈwɪndi/",
-    "def": "Having a lot of wind."
+    "def": "Having a lot of wind.",
+    "respell_ga": "WIN-dee",
+    "respell_rp": "WIN-dee"
   },
   {
     "w": "wine",
@@ -64578,7 +64680,9 @@
       "fund"
     ],
     "rp_ipa": "/ˈwʌndə/",
-    "def": "To feel curious about something; a remarkable thing."
+    "def": "To feel curious about something; a remarkable thing.",
+    "respell_ga": "WUHN-der",
+    "respell_rp": "WUHN-duh"
   },
   {
     "w": "wood",
