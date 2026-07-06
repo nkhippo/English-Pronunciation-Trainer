@@ -313,13 +313,6 @@
       </div>
     </div>
 
-    <div id="modebSetup" class="hidden">
-      <div class="field">
-        <div class="flabel" id="flabelModeBBand">Band</div>
-        <div class="countnote" id="modebBandNote"></div>
-      </div>
-    </div>
-
     <div id="wordsSetup">
     <div class="field" id="dirField">
       <div class="flabel" id="flabelDir">Direction</div>
@@ -980,7 +973,6 @@ function applyI18n() {
   $("flabelMode").textContent = t("mode.label");
   $("modeAT").textContent = t("mode.a");
   $("modeBT").textContent = t("modeb.title");
-  $("flabelModeBBand").textContent = t("modeb.band.label");
   $("mbSGotIt").textContent = t("modeb.study.got_it");
   $("mbSRevealBtn").textContent = t("modeb.study.reveal_meaning");
   $("mbSTipsHead").textContent = t("tips_head");
@@ -1292,7 +1284,6 @@ function updateSetupFields(){
   const words=S.tab==="words"&&!modeB;
   const connected=S.tab==="connected"&&!modeB;
   show("tabField",!modeB);
-  show("modebSetup",modeB);
   show("wordsSetup",words);
   show("wordsFilterToggle",words);
   if(!words)setWordsFilterAdvanced(false);
@@ -1302,7 +1293,6 @@ function updateSetupFields(){
   $("focusTrapNote").textContent=words&&(S.focus==="traps"?t("focus.traps_d"):S.focus==="weak"?t("focus.weak_d"):"");
   $("regNote").textContent=words&&(S.reg==="regular"?t("reg.regular_d"):S.reg==="irregular"?t("reg.irregular_d"):"");
   $("dInput").placeholder=(S.tab==="connected"&&S.csFilter!=="weak")?t("input_phrase"):t("input_ph");
-  if(modeB)updateModeBBandNote();
 }
 function hasTrapPhoneme(w){
   return phonemesOf(w.ipa).some(s=>TRAPSET.has(s));
@@ -1352,12 +1342,11 @@ function updatePool(){
     refreshVocabBandUnlock();
     const band=getVocabBand();
     const pool=modeBBandPool(band);
-    const prog=bandProgress(band);
-    $("poolNote").textContent=t("modeb.pool",{band,n:pool.length,pct:Math.round(prog.ratio*100)});
+    $("poolNote").classList.add("hidden");
     if(dataReady())$("startBtn").disabled=pool.length===0;
-    updateModeBBandNote();
     return;
   }
+  $("poolNote").classList.remove("hidden");
   if(S.tab==="connected"){
     const n=filteredCsPool().length;
     const key=S.csFilter==="weak"?"pool.count_weak":"pool.count_phrases";
@@ -1411,10 +1400,6 @@ function refreshVocabBandUnlock(){
     if(bandProgress(MODEB_BANDS[idx]).ratio>=MODEB_BAND_UNLOCK_RATIO){idx++;setVocabBand(MODEB_BANDS[idx]);}
     else break;
   }
-}
-function updateModeBBandNote(){
-  const band=getVocabBand(),prog=bandProgress(band);
-  $("modebBandNote").textContent=t("modeb.band.note",{band,n:prog.total,pct:Math.round(prog.ratio*100),m:prog.mastered});
 }
 function modeBGloss(w){return wordGloss(w);}
 
