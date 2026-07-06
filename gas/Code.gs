@@ -5,19 +5,20 @@
  * Deploy as Web App (Execute as: Me, Who has access: Anyone).
  *
  * Query: GET ?word=luck[&accent=ga|rp]
- *        GET ?phrase=check%20it[&accent=ga]  (connected; GA only)
+ *        GET ?phrase=check%20it[&phrase_ipa=/ˈtʃɛkɪt/][&accent=ga]  (connected; IPA input when phrase_ipa set)
  *        GET ?warm=1&words=luck,colour&accent=ga  (Drive warmup; no audio body)
  *        GET ?weak=/kən/&ww=can&accent=ga|rp  (weak form; IPA input)
  */
 
 const FOLDER_NAME = 'IPA-TTS-Audio';
 const TTS_CACHE_VER = 'v2';
-const TTS_CONNECTED_CACHE_VER = 'v3';
+const TTS_CONNECTED_CACHE_VER = 'v4';
 const TTS_MODEL = 'gpt-4o-mini-tts';
 const TTS_VOICE = 'alloy';
 const TTS_INSTRUCTIONS_GA = 'Pronounce the single English word in a clear General American accent. Use the citation (dictionary) form: full, unreduced vowels and the correct lexical stress — do not use the weak or reduced connected-speech form, even for function words. Say the word once, at a calm pace slightly slower than conversational, with neutral falling intonation. Articulate consonants precisely and keep contrasts distinct — especially /θ/–/f/, /ð/–/d/, /l/–/r/, /s/–/ʃ/, /b/–/v/, and word-final consonants — but stay natural and never exaggerate them into distortion. Do not spell the word, do not add any other words, do not pause, and do not use emotional or expressive delivery. Keep the delivery identical and consistent across all words.';
 const TTS_INSTRUCTIONS_RP = 'Pronounce the single English word in a clear modern Received Pronunciation (standard Southern British) accent. Use the citation (dictionary) form: full, unreduced vowels and the correct lexical stress — do not use the weak or reduced connected-speech form, even for function words. Say the word once, at a calm pace slightly slower than conversational, with neutral falling intonation. Articulate consonants precisely and keep contrasts distinct — especially /θ/–/f/, /ð/–/d/, /l/–/r/, /s/–/ʃ/, /b/–/v/, and word-final consonants — but stay natural and never exaggerate them into distortion. Do not spell the word, do not add any other words, do not pause, and do not use emotional or expressive delivery. Keep the delivery identical and consistent across all words.';
 const TTS_CONNECTED_INSTRUCTIONS = 'Pronounce the English phrase in a clear General American accent as one smooth, continuous utterance — like a native speaker in casual connected speech, not separate dictionary words. CRITICAL: never pause or break between words; there must be no audible gap or reset between syllables that belong to different words. Link across word boundaries: when a word ends in a consonant and the next begins with a vowel, run them together without re-articulating (e.g. "tell him" → tellim, not tell … him). Drop /h/ on weak pronouns after a consonant (him, her, his, he → im, er, is, i). For "of" before a consonant, use schwa only (/ə/): do NOT pronounce /v/ or /f/ (e.g. "lots of time" → lotsətime). Apply other natural weak forms, assimilation, and elision where expected. Keep reductions natural, not cartoonish. Say the phrase once at a calm conversational pace with neutral intonation. Do not spell letters, add words, or pause.';
+const TTS_CONNECTED_IPA_INSTRUCTIONS = 'Pronounce this English phrase exactly as the IPA transcription indicates, in a clear General American accent. Follow every phoneme, stress mark, and reduction in the IPA — including schwa, elision, linking, and assimilation. Deliver as one smooth connected utterance with no pause between words. Do not spell the IPA symbols aloud, do not add words, and do not use citation forms that contradict the IPA.';
 const TTS_WEAK_INSTRUCTIONS_GA = 'Pronounce this English function word using its WEAK (reduced) form exactly as the IPA indicates, as it sounds inside connected speech — typically with a schwa /ə/. Use a clear General American accent, calm and natural, said once. Do NOT use the strong citation form. Do not spell it, add words, or pause.';
 const TTS_WEAK_INSTRUCTIONS_RP = 'Pronounce this English function word using its WEAK (reduced) form exactly as the IPA indicates, as it sounds inside connected speech — typically with a schwa /ə/. Use a clear modern Received Pronunciation (standard Southern British) accent, calm and natural, said once. Do NOT use the strong citation form. Do not spell it, add words, or pause.';
 // Normal single-word MP3s are ~12 KB+; near-silent glitches (e.g. flight at 5.7 KB) stay below this.
@@ -96,7 +97,8 @@ function instructionsForWeak_(accent) {
   return normalizeAccent_(accent) === 'rp' ? TTS_WEAK_INSTRUCTIONS_RP : TTS_WEAK_INSTRUCTIONS_GA;
 }
 
-function instructionsFor_(accent, connected) {
+function instructionsFor_(accent, connected, ipaMode) {
+  if (connected && ipaMode) return TTS_CONNECTED_IPA_INSTRUCTIONS;
   if (connected) return TTS_CONNECTED_INSTRUCTIONS;
   return normalizeAccent_(accent) === 'rp' ? TTS_INSTRUCTIONS_RP : TTS_INSTRUCTIONS_GA;
 }
@@ -192,6 +194,7 @@ function doGet(e) {
     const weakIpa = String((e && e.parameter && e.parameter.weak) || '').trim();
     const weakWord = String((e && e.parameter && e.parameter.ww) || '').trim();
     const phrase = String((e && e.parameter && e.parameter.phrase) || '').trim();
+    const phraseIpa = String((e && e.parameter && e.parameter.phrase_ipa) || '').trim();
     const word = String((e && e.parameter && e.parameter.word) || '').trim();
     const accent = normalizeAccent_(e && e.parameter && e.parameter.accent);
     let input = '';
@@ -199,6 +202,8 @@ function doGet(e) {
     let connected = false;
     let weakMode = false;
     let cacheAccent = accent;
+
+    let connectedIpa = false;
 
     if (weakIpa && weakWord) {
       if (!/^[a-zA-Z][a-zA-Z'-]*$/.test(weakWord)) {
@@ -215,7 +220,15 @@ function doGet(e) {
       if (!/^[\w\s'-]+$/.test(phrase)) {
         return jsonResponse_({ ok: false, error: 'Invalid phrase parameter' });
       }
-      input = phrase;
+      if (phraseIpa) {
+        if (!/^\/[^/]+\/$/.test(phraseIpa)) {
+          return jsonResponse_({ ok: false, error: 'Invalid phrase_ipa parameter' });
+        }
+        input = phraseIpa;
+        connectedIpa = true;
+      } else {
+        input = phrase;
+      }
       cacheKey = phrase;
       connected = true;
       cacheAccent = 'ga';
@@ -229,7 +242,9 @@ function doGet(e) {
       return jsonResponse_({ ok: false, error: 'Invalid or missing word parameter' });
     }
 
-    const instructions = weakMode ? instructionsForWeak_(accent) : instructionsFor_(accent, connected);
+    const instructions = weakMode
+      ? instructionsForWeak_(accent)
+      : instructionsFor_(accent, connected, connectedIpa);
     const phraseCacheVer = connected ? TTS_CONNECTED_CACHE_VER : null;
 
     let blob = weakMode

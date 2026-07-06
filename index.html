@@ -1560,7 +1560,7 @@ function ttsCacheSlug(text, opts) {
   const o = parseSpeakOpts(opts);
   if (o.weak) return "weak_" + String(o.ww || text).toLowerCase().replace(/[^a-z0-9]+/g, "_");
   const base = text.toLowerCase().replace(/[^a-z0-9]+/g, "_");
-  return o.connected ? "p_" + base : base;
+  return o.connected ? "p4_" + base : base;
 }
 function lsKey(text, opts) {
   return LS_TTS_PREFIX + ttsAccent(opts) + ":" + ttsCacheSlug(text, opts);
@@ -1577,7 +1577,7 @@ function legacyLsKey(text, connected) {
 function memCacheKey(text, opts) {
   const o = parseSpeakOpts(opts);
   if (o.weak) return currentAccent() + ":weak:" + o.ww;
-  return ttsAccent(o) + ":" + (o.connected ? "p:" + text.toLowerCase() : text);
+  return ttsAccent(o) + ":" + (o.connected ? "p4:" + text.toLowerCase() : text);
 }
 function memKeyAccent(word, accent) {
   return accent + ":" + word;
@@ -1672,6 +1672,7 @@ async function fetchAudioFromGas(text, opts) {
     q = "weak=" + encodeURIComponent(o.weak) + "&ww=" + encodeURIComponent(o.ww) + "&accent=" + accent;
   } else if (o.connected) {
     q = "phrase=" + encodeURIComponent(text) + "&accent=ga";
+    if (o.phraseIpa) q += "&phrase_ipa=" + encodeURIComponent(o.phraseIpa);
   } else {
     q = "word=" + encodeURIComponent(text) + "&accent=" + ttsAccent(o);
   }
@@ -1685,7 +1686,7 @@ async function fetchAudioFromGas(text, opts) {
 function speakOptsForItem(c) {
   if (!c) return {};
   if (isWeakItem(c)) return { weak: activeIpa(c), ww: c.w };
-  if (isConnectedItem(c)) return { connected: true };
+  if (isConnectedItem(c)) return { connected: true, phraseIpa: activeIpa(c) };
   return {};
 }
 
