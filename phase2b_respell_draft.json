@@ -1141,7 +1141,7 @@
   },
   {
     "w": "couldn't",
-    "respell_ga": "KUU-dnt",
+    "respell_ga": "KUU-duhnt",
     "respell_rp": "KUU-duhnt"
   },
   {
@@ -1281,7 +1281,7 @@
   },
   {
     "w": "didn't",
-    "respell_ga": "DI-dnt",
+    "respell_ga": "DI-duhnt",
     "respell_rp": "DI-duhnt"
   },
   {
@@ -2221,7 +2221,7 @@
   },
   {
     "w": "hadn't",
-    "respell_ga": "HA-dnt",
+    "respell_ga": "HA-duhnt",
     "respell_rp": "HA-duhnt"
   },
   {
@@ -2586,7 +2586,7 @@
   },
   {
     "w": "important",
-    "respell_ga": "im-POR-tnt",
+    "respell_ga": "im-POR-tuhnt",
     "respell_rp": "im-PAW-tuhnt"
   },
   {
@@ -4211,7 +4211,7 @@
   },
   {
     "w": "sentence",
-    "respell_ga": "SEHN-tns",
+    "respell_ga": "SEHN-tuhns",
     "respell_rp": "SEHN-tuhns"
   },
   {
@@ -4326,7 +4326,7 @@
   },
   {
     "w": "shouldn't",
-    "respell_ga": "SHUU-dnt",
+    "respell_ga": "SHUU-duhnt",
     "respell_rp": "SHUU-duhnt"
   },
   {
@@ -4726,7 +4726,7 @@
   },
   {
     "w": "student",
-    "respell_ga": "STOO-dnt",
+    "respell_ga": "STOO-duhnt",
     "respell_rp": "STYOO-duhnt"
   },
   {
@@ -5721,7 +5721,7 @@
   },
   {
     "w": "wouldn't",
-    "respell_ga": "WUU-dnt",
+    "respell_ga": "WUU-duhnt",
     "respell_rp": "WUU-duhnt"
   },
   {
@@ -5866,7 +5866,7 @@
   },
   {
     "w": "accident",
-    "respell_ga": "AK-suh-dnt",
+    "respell_ga": "AK-suh-duhnt",
     "respell_rp": "AK-suh-duhnt"
   },
   {
@@ -6191,7 +6191,7 @@
   },
   {
     "w": "assistant",
-    "respell_ga": "uh-SIS-tnt",
+    "respell_ga": "uh-SIS-tuhnt",
     "respell_rp": "uh-SI-stuhnt"
   },
   {
@@ -6991,7 +6991,7 @@
   },
   {
     "w": "confident",
-    "respell_ga": "KAHN-fuh-dnt",
+    "respell_ga": "KAHN-fuh-duhnt",
     "respell_rp": "KON-fi-duhnt"
   },
   {
@@ -7716,7 +7716,7 @@
   },
   {
     "w": "evidence",
-    "respell_ga": "EH-vuh-dns",
+    "respell_ga": "EH-vuh-duhns",
     "respell_rp": "EH-vuh-duhns"
   },
   {
@@ -8071,7 +8071,7 @@
   },
   {
     "w": "frightened",
-    "respell_ga": "FRY-tnd",
+    "respell_ga": "FRY-tuhnd",
     "respell_rp": "FRY-tuhnd"
   },
   {
@@ -8466,12 +8466,12 @@
   },
   {
     "w": "importance",
-    "respell_ga": "im-POR-tns",
+    "respell_ga": "im-POR-tuhns",
     "respell_rp": "im-PAW-tuhns"
   },
   {
     "w": "importantly",
-    "respell_ga": "im-POR-tnt-lee",
+    "respell_ga": "im-POR-tuhnt-lee",
     "respell_rp": "im-PAW-tuhnt-lee"
   },
   {
@@ -8541,7 +8541,7 @@
   },
   {
     "w": "instant",
-    "respell_ga": "INS-tnt",
+    "respell_ga": "INS-tuhnt",
     "respell_rp": "IN-stuhnt"
   },
   {
@@ -11316,7 +11316,7 @@
   },
   {
     "w": "unimportant",
-    "respell_ga": "uh-nim-POR-tnt",
+    "respell_ga": "uh-nim-POR-tuhnt",
     "respell_rp": "uh-nim-PAW-tuhnt"
   },
   {
@@ -15033,5 +15033,875 @@
     "w": "zoom",
     "respell_ga": "ZOOM",
     "respell_rp": "ZOOM"
+  },
+  {
+    "w": "abandon",
+    "respell_ga": "uh-BAN-dn",
+    "respell_rp": "uh-BAN-duhn"
+  },
+  {
+    "w": "able",
+    "respell_ga": "AY-buhl",
+    "respell_rp": "AY-buhl"
+  },
+  {
+    "w": "abnormal",
+    "respell_ga": "ab-NOR-muhl",
+    "respell_rp": "ab-NAW-muhl"
+  },
+  {
+    "w": "aboard",
+    "respell_ga": "uh-BORD",
+    "respell_rp": "uh-BAWD"
+  },
+  {
+    "w": "aborigine",
+    "respell_ga": "a-buh-RI-juh-nee",
+    "respell_rp": "a-buh-RI-juh-nee"
+  },
+  {
+    "w": "absence",
+    "respell_ga": "AB-suhns",
+    "respell_rp": "AB-suhns"
+  },
+  {
+    "w": "absent",
+    "respell_ga": "AB-suhnt",
+    "respell_rp": "AB-suhnt"
+  },
+  {
+    "w": "absolute",
+    "respell_ga": "AB-suh-loot",
+    "respell_rp": "AB-suh-loot"
+  },
+  {
+    "w": "absolutely",
+    "respell_ga": "ab-suh-LOOT-lee",
+    "respell_rp": "ab-suh-LOOT-lee"
+  },
+  {
+    "w": "absorb",
+    "respell_ga": "uhb-ZORB",
+    "respell_rp": "uhb-ZAWB"
+  },
+  {
+    "w": "abstract",
+    "respell_ga": "ab-STRAKT",
+    "respell_rp": "ab-STRAKT"
+  },
+  {
+    "w": "abundance",
+    "respell_ga": "uh-BUHN-duhns",
+    "respell_rp": "uh-BUHN-duhns"
+  },
+  {
+    "w": "abundant",
+    "respell_ga": "uh-BUHN-duhnt",
+    "respell_rp": "uh-BUHN-duhnt"
+  },
+  {
+    "w": "academic",
+    "respell_ga": "a-kuh-DEH-mik",
+    "respell_rp": "a-kuh-DEH-mik"
+  },
+  {
+    "w": "academy",
+    "respell_ga": "uh-KA-duh-mee",
+    "respell_rp": "uh-KA-duh-mee"
+  },
+  {
+    "w": "accent",
+    "respell_ga": "uhk-SEHNT",
+    "respell_rp": "uhk-SEHNT"
+  },
+  {
+    "w": "acceptance",
+    "respell_ga": "ak-SEHP-tuhns",
+    "respell_rp": "uhk-SEHP-tuhns"
+  },
+  {
+    "w": "access",
+    "respell_ga": "AK-sehs",
+    "respell_rp": "AK-sehs"
+  },
+  {
+    "w": "accessible",
+    "respell_ga": "ak-SEH-suh-buhl",
+    "respell_rp": "uhk-SEH-si-buhl"
+  },
+  {
+    "w": "accessory",
+    "respell_ga": "ak-SEH-ser-ee",
+    "respell_rp": "ak-SEH-suh-ree"
+  },
+  {
+    "w": "accidental",
+    "respell_ga": "ak-suh-DEHN-tl",
+    "respell_rp": "ak-si-DEHN-tuhl"
+  },
+  {
+    "w": "accompany",
+    "respell_ga": "uh-KUHM-puh-nee",
+    "respell_rp": "uh-KUHM-puh-nee"
+  },
+  {
+    "w": "accomplish",
+    "respell_ga": "uh-KAHM-plish",
+    "respell_rp": "uh-KOM-plish"
+  },
+  {
+    "w": "accountant",
+    "respell_ga": "uh-KOWN-tuhnt",
+    "respell_rp": "uh-KOWN-tuhnt"
+  },
+  {
+    "w": "accuracy",
+    "respell_ga": "A-kyer-uh-see",
+    "respell_rp": "A-kyuu-ruh-see"
+  },
+  {
+    "w": "accurate",
+    "respell_ga": "A-kyer-uht",
+    "respell_rp": "A-kyuu-rit"
+  },
+  {
+    "w": "accurately",
+    "respell_ga": "A-kyer-uht-lee",
+    "respell_rp": "A-kyuu-rit-lee"
+  },
+  {
+    "w": "accuse",
+    "respell_ga": "uh-KYOOZ",
+    "respell_rp": "uh-KYOOZ"
+  },
+  {
+    "w": "accustom",
+    "respell_ga": "uh-KUH-stuhm",
+    "respell_rp": "uh-KUH-stuhm"
+  },
+  {
+    "w": "achievement",
+    "respell_ga": "uh-CHEEV-muhnt",
+    "respell_rp": "uh-CHEEV-muhnt"
+  },
+  {
+    "w": "acknowledge",
+    "respell_ga": "ak-NAH-lij",
+    "respell_rp": "uhk-NO-lij"
+  },
+  {
+    "w": "acknowledgement",
+    "respell_ga": "ak-NAH-lij-muhnt",
+    "respell_rp": "uhk-NO-lij-muhnt"
+  },
+  {
+    "w": "acknowledgment",
+    "respell_ga": "ak-NAH-lij-muhnt",
+    "respell_rp": "uhk-NO-lij-muhnt"
+  },
+  {
+    "w": "acquaintance",
+    "respell_ga": "uh-KWAYN-tuhns",
+    "respell_rp": "uh-KWAYN-tuhns"
+  },
+  {
+    "w": "acquire",
+    "respell_ga": "uh-KWY-er",
+    "respell_rp": "uh-KWY-uh"
+  },
+  {
+    "w": "active",
+    "respell_ga": "AK-tiv",
+    "respell_rp": "AK-tiv"
+  },
+  {
+    "w": "actress",
+    "respell_ga": "AK-truhs",
+    "respell_rp": "AK-tris"
+  },
+  {
+    "w": "adapt",
+    "respell_ga": "uh-DAPT",
+    "respell_rp": "uh-DAPT"
+  },
+  {
+    "w": "addressee",
+    "respell_ga": "a-dreh-SEE",
+    "respell_rp": "a-dreh-SEE"
+  },
+  {
+    "w": "administration",
+    "respell_ga": "ad-mi-ni-STRAY-shuhn",
+    "respell_rp": "uhd-mi-ni-STRAY-shuhn"
+  },
+  {
+    "w": "admiration",
+    "respell_ga": "ad-mer-AY-shuhn",
+    "respell_rp": "ad-mi-RAY-shuhn"
+  },
+  {
+    "w": "admission",
+    "respell_ga": "ad-MI-shuhn",
+    "respell_rp": "uhd-MI-shuhn"
+  },
+  {
+    "w": "adopt",
+    "respell_ga": "uh-DAHPT",
+    "respell_rp": "uh-DOPT"
+  },
+  {
+    "w": "adorable",
+    "respell_ga": "uh-DAW-ruh-buhl",
+    "respell_rp": "uh-DAW-ruh-buhl"
+  },
+  {
+    "w": "advance",
+    "respell_ga": "uhd-VANS",
+    "respell_rp": "uhd-VAHNS"
+  },
+  {
+    "w": "adverb",
+    "respell_ga": "AD-vurb",
+    "respell_rp": "AD-vurb"
+  },
+  {
+    "w": "adverbial",
+    "respell_ga": "ad-VUR-bee-uhl",
+    "respell_rp": "ad-VUR-bee-uhl"
+  },
+  {
+    "w": "advert",
+    "respell_ga": "AD-vert",
+    "respell_rp": "ad-VURT"
+  },
+  {
+    "w": "advertise",
+    "respell_ga": "AD-ver-dyz",
+    "respell_rp": "AD-vuh-tyz"
+  },
+  {
+    "w": "adviser",
+    "respell_ga": "ad-VY-zer",
+    "respell_rp": "uhd-VY-zuh"
+  },
+  {
+    "w": "advisor",
+    "respell_ga": "ad-VY-zer",
+    "respell_rp": "uhd-VY-zuh"
+  },
+  {
+    "w": "aerobics",
+    "respell_ga": "eh-ROH-biks",
+    "respell_rp": "air-ROH-biks"
+  },
+  {
+    "w": "affect",
+    "respell_ga": "uh-FEHKT",
+    "respell_rp": "uh-FEHKT"
+  },
+  {
+    "w": "affection",
+    "respell_ga": "uh-FEHK-shuhn",
+    "respell_rp": "uh-FEHK-shuhn"
+  },
+  {
+    "w": "afford",
+    "respell_ga": "uh-FORD",
+    "respell_rp": "uh-FAWD"
+  },
+  {
+    "w": "afterward",
+    "respell_ga": "AF-ter-werd",
+    "respell_rp": "AHF-tuh-wuhd"
+  },
+  {
+    "w": "afterwards",
+    "respell_ga": "AF-ter-werdz",
+    "respell_rp": "AHF-tuh-wuhdz"
+  },
+  {
+    "w": "aggressive",
+    "respell_ga": "uh-GREH-siv",
+    "respell_rp": "uh-GREH-siv"
+  },
+  {
+    "w": "agreement",
+    "respell_ga": "uh-GREE-muhnt",
+    "respell_rp": "uh-GREE-muhnt"
+  },
+  {
+    "w": "agricultural",
+    "respell_ga": "a-gruh-KUHL-cher-uhl",
+    "respell_rp": "a-gri-KUHL-chuh-ruhl"
+  },
+  {
+    "w": "agriculture",
+    "respell_ga": "A-gri-kuhl-cher",
+    "respell_rp": "A-gri-kuhl-chuh"
+  },
+  {
+    "w": "airline",
+    "respell_ga": "ER-lyn",
+    "respell_rp": "AIR-lyn"
+  },
+  {
+    "w": "alcohol",
+    "respell_ga": "AL-kuh-hahl",
+    "respell_rp": "AL-kuh-hol"
+  },
+  {
+    "w": "alcoholic",
+    "respell_ga": "al-kuh-HAW-lik",
+    "respell_rp": "al-kuh-HO-lik"
+  },
+  {
+    "w": "alike",
+    "respell_ga": "uh-LYK",
+    "respell_rp": "uh-LYK"
+  },
+  {
+    "w": "allergic",
+    "respell_ga": "uh-LUR-jik",
+    "respell_rp": "uh-LUR-jik"
+  },
+  {
+    "w": "allowance",
+    "respell_ga": "uh-LOW-uhns",
+    "respell_rp": "uh-LOW-uhns"
+  },
+  {
+    "w": "aloud",
+    "respell_ga": "uh-LOWD",
+    "respell_rp": "uh-LOWD"
+  },
+  {
+    "w": "alphabet",
+    "respell_ga": "AL-fuh-beht",
+    "respell_rp": "AL-fuh-beht"
+  },
+  {
+    "w": "alternative",
+    "respell_ga": "awl-TUR-nuh-div",
+    "respell_rp": "awl-TUR-nuh-tiv"
+  },
+  {
+    "w": "altogether",
+    "respell_ga": "awl-tuh-GEH-ther",
+    "respell_rp": "awl-tuh-GEH-thuh"
+  },
+  {
+    "w": "amazed",
+    "respell_ga": "uh-MAYZD",
+    "respell_rp": "uh-MAYZD"
+  },
+  {
+    "w": "amazing",
+    "respell_ga": "uh-MAY-zing",
+    "respell_rp": "uh-MAY-zing"
+  },
+  {
+    "w": "ambitious",
+    "respell_ga": "am-BI-shuhs",
+    "respell_rp": "am-BI-shuhs"
+  },
+  {
+    "w": "ambulance",
+    "respell_ga": "AM-byuh-luhns",
+    "respell_rp": "AM-byuu-luhns"
+  },
+  {
+    "w": "amount",
+    "respell_ga": "uh-MOWNT",
+    "respell_rp": "uh-MOWNT"
+  },
+  {
+    "w": "amusing",
+    "respell_ga": "uh-MYOO-zing",
+    "respell_rp": "uh-MYOO-zing"
+  },
+  {
+    "w": "analyse",
+    "respell_ga": "A-nuh-lyz",
+    "respell_rp": "A-nuh-lyz"
+  },
+  {
+    "w": "analysis",
+    "respell_ga": "uh-NA-luh-suhs",
+    "respell_rp": "uh-NA-li-sis"
+  },
+  {
+    "w": "analyze",
+    "respell_ga": "A-nuh-lyz",
+    "respell_rp": "A-nuh-lyz"
+  },
+  {
+    "w": "anger",
+    "respell_ga": "ANG-ger",
+    "respell_rp": "ANG-guh"
+  },
+  {
+    "w": "angle",
+    "respell_ga": "ANG-guhl",
+    "respell_rp": "ANG-guhl"
+  },
+  {
+    "w": "animated",
+    "respell_ga": "A-nuh-may-did",
+    "respell_rp": "A-ni-may-tid"
+  },
+  {
+    "w": "animation",
+    "respell_ga": "a-nuh-MAY-shuhn",
+    "respell_rp": "a-ni-MAY-shuhn"
+  },
+  {
+    "w": "announce",
+    "respell_ga": "uh-NOWNS",
+    "respell_rp": "uh-NOWNS"
+  },
+  {
+    "w": "announcement",
+    "respell_ga": "uh-NOWN-smuhnt",
+    "respell_rp": "uh-NOWN-smuhnt"
+  },
+  {
+    "w": "annoyance",
+    "respell_ga": "uh-NOY-uhns",
+    "respell_rp": "uh-NOY-uhns"
+  },
+  {
+    "w": "annoyed",
+    "respell_ga": "uh-NOYD",
+    "respell_rp": "uh-NOYD"
+  },
+  {
+    "w": "annual",
+    "respell_ga": "A-nyoo-uhl",
+    "respell_rp": "A-nyoorl"
+  },
+  {
+    "w": "annually",
+    "respell_ga": "A-nyoo-uh-lee",
+    "respell_rp": "A-nyoor-lee"
+  },
+  {
+    "w": "antique",
+    "respell_ga": "an-TEEK",
+    "respell_rp": "an-TEEK"
+  },
+  {
+    "w": "anxiety",
+    "respell_ga": "ang-ZY-uh-dee",
+    "respell_rp": "ang-ZY-uh-tee"
+  },
+  {
+    "w": "anxiously",
+    "respell_ga": "ANGK-shuh-slee",
+    "respell_rp": "ANGK-shuh-slee"
+  },
+  {
+    "w": "anyhow",
+    "respell_ga": "EH-nee-how",
+    "respell_rp": "EH-ni-how"
+  },
+  {
+    "w": "apology",
+    "respell_ga": "uh-PAH-luh-jee",
+    "respell_rp": "uh-PO-luh-jee"
+  },
+  {
+    "w": "apparent",
+    "respell_ga": "uh-PEH-ruhnt",
+    "respell_rp": "uh-PAIR-ruhnt"
+  },
+  {
+    "w": "appeal",
+    "respell_ga": "uh-PEEL",
+    "respell_rp": "uh-PEEL"
+  },
+  {
+    "w": "appetite",
+    "respell_ga": "A-puh-dyt",
+    "respell_rp": "A-pi-tyt"
+  },
+  {
+    "w": "applaud",
+    "respell_ga": "uh-PLAWD",
+    "respell_rp": "uh-PLAWD"
+  },
+  {
+    "w": "applause",
+    "respell_ga": "uh-PLAWZ",
+    "respell_rp": "uh-PLAWZ"
+  },
+  {
+    "w": "application",
+    "respell_ga": "a-pluh-KAY-shuhn",
+    "respell_rp": "a-pli-KAY-shuhn"
+  },
+  {
+    "w": "appreciation",
+    "respell_ga": "uh-pree-shee-AY-shuhn",
+    "respell_rp": "uh-pree-shi-AY-shuhn"
+  },
+  {
+    "w": "approach",
+    "respell_ga": "uh-PROHCH",
+    "respell_rp": "uh-PROHCH"
+  },
+  {
+    "w": "approval",
+    "respell_ga": "uh-PROO-vuhl",
+    "respell_rp": "uh-PROO-vuhl"
+  },
+  {
+    "w": "approve",
+    "respell_ga": "uh-PROOV",
+    "respell_rp": "uh-PROOV"
+  },
+  {
+    "w": "approximately",
+    "respell_ga": "uh-PRAHK-suh-muht-lee",
+    "respell_rp": "uh-PROK-si-muht-lee"
+  },
+  {
+    "w": "architect",
+    "respell_ga": "AR-kuh-dehkt",
+    "respell_rp": "AH-ki-tehkt"
+  },
+  {
+    "w": "arise",
+    "respell_ga": "er-YZ",
+    "respell_rp": "uh-RYZ"
+  },
+  {
+    "w": "arithmetic",
+    "respell_ga": "eh-rith-MEH-dik",
+    "respell_rp": "uh-RITH-muh-tik"
+  },
+  {
+    "w": "army",
+    "respell_ga": "AR-mee",
+    "respell_rp": "AH-mee"
+  },
+  {
+    "w": "arrange",
+    "respell_ga": "er-AYNJ",
+    "respell_rp": "uh-RAYNJ"
+  },
+  {
+    "w": "arrangement",
+    "respell_ga": "er-AYNJ-muhnt",
+    "respell_rp": "uh-RAYNJ-muhnt"
+  },
+  {
+    "w": "arrest",
+    "respell_ga": "er-EHST",
+    "respell_rp": "uh-REHST"
+  },
+  {
+    "w": "arrival",
+    "respell_ga": "er-Y-vuhl",
+    "respell_rp": "uh-RY-vuhl"
+  },
+  {
+    "w": "arrow",
+    "respell_ga": "A-roh",
+    "respell_rp": "A-roh"
+  },
+  {
+    "w": "artist",
+    "respell_ga": "AR-duhst",
+    "respell_rp": "AH-tist"
+  },
+  {
+    "w": "artistic",
+    "respell_ga": "ar-TI-stik",
+    "respell_rp": "ah-TI-stik"
+  },
+  {
+    "w": "ashamed",
+    "respell_ga": "uh-SHAYMD",
+    "respell_rp": "uh-SHAYMD"
+  },
+  {
+    "w": "aside",
+    "respell_ga": "uh-SYD",
+    "respell_rp": "uh-SYD"
+  },
+  {
+    "w": "aspect",
+    "respell_ga": "A-spehkt",
+    "respell_rp": "A-spehkt"
+  },
+  {
+    "w": "aspirin",
+    "respell_ga": "A-sprin",
+    "respell_rp": "A-sprin"
+  },
+  {
+    "w": "assign",
+    "respell_ga": "uh-SYN",
+    "respell_rp": "uh-SYN"
+  },
+  {
+    "w": "assignment",
+    "respell_ga": "uh-SYN-muhnt",
+    "respell_rp": "uh-SYN-muhnt"
+  },
+  {
+    "w": "assist",
+    "respell_ga": "uh-SIST",
+    "respell_rp": "uh-SIST"
+  },
+  {
+    "w": "assistance",
+    "respell_ga": "uh-SIS-tuhns",
+    "respell_rp": "uh-SI-stuhns"
+  },
+  {
+    "w": "associate",
+    "respell_ga": "uh-SOH-see-uht",
+    "respell_rp": "uh-SOH-shi-ayt"
+  },
+  {
+    "w": "assume",
+    "respell_ga": "uh-SOOM",
+    "respell_rp": "uh-SYOOM"
+  },
+  {
+    "w": "astronomer",
+    "respell_ga": "uh-STRAH-nuh-mer",
+    "respell_rp": "uh-STRO-nuh-muh"
+  },
+  {
+    "w": "athletic",
+    "respell_ga": "ath-LEH-dik",
+    "respell_rp": "ath-LEH-tik"
+  },
+  {
+    "w": "atmosphere",
+    "respell_ga": "AT-muh-sfeer",
+    "respell_rp": "AT-muh-sfeer"
+  },
+  {
+    "w": "atomic",
+    "respell_ga": "uh-TAH-mik",
+    "respell_rp": "uh-TO-mik"
+  },
+  {
+    "w": "attach",
+    "respell_ga": "uh-TACH",
+    "respell_rp": "uh-TACH"
+  },
+  {
+    "w": "attachment",
+    "respell_ga": "uh-TACH-muhnt",
+    "respell_rp": "uh-TACH-muhnt"
+  },
+  {
+    "w": "attain",
+    "respell_ga": "uh-TAYN",
+    "respell_rp": "uh-TAYN"
+  },
+  {
+    "w": "attend",
+    "respell_ga": "uh-TEHND",
+    "respell_rp": "uh-TEHND"
+  },
+  {
+    "w": "attract",
+    "respell_ga": "uh-TRAKT",
+    "respell_rp": "uh-TRAKT"
+  },
+  {
+    "w": "attraction",
+    "respell_ga": "uh-TRAK-shuhn",
+    "respell_rp": "uh-TRAK-shuhn"
+  },
+  {
+    "w": "authority",
+    "respell_ga": "uh-THAW-ruh-dee",
+    "respell_rp": "aw-THO-ri-tee"
+  },
+  {
+    "w": "auxiliary",
+    "respell_ga": "ahg-ZI-lyer-ee",
+    "respell_rp": "awg-ZI-lyuh-ree"
+  },
+  {
+    "w": "available",
+    "respell_ga": "uh-VAY-luh-buhl",
+    "respell_rp": "uh-VAY-luh-buhl"
+  },
+  {
+    "w": "avenue",
+    "respell_ga": "A-vuh-noo",
+    "respell_rp": "A-vi-nyoo"
+  },
+  {
+    "w": "aware",
+    "respell_ga": "uh-WER",
+    "respell_rp": "uh-WAIR"
+  },
+  {
+    "w": "awareness",
+    "respell_ga": "uh-WER-nuhs",
+    "respell_rp": "uh-WAIR-nis"
+  },
+  {
+    "w": "awesome",
+    "respell_ga": "AH-suhm",
+    "respell_rp": "AW-suhm"
+  },
+  {
+    "w": "awkward",
+    "respell_ga": "AH-kwerd",
+    "respell_rp": "AW-kwuhd"
+  },
+  {
+    "w": "babysit",
+    "respell_ga": "BAY-bee-sit",
+    "respell_rp": "BAY-bee-sit"
+  },
+  {
+    "w": "babysitter",
+    "respell_ga": "BAY-bee-si-der",
+    "respell_rp": "BAY-bee-si-tuh"
+  },
+  {
+    "w": "backache",
+    "respell_ga": "BA-kayk",
+    "respell_rp": "BA-kayk"
+  },
+  {
+    "w": "backpack",
+    "respell_ga": "BAK-pak",
+    "respell_rp": "BAK-pak"
+  },
+  {
+    "w": "backpacker",
+    "respell_ga": "BAK-pa-ker",
+    "respell_rp": "BAK-pa-kuh"
+  },
+  {
+    "w": "backpacking",
+    "respell_ga": "BAK-pa-king",
+    "respell_rp": "BAK-pa-king"
+  },
+  {
+    "w": "bacon",
+    "respell_ga": "BAY-kuhn",
+    "respell_rp": "BAY-kuhn"
+  },
+  {
+    "w": "baggage",
+    "respell_ga": "BA-gij",
+    "respell_rp": "BA-gij"
+  },
+  {
+    "w": "baker",
+    "respell_ga": "BAY-ker",
+    "respell_rp": "BAY-kuh"
+  },
+  {
+    "w": "bakery",
+    "respell_ga": "BAY-kuh-ree",
+    "respell_rp": "BAY-kuh-ree"
+  },
+  {
+    "w": "balance",
+    "respell_ga": "BA-luhns",
+    "respell_rp": "BA-luhns"
+  },
+  {
+    "w": "barely",
+    "respell_ga": "BER-lee",
+    "respell_rp": "BAIR-lee"
+  },
+  {
+    "w": "barman",
+    "respell_ga": "BAR-muhn",
+    "respell_rp": "BAH-muhn"
+  },
+  {
+    "w": "barrel",
+    "respell_ga": "BA-ruhl",
+    "respell_rp": "BA-ruhl"
+  },
+  {
+    "w": "basement",
+    "respell_ga": "BAY-smuhnt",
+    "respell_rp": "BAY-smuhnt"
+  },
+  {
+    "w": "basin",
+    "respell_ga": "BAY-suhn",
+    "respell_rp": "BAY-sin"
+  },
+  {
+    "w": "basis",
+    "respell_ga": "BAY-suhs",
+    "respell_rp": "BAY-sis"
+  },
+  {
+    "w": "battle",
+    "respell_ga": "BA-dl",
+    "respell_rp": "BA-tuhl"
+  },
+  {
+    "w": "beautifully",
+    "respell_ga": "BYOO-duh-flee",
+    "respell_rp": "BYOO-ti-flee"
+  },
+  {
+    "w": "beaver",
+    "respell_ga": "BEE-ver",
+    "respell_rp": "BEE-vuh"
+  },
+  {
+    "w": "bedside",
+    "respell_ga": "BEHD-syd",
+    "respell_rp": "BEHD-syd"
+  },
+  {
+    "w": "behalf",
+    "respell_ga": "bi-HAF",
+    "respell_rp": "bi-HAHF"
+  },
+  {
+    "w": "behave",
+    "respell_ga": "bi-HAYV",
+    "respell_rp": "bi-HAYV"
+  },
+  {
+    "w": "belief",
+    "respell_ga": "bi-LEEF",
+    "respell_rp": "bi-LEEF"
+  },
+  {
+    "w": "beloved",
+    "respell_ga": "bi-LUHVD",
+    "respell_rp": "bi-LUHVD"
+  },
+  {
+    "w": "beneath",
+    "respell_ga": "bi-NEETH",
+    "respell_rp": "bi-NEETH"
+  },
+  {
+    "w": "benefit",
+    "respell_ga": "BEH-nuh-fit",
+    "respell_rp": "BEH-ni-fit"
+  },
+  {
+    "w": "bilingual",
+    "respell_ga": "by-LING-gwuhl",
+    "respell_rp": "by-LING-gwuhl"
+  },
+  {
+    "w": "biochemistry",
+    "respell_ga": "by-oh-KEH-muh-stree",
+    "respell_rp": "by-oh-KEH-muh-stree"
   }
 ]

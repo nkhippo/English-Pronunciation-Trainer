@@ -211,7 +211,7 @@
   },
   {
     "w": "independence",
-    "respell_ga": "in-di-PEHN-dns",
+    "respell_ga": "in-di-PEHN-duhns",
     "respell_rp": "in-di-PEHN-duhns",
     "note": "tentative — GA narrow IPA not yet confirmed by TTS review (see phase2a_review_needed.json)"
   },
@@ -309,6 +309,42 @@
     "w": "wonder",
     "respell_ga": "WUHN-der",
     "respell_rp": "WUHN-duh",
+    "note": "tentative — GA narrow IPA not yet confirmed by TTS review (see phase2a_review_needed.json)"
+  },
+  {
+    "w": "accidentally",
+    "respell_ga": "ak-suh-DEHN-tuh-lee",
+    "respell_rp": "ak-si-DEHN-tuh-lee",
+    "note": "tentative — GA narrow IPA not yet confirmed by TTS review (see phase2a_review_needed.json)"
+  },
+  {
+    "w": "agenda",
+    "respell_ga": "uh-JEHN-duh",
+    "respell_rp": "uh-JEHN-duh",
+    "note": "tentative — GA narrow IPA not yet confirmed by TTS review (see phase2a_review_needed.json)"
+  },
+  {
+    "w": "anti",
+    "respell_ga": "AN-tee",
+    "respell_rp": "AN-tee",
+    "note": "tentative — GA narrow IPA not yet confirmed by TTS review (see phase2a_review_needed.json)"
+  },
+  {
+    "w": "antonym",
+    "respell_ga": "AN-tuh-nim",
+    "respell_rp": "AN-tuh-nim",
+    "note": "tentative — GA narrow IPA not yet confirmed by TTS review (see phase2a_review_needed.json)"
+  },
+  {
+    "w": "atlantic",
+    "respell_ga": "uht-LAN-tik",
+    "respell_rp": "uht-LAN-tik",
+    "note": "tentative — GA narrow IPA not yet confirmed by TTS review (see phase2a_review_needed.json)"
+  },
+  {
+    "w": "bandage",
+    "respell_ga": "BAN-dij",
+    "respell_rp": "BAN-dij",
     "note": "tentative — GA narrow IPA not yet confirmed by TTS review (see phase2a_review_needed.json)"
   }
 ]

@@ -1,0 +1,3602 @@
+[
+  {
+    "w": "abandon",
+    "ipa": "/əˈbændən/",
+    "rp_ipa": "/əˈbændən/",
+    "cefr": "B1",
+    "pos": "動詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "abandon",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To leave a place, thing, or person permanently or for a long time.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "able",
+    "ipa": "/ˈeɪbəl/",
+    "rp_ipa": "/ˈeɪbəl/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "able",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Having the power, skill, or means to do something.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "abnormal",
+    "ipa": "/æbˈnɔrməl/",
+    "rp_ipa": "/æbˈnɔːməl/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "abnormal",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Different from what is usual or expected, often in a way that causes concern.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "aboard",
+    "ipa": "/əˈbɔrd/",
+    "rp_ipa": "/əˈbɔːd/",
+    "cefr": "B1",
+    "pos": "副詞 / 前置詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "aboard",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "On or into a ship, aircraft, train, or other vehicle.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "aborigine",
+    "ipa": "/ˌæbəˈrɪdʒəni/",
+    "rp_ipa": "/ˌæbəˈrɪdʒəni/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "aborigine",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A person belonging to the original people of a country, especially Australia.",
+    "neighbors": [],
+    "_generation_source": "manual_phonological"
+  },
+  {
+    "w": "absence",
+    "ipa": "/ˈæbsəns/",
+    "rp_ipa": "/ˈæbsəns/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "absence",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "The state of being away from a place where you are usually expected to be.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "absent",
+    "ipa": "/ˈæbsənt/",
+    "rp_ipa": "/ˈæbsənt/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "absent",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Not present at a place where you are usually expected to be.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "absolute",
+    "ipa": "/ˈæbsəˌlut/",
+    "rp_ipa": "/ˈæbsəˌluːt/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "absolute",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Complete and total; not limited in any way.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "absolutely",
+    "ipa": "/ˌæbsəˈlutli/",
+    "rp_ipa": "/ˌæbsəˈluːtli/",
+    "cefr": "B1",
+    "pos": "副詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "absolutely",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Completely and totally; used to emphasize agreement.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "absorb",
+    "ipa": "/əbˈzɔrb/",
+    "rp_ipa": "/əbˈzɔːb/",
+    "cefr": "B1",
+    "pos": "動詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "absorb",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To take in a liquid, gas, or other substance gradually.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "abstract",
+    "ipa": "/æbˈstrækt/",
+    "rp_ipa": "/æbˈstrækt/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "abstract",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Existing as an idea rather than as a physical or concrete thing.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "abundance",
+    "ipa": "/əˈbʌndəns/",
+    "rp_ipa": "/əˈbʌndəns/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "abundance",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A very large quantity of something.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "abundant",
+    "ipa": "/əˈbʌndənt/",
+    "rp_ipa": "/əˈbʌndənt/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "abundant",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Existing in large quantities; more than enough.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "academic",
+    "ipa": "/ˌækəˈdɛmɪk/",
+    "rp_ipa": "/ˌækəˈdemɪk/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "academic",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Relating to schools, colleges, and universities, especially studying rather than practical skills.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "academy",
+    "ipa": "/əˈkædəmi/",
+    "rp_ipa": "/əˈkædəmi/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "academy",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A school or college for special training, or a society of scholars or artists.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "accent",
+    "ipa": "/əkˈsɛnt/",
+    "rp_ipa": "/əkˈsent/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "accent",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A particular way of pronouncing words that shows which country, region, or social class a person is from.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "acceptance",
+    "ipa": "/ækˈsɛptəns/",
+    "rp_ipa": "/əkˈseptəns/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "acceptance",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "The act of agreeing to receive or take something that is offered.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "access",
+    "ipa": "/ˈækˌsɛs/",
+    "rp_ipa": "/ˈækˌses/",
+    "cefr": "B1",
+    "pos": "名詞 / 動詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "access",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "The means or opportunity to enter, use, or reach something.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "accessible",
+    "ipa": "/ækˈsɛsəbəl/",
+    "rp_ipa": "/əkˈsesɪbəl/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "accessible",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Able to be reached, entered, or used easily.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "accessory",
+    "ipa": "/ækˈsɛsɚi/",
+    "rp_ipa": "/ækˈsesəri/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "accessory",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "An extra item added to something to make it more useful, decorative, or complete.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "accidental",
+    "ipa": "/ˌæksəˈdɛntəl/",
+    "rp_ipa": "/ˌæksɪˈdentəl/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "accidental",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Happening by chance and not planned.",
+    "neighbors": [],
+    "_generation_source": "manual_phonological"
+  },
+  {
+    "w": "accidentally",
+    "ipa": "/ˌæksəˈdɛntəli/",
+    "rp_ipa": "/ˌæksɪˈdentəli/",
+    "cefr": "B1",
+    "pos": "副詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "accidentally",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "By chance, without intending to do it.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "accompany",
+    "ipa": "/əˈkʌmpəni/",
+    "rp_ipa": "/əˈkʌmpəni/",
+    "cefr": "B1",
+    "pos": "動詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "accompany",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To go somewhere with someone, or to happen at the same time as something else.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "accomplish",
+    "ipa": "/əˈkɑmplɪʃ/",
+    "rp_ipa": "/əˈkɒmplɪʃ/",
+    "cefr": "B1",
+    "pos": "動詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "accomplish",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To succeed in doing or finishing something.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "accountant",
+    "ipa": "/əˈkaʊntənt/",
+    "rp_ipa": "/əˈkaʊntənt/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "accountant",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A person whose job is to keep and check financial records.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "accuracy",
+    "ipa": "/ˈækjɚəsi/",
+    "rp_ipa": "/ˈækjʊrəsi/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "accuracy",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "The quality of being correct and exact.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "accurate",
+    "ipa": "/ˈækjɚət/",
+    "rp_ipa": "/ˈækjʊrɪt/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "accurate",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Correct and exact, without any mistakes.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "accurately",
+    "ipa": "/ˈækjɚətli/",
+    "rp_ipa": "/ˈækjʊrɪtli/",
+    "cefr": "B1",
+    "pos": "副詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "accurately",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "In a correct and exact way.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "accuse",
+    "ipa": "/əˈkjuz/",
+    "rp_ipa": "/əˈkjuːz/",
+    "cefr": "B1",
+    "pos": "動詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "accuse",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To say that someone has done something wrong or committed a crime.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "accustom",
+    "ipa": "/əˈkʌstəm/",
+    "rp_ipa": "/əˈkʌstəm/",
+    "cefr": "B1",
+    "pos": "動詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "accustom",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To make someone become used to a new situation.",
+    "neighbors": [],
+    "_generation_source": "manual_phonological"
+  },
+  {
+    "w": "achievement",
+    "ipa": "/əˈtʃivmənt/",
+    "rp_ipa": "/əˈtʃiːvmənt/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "achievement",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Something that has been done successfully, especially with effort or skill.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "acknowledge",
+    "ipa": "/ækˈnɑlɪdʒ/",
+    "rp_ipa": "/əkˈnɒlɪdʒ/",
+    "cefr": "B1",
+    "pos": "動詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "acknowledge",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To accept or admit that something is true, or to show that you have noticed something.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "acknowledgement",
+    "ipa": "/ækˈnɑlɪdʒmənt/",
+    "rp_ipa": "/əkˈnɒlɪdʒmənt/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "acknowledgement",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "The act of accepting that something is true, or a message showing that something has been received.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "acknowledgment",
+    "ipa": "/ækˈnɑlɪdʒmənt/",
+    "rp_ipa": "/əkˈnɒlɪdʒmənt/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "acknowledgment",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "The act of accepting that something is true, or a message showing that something has been received.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "acquaintance",
+    "ipa": "/əˈkweɪntəns/",
+    "rp_ipa": "/əˈkweɪntəns/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "acquaintance",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A person you know a little but who is not a close friend.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "acquire",
+    "ipa": "/əˈkwaɪɚ/",
+    "rp_ipa": "/əˈkwaɪə/",
+    "cefr": "B1",
+    "pos": "動詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "acquire",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To get or obtain something, often over time or with effort.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "active",
+    "ipa": "/ˈæktɪv/",
+    "rp_ipa": "/ˈæktɪv/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "active",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Doing things that need energy or movement; not staying still.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "actress",
+    "ipa": "/ˈæktrəs/",
+    "rp_ipa": "/ˈæktrɪs/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "actress",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A woman whose job is acting in plays, films, or television.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "adapt",
+    "ipa": "/əˈdæpt/",
+    "rp_ipa": "/əˈdæpt/",
+    "cefr": "B1",
+    "pos": "動詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "adapt",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To change something, or to change your behavior, to suit a new situation.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "addressee",
+    "ipa": "/ˌædrɛˈsi/",
+    "rp_ipa": "/ˌædreˈsiː/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "addressee",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "The person a letter or message is sent to.",
+    "neighbors": [],
+    "_generation_source": "manual_phonological"
+  },
+  {
+    "w": "administration",
+    "ipa": "/ædˌmɪnɪˈstreɪʃən/",
+    "rp_ipa": "/ədˌmɪnɪˈstreɪʃən/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "administration",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "The activities involved in managing an organization, or the group of people who manage it.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "admiration",
+    "ipa": "/ˌædmɚˈeɪʃən/",
+    "rp_ipa": "/ˌædmɪˈreɪʃən/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "admiration",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A feeling of respect and approval for someone or something.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "admission",
+    "ipa": "/ædˈmɪʃən/",
+    "rp_ipa": "/ədˈmɪʃən/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "admission",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Permission to enter a place or organization, or the act of admitting something is true.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "adopt",
+    "ipa": "/əˈdɑpt/",
+    "rp_ipa": "/əˈdɒpt/",
+    "cefr": "B1",
+    "pos": "動詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "adopt",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To legally take another person’s child into your family, or to start using a method or plan.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "adorable",
+    "ipa": "/əˈdɔrəbəl/",
+    "rp_ipa": "/əˈdɔːrəbəl/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "adorable",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Very attractive or lovable, especially something small or cute.",
+    "neighbors": [],
+    "_generation_source": "manual_phonological"
+  },
+  {
+    "w": "advance",
+    "ipa": "/ədˈvæns/",
+    "rp_ipa": "/ədˈvɑːns/",
+    "cefr": "B1",
+    "pos": "動詞 / 名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "advance",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To move forward, or progress made in something.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "adverb",
+    "ipa": "/ˈædˌvɝb/",
+    "rp_ipa": "/ˈædvɜːb/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "adverb",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A word that describes how, when, or where an action happens.",
+    "neighbors": [],
+    "_generation_source": "manual_phonological"
+  },
+  {
+    "w": "adverbial",
+    "ipa": "/ædˈvɝbiəl/",
+    "rp_ipa": "/ædˈvɜːbiəl/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "adverbial",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Relating to or working as an adverb.",
+    "neighbors": [],
+    "_generation_source": "manual_phonological"
+  },
+  {
+    "w": "advert",
+    "ipa": "/ˈædvɚt/",
+    "rp_ipa": "/ædˈvɜːt/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "advert",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A notice or announcement, especially in the media, promoting a product or service (British English, short for advertisement).",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "advertise",
+    "ipa": "/ˈædvɚˌtaɪz/",
+    "rp_ipa": "/ˈædvəˌtaɪz/",
+    "cefr": "B1",
+    "pos": "動詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "advertise",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To tell the public about a product or service in order to sell it.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "adviser",
+    "ipa": "/ædˈvaɪzɚ/",
+    "rp_ipa": "/ədˈvaɪzə/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "adviser",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A person who gives advice, especially as their job.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "advisor",
+    "ipa": "/ædˈvaɪzɚ/",
+    "rp_ipa": "/ədˈvaɪzə/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "advisor",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A person who gives advice, especially as their job.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "aerobics",
+    "ipa": "/ɛˈroʊbɪks/",
+    "rp_ipa": "/eəˈrəʊbɪks/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "aerobics",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Physical exercises usually done with music to improve fitness.",
+    "neighbors": [],
+    "_generation_source": "manual_phonological"
+  },
+  {
+    "w": "affect",
+    "ipa": "/əˈfɛkt/",
+    "rp_ipa": "/əˈfekt/",
+    "cefr": "B1",
+    "pos": "動詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "affect",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To cause a change in someone or something.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "affection",
+    "ipa": "/əˈfɛkʃən/",
+    "rp_ipa": "/əˈfekʃən/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "affection",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A feeling of caring or fondness for someone.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "afford",
+    "ipa": "/əˈfɔrd/",
+    "rp_ipa": "/əˈfɔːd/",
+    "cefr": "B1",
+    "pos": "動詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "afford",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To have enough money or time to be able to do or buy something.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "afterward",
+    "ipa": "/ˈæftɚwɚd/",
+    "rp_ipa": "/ˈɑːftəwəd/",
+    "cefr": "B1",
+    "pos": "副詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "afterward",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "At a later time; after something has happened.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "afterwards",
+    "ipa": "/ˈæftɚwɚdz/",
+    "rp_ipa": "/ˈɑːftəwədz/",
+    "cefr": "B1",
+    "pos": "副詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "afterwards",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "At a later time; after something has happened.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "agenda",
+    "ipa": "/əˈdʒɛndə/",
+    "rp_ipa": "/əˈdʒendə/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "agenda",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A list of items to be discussed at a meeting, or a plan of things to do.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "aggressive",
+    "ipa": "/əˈɡrɛsɪv/",
+    "rp_ipa": "/əˈɡresɪv/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "aggressive",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Ready to attack or behave in a forceful, unfriendly way.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "agreement",
+    "ipa": "/əˈɡrimənt/",
+    "rp_ipa": "/əˈɡriːmənt/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "agreement",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A decision or arrangement that two or more people or groups have reached together.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "agricultural",
+    "ipa": "/ˌæɡrəˈkʌltʃɚəl/",
+    "rp_ipa": "/ˌæɡrɪˈkʌltʃərəl/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "agricultural",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Relating to farming and growing crops or raising animals.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "agriculture",
+    "ipa": "/ˈæɡrɪˌkʌltʃɚ/",
+    "rp_ipa": "/ˈæɡrɪˌkʌltʃə/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "agriculture",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "The practice of farming, including growing crops and raising animals.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "airline",
+    "ipa": "/ˈɛrˌlaɪn/",
+    "rp_ipa": "/ˈeəˌlaɪn/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "airline",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A company that provides air travel services.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "alcohol",
+    "ipa": "/ˈælkəˌhɑl/",
+    "rp_ipa": "/ˈælkəˌhɒl/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "alcohol",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A drink such as beer or wine that can make people drunk, or the substance in it.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "alcoholic",
+    "ipa": "/ˌælkəˈhɔlɪk/",
+    "rp_ipa": "/ˌælkəˈhɒlɪk/",
+    "cefr": "B1",
+    "pos": "形容詞 / 名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "alcoholic",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Containing alcohol, or a person who is addicted to alcohol.",
+    "neighbors": [],
+    "_generation_source": "manual_phonological"
+  },
+  {
+    "w": "alike",
+    "ipa": "/əˈlaɪk/",
+    "rp_ipa": "/əˈlaɪk/",
+    "cefr": "B1",
+    "pos": "形容詞 / 副詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "alike",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Similar or the same in some way.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "allergic",
+    "ipa": "/əˈlɝdʒɪk/",
+    "rp_ipa": "/əˈlɜːdʒɪk/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "allergic",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Having a bad physical reaction to a particular substance.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "allowance",
+    "ipa": "/əˈlaʊəns/",
+    "rp_ipa": "/əˈlaʊəns/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "allowance",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "An amount of money given regularly, or a permitted amount of something.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "aloud",
+    "ipa": "/əˈlaʊd/",
+    "rp_ipa": "/əˈlaʊd/",
+    "cefr": "B1",
+    "pos": "副詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "aloud",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Using your normal speaking voice so that people can hear you, rather than silently.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "alphabet",
+    "ipa": "/ˈælfəˌbɛt/",
+    "rp_ipa": "/ˈælfəbet/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "alphabet",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "The set of letters used to write a language, in a fixed order.",
+    "neighbors": [],
+    "_generation_source": "manual_phonological"
+  },
+  {
+    "w": "alternative",
+    "ipa": "/ɔlˈtɝnətɪv/",
+    "rp_ipa": "/ɔːlˈtɜːnətɪv/",
+    "cefr": "B1",
+    "pos": "形容詞 / 名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "alternative",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Available as another possibility or choice.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "altogether",
+    "ipa": "/ˌɔltəˈɡɛðɚ/",
+    "rp_ipa": "/ˌɔːltəˈɡeðə/",
+    "cefr": "B1",
+    "pos": "副詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "altogether",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Completely, or when everything is included.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "amazed",
+    "ipa": "/əˈmeɪzd/",
+    "rp_ipa": "/əˈmeɪzd/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "amazed",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Feeling great surprise or wonder.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "amazing",
+    "ipa": "/əˈmeɪzɪŋ/",
+    "rp_ipa": "/əˈmeɪzɪŋ/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "amazing",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Causing great surprise or wonder; very impressive.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "ambitious",
+    "ipa": "/æmˈbɪʃəs/",
+    "rp_ipa": "/æmˈbɪʃəs/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "ambitious",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Having a strong desire to succeed or achieve something.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "ambulance",
+    "ipa": "/ˈæmbjələns/",
+    "rp_ipa": "/ˈæmbjʊləns/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "ambulance",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A vehicle used to take sick or injured people to the hospital.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "amount",
+    "ipa": "/əˈmaʊnt/",
+    "rp_ipa": "/əˈmaʊnt/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "amount",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A quantity of something, especially money.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "amusing",
+    "ipa": "/əˈmjuzɪŋ/",
+    "rp_ipa": "/əˈmjuːzɪŋ/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "amusing",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Causing laughter or making you smile; entertaining.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "analyse",
+    "ipa": "/ˈænəˌlaɪz/",
+    "rp_ipa": "/ˈænəlaɪz/",
+    "cefr": "B1",
+    "pos": "動詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "analyse",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To examine something carefully in order to understand it (British spelling of analyze).",
+    "neighbors": [],
+    "_generation_source": "manual_phonological"
+  },
+  {
+    "w": "analysis",
+    "ipa": "/əˈnæləsəs/",
+    "rp_ipa": "/əˈnælɪsɪs/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "analysis",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A careful and detailed examination of something.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "analyze",
+    "ipa": "/ˈænəˌlaɪz/",
+    "rp_ipa": "/ˈænəˌlaɪz/",
+    "cefr": "B1",
+    "pos": "動詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "analyze",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To examine something carefully in order to understand it.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "anger",
+    "ipa": "/ˈæŋɡɚ/",
+    "rp_ipa": "/ˈæŋɡə/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "anger",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A strong feeling of displeasure caused by something wrong or unfair.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "angle",
+    "ipa": "/ˈæŋɡəl/",
+    "rp_ipa": "/ˈæŋɡəl/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "angle",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "The space between two lines that meet, measured in degrees, or a point of view.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "animated",
+    "ipa": "/ˈænəˌmeɪtɪd/",
+    "rp_ipa": "/ˈænɪˌmeɪtɪd/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "animated",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Full of energy and excitement, or made using animation techniques.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "animation",
+    "ipa": "/ˌænəˈmeɪʃən/",
+    "rp_ipa": "/ˌænɪˈmeɪʃən/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "animation",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "The technique of making moving pictures from drawings or models, or lively energy.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "announce",
+    "ipa": "/əˈnaʊns/",
+    "rp_ipa": "/əˈnaʊns/",
+    "cefr": "B1",
+    "pos": "動詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "announce",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To officially tell people about something, often in public.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "announcement",
+    "ipa": "/əˈnaʊnsmənt/",
+    "rp_ipa": "/əˈnaʊnsmənt/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "announcement",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A public statement that gives information about something.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "annoyance",
+    "ipa": "/əˈnɔɪəns/",
+    "rp_ipa": "/əˈnɔɪəns/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "annoyance",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A feeling of mild anger, or something that causes this feeling.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "annoyed",
+    "ipa": "/əˈnɔɪd/",
+    "rp_ipa": "/əˈnɔɪd/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "annoyed",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Feeling slightly angry.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "annual",
+    "ipa": "/ˈænjuəl/",
+    "rp_ipa": "/ˈænjʊəl/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "annual",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Happening once every year.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "annually",
+    "ipa": "/ˈænjuəli/",
+    "rp_ipa": "/ˈænjʊəli/",
+    "cefr": "B1",
+    "pos": "副詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "annually",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Once every year.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "anti",
+    "ipa": "/ˈænˌti/",
+    "rp_ipa": "/ˈænti/",
+    "cefr": "B1",
+    "pos": "前置詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "anti",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Opposed to or against something.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "antique",
+    "ipa": "/ænˈtik/",
+    "rp_ipa": "/ænˈtiːk/",
+    "cefr": "B1",
+    "pos": "形容詞 / 名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "antique",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Very old and often valuable, or an object of this kind.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "antonym",
+    "ipa": "/ˈæntəˌnɪm/",
+    "rp_ipa": "/ˈæntənɪm/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "antonym",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A word that means the opposite of another word.",
+    "neighbors": [],
+    "_generation_source": "manual_phonological"
+  },
+  {
+    "w": "anxiety",
+    "ipa": "/æŋˈzaɪəti/",
+    "rp_ipa": "/æŋˈzaɪəti/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "anxiety",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A feeling of worry or nervousness about something.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "anxiously",
+    "ipa": "/ˈæŋkʃəsli/",
+    "rp_ipa": "/ˈæŋkʃəsli/",
+    "cefr": "B1",
+    "pos": "副詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "anxiously",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "In a worried or nervous way.",
+    "neighbors": [],
+    "_generation_source": "manual_phonological"
+  },
+  {
+    "w": "anyhow",
+    "ipa": "/ˈɛniˌhaʊ/",
+    "rp_ipa": "/ˈenɪˌhaʊ/",
+    "cefr": "B1",
+    "pos": "副詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "anyhow",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "In any case; whatever happens.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "apology",
+    "ipa": "/əˈpɑləˌdʒi/",
+    "rp_ipa": "/əˈpɒlədʒi/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "apology",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A statement saying you are sorry for something you did wrong.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "apparent",
+    "ipa": "/əˈpɛrənt/",
+    "rp_ipa": "/əˈpeərənt/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "apparent",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Clearly seen or understood; seeming to be true.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "appeal",
+    "ipa": "/əˈpil/",
+    "rp_ipa": "/əˈpiːl/",
+    "cefr": "B1",
+    "pos": "動詞 / 名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "appeal",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To be attractive or interesting, or a formal request for something.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "appetite",
+    "ipa": "/ˈæpəˌtaɪt/",
+    "rp_ipa": "/ˈæpɪˌtaɪt/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "appetite",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A desire to eat food, or a strong desire for something.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "applaud",
+    "ipa": "/əˈplɔd/",
+    "rp_ipa": "/əˈplɔːd/",
+    "cefr": "B1",
+    "pos": "動詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "applaud",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To clap your hands to show approval or enjoyment.",
+    "neighbors": [],
+    "_generation_source": "manual_phonological"
+  },
+  {
+    "w": "applause",
+    "ipa": "/əˈplɔz/",
+    "rp_ipa": "/əˈplɔːz/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "applause",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Clapping to show approval or enjoyment.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "application",
+    "ipa": "/ˌæpləˈkeɪʃən/",
+    "rp_ipa": "/ˌæplɪˈkeɪʃən/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "application",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A formal request, or the act of putting something into use.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "appreciation",
+    "ipa": "/əˌpriʃiˈeɪʃən/",
+    "rp_ipa": "/əˌpriːʃɪˈeɪʃən/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "appreciation",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A feeling of being grateful for something, or understanding its value.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "approach",
+    "ipa": "/əˈproʊtʃ/",
+    "rp_ipa": "/əˈprəʊtʃ/",
+    "cefr": "B1",
+    "pos": "動詞 / 名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "approach",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To move closer to something, or a way of dealing with something.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "approval",
+    "ipa": "/əˈpruvəl/",
+    "rp_ipa": "/əˈpruːvəl/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "approval",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A feeling that something is good, or official agreement to something.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "approve",
+    "ipa": "/əˈpruv/",
+    "rp_ipa": "/əˈpruːv/",
+    "cefr": "B1",
+    "pos": "動詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "approve",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To officially agree to something, or to think something is good.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "approximately",
+    "ipa": "/əˈprɑksəmətli/",
+    "rp_ipa": "/əˈprɒksɪmətli/",
+    "cefr": "B1",
+    "pos": "副詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "approximately",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Close to a particular number or amount, but not exact.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "architect",
+    "ipa": "/ˈɑrkəˌtɛkt/",
+    "rp_ipa": "/ˈɑːkɪˌtekt/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "architect",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A person who designs buildings.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "arise",
+    "ipa": "/ɚˈaɪz/",
+    "rp_ipa": "/əˈraɪz/",
+    "cefr": "B1",
+    "pos": "動詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "arise",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To happen or begin to exist, especially as a result of something.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "arithmetic",
+    "ipa": "/ˌɛrɪθˈmɛtɪk/",
+    "rp_ipa": "/əˈrɪθmətɪk/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "arithmetic",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "The part of mathematics that deals with adding, subtracting, multiplying, and dividing numbers.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "army",
+    "ipa": "/ˈɑrmi/",
+    "rp_ipa": "/ˈɑːmi/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "army",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A large organized group of soldiers trained to fight on land.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "arrange",
+    "ipa": "/ɚˈeɪndʒ/",
+    "rp_ipa": "/əˈreɪndʒ/",
+    "cefr": "B1",
+    "pos": "動詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "arrange",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To plan or organize something in advance, or to put things in a particular order.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "arrangement",
+    "ipa": "/ɚˈeɪndʒmənt/",
+    "rp_ipa": "/əˈreɪndʒmənt/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "arrangement",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A plan made in advance, or the way things are organized.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "arrest",
+    "ipa": "/ɚˈɛst/",
+    "rp_ipa": "/əˈrest/",
+    "cefr": "B1",
+    "pos": "動詞 / 名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "arrest",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To officially stop someone and take them into custody by the police.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "arrival",
+    "ipa": "/ɚˈaɪvəl/",
+    "rp_ipa": "/əˈraɪvəl/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "arrival",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "The act of reaching a place, especially at the end of a journey.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "arrow",
+    "ipa": "/ˈæroʊ/",
+    "rp_ipa": "/ˈærəʊ/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "arrow",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A thin pointed stick shot from a bow, or a symbol showing direction.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "artist",
+    "ipa": "/ˈɑrtəst/",
+    "rp_ipa": "/ˈɑːtɪst/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "artist",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A person who creates art, such as paintings or drawings.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "artistic",
+    "ipa": "/ɑrˈtɪstɪk/",
+    "rp_ipa": "/ˌɑːˈtɪstɪk/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "artistic",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Having a natural skill for art, or relating to art.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "ashamed",
+    "ipa": "/əˈʃeɪmd/",
+    "rp_ipa": "/əˈʃeɪmd/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "ashamed",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Feeling embarrassed or guilty because of something you did.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "aside",
+    "ipa": "/əˈsaɪd/",
+    "rp_ipa": "/əˈsaɪd/",
+    "cefr": "B1",
+    "pos": "副詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "aside",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To one side; away from the main point or place.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "aspect",
+    "ipa": "/ˈæˌspɛkt/",
+    "rp_ipa": "/ˈæˌspekt/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "aspect",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "One part or feature of a situation or idea.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "aspirin",
+    "ipa": "/ˈæsprɪn/",
+    "rp_ipa": "/ˈæsprɪn/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "aspirin",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A common medicine used to reduce pain and fever.",
+    "neighbors": [],
+    "_generation_source": "manual_phonological"
+  },
+  {
+    "w": "assign",
+    "ipa": "/əˈsaɪn/",
+    "rp_ipa": "/əˈsaɪn/",
+    "cefr": "B1",
+    "pos": "動詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "assign",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To give someone a particular job or task.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "assignment",
+    "ipa": "/əˈsaɪnmənt/",
+    "rp_ipa": "/əˈsaɪnmənt/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "assignment",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A task or piece of work given to someone, especially as part of a job or course.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "assist",
+    "ipa": "/əˈsɪst/",
+    "rp_ipa": "/əˈsɪst/",
+    "cefr": "B1",
+    "pos": "動詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "assist",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To help someone do something.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "assistance",
+    "ipa": "/əˈsɪstəns/",
+    "rp_ipa": "/əˈsɪstəns/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "assistance",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Help given to someone.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "associate",
+    "ipa": "/əˈsoʊsiət/",
+    "rp_ipa": "/əˈsəʊʃɪˌeɪt/",
+    "cefr": "B1",
+    "pos": "動詞 / 名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "associate",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To connect one thing with another in your mind, or a person you work with.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "assume",
+    "ipa": "/əˈsum/",
+    "rp_ipa": "/əˈsjuːm/",
+    "cefr": "B1",
+    "pos": "動詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "assume",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To think that something is true without having proof.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "astronomer",
+    "ipa": "/əˈstrɑnəmɚ/",
+    "rp_ipa": "/əˈstrɒnəmə/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "astronomer",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A scientist who studies stars, planets, and space.",
+    "neighbors": [],
+    "_generation_source": "manual_phonological"
+  },
+  {
+    "w": "athletic",
+    "ipa": "/æθˈlɛtɪk/",
+    "rp_ipa": "/æθˈletɪk/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "athletic",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Physically strong and good at sports.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "atlantic",
+    "ipa": "/ətˈlæntɪk/",
+    "rp_ipa": "/ətˈlæntɪk/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "atlantic",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Relating to the Atlantic Ocean, the large ocean between the Americas and Europe/Africa.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "atmosphere",
+    "ipa": "/ˈætməˌsfɪr/",
+    "rp_ipa": "/ˈætməˌsfɪə/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "atmosphere",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "The layer of gases around a planet, or the general mood of a place.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "atomic",
+    "ipa": "/əˈtɑmɪk/",
+    "rp_ipa": "/əˈtɒmɪk/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "atomic",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Relating to atoms, or using the power made by splitting atoms.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "attach",
+    "ipa": "/əˈtætʃ/",
+    "rp_ipa": "/əˈtætʃ/",
+    "cefr": "B1",
+    "pos": "動詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "attach",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To connect or fasten one thing to another.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "attachment",
+    "ipa": "/əˈtætʃmənt/",
+    "rp_ipa": "/əˈtætʃmənt/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "attachment",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A feeling of love or connection to someone, or something joined to another thing.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "attain",
+    "ipa": "/əˈteɪn/",
+    "rp_ipa": "/əˈteɪn/",
+    "cefr": "B1",
+    "pos": "動詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "attain",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To succeed in getting or achieving something, usually after effort.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "attend",
+    "ipa": "/əˈtɛnd/",
+    "rp_ipa": "/əˈtend/",
+    "cefr": "B1",
+    "pos": "動詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "attend",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To go to an event or place, such as school or a meeting.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "attract",
+    "ipa": "/əˈtrækt/",
+    "rp_ipa": "/əˈtrækt/",
+    "cefr": "B1",
+    "pos": "動詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "attract",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To cause someone to like or be interested in something, or to pull something toward itself.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "attraction",
+    "ipa": "/əˈtrækʃən/",
+    "rp_ipa": "/əˈtrækʃən/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "attraction",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A feeling of liking someone or something, or a place people like to visit.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "authority",
+    "ipa": "/əˈθɔrəti/",
+    "rp_ipa": "/ɔːˈθɒrɪti/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "authority",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "The power to control or direct people, or an official organization with this power.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "auxiliary",
+    "ipa": "/ɑɡˈzɪljɚi/",
+    "rp_ipa": "/ɔːɡˈzɪljəri/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "auxiliary",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Giving extra help or support; additional.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "available",
+    "ipa": "/əˈveɪləbəl/",
+    "rp_ipa": "/əˈveɪləbəl/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "available",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Able to be obtained, used, or reached.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "avenue",
+    "ipa": "/ˈævəˌnu/",
+    "rp_ipa": "/ˈævɪˌnjuː/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "avenue",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A wide street, often lined with trees, or a way of achieving something.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "aware",
+    "ipa": "/əˈwɛr/",
+    "rp_ipa": "/əˈweə/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "aware",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Knowing that something exists or is happening.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "awareness",
+    "ipa": "/əˈwɛrnəs/",
+    "rp_ipa": "/əˈweənɪs/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "awareness",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Knowledge that something exists or understanding of a situation.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "awesome",
+    "ipa": "/ˈɑsəm/",
+    "rp_ipa": "/ˈɔːsəm/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "awesome",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Extremely good, impressive, or causing wonder.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "awkward",
+    "ipa": "/ˈɑkwɚd/",
+    "rp_ipa": "/ˈɔːkwəd/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "awkward",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Causing difficulty, embarrassment, or a lack of comfort.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "babysit",
+    "ipa": "/ˈbeɪbiˌsɪt/",
+    "rp_ipa": "/ˈbeɪbisɪt/",
+    "cefr": "B1",
+    "pos": "動詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "babysit",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To take care of a child while the parents are away for a short time.",
+    "neighbors": [],
+    "_generation_source": "manual_phonological"
+  },
+  {
+    "w": "babysitter",
+    "ipa": "/ˈbeɪbiˌsɪtɚ/",
+    "rp_ipa": "/ˈbeɪbisɪtə/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "babysitter",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A person who takes care of a child while the parents are away.",
+    "neighbors": [],
+    "_generation_source": "manual_phonological"
+  },
+  {
+    "w": "backache",
+    "ipa": "/ˈbækˌeɪk/",
+    "rp_ipa": "/ˈbækeɪk/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "backache",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A pain in the back.",
+    "neighbors": [],
+    "_generation_source": "manual_phonological"
+  },
+  {
+    "w": "backpack",
+    "ipa": "/ˈbækˌpæk/",
+    "rp_ipa": "/ˈbækpæk/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "backpack",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A bag carried on the back, held on by straps over the shoulders.",
+    "neighbors": [],
+    "_generation_source": "manual_phonological"
+  },
+  {
+    "w": "backpacker",
+    "ipa": "/ˈbækˌpækɚ/",
+    "rp_ipa": "/ˈbækpækə/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "backpacker",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A person who travels carrying their belongings in a backpack, usually cheaply.",
+    "neighbors": [],
+    "_generation_source": "manual_phonological"
+  },
+  {
+    "w": "backpacking",
+    "ipa": "/ˈbækˌpækɪŋ/",
+    "rp_ipa": "/ˈbækpækɪŋ/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "backpacking",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "The activity of traveling and hiking while carrying your belongings in a backpack.",
+    "neighbors": [],
+    "_generation_source": "manual_phonological"
+  },
+  {
+    "w": "bacon",
+    "ipa": "/ˈbeɪkən/",
+    "rp_ipa": "/ˈbeɪkən/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "bacon",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Meat from a pig that has been salted or smoked, often eaten for breakfast.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "baggage",
+    "ipa": "/ˈbæɡɪdʒ/",
+    "rp_ipa": "/ˈbæɡɪdʒ/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "baggage",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Bags and suitcases used for traveling.",
+    "neighbors": [],
+    "_generation_source": "manual_phonological"
+  },
+  {
+    "w": "baker",
+    "ipa": "/ˈbeɪkɚ/",
+    "rp_ipa": "/ˈbeɪkə/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "baker",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A person whose job is to make and sell bread and cakes.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "bakery",
+    "ipa": "/ˈbeɪkəri/",
+    "rp_ipa": "/ˈbeɪkəri/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "bakery",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A shop or place where bread and cakes are made and sold.",
+    "neighbors": [],
+    "_generation_source": "manual_phonological"
+  },
+  {
+    "w": "balance",
+    "ipa": "/ˈbæləns/",
+    "rp_ipa": "/ˈbæləns/",
+    "cefr": "B1",
+    "pos": "名詞 / 動詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "balance",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A state of steadiness, or to keep something steady and not falling.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "bandage",
+    "ipa": "/ˈbændɪdʒ/",
+    "rp_ipa": "/ˈbændɪdʒ/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "bandage",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A strip of cloth used to cover and protect a wound.",
+    "neighbors": [],
+    "_generation_source": "manual_phonological"
+  },
+  {
+    "w": "barely",
+    "ipa": "/ˈbɛrli/",
+    "rp_ipa": "/ˈbeəli/",
+    "cefr": "B1",
+    "pos": "副詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "barely",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Only just; almost not.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "barman",
+    "ipa": "/ˈbɑrmən/",
+    "rp_ipa": "/ˈbɑːmən/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "barman",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A man who serves drinks in a bar (British English).",
+    "neighbors": [],
+    "_generation_source": "manual_phonological"
+  },
+  {
+    "w": "barrel",
+    "ipa": "/ˈbærəl/",
+    "rp_ipa": "/ˈbærəl/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "barrel",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A large round container, usually made of wood or metal, used for storing liquids.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "basement",
+    "ipa": "/ˈbeɪsmənt/",
+    "rp_ipa": "/ˈbeɪsmənt/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "basement",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "The floor of a building that is partly or fully below ground level.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "basin",
+    "ipa": "/ˈbeɪsən/",
+    "rp_ipa": "/ˈbeɪsɪn/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "basin",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A round open container used for holding water or food, or a low area of land.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "basis",
+    "ipa": "/ˈbeɪsəs/",
+    "rp_ipa": "/ˈbeɪsɪs/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "basis",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "The main reason or foundation for something.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "battle",
+    "ipa": "/ˈbætəl/",
+    "rp_ipa": "/ˈbætəl/",
+    "cefr": "B1",
+    "pos": "名詞 / 動詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "battle",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A fight between opposing armies or groups, or to fight or struggle.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "beautifully",
+    "ipa": "/ˈbjutəfli/",
+    "rp_ipa": "/ˈbjuːtɪfli/",
+    "cefr": "B1",
+    "pos": "副詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "beautifully",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "In a way that is very pleasing or attractive.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "beaver",
+    "ipa": "/ˈbivɚ/",
+    "rp_ipa": "/ˈbiːvə/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "beaver",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A large animal with a flat tail that builds dams in rivers.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "bedside",
+    "ipa": "/ˈbɛdˌsaɪd/",
+    "rp_ipa": "/ˈbedsaɪd/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "bedside",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "The area next to a bed.",
+    "neighbors": [],
+    "_generation_source": "manual_phonological"
+  },
+  {
+    "w": "behalf",
+    "ipa": "/bɪˈhæf/",
+    "rp_ipa": "/bɪˈhɑːf/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "behalf",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Used to say that something is done for someone else, as their representative.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "behave",
+    "ipa": "/bɪˈheɪv/",
+    "rp_ipa": "/bɪˈheɪv/",
+    "cefr": "B1",
+    "pos": "動詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "behave",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "To act in a particular way, especially in a way that is proper or acceptable.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "belief",
+    "ipa": "/bɪˈlif/",
+    "rp_ipa": "/bɪˈliːf/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "belief",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "A feeling that something is true or that someone can be trusted.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "beloved",
+    "ipa": "/bɪˈlʌvd/",
+    "rp_ipa": "/bɪˈlʌvd/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "beloved",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Loved very much.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "beneath",
+    "ipa": "/bɪˈniθ/",
+    "rp_ipa": "/bɪˈniːθ/",
+    "cefr": "B1",
+    "pos": "前置詞 / 副詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "beneath",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "In or to a lower position than something; under.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "benefit",
+    "ipa": "/ˈbɛnəfɪt/",
+    "rp_ipa": "/ˈbenɪfɪt/",
+    "cefr": "B1",
+    "pos": "名詞 / 動詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "benefit",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "An advantage or good result, or to receive an advantage from something.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "bilingual",
+    "ipa": "/baɪˈlɪŋɡwəl/",
+    "rp_ipa": "/baɪˈlɪŋɡwəl/",
+    "cefr": "B1",
+    "pos": "形容詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "bilingual",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "Able to speak two languages well.",
+    "neighbors": [],
+    "_generation_source": "dict_verified"
+  },
+  {
+    "w": "biochemistry",
+    "ipa": "/ˌbaɪoʊˈkɛməstri/",
+    "rp_ipa": "/ˌbaɪəʊˈkeməstri/",
+    "cefr": "B1",
+    "pos": "名詞",
+    "src": "cefr",
+    "pattern": null,
+    "group": null,
+    "gloss": {
+      "en": "biochemistry",
+      "ja": null,
+      "zh": null,
+      "ko": null,
+      "fil": null
+    },
+    "def": "The scientific study of the chemical processes that happen inside living things.",
+    "neighbors": [],
+    "_generation_source": "manual_phonological"
+  }
+]

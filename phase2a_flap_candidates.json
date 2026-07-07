@@ -1114,5 +1114,137 @@
     "ipa": "/ˈraɪtɪŋ/",
     "ipa_actual_ga": "/ˈraɪɾɪŋ/",
     "rule": "R1"
+  },
+  {
+    "w": "abandon",
+    "ipa": "/əˈbændən/",
+    "ipa_actual_ga": "/əˈbændn̩/",
+    "rule": "R3"
+  },
+  {
+    "w": "abundance",
+    "ipa": "/əˈbʌndəns/",
+    "ipa_actual_ga": "/əˈbʌndn̩s/",
+    "rule": "R3"
+  },
+  {
+    "w": "abundant",
+    "ipa": "/əˈbʌndənt/",
+    "ipa_actual_ga": "/əˈbʌndn̩t/",
+    "rule": "R3"
+  },
+  {
+    "w": "academy",
+    "ipa": "/əˈkædəmi/",
+    "ipa_actual_ga": "/əˈkæɾəmi/",
+    "rule": "R1"
+  },
+  {
+    "w": "acceptance",
+    "ipa": "/ækˈsɛptəns/",
+    "ipa_actual_ga": "/ækˈsɛpʔn̩s/",
+    "rule": "R3"
+  },
+  {
+    "w": "accidental",
+    "ipa": "/ˌæksəˈdɛntəl/",
+    "ipa_actual_ga": "/ˌæksəˈdɛnʔl̩/",
+    "rule": "R2"
+  },
+  {
+    "w": "accountant",
+    "ipa": "/əˈkaʊntənt/",
+    "ipa_actual_ga": "/əˈkaʊnʔn̩t/",
+    "rule": "R3"
+  },
+  {
+    "w": "acquaintance",
+    "ipa": "/əˈkweɪntəns/",
+    "ipa_actual_ga": "/əˈkweɪnʔn̩s/",
+    "rule": "R3"
+  },
+  {
+    "w": "advertise",
+    "ipa": "/ˈædvɚˌtaɪz/",
+    "ipa_actual_ga": "/ˈædvɚˌɾaɪz/",
+    "rule": "R1"
+  },
+  {
+    "w": "alternative",
+    "ipa": "/ɔlˈtɝnətɪv/",
+    "ipa_actual_ga": "/ɔlˈtɝnəɾɪv/",
+    "rule": "R1"
+  },
+  {
+    "w": "animated",
+    "ipa": "/ˈænəˌmeɪtɪd/",
+    "ipa_actual_ga": "/ˈænəˌmeɪɾɪd/",
+    "rule": "R1"
+  },
+  {
+    "w": "anxiety",
+    "ipa": "/æŋˈzaɪəti/",
+    "ipa_actual_ga": "/æŋˈzaɪəɾi/",
+    "rule": "R1"
+  },
+  {
+    "w": "appetite",
+    "ipa": "/ˈæpəˌtaɪt/",
+    "ipa_actual_ga": "/ˈæpəˌɾaɪt/",
+    "rule": "R1"
+  },
+  {
+    "w": "architect",
+    "ipa": "/ˈɑrkəˌtɛkt/",
+    "ipa_actual_ga": "/ˈɑrkəˌɾɛkt/",
+    "rule": "R1"
+  },
+  {
+    "w": "arithmetic",
+    "ipa": "/ˌɛrɪθˈmɛtɪk/",
+    "ipa_actual_ga": "/ˌɛrɪθˈmɛɾɪk/",
+    "rule": "R1"
+  },
+  {
+    "w": "artist",
+    "ipa": "/ˈɑrtəst/",
+    "ipa_actual_ga": "/ˈɑrɾəst/",
+    "rule": "R1"
+  },
+  {
+    "w": "assistance",
+    "ipa": "/əˈsɪstəns/",
+    "ipa_actual_ga": "/əˈsɪsʔn̩s/",
+    "rule": "R3"
+  },
+  {
+    "w": "athletic",
+    "ipa": "/æθˈlɛtɪk/",
+    "ipa_actual_ga": "/æθˈlɛɾɪk/",
+    "rule": "R1"
+  },
+  {
+    "w": "authority",
+    "ipa": "/əˈθɔrəti/",
+    "ipa_actual_ga": "/əˈθɔrəɾi/",
+    "rule": "R1"
+  },
+  {
+    "w": "babysitter",
+    "ipa": "/ˈbeɪbiˌsɪtɚ/",
+    "ipa_actual_ga": "/ˈbeɪbiˌsɪɾɚ/",
+    "rule": "R1"
+  },
+  {
+    "w": "battle",
+    "ipa": "/ˈbætəl/",
+    "ipa_actual_ga": "/ˈbæɾl̩/",
+    "rule": "R2"
+  },
+  {
+    "w": "beautifully",
+    "ipa": "/ˈbjutəfli/",
+    "ipa_actual_ga": "/ˈbjuɾəfli/",
+    "rule": "R1"
   }
 ]
