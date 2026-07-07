@@ -1,6 +1,6 @@
 # gloss 機械フラグ
 
-> 生成日: 2026-06-26 ／ 対象: `wordlist_GA_a1a2_plus_phonics.json`
+> 生成日: 2026-07-07 ／ 対象: `wordlist_GA_a1a2_plus_phonics.json`
 > 生成: `python3 tools/gen_audit_docs.py`
 
 - 総語数: 3059

@@ -148,7 +148,8 @@
   "lang_opts": {
     "en": "English",
     "ja": "日本語",
-    "zh": "中文",
+    "zh-Hant": "繁體",
+    "zh-Hans": "简体",
     "ko": "한국어",
     "fil": "Filipino"
   },

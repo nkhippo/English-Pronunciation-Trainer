@@ -87,8 +87,9 @@
   "lang_opts": {
     "en": "English",
     "ja": "日本語",
+    "zh-Hant": "繁體",
+    "zh-Hans": "简体",
     "ko": "한국어",
-    "zh": "中文",
     "fil": "Filipino"
   },
   "lead_connected_html": "Pakinggan ang <b>konektadong pananalita</b> sa GA—pagkakawing, asimilasyon, pagkakaltas. Mula sa konektadong IPA, hulaan ang orihinal na parirala.",

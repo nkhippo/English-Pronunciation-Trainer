@@ -503,7 +503,8 @@
       <div class="langopts" id="langOpts">
         <button class="langopt" type="button" data-lang="en" aria-pressed="true">English</button>
         <button class="langopt" type="button" data-lang="ja" aria-pressed="false">日本語</button>
-        <button class="langopt" type="button" data-lang="zh" aria-pressed="false">中文</button>
+        <button class="langopt" type="button" data-lang="zh-Hant" aria-pressed="false">繁體</button>
+        <button class="langopt" type="button" data-lang="zh-Hans" aria-pressed="false">简体</button>
         <button class="langopt" type="button" data-lang="ko" aria-pressed="false">한국어</button>
         <button class="langopt" type="button" data-lang="fil" aria-pressed="false">Filipino</button>
       </div>
@@ -757,7 +758,7 @@ function vocabDisplayGloss(c) {
   if (LANG === "en" && c.gloss.en === c.w) {
     return c.def || ("(" + (posLabel(c.pos) || "") + ")");
   }
-  return c.gloss[LANG] || c.gloss.en || c.w;
+  return wordGloss(c);
 }
 
 function renderVocabWords(query = "") {
@@ -826,7 +827,7 @@ function renderVocabPhrases() {
   sorted.forEach(c => {
     const gaIpa = c.ipa || "";
     const rpIpa = c.rp_ipa || "";
-    const gloss = c.gloss ? (c.gloss[LANG] || c.gloss.en || c.w) : c.w;
+    const gloss = wordGloss(c);
     const rule = csRuleText(c);
     const type = c.cs_type || "";
     const level = c.level || "";
@@ -876,6 +877,11 @@ function dataReady() {
 
 /* ---------- i18n ---------- */
 let LANG = localStorage.getItem("app_lang") || "en";
+// Migrate legacy "zh" (single Chinese) to zh-Hans (Simplified default).
+if (LANG === "zh") {
+  LANG = "zh-Hans";
+  localStorage.setItem("app_lang", "zh-Hans");
+}
 let ACCENT = localStorage.getItem("app_accent") || "ga";
 let UI = {};
 let PH = {};
@@ -932,7 +938,7 @@ async function loadLocale(lang) {
   const phRes = await fetch("i18n/phonemes/" + lang + ".json");
   if (phRes.ok) PH = await phRes.json();
   else PH = await (await fetch("i18n/phonemes/en.json")).json();
-  document.documentElement.lang = lang === "zh" ? "zh-Hans" : lang;
+  document.documentElement.lang = lang;
 }
 
 function localizePattern(pat) {
@@ -943,6 +949,9 @@ function localizePattern(pat) {
 
 function wordGloss(c) {
   if (!c || !c.gloss) return c ? c.w : "";
+  if (LANG === "zh-Hant" || LANG === "zh-Hans") {
+    return c.gloss[LANG] || c.gloss.zh || c.gloss.en || c.w;
+  }
   return c.gloss[LANG] || c.gloss.en || c.w;
 }
 

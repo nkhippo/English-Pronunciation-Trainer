@@ -12,8 +12,8 @@ HTML = os.path.join(ROOT, "index.html")
 WORDLIST = os.path.join(ROOT, "wordlist_GA_a1a2_plus_phonics.json")
 AUDIT_OUT = os.path.join(ROOT, "docs", "i18n-audit.md")
 FLAGS_OUT = os.path.join(ROOT, "docs", "gloss-flags.md")
-LANGS = ["en", "ja", "zh", "ko", "fil"]
-GEN_DATE = "2026-06-26"
+LANGS = ["en", "ja", "zh-Hans", "zh-Hant", "ko", "fil"]
+GEN_DATE = "2026-07-07"
 
 
 def load(path):
@@ -137,7 +137,7 @@ def gen_i18n_audit():
     lines = [
         "# i18n 監査レポート",
         "",
-        f"> 生成日: {GEN_DATE} ／ 対象: `i18n/{{en,ja,zh,ko,fil}}.json`、`i18n/phonemes/*.json`、`index.html`",
+        f"> 生成日: {GEN_DATE} ／ 対象: `i18n/{{en,ja,zh-Hans,zh-Hant,ko,fil}}.json`、`i18n/phonemes/*.json`、`index.html`",
         f"> 生成: `python3 tools/gen_audit_docs.py` ／ UI キー数: **{len(keys)}** ／ `validate_i18n.py`: ERROR 0",
         "",
         "翻訳の良し悪しは判断していません。キー所在・画面配線・ハードコードの可視化のみ。",
@@ -146,8 +146,8 @@ def gen_i18n_audit():
         "",
         "## 1. UI 文言キー × 言語",
         "",
-        "| キー | en | ja | zh | ko | fil | 画面 |",
-        "|------|----|----|----|----|-----|------|",
+        "| キー | en | ja | zh-Hans | zh-Hant | ko | fil | 画面 |",
+        "|------|----|----|---------|---------|----|-----|------|",
     ]
     for k in keys:
         row = [f"`{k}`"]
@@ -175,8 +175,8 @@ def gen_i18n_audit():
         "",
         "## 3. 音素解説（`i18n/phonemes/*.json`）",
         "",
-        f"- 音素記号数: en={sym_count}, ja={sym_count}, zh={sym_count}, ko={sym_count}",
-        "- 4言語間で音素キー集合は一致（`validate_i18n.py` [B]）",
+        f"- 音素記号数: en={sym_count}（全 UI 言語で一致）",
+        "- 6 UI 言語間で音素キー集合は一致（`validate_i18n.py` [B]）",
         "",
         "各記号のフィールド: `lab`, `ex`, `mouth`, `trap`, `t`（要注意フラグ）",
         "",
@@ -202,7 +202,7 @@ def gen_i18n_audit():
         "| `index.html:225` | IPA Dictation / A1–A2 · GA | `#brandName` / `#brandSub` → `brand.*` |",
         "| `index.html:228` | Settings（aria-label） | 起動後 `settings_btn` で置換 |",
         "| `index.html:229` | Menu | 起動後 `back_top` で置換 |",
-        "| `index.html:428–433` | English / 日本語 / 中文 / 한국어 / Filipino | 起動後 `lang_opts.*` で置換 |",
+        "| `index.html:428–433` | English / 日本語 / 繁體 / 简体 / 한국어 / Filipino | 起動後 `lang_opts.*` で置換 |",
         "| `index.html:438–439` | American (GA) / British (RP) | 起動後 `accent.*` で置換 |",
         "| `index.html:456–462` | Guide 言語ピル（en/ja/ko/繁體/简体/Filipino） | **ガイド専用**（UI i18n 外） |",
         "| `index.html` encode | ⌫ | IPA キーボード（言語非依存） |",

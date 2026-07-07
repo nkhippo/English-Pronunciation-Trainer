@@ -1,0 +1,224 @@
+{
+  "brand": {
+    "name": "IPA操練"
+  },
+  "lead_html": "針對<b>已知單字</b>逐音素訓練<b>IPA讀寫</b>。專攻<b>陷阱音</b>（θ, ð, æ, ʒ, ɝ）或練習紀錄中的<b>弱點音</b>。僅客觀評分；提升音標涵蓋率,而非詞彙量。",
+  "lead_connected_html": "聽辨 GA 的<b>連音現象</b>（連音、同化、脫落）。根據連音後的 IPA 還原原片語。",
+  "lead_weak_html": "聽功能詞的<b>弱讀形式</b>,讀出 IPA 還原單字。",
+  "tab": {
+    "label": "練習模式",
+    "words": "單字",
+    "connected": "連音",
+    "weak": "弱讀形式"
+  },
+  "mode": {
+    "label": "學習模式",
+    "a": "IPA 讀寫"
+  },
+  "modeb": {
+    "title": "聽音學詞",
+    "lead_html": "從<b>聲音學習新詞</b>——先聽發音,再對應意思和拼寫。依 CEFR 級別遞進,並自動安排複習。",
+    "study": {
+      "got_it": "下一題",
+      "reveal_meaning": "查看含義"
+    },
+    "quiz": {
+      "choose_meaning": "選擇意思",
+      "type_word": "輸入單字"
+    },
+    "band": {
+      "label": "詞彙級別",
+      "note": "{band}:{n}詞 · 熟練度{pct}%(box4+ {m}詞)"
+    },
+    "pool": "級別 {band}:{n}詞 · 熟練度{pct}%",
+    "correct": "正確",
+    "incorrect": "錯誤"
+  },
+  "cs": {
+    "label": "類型",
+    "all": "全部",
+    "linking": "連音",
+    "assimilation": "同化",
+    "elision": "脫落",
+    "ruleLabel": "規則",
+    "level": {
+      "label": "難度",
+      "all": "全部",
+      "l1": "初級",
+      "l2": "中級",
+      "l3": "高級"
+    }
+  },
+  "weak": {
+    "strong_label": "強讀",
+    "weak_label": "弱讀"
+  },
+  "focus": {
+    "label": "音素聚焦",
+    "all": "全部",
+    "traps": "陷阱音",
+    "traps_d": "θ ð æ ʒ ɝ",
+    "weak": "弱點音",
+    "weak_d": "來自練習紀錄",
+    "letters": "字母",
+    "contractions": "縮寫形式",
+    "irregular": "不規則變化",
+    "casual": "口語表達"
+  },
+  "reg": {
+    "label": "拼寫模式",
+    "all": "全部",
+    "regular": "規則",
+    "regular_d": "自然發音／拼寫–讀音規則",
+    "irregular": "不規則",
+    "irregular_d": "常用詞的不規則拼寫"
+  },
+  "pool": {
+    "count": "詞庫 {n} 詞",
+    "count_phrases": "詞庫 {n} 句",
+    "count_weak": "詞庫 {n} 弱讀形式"
+  },
+  "setup": {
+    "show_filters": "詳細設定",
+    "hide_filters": "收合設定"
+  },
+  "dir": {
+    "label": "方向",
+    "decode_t": "IPA &rarr; 單字",
+    "decode_d": "閱讀發音符號(IPA),寫出單字",
+    "encode_t": "單字 &rarr; IPA",
+    "encode_d": "根據拼寫組合發音符號(IPA)"
+  },
+  "set": {
+    "label": "題庫",
+    "daily_t": "日常詞 · CEFR A1–A2",
+    "daily_d": "常用詞(含不規則拼寫)",
+    "phonics_t": "自然發音規則 · 拼寫 &harr; 音",
+    "phonics_d": "拼寫與讀音規則對應的詞"
+  },
+  "lvl": {
+    "label": "級別",
+    "all": "A1+A2",
+    "b1": "B1",
+    "b2": "B2",
+    "c1": "C1",
+    "pool": "詞庫 {n} 詞"
+  },
+  "grp": {
+    "label": "拼寫規則群組",
+    "all": "全部",
+    "short": "短母音",
+    "long": "長母音·不發音e",
+    "team": "母音組合",
+    "r": "r色母音"
+  },
+  "start": "開始",
+  "loading": "載入中…",
+  "load_fail": "載入失敗",
+  "wordlist_fail": "單字表載入失敗",
+  "back_top": "首頁",
+  "settings_btn": "語言",
+  "settings_title": "設定",
+  "settings_lang": "語言",
+  "settings_close": "關閉",
+  "accent": {
+    "label": "口音",
+    "ga": "美式",
+    "rp": "英式"
+  },
+  "guide": {
+    "open": "使用指南",
+    "title": "如何使用本應用程式",
+    "close": "關閉"
+  },
+  "vocab": {
+    "title": "詞彙表",
+    "tab_words": "單字",
+    "tab_phrases": "片語",
+    "search": "搜尋…",
+    "no_results": "無結果"
+  },
+  "reveal": {
+    "rp_note": "RP(英)",
+    "ga_note": "GA(美)",
+    "respell_label": "簡易發音",
+    "dict_label": "詞典標記",
+    "alt_same": "相同"
+  },
+  "lang_opts": {
+    "en": "English",
+    "ja": "日本語",
+    "zh-Hant": "繁體",
+    "zh-Hans": "简体",
+    "ko": "한국어",
+    "fil": "Filipino"
+  },
+  "listen": "播放發音",
+  "meter_done": "完成",
+  "hint": {
+    "syl": "音節數",
+    "first": "首字母",
+    "pos": "詞性"
+  },
+  "input_ph": "輸入單字",
+  "input_phrase": "輸入片語",
+  "check": "核對",
+  "clear": "清除",
+  "next": "下一題",
+  "build_ph": "點選下方IPA鍵拼出發音",
+  "tips_head": "發音要點",
+  "note": {
+    "pattern": "拼寫規則: {p}",
+    "stress": "重讀第{n}音節(共{sy}音節)",
+    "schwa": "弱讀母音(ə/ɚ): 勿被拼寫牽引,要含糊輕讀",
+    "tricky": "需注意音: {s}"
+  },
+  "patterns": {
+    "magic_e": "不發音e"
+  },
+  "you": "你的答案: {a}",
+  "see_answer": "查看答案",
+  "syl": "{n}個音節",
+  "syl_pl": "{n}個音節",
+  "summary": {
+    "line": "{c} / {t} 正確 · 複習 {m} 詞",
+    "weak_head": "建議練習的音",
+    "weak_none_t": "未偵測到弱點音",
+    "weak_none_d": "沒有錯過的音。可嘗試更高難度。",
+    "review": "複習清單: {list}",
+    "again": "再來一輪",
+    "weak_btn": "只複習錯題"
+  },
+  "info": {
+    "mouth": "口型",
+    "watch": "注意",
+    "examples": "例詞"
+  },
+  "kbd": {
+    "stress": "重音",
+    "vowels": "母音",
+    "r_vowels": "r色母音",
+    "diphthongs": "雙母音",
+    "consonants": "子音"
+  },
+  "pos": {
+    "限定詞": "限定詞",
+    "名詞": "名詞",
+    "動詞": "動詞",
+    "形容詞": "形容詞",
+    "副詞": "副詞",
+    "前置詞": "介詞",
+    "接続詞": "連接詞",
+    "代名詞": "代名詞",
+    "間投詞": "感嘆詞",
+    "副詞 / 前置詞": "副詞 / 介詞",
+    "形容詞 / 副詞": "形容詞 / 副詞",
+    "be動詞": "be動詞",
+    "助動詞": "情態動詞",
+    "文字": "字母名",
+    "短縮形": "縮寫形式",
+    "動詞（不規則変化）": "不規則動詞變化",
+    "名詞（不規則複数）": "不規則複數",
+    "口語表現": "口語表達"
+  }
+}
