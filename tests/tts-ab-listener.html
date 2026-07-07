@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TTS A/B Listener — Connected Speech Experiment</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 0; padding: 16px; line-height: 1.4; }
+    .wrap { max-width: 1100px; margin: 0 auto; }
+    h1 { font-size: 1.5rem; margin: 0 0 12px; }
+    .note { margin: 0 0 16px; opacity: 0.8; }
+    .phrase { border: 1px solid #8884; border-radius: 10px; padding: 12px; margin: 16px 0; }
+    .phrase h2 { margin: 0 0 6px; font-size: 1.1rem; }
+    .ipa { margin: 0 0 10px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+    .variant { border: 1px solid #8884; border-radius: 8px; padding: 10px; margin: 10px 0; }
+    .variant h3 { margin: 0 0 8px; font-size: 1rem; }
+    .audio-row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+    audio { width: min(100%, 420px); }
+    .status { font-size: 0.9rem; opacity: 0.8; }
+    .rating { margin-top: 8px; display: grid; gap: 8px; }
+    .axis { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+    .axis strong { min-width: 88px; }
+    .axis label { display: inline-flex; align-items: center; gap: 4px; padding: 4px 6px; border-radius: 6px; border: 1px solid #8884; }
+    .axis input[type="radio"] { transform: scale(1.2); }
+    textarea { width: 100%; min-height: 56px; box-sizing: border-box; }
+    .footer { margin: 24px 0 8px; padding: 12px; border: 1px solid #8884; border-radius: 8px; }
+    .copy-btn { width: 100%; font-size: 1rem; padding: 12px; border-radius: 10px; border: 0; background: #2d7eff; color: #fff; cursor: pointer; }
+    .copy-result { margin-top: 8px; font-size: 0.95rem; }
+    @media (max-width: 600px) {
+      body { padding: 10px; }
+      .axis strong { min-width: 100%; }
+      .axis label { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>TTS A/B Listener — Connected Speech Experiment</h1>
+    <p class="note">6 phrases x 8 variants = 48 clips. 3軸で評価後、「結果をコピー」を押して Claude に貼り付けてください。</p>
+    <div id="app"></div>
+    <div class="footer">
+      <button class="copy-btn" id="copyBtn" type="button">結果をコピー</button>
+      <div class="copy-result" id="copyResult"></div>
+      <p>コピーした JSON をそのまま Claude に貼り付けると、variant 比較分析に使えます。</p>
+    </div>
+  </div>
+  <script>
+    const GAS_TTS_URL = "https://script.google.com/macros/s/AKfycbya7_gej4GlOoeaORxO8fYm6auwtG3qhtbGZtw2ZR8dlyTFtaW6D2JcHJVyyMcCB8Ga/exec";
+
+    const TEST_PHRASES = [
+      { id: "cs_blind_spot", phrase: "blind spot", ipa: "/blaɪndspɑt/" },
+      { id: "cs_lots_of_time", phrase: "lots of time", ipa: "/ˈlɑtsəˈtaɪm/" },
+      { id: "cs_tell_him", phrase: "tell him", ipa: "/ˈtɛlɪm/" },
+      { id: "cs_a_lot_of", phrase: "a lot of", ipa: "/əˈlɑɾəv/" },
+      { id: "cs_next_time", phrase: "next time", ipa: "/ˈnɛkstaɪm/" },
+      { id: "cs_going_to", phrase: "going to", ipa: "/ˈɡoʊɪŋtu/" }
+    ];
+
+    const VARIANTS = [
+      { id: "v1_baseline",         voice: "alloy", speed: 1.0,  instr: "current",      label: "Production baseline" },
+      { id: "v2_alloy_s115",       voice: "alloy", speed: 1.15, instr: "current",      label: "alloy + speed 1.15" },
+      { id: "v3_nova",             voice: "nova",  speed: 1.0,  instr: "current",      label: "nova default" },
+      { id: "v4_nova_s115",        voice: "nova",  speed: 1.15, instr: "current",      label: "nova + speed 1.15" },
+      { id: "v5_sage",             voice: "sage",  speed: 1.0,  instr: "current",      label: "sage default" },
+      { id: "v6_ash",              voice: "ash",   speed: 1.0,  instr: "current",      label: "ash default" },
+      { id: "v7_alloy_rapid",      voice: "alloy", speed: 1.0,  instr: "rapid_casual", label: "alloy + rapid_casual instr" },
+      { id: "v8_nova_s115_rapid",  voice: "nova",  speed: 1.15, instr: "rapid_casual", label: "nova + speed 1.15 + rapid_casual" }
+    ];
+
+    const AXES = [
+      { key: "continuity", label: "連続性" },
+      { key: "naturalness", label: "話速自然さ" },
+      { key: "elision_accuracy", label: "脱落再現" }
+    ];
+
+    function storageKey(variantId, phraseId, axis) {
+      return `tts_ab_v1_${variantId}_${phraseId}_${axis}`;
+    }
+    function commentStorageKey(variantId, phraseId) {
+      return `tts_ab_v1_${variantId}_${phraseId}_comment`;
+    }
+
+    function buildAudioUrl(phrase, ipa, variant) {
+      const params = new URLSearchParams({
+        phrase,
+        phrase_ipa: ipa,
+        accent: "ga",
+        voice: variant.voice,
+        speed: variant.speed.toString(),
+        instr_variant: variant.instr
+      });
+      return `${GAS_TTS_URL}?${params.toString()}`;
+    }
+
+    function b64ToBlob(base64, mimeType) {
+      const bytes = atob(base64);
+      const arr = new Uint8Array(bytes.length);
+      for (let i = 0; i < bytes.length; i++) arr[i] = bytes.charCodeAt(i);
+      return new Blob([arr], { type: mimeType || "audio/mpeg" });
+    }
+
+    async function attachAudio(audioEl, statusEl, phrase, ipa, variant) {
+      const url = buildAudioUrl(phrase, ipa, variant);
+      statusEl.textContent = "読み込み中...";
+      try {
+        // GAS returns JSON(base64), so we fetch and convert to blob URL.
+        const res = await fetch(url);
+        const json = await res.json();
+        if (!json.ok || !json.audio) throw new Error(json.error || "no audio");
+        const blob = b64ToBlob(json.audio, json.mimeType);
+        const blobUrl = URL.createObjectURL(blob);
+        audioEl.src = blobUrl;
+        statusEl.textContent = `source: ${(json.meta && json.meta.source) || json.source || "unknown"} / voice: ${(json.meta && json.meta.voice) || variant.voice}`;
+      } catch (e) {
+        statusEl.textContent = `取得失敗: ${String(e.message || e)}`;
+      }
+    }
+
+    function createRatingAxis(phraseId, variantId, axis) {
+      const row = document.createElement("div");
+      row.className = "axis";
+      const title = document.createElement("strong");
+      title.textContent = axis.label + ":";
+      row.appendChild(title);
+      for (let v = 1; v <= 5; v++) {
+        const label = document.createElement("label");
+        const input = document.createElement("input");
+        const name = `${phraseId}_${variantId}_${axis.key}`;
+        input.type = "radio";
+        input.name = name;
+        input.value = String(v);
+        const key = storageKey(variantId, phraseId, axis.key);
+        if (localStorage.getItem(key) === String(v)) input.checked = true;
+        input.addEventListener("change", () => localStorage.setItem(key, String(v)));
+        label.appendChild(input);
+        label.appendChild(document.createTextNode(String(v)));
+        row.appendChild(label);
+      }
+      return row;
+    }
+
+    function render() {
+      const app = document.getElementById("app");
+      TEST_PHRASES.forEach((p) => {
+        const section = document.createElement("section");
+        section.className = "phrase";
+        section.innerHTML = `<h2>${p.phrase}</h2><p class="ipa">${p.ipa}</p>`;
+
+        VARIANTS.forEach((v) => {
+          const box = document.createElement("div");
+          box.className = "variant";
+          const title = document.createElement("h3");
+          title.textContent = v.label;
+          box.appendChild(title);
+
+          const audioRow = document.createElement("div");
+          audioRow.className = "audio-row";
+          const audio = document.createElement("audio");
+          audio.controls = true;
+          audio.preload = "none";
+          const loadBtn = document.createElement("button");
+          loadBtn.type = "button";
+          loadBtn.textContent = "音声を読み込む";
+          const status = document.createElement("span");
+          status.className = "status";
+          loadBtn.addEventListener("click", () => attachAudio(audio, status, p.phrase, p.ipa, v));
+          audioRow.appendChild(audio);
+          audioRow.appendChild(loadBtn);
+          audioRow.appendChild(status);
+          box.appendChild(audioRow);
+
+          const rating = document.createElement("div");
+          rating.className = "rating";
+          AXES.forEach((axis) => rating.appendChild(createRatingAxis(p.id, v.id, axis)));
+          const area = document.createElement("textarea");
+          area.placeholder = "コメント（任意）";
+          const cKey = commentStorageKey(v.id, p.id);
+          area.value = localStorage.getItem(cKey) || "";
+          area.addEventListener("input", () => localStorage.setItem(cKey, area.value));
+          rating.appendChild(area);
+          box.appendChild(rating);
+
+          section.appendChild(box);
+        });
+        app.appendChild(section);
+      });
+    }
+
+    function collectResults() {
+      const evaluations = [];
+      TEST_PHRASES.forEach((p) => {
+        VARIANTS.forEach((v) => {
+          const rec = {
+            phrase_id: p.id,
+            phrase: p.phrase,
+            variant_id: v.id,
+            variant_label: v.label
+          };
+          let hasAny = false;
+          AXES.forEach((axis) => {
+            const val = localStorage.getItem(storageKey(v.id, p.id, axis.key));
+            if (val) {
+              rec[axis.key] = Number(val);
+              hasAny = true;
+            }
+          });
+          const comment = (localStorage.getItem(commentStorageKey(v.id, p.id)) || "").trim();
+          if (comment) {
+            rec.comment = comment;
+            hasAny = true;
+          }
+          if (hasAny) evaluations.push(rec);
+        });
+      });
+      return {
+        schema: "tts-ab-listener-v1",
+        date: new Date().toISOString().slice(0, 10),
+        evaluations
+      };
+    }
+
+    async function copyResults() {
+      const out = collectResults();
+      const text = JSON.stringify(out, null, 2);
+      const resultEl = document.getElementById("copyResult");
+      try {
+        await navigator.clipboard.writeText(text);
+        resultEl.textContent = `コピー完了: ${out.evaluations.length} 件の評価`;
+      } catch (e) {
+        resultEl.textContent = "クリップボード書き込みに失敗。下のテキストを手動コピーしてください。";
+        const ta = document.createElement("textarea");
+        ta.value = text;
+        ta.style.width = "100%";
+        ta.style.minHeight = "180px";
+        resultEl.appendChild(ta);
+      }
+    }
+
+    render();
+    document.getElementById("copyBtn").addEventListener("click", copyResults);
+  </script>
+</body>
+</html>

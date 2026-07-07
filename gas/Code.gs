@@ -15,10 +15,23 @@ const TTS_CACHE_VER = 'v2';
 const TTS_CONNECTED_CACHE_VER = 'v4';
 const TTS_MODEL = 'gpt-4o-mini-tts';
 const TTS_VOICE = 'alloy';
+const ALLOWED_VOICES = [
+  'alloy', 'nova', 'onyx', 'echo', 'fable', 'shimmer',
+  'sage', 'coral', 'ash', 'ballad', 'verse'
+];
 const TTS_INSTRUCTIONS_GA = 'Pronounce the single English word in a clear General American accent. Use the citation (dictionary) form: full, unreduced vowels and the correct lexical stress — do not use the weak or reduced connected-speech form, even for function words. Say the word once, at a calm pace slightly slower than conversational, with neutral falling intonation. Articulate consonants precisely and keep contrasts distinct — especially /θ/–/f/, /ð/–/d/, /l/–/r/, /s/–/ʃ/, /b/–/v/, and word-final consonants — but stay natural and never exaggerate them into distortion. Do not spell the word, do not add any other words, do not pause, and do not use emotional or expressive delivery. Keep the delivery identical and consistent across all words.';
 const TTS_INSTRUCTIONS_RP = 'Pronounce the single English word in a clear modern Received Pronunciation (standard Southern British) accent. Use the citation (dictionary) form: full, unreduced vowels and the correct lexical stress — do not use the weak or reduced connected-speech form, even for function words. Say the word once, at a calm pace slightly slower than conversational, with neutral falling intonation. Articulate consonants precisely and keep contrasts distinct — especially /θ/–/f/, /ð/–/d/, /l/–/r/, /s/–/ʃ/, /b/–/v/, and word-final consonants — but stay natural and never exaggerate them into distortion. Do not spell the word, do not add any other words, do not pause, and do not use emotional or expressive delivery. Keep the delivery identical and consistent across all words.';
 const TTS_CONNECTED_INSTRUCTIONS = 'Pronounce the English phrase in a clear General American accent as one smooth, continuous utterance — like a native speaker in casual connected speech, not separate dictionary words. CRITICAL: never pause or break between words; there must be no audible gap or reset between syllables that belong to different words. Link across word boundaries: when a word ends in a consonant and the next begins with a vowel, run them together without re-articulating (e.g. "tell him" → tellim, not tell … him). Drop /h/ on weak pronouns after a consonant (him, her, his, he → im, er, is, i). For "of" before a consonant, use schwa only (/ə/): do NOT pronounce /v/ or /f/ (e.g. "lots of time" → lotsətime). Apply other natural weak forms, assimilation, and elision where expected. Keep reductions natural, not cartoonish. Say the phrase once at a calm conversational pace with neutral intonation. Do not spell letters, add words, or pause.';
 const TTS_CONNECTED_IPA_INSTRUCTIONS = 'Pronounce this English phrase exactly as the IPA transcription indicates, in a clear General American accent. Follow every phoneme, stress mark, and reduction in the IPA — including schwa, elision, linking, and assimilation. Deliver as one smooth connected utterance with no pause between words. Do not spell the IPA symbols aloud, do not add words, and do not use citation forms that contradict the IPA.';
+// Experimental instruction variants for A/B testing.
+// Selected via ?instr_variant= URL parameter. Falls back to the current
+// production instructions when absent or unknown.
+const TTS_INSTR_VARIANTS = {
+  current: null,
+  rapid_casual: 'Deliver this English phrase in rapid, casual, connected speech in a General American accent. Do not pause between words. Link consonants to following vowels naturally. Speak at a fast conversational pace — faster than dictation, closer to how a native speaker chats with a friend. Do not use citation forms.',
+  min_instr: 'Speak this English phrase naturally in General American, at conversational pace, as one connected utterance.',
+  tempo_emphasis: 'Speak this English phrase rapidly and connectedly in General American. Prioritize connected speech (linking, elision, weak forms) over word-by-word clarity. Do not pause between words.',
+};
 const TTS_WEAK_INSTRUCTIONS_GA = 'Pronounce this English function word using its WEAK (reduced) form exactly as the IPA indicates, as it sounds inside connected speech — typically with a schwa /ə/. Use a clear General American accent, calm and natural, said once. Do NOT use the strong citation form. Do not spell it, add words, or pause.';
 const TTS_WEAK_INSTRUCTIONS_RP = 'Pronounce this English function word using its WEAK (reduced) form exactly as the IPA indicates, as it sounds inside connected speech — typically with a schwa /ə/. Use a clear modern Received Pronunciation (standard Southern British) accent, calm and natural, said once. Do NOT use the strong citation form. Do not spell it, add words, or pause.';
 // Normal single-word MP3s are ~12 KB+; near-silent glitches (e.g. flight at 5.7 KB) stay below this.
@@ -82,6 +95,13 @@ function getAudioFromDrive_(input, accent, cacheVer) {
   return null;
 }
 
+function getAudioFromDriveByName_(name) {
+  const folder = getFolder_();
+  const files = folder.getFilesByName(name);
+  if (files.hasNext()) return files.next().getBlob();
+  return null;
+}
+
 function isAudioBlobTooShort_(blob) {
   return blob.getBytes().length < TTS_MIN_BYTES;
 }
@@ -89,6 +109,12 @@ function isAudioBlobTooShort_(blob) {
 function trashAudioOnDrive_(input, accent, cacheVer) {
   const folder = getFolder_();
   const name = fileNameFor_(input, accent, cacheVer);
+  const files = folder.getFilesByName(name);
+  while (files.hasNext()) files.next().setTrashed(true);
+}
+
+function trashAudioOnDriveByName_(name) {
+  const folder = getFolder_();
   const files = folder.getFilesByName(name);
   while (files.hasNext()) files.next().setTrashed(true);
 }
@@ -103,9 +129,52 @@ function instructionsFor_(accent, connected, ipaMode) {
   return normalizeAccent_(accent) === 'rp' ? TTS_INSTRUCTIONS_RP : TTS_INSTRUCTIONS_GA;
 }
 
-function fetchFromOpenAI_(text, instructions) {
+function resolveVoice_(voice) {
+  const v = String(voice || '').trim().toLowerCase();
+  return ALLOWED_VOICES.indexOf(v) >= 0 ? v : TTS_VOICE;
+}
+
+function parseSpeed_(speedRaw) {
+  const raw = String(speedRaw || '').trim();
+  if (!raw) return 0;
+  const parsed = parseFloat(raw);
+  if (!isNaN(parsed) && parsed >= 0.5 && parsed <= 2.0) return parsed;
+  return 0;
+}
+
+function normalizeInstrVariant_(instrVariant) {
+  const key = String(instrVariant || '').trim();
+  if (key && Object.prototype.hasOwnProperty.call(TTS_INSTR_VARIANTS, key)) return key;
+  return 'current';
+}
+
+function buildConnectedCacheKey_(safePhrase, accent, voice, speed, instrVariant) {
+  const base = safePhrase + '__' + accent;
+  const isProduction = (!voice || voice === TTS_VOICE)
+    && (!speed || speed <= 0)
+    && (!instrVariant || instrVariant === 'current');
+  if (isProduction) return base + '_' + TTS_CONNECTED_CACHE_VER + '.mp3';
+
+  let tag = 'exp';
+  if (voice && voice !== TTS_VOICE) tag += '_v-' + voice;
+  if (speed && speed > 0) tag += '_s-' + Math.round(speed * 100);
+  if (instrVariant && instrVariant !== 'current') tag += '_i-' + instrVariant;
+  return base + '_' + tag + '.mp3';
+}
+
+function fetchFromOpenAI_(text, options) {
+  options = options || {};
   const key = PropertiesService.getScriptProperties().getProperty('OPENAI_API_KEY');
   if (!key) throw new Error('OPENAI_API_KEY is not set in Script Properties');
+
+  const payload = {
+    model: TTS_MODEL,
+    voice: resolveVoice_(options.voice),
+    input: text,
+    response_format: 'mp3',
+  };
+  if (options.speed && options.speed > 0) payload.speed = options.speed;
+  if (options.instructions) payload.instructions = options.instructions;
 
   const res = UrlFetchApp.fetch('https://api.openai.com/v1/audio/speech', {
     method: 'post',
@@ -113,12 +182,7 @@ function fetchFromOpenAI_(text, instructions) {
       Authorization: 'Bearer ' + key,
       'Content-Type': 'application/json',
     },
-    payload: JSON.stringify({
-      model: TTS_MODEL,
-      input: text,
-      voice: TTS_VOICE,
-      instructions: instructions || TTS_INSTRUCTIONS_GA,
-    }),
+    payload: JSON.stringify(payload),
     muteHttpExceptions: true,
   });
 
@@ -128,10 +192,10 @@ function fetchFromOpenAI_(text, instructions) {
   return res.getBlob();
 }
 
-function fetchFromOpenAIWithRetry_(text, instructions) {
-  const blob = fetchFromOpenAI_(text, instructions);
+function fetchFromOpenAIWithRetry_(text, options) {
+  const blob = fetchFromOpenAI_(text, options);
   if (!isAudioBlobTooShort_(blob)) return blob;
-  return fetchFromOpenAI_(text, instructions);
+  return fetchFromOpenAI_(text, options);
 }
 
 function saveToDriveWeak_(weakWord, accent, blob) {
@@ -145,6 +209,13 @@ function saveToDriveWeak_(weakWord, accent, blob) {
 function saveToDrive_(input, accent, blob, cacheVer) {
   const folder = getFolder_();
   const name = fileNameFor_(input, accent, cacheVer);
+  const existing = folder.getFilesByName(name);
+  while (existing.hasNext()) existing.next().setTrashed(true);
+  folder.createFile(blob.setName(name));
+}
+
+function saveToDriveByName_(name, blob) {
+  const folder = getFolder_();
   const existing = folder.getFilesByName(name);
   while (existing.hasNext()) existing.next().setTrashed(true);
   folder.createFile(blob.setName(name));
@@ -197,8 +268,15 @@ function doGet(e) {
     const phraseIpa = String((e && e.parameter && e.parameter.phrase_ipa) || '').trim();
     const word = String((e && e.parameter && e.parameter.word) || '').trim();
     const accent = normalizeAccent_(e && e.parameter && e.parameter.accent);
+    const voice = String((e && e.parameter && e.parameter.voice) || '').trim();
+    const speedRaw = String((e && e.parameter && e.parameter.speed) || '').trim();
+    const instrVariantRaw = String((e && e.parameter && e.parameter.instr_variant) || '').trim();
+    const effectiveVoice = resolveVoice_(voice);
+    const speed = parseSpeed_(speedRaw);
+    const instrVariant = normalizeInstrVariant_(instrVariantRaw);
     let input = '';
     let cacheKey = '';
+    let connectedCacheFile = '';
     let connected = false;
     let weakMode = false;
     let cacheAccent = accent;
@@ -245,22 +323,39 @@ function doGet(e) {
     const instructions = weakMode
       ? instructionsForWeak_(accent)
       : instructionsFor_(accent, connected, connectedIpa);
+    let effectiveInstructions = instructions;
+    if (connected) {
+      const variantInstr = TTS_INSTR_VARIANTS[instrVariant];
+      if (variantInstr !== null && variantInstr !== undefined) effectiveInstructions = variantInstr;
+      connectedCacheFile = buildConnectedCacheKey_(slugForInput_(cacheKey), cacheAccent, effectiveVoice, speed, instrVariant);
+    }
     const phraseCacheVer = connected ? TTS_CONNECTED_CACHE_VER : null;
 
-    let blob = weakMode
-      ? getAudioFromDriveWeak_(cacheKey, cacheAccent)
-      : getAudioFromDrive_(cacheKey, cacheAccent, phraseCacheVer);
-    let source = 'drive';
+    let blob;
+    if (weakMode) {
+      blob = getAudioFromDriveWeak_(cacheKey, cacheAccent);
+    } else if (connected) {
+      blob = getAudioFromDriveByName_(connectedCacheFile);
+    } else {
+      blob = getAudioFromDrive_(cacheKey, cacheAccent, phraseCacheVer);
+    }
+    let source = 'cache';
     if (blob && isAudioBlobTooShort_(blob)) {
       if (weakMode) trashAudioOnDriveWeak_(cacheKey, cacheAccent);
+      else if (connected) trashAudioOnDriveByName_(connectedCacheFile);
       else trashAudioOnDrive_(cacheKey, cacheAccent, phraseCacheVer);
       blob = null;
     }
     if (!blob) {
-      blob = fetchFromOpenAIWithRetry_(input, instructions);
+      blob = fetchFromOpenAIWithRetry_(input, {
+        voice: effectiveVoice,
+        speed: connected ? speed : 0,
+        instructions: effectiveInstructions,
+      });
       source = 'openai';
       if (!isAudioBlobTooShort_(blob)) {
         if (weakMode) saveToDriveWeak_(cacheKey, cacheAccent, blob);
+        else if (connected) saveToDriveByName_(connectedCacheFile, blob);
         else saveToDrive_(cacheKey, cacheAccent, blob, phraseCacheVer);
       }
     }
@@ -272,6 +367,12 @@ function doGet(e) {
       source: source,
       mimeType: blob.getContentType() || 'audio/mpeg',
       audio: Utilities.base64Encode(blob.getBytes()),
+      meta: {
+        source: source,
+        voice: effectiveVoice,
+        speed: speed > 0 ? speed : 1.0,
+        instr_variant: instrVariant,
+      },
     });
   } catch (err) {
     return jsonResponse_({ ok: false, error: String(err.message || err) });
