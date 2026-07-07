@@ -283,6 +283,16 @@ topbar の `#vocabBtn` から起動。プレイ中も利用可。Words（wordlis
 | `def` | Mode B Study reveal（英語 UI・`gloss.en === w` 時の定義文） |
 | `src` | letter / contraction / irregular_* / casual / cefr / phonics 等 |
 | `pattern` / `group` | 規則語フィルタ・発音ポイント |
+| `cefr` | CEFR レベル（`A1` / `A2` / `B1` / `null`）。Phase 0-a 以降 `B2` は空。`null` の 652 語は `src: phonics`（フォニックス軸） |
+
+#### `cefr` フィールドの現状（Phase 0-a 以降）
+
+- 値: `"A1"` / `"A2"` / `"B1"` / `null`（`"B2"` は Phase 2 まで空）
+- `null` は 2 種類の状態を包含する:
+  - `src: "phonics"` の語（Phase 0-a で null 化した 652 語）: CEFR 軸ではなくフォニックス軸で分類
+  - Phase 1/2 で追加予定の未タグ語彙（暫定）
+- Mode A の出題プール絞り込みは Phase 0-b で `filteredPool()` に配線予定
+- Mode B は既に CEFR フィールドを参照しており（`MODEB_BANDS`）、Phase 0-a により B1 プールは 25 語に縮小、B2 プールは 0 語に消失
 
 ### 5.2 連結句 — `data/connected_speech.json`
 
@@ -348,6 +358,7 @@ UI i18n とは独立。各言語キー（`en`, `ja`, `ko`, `zh-Hans`, `zh-Hant`,
 | 日付 | 内容 |
 |------|------|
 | 2026-07-06 | 学習モード名称を行為ベースに刷新（`mode.a` / `modeb.title`）。セットアップの詳細フィルタを折りたたみ。プレイ中パンくず追加。反対アクセント表示拡張。respelling UI 非表示。Mode B [次へ] 統一。i18n 161 キー |
+| 2026-07-07 | CEFR Phase 0-a: 誤ラベル phonics 652語の `cefr` を null 化（B1→25語、B2→0語） |
 | 2026-07-07 | 中文 UI を `zh-Hant`（繁體）と `zh-Hans`（简体）に分離。旧 `zh` ユーザーは `zh-Hans` へ自動移行 |
 | 2026-07-06 | 音素ガイド `i18n/phonemes/{ja,ko,zh}.json` を全面書き直し（47音素×3言語）。例語は英語のまま保持、機械翻訳による誤訳を解消 |
 | 2026-07-02 | respelling v2 品質パッチ。音節主音+コーダ子音パターン18語の `respell_ga` を可読性向上（`important`: `im-POR-tuhnt` 等） |

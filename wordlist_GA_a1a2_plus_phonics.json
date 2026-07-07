@@ -65009,7 +65009,7 @@
   {
     "w": "ache",
     "ipa": "/eɪk/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -65039,7 +65039,7 @@
   {
     "w": "ad",
     "ipa": "/æd/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -65069,7 +65069,7 @@
   {
     "w": "aid",
     "ipa": "/eɪd/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ai → /eɪ/",
@@ -65099,7 +65099,7 @@
   {
     "w": "aim",
     "ipa": "/eɪm/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ai → /eɪ/",
@@ -65129,7 +65129,7 @@
   {
     "w": "ant",
     "ipa": "/ænt/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -65159,7 +65159,7 @@
   {
     "w": "ape",
     "ipa": "/eɪp/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -65219,7 +65219,7 @@
   {
     "w": "bald",
     "ipa": "/bɔld/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /ɔ/",
@@ -65249,7 +65249,7 @@
   {
     "w": "bang",
     "ipa": "/bæŋ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -65279,7 +65279,7 @@
   {
     "w": "bare",
     "ipa": "/bɛr/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "are → /ɛr/",
@@ -65309,7 +65309,7 @@
   {
     "w": "bark",
     "ipa": "/bɑrk/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ar → /ɑr/",
@@ -65339,7 +65339,7 @@
   {
     "w": "bathe",
     "ipa": "/beɪð/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -65369,7 +65369,7 @@
   {
     "w": "beard",
     "ipa": "/bɪrd/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ear → /ɪr/",
@@ -65399,7 +65399,7 @@
   {
     "w": "beast",
     "ipa": "/bist/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /i/",
@@ -65429,7 +65429,7 @@
   {
     "w": "beat",
     "ipa": "/bit/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /i/",
@@ -65459,7 +65459,7 @@
   {
     "w": "bent",
     "ipa": "/bɛnt/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -65489,7 +65489,7 @@
   {
     "w": "bet",
     "ipa": "/bɛt/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -65519,7 +65519,7 @@
   {
     "w": "bin",
     "ipa": "/bɪn/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -65549,7 +65549,7 @@
   {
     "w": "bleed",
     "ipa": "/blid/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ee → /i/",
@@ -65579,7 +65579,7 @@
   {
     "w": "blend",
     "ipa": "/blɛnd/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -65609,7 +65609,7 @@
   {
     "w": "bless",
     "ipa": "/blɛs/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -65639,7 +65639,7 @@
   {
     "w": "blind",
     "ipa": "/blaɪnd/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /aɪ/",
@@ -65669,7 +65669,7 @@
   {
     "w": "blog",
     "ipa": "/blɔɡ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɔ/",
@@ -65699,7 +65699,7 @@
   {
     "w": "blush",
     "ipa": "/blʌʃ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -65729,7 +65729,7 @@
   {
     "w": "boast",
     "ipa": "/boʊst/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "oa → /oʊ/",
@@ -65759,7 +65759,7 @@
   {
     "w": "bold",
     "ipa": "/boʊld/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /oʊ/",
@@ -65789,7 +65789,7 @@
   {
     "w": "bomb",
     "ipa": "/bɑm/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɑ/",
@@ -65819,7 +65819,7 @@
   {
     "w": "bond",
     "ipa": "/bɑnd/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɑ/",
@@ -65849,7 +65849,7 @@
   {
     "w": "boom",
     "ipa": "/bum/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "oo → /u/",
@@ -65879,7 +65879,7 @@
   {
     "w": "boot",
     "ipa": "/but/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "oo → /u/",
@@ -65909,7 +65909,7 @@
   {
     "w": "bore",
     "ipa": "/bɔr/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ore → /ɔr/",
@@ -65939,7 +65939,7 @@
   {
     "w": "bounce",
     "ipa": "/baʊns/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ou → /aʊ/",
@@ -65969,7 +65969,7 @@
   {
     "w": "bound",
     "ipa": "/baʊnd/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ou → /aʊ/",
@@ -65999,7 +65999,7 @@
   {
     "w": "bow",
     "ipa": "/baʊ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ow → /aʊ/",
@@ -66029,7 +66029,7 @@
   {
     "w": "brass",
     "ipa": "/bræs/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -66059,7 +66059,7 @@
   {
     "w": "breast",
     "ipa": "/brɛst/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /ɛ/",
@@ -66089,7 +66089,7 @@
   {
     "w": "breath",
     "ipa": "/brɛθ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /ɛ/",
@@ -66119,7 +66119,7 @@
   {
     "w": "breed",
     "ipa": "/brid/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ee → /i/",
@@ -66149,7 +66149,7 @@
   {
     "w": "brick",
     "ipa": "/brɪk/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -66179,7 +66179,7 @@
   {
     "w": "brief",
     "ipa": "/brif/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ie → /i/",
@@ -66209,7 +66209,7 @@
   {
     "w": "bull",
     "ipa": "/bʊl/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʊ/",
@@ -66239,7 +66239,7 @@
   {
     "w": "bump",
     "ipa": "/bʌmp/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -66269,7 +66269,7 @@
   {
     "w": "bunch",
     "ipa": "/bʌntʃ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -66299,7 +66299,7 @@
   {
     "w": "burst",
     "ipa": "/bɝst/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ur → /ɝ/",
@@ -66329,7 +66329,7 @@
   {
     "w": "bust",
     "ipa": "/bʌst/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -66389,7 +66389,7 @@
   {
     "w": "cage",
     "ipa": "/keɪdʒ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -66444,7 +66444,7 @@
   {
     "w": "cave",
     "ipa": "/keɪv/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -66474,7 +66474,7 @@
   {
     "w": "cell",
     "ipa": "/sɛl/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -66504,7 +66504,7 @@
   {
     "w": "charge",
     "ipa": "/tʃɑrdʒ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ar → /ɑr/",
@@ -66534,7 +66534,7 @@
   {
     "w": "charm",
     "ipa": "/tʃɑrm/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ar → /ɑr/",
@@ -66564,7 +66564,7 @@
   {
     "w": "chase",
     "ipa": "/tʃeɪs/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /eɪ/",
@@ -66594,7 +66594,7 @@
   {
     "w": "chief",
     "ipa": "/tʃif/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ie → /i/",
@@ -66624,7 +66624,7 @@
   {
     "w": "choke",
     "ipa": "/tʃoʊk/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o_e → /oʊ/ (マジックe)",
@@ -66654,7 +66654,7 @@
   {
     "w": "cliff",
     "ipa": "/klɪf/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -66684,7 +66684,7 @@
   {
     "w": "clip",
     "ipa": "/klɪp/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -66744,7 +66744,7 @@
   {
     "w": "coal",
     "ipa": "/koʊl/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "oa → /oʊ/",
@@ -66774,7 +66774,7 @@
   {
     "w": "cod",
     "ipa": "/kɑd/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɑ/",
@@ -66876,7 +66876,7 @@
   {
     "w": "craft",
     "ipa": "/kræft/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -66906,7 +66906,7 @@
   {
     "w": "crash",
     "ipa": "/kræʃ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -66936,7 +66936,7 @@
   {
     "w": "crop",
     "ipa": "/krɑp/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɑ/",
@@ -66966,7 +66966,7 @@
   {
     "w": "crow",
     "ipa": "/kroʊ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ow → /oʊ/",
@@ -66996,7 +66996,7 @@
   {
     "w": "crush",
     "ipa": "/krʌʃ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -67026,7 +67026,7 @@
   {
     "w": "cure",
     "ipa": "/kjʊr/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ure → /jʊr/",
@@ -67056,7 +67056,7 @@
   {
     "w": "curve",
     "ipa": "/kɝv/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ur → /ɝ/",
@@ -67086,7 +67086,7 @@
   {
     "w": "damp",
     "ipa": "/dæmp/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -67116,7 +67116,7 @@
   {
     "w": "dare",
     "ipa": "/dɛr/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "are → /ɛr/",
@@ -67146,7 +67146,7 @@
   {
     "w": "daze",
     "ipa": "/deɪz/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -67176,7 +67176,7 @@
   {
     "w": "deaf",
     "ipa": "/dɛf/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /ɛ/",
@@ -67206,7 +67206,7 @@
   {
     "w": "deed",
     "ipa": "/did/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ee → /i/",
@@ -67236,7 +67236,7 @@
   {
     "w": "depth",
     "ipa": "/dɛpθ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -67266,7 +67266,7 @@
   {
     "w": "dirt",
     "ipa": "/dɝt/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ir → /ɝ/",
@@ -67296,7 +67296,7 @@
   {
     "w": "dive",
     "ipa": "/daɪv/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i_e → /aɪ/ (マジックe)",
@@ -67350,7 +67350,7 @@
   {
     "w": "doc",
     "ipa": "/dɑk/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɑ/",
@@ -67380,7 +67380,7 @@
   {
     "w": "dot",
     "ipa": "/dɑt/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɑ/",
@@ -67410,7 +67410,7 @@
   {
     "w": "doze",
     "ipa": "/doʊz/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o_e → /oʊ/ (マジックe)",
@@ -67440,7 +67440,7 @@
   {
     "w": "drag",
     "ipa": "/dræɡ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -67470,7 +67470,7 @@
   {
     "w": "drown",
     "ipa": "/draʊn/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ow → /aʊ/",
@@ -67500,7 +67500,7 @@
   {
     "w": "dude",
     "ipa": "/dud/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u_e → /u/ (マジックe)",
@@ -67530,7 +67530,7 @@
   {
     "w": "dull",
     "ipa": "/dʌl/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -67560,7 +67560,7 @@
   {
     "w": "dump",
     "ipa": "/dʌmp/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -67590,7 +67590,7 @@
   {
     "w": "edge",
     "ipa": "/ɛdʒ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -67687,7 +67687,7 @@
   {
     "w": "fade",
     "ipa": "/feɪd/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -67717,7 +67717,7 @@
   {
     "w": "faint",
     "ipa": "/feɪnt/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ai → /eɪ/",
@@ -67747,7 +67747,7 @@
   {
     "w": "fake",
     "ipa": "/feɪk/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -67806,7 +67806,7 @@
   {
     "w": "fax",
     "ipa": "/fæks/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -67836,7 +67836,7 @@
   {
     "w": "feast",
     "ipa": "/fist/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /i/",
@@ -67866,7 +67866,7 @@
   {
     "w": "fetch",
     "ipa": "/fɛtʃ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -67896,7 +67896,7 @@
   {
     "w": "fifth",
     "ipa": "/fɪfθ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -67926,7 +67926,7 @@
   {
     "w": "firm",
     "ipa": "/fɝm/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ir → /ɝ/",
@@ -67956,7 +67956,7 @@
   {
     "w": "flash",
     "ipa": "/flæʃ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -67986,7 +67986,7 @@
   {
     "w": "flock",
     "ipa": "/flɑk/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɑ/",
@@ -68016,7 +68016,7 @@
   {
     "w": "flow",
     "ipa": "/floʊ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ow → /oʊ/",
@@ -68046,7 +68046,7 @@
   {
     "w": "flu",
     "ipa": "/flu/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /u/",
@@ -68076,7 +68076,7 @@
   {
     "w": "flute",
     "ipa": "/flut/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u_e → /u/ (マジックe)",
@@ -68106,7 +68106,7 @@
   {
     "w": "fold",
     "ipa": "/foʊld/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /oʊ/",
@@ -68136,7 +68136,7 @@
   {
     "w": "fond",
     "ipa": "/fɑnd/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɑ/",
@@ -68166,7 +68166,7 @@
   {
     "w": "foot",
     "ipa": "/fʊt/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "oo → /ʊ/",
@@ -68196,7 +68196,7 @@
   {
     "w": "forth",
     "ipa": "/fɔrθ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "or → /ɔr/",
@@ -68226,7 +68226,7 @@
   {
     "w": "fright",
     "ipa": "/fraɪt/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "igh → /aɪ/",
@@ -68256,7 +68256,7 @@
   {
     "w": "frost",
     "ipa": "/frɔst/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɔ/",
@@ -68286,7 +68286,7 @@
   {
     "w": "fund",
     "ipa": "/fʌnd/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -68316,7 +68316,7 @@
   {
     "w": "fur",
     "ipa": "/fɝ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ur → /ɝ/",
@@ -68346,7 +68346,7 @@
   {
     "w": "fuss",
     "ipa": "/fʌs/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -68376,7 +68376,7 @@
   {
     "w": "gain",
     "ipa": "/ɡeɪn/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ai → /eɪ/",
@@ -68406,7 +68406,7 @@
   {
     "w": "gall",
     "ipa": "/ɡɔl/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /ɔ/",
@@ -68436,7 +68436,7 @@
   {
     "w": "gap",
     "ipa": "/ɡæp/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -68466,7 +68466,7 @@
   {
     "w": "gay",
     "ipa": "/ɡeɪ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ay → /eɪ/",
@@ -68496,7 +68496,7 @@
   {
     "w": "gee",
     "ipa": "/dʒi/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ee → /i/",
@@ -68526,7 +68526,7 @@
   {
     "w": "gene",
     "ipa": "/dʒin/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e_e → /i/ (マジックe)",
@@ -68556,7 +68556,7 @@
   {
     "w": "glance",
     "ipa": "/ɡlæns/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -68586,7 +68586,7 @@
   {
     "w": "glide",
     "ipa": "/ɡlaɪd/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i_e → /aɪ/ (マジックe)",
@@ -68616,7 +68616,7 @@
   {
     "w": "glimpse",
     "ipa": "/ɡlɪmps/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -68637,7 +68637,7 @@
   {
     "w": "glint",
     "ipa": "/ɡlɪnt/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -68667,7 +68667,7 @@
   {
     "w": "gown",
     "ipa": "/ɡaʊn/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ow → /aʊ/",
@@ -68697,7 +68697,7 @@
   {
     "w": "grab",
     "ipa": "/ɡræb/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -68727,7 +68727,7 @@
   {
     "w": "grant",
     "ipa": "/ɡrænt/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -68757,7 +68757,7 @@
   {
     "w": "graph",
     "ipa": "/ɡræf/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -68787,7 +68787,7 @@
   {
     "w": "grave",
     "ipa": "/ɡreɪv/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -68817,7 +68817,7 @@
   {
     "w": "grill",
     "ipa": "/ɡrɪl/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -68847,7 +68847,7 @@
   {
     "w": "groom",
     "ipa": "/ɡrum/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "oo → /u/",
@@ -68877,7 +68877,7 @@
   {
     "w": "growth",
     "ipa": "/ɡroʊθ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ow → /oʊ/",
@@ -68907,7 +68907,7 @@
   {
     "w": "guilt",
     "ipa": "/ɡɪlt/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ui → /ɪ/",
@@ -68937,7 +68937,7 @@
   {
     "w": "gym",
     "ipa": "/dʒɪm/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "y → /ɪ/",
@@ -68967,7 +68967,7 @@
   {
     "w": "hang",
     "ipa": "/hæŋ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -68997,7 +68997,7 @@
   {
     "w": "hatch",
     "ipa": "/hætʃ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -69027,7 +69027,7 @@
   {
     "w": "haunt",
     "ipa": "/hɔnt/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "au → /ɔ/",
@@ -69057,7 +69057,7 @@
   {
     "w": "heal",
     "ipa": "/hil/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /i/",
@@ -69087,7 +69087,7 @@
   {
     "w": "heel",
     "ipa": "/hil/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ee → /i/",
@@ -69117,7 +69117,7 @@
   {
     "w": "height",
     "ipa": "/haɪt/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "igh → /aɪ/",
@@ -69147,7 +69147,7 @@
   {
     "w": "herd",
     "ipa": "/hɝd/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "er → /ɝ/",
@@ -69177,7 +69177,7 @@
   {
     "w": "hip",
     "ipa": "/hɪp/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -69207,7 +69207,7 @@
   {
     "w": "hop",
     "ipa": "/hɑp/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɑ/",
@@ -69237,7 +69237,7 @@
   {
     "w": "horn",
     "ipa": "/hɔrn/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "or → /ɔr/",
@@ -69267,7 +69267,7 @@
   {
     "w": "huge",
     "ipa": "/hjudʒ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u_e → /ju/ (マジックe)",
@@ -69297,7 +69297,7 @@
   {
     "w": "hunt",
     "ipa": "/hʌnt/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -69327,7 +69327,7 @@
   {
     "w": "hut",
     "ipa": "/hʌt/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -69357,7 +69357,7 @@
   {
     "w": "jade",
     "ipa": "/dʒeɪd/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -69387,7 +69387,7 @@
   {
     "w": "jar",
     "ipa": "/dʒɑr/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ar → /ɑr/",
@@ -69417,7 +69417,7 @@
   {
     "w": "jazz",
     "ipa": "/dʒæz/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -69447,7 +69447,7 @@
   {
     "w": "jog",
     "ipa": "/dʒɑɡ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɑ/",
@@ -69477,7 +69477,7 @@
   {
     "w": "joint",
     "ipa": "/dʒɔɪnt/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "oi → /ɔɪ/",
@@ -69507,7 +69507,7 @@
   {
     "w": "jug",
     "ipa": "/dʒʌɡ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -69567,7 +69567,7 @@
   {
     "w": "knit",
     "ipa": "/nɪt/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -69597,7 +69597,7 @@
   {
     "w": "lab",
     "ipa": "/læb/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -69627,7 +69627,7 @@
   {
     "w": "lamb",
     "ipa": "/læm/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -69657,7 +69657,7 @@
   {
     "w": "launch",
     "ipa": "/lɔntʃ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "au → /ɔ/",
@@ -69687,7 +69687,7 @@
   {
     "w": "lay",
     "ipa": "/leɪ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ay → /eɪ/",
@@ -69717,7 +69717,7 @@
   {
     "w": "lean",
     "ipa": "/lin/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /i/",
@@ -69747,7 +69747,7 @@
   {
     "w": "leap",
     "ipa": "/lip/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /i/",
@@ -69777,7 +69777,7 @@
   {
     "w": "lift",
     "ipa": "/lɪft/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -69807,7 +69807,7 @@
   {
     "w": "limp",
     "ipa": "/lɪmp/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -69837,7 +69837,7 @@
   {
     "w": "loaf",
     "ipa": "/loʊf/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "oa → /oʊ/",
@@ -69867,7 +69867,7 @@
   {
     "w": "lodge",
     "ipa": "/lɑdʒ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɑ/",
@@ -69897,7 +69897,7 @@
   {
     "w": "log",
     "ipa": "/lɔɡ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɔ/",
@@ -69927,7 +69927,7 @@
   {
     "w": "loss",
     "ipa": "/lɔs/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɔ/",
@@ -69957,7 +69957,7 @@
   {
     "w": "loud",
     "ipa": "/laʊd/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ou → /aʊ/",
@@ -70017,7 +70017,7 @@
   {
     "w": "lung",
     "ipa": "/lʌŋ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -70068,7 +70068,7 @@
   {
     "w": "main",
     "ipa": "/meɪn/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ai → /eɪ/",
@@ -70098,7 +70098,7 @@
   {
     "w": "mash",
     "ipa": "/mæʃ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -70128,7 +70128,7 @@
   {
     "w": "mass",
     "ipa": "/mæs/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -70179,7 +70179,7 @@
   {
     "w": "melt",
     "ipa": "/mɛlt/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -70209,7 +70209,7 @@
   {
     "w": "mend",
     "ipa": "/mɛnd/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -70239,7 +70239,7 @@
   {
     "w": "mere",
     "ipa": "/mɪr/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ere → /ɪr/",
@@ -70269,7 +70269,7 @@
   {
     "w": "mess",
     "ipa": "/mɛs/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -70299,7 +70299,7 @@
   {
     "w": "mild",
     "ipa": "/maɪld/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /aɪ/",
@@ -70329,7 +70329,7 @@
   {
     "w": "mile",
     "ipa": "/maɪl/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i_e → /aɪ/ (マジックe)",
@@ -70389,7 +70389,7 @@
   {
     "w": "moss",
     "ipa": "/mɔs/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɔ/",
@@ -70419,7 +70419,7 @@
   {
     "w": "mount",
     "ipa": "/maʊnt/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ou → /aʊ/",
@@ -70449,7 +70449,7 @@
   {
     "w": "mourn",
     "ipa": "/mɔrn/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "our → /ɔr/",
@@ -70479,7 +70479,7 @@
   {
     "w": "mud",
     "ipa": "/mʌd/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -70509,7 +70509,7 @@
   {
     "w": "mule",
     "ipa": "/mjul/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u_e → /ju/ (マジックe)",
@@ -70539,7 +70539,7 @@
   {
     "w": "myth",
     "ipa": "/mɪθ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "y → /ɪ/",
@@ -70569,7 +70569,7 @@
   {
     "w": "nail",
     "ipa": "/neɪl/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ai → /eɪ/",
@@ -70599,7 +70599,7 @@
   {
     "w": "nap",
     "ipa": "/næp/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -70629,7 +70629,7 @@
   {
     "w": "ness",
     "ipa": "/nɛs/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -70659,7 +70659,7 @@
   {
     "w": "niece",
     "ipa": "/nis/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ie → /i/",
@@ -70689,7 +70689,7 @@
   {
     "w": "nod",
     "ipa": "/nɑd/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɑ/",
@@ -70719,7 +70719,7 @@
   {
     "w": "nor",
     "ipa": "/nɔr/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "or → /ɔr/",
@@ -70770,7 +70770,7 @@
   {
     "w": "owe",
     "ipa": "/oʊ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ow → /oʊ/",
@@ -70830,7 +70830,7 @@
   {
     "w": "pace",
     "ipa": "/peɪs/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /eɪ/",
@@ -70860,7 +70860,7 @@
   {
     "w": "paid",
     "ipa": "/peɪd/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ai → /eɪ/",
@@ -70890,7 +70890,7 @@
   {
     "w": "pain",
     "ipa": "/peɪn/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ai → /eɪ/",
@@ -70920,7 +70920,7 @@
   {
     "w": "pale",
     "ipa": "/peɪl/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -70950,7 +70950,7 @@
   {
     "w": "pause",
     "ipa": "/pɔz/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "au → /ɔ/",
@@ -70980,7 +70980,7 @@
   {
     "w": "per",
     "ipa": "/pɝ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "er → /ɝ/",
@@ -71010,7 +71010,7 @@
   {
     "w": "phrase",
     "ipa": "/freɪz/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /eɪ/",
@@ -71040,7 +71040,7 @@
   {
     "w": "pie",
     "ipa": "/paɪ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ie → /aɪ/",
@@ -71070,7 +71070,7 @@
   {
     "w": "pin",
     "ipa": "/pɪn/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -71100,7 +71100,7 @@
   {
     "w": "pipe",
     "ipa": "/paɪp/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i_e → /aɪ/ (マジックe)",
@@ -71130,7 +71130,7 @@
   {
     "w": "pit",
     "ipa": "/pɪt/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -71160,7 +71160,7 @@
   {
     "w": "plain",
     "ipa": "/pleɪn/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ai → /eɪ/",
@@ -71190,7 +71190,7 @@
   {
     "w": "plug",
     "ipa": "/plʌɡ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -71220,7 +71220,7 @@
   {
     "w": "pole",
     "ipa": "/poʊl/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o_e → /oʊ/ (マジックe)",
@@ -71250,7 +71250,7 @@
   {
     "w": "pond",
     "ipa": "/pɑnd/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɑ/",
@@ -71280,7 +71280,7 @@
   {
     "w": "pork",
     "ipa": "/pɔrk/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "or → /ɔr/",
@@ -71310,7 +71310,7 @@
   {
     "w": "port",
     "ipa": "/pɔrt/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "or → /ɔr/",
@@ -71340,7 +71340,7 @@
   {
     "w": "pot",
     "ipa": "/pɑt/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɑ/",
@@ -71370,7 +71370,7 @@
   {
     "w": "pound",
     "ipa": "/paʊnd/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ou → /aʊ/",
@@ -71400,7 +71400,7 @@
   {
     "w": "praise",
     "ipa": "/preɪz/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ai → /eɪ/",
@@ -71430,7 +71430,7 @@
   {
     "w": "press",
     "ipa": "/prɛs/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -71460,7 +71460,7 @@
   {
     "w": "priest",
     "ipa": "/prist/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ie → /i/",
@@ -71490,7 +71490,7 @@
   {
     "w": "prize",
     "ipa": "/praɪz/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i_e → /aɪ/ (マジックe)",
@@ -71520,7 +71520,7 @@
   {
     "w": "proof",
     "ipa": "/pruf/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "oo → /u/",
@@ -71550,7 +71550,7 @@
   {
     "w": "proud",
     "ipa": "/praʊd/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ou → /aʊ/",
@@ -71580,7 +71580,7 @@
   {
     "w": "prove",
     "ipa": "/pruv/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o_e → /u/ (マジックe)",
@@ -71610,7 +71610,7 @@
   {
     "w": "pub",
     "ipa": "/pʌb/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -71640,7 +71640,7 @@
   {
     "w": "pump",
     "ipa": "/pʌmp/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -71670,7 +71670,7 @@
   {
     "w": "pure",
     "ipa": "/pjʊr/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ure → /jʊr/",
@@ -71700,7 +71700,7 @@
   {
     "w": "purse",
     "ipa": "/pɝs/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ur → /ɝ/",
@@ -71730,7 +71730,7 @@
   {
     "w": "quake",
     "ipa": "/kweɪk/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -71760,7 +71760,7 @@
   {
     "w": "race",
     "ipa": "/reɪs/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /eɪ/",
@@ -71790,7 +71790,7 @@
   {
     "w": "rage",
     "ipa": "/reɪdʒ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -71820,7 +71820,7 @@
   {
     "w": "rail",
     "ipa": "/reɪl/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ai → /eɪ/",
@@ -71850,7 +71850,7 @@
   {
     "w": "rare",
     "ipa": "/rɛr/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "are → /ɛr/",
@@ -71880,7 +71880,7 @@
   {
     "w": "reef",
     "ipa": "/rif/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ee → /i/",
@@ -71910,7 +71910,7 @@
   {
     "w": "rest",
     "ipa": "/rɛst/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -71963,7 +71963,7 @@
   {
     "w": "rid",
     "ipa": "/rɪd/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -71993,7 +71993,7 @@
   {
     "w": "ripe",
     "ipa": "/raɪp/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i_e → /aɪ/ (マジックe)",
@@ -72023,7 +72023,7 @@
   {
     "w": "rise",
     "ipa": "/raɪz/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /aɪ/",
@@ -72053,7 +72053,7 @@
   {
     "w": "risk",
     "ipa": "/rɪsk/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -72083,7 +72083,7 @@
   {
     "w": "rough",
     "ipa": "/rʌf/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ou → /ʌ/",
@@ -72138,7 +72138,7 @@
   {
     "w": "sand",
     "ipa": "/sænd/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -72168,7 +72168,7 @@
   {
     "w": "scan",
     "ipa": "/skæn/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -72198,7 +72198,7 @@
   {
     "w": "scare",
     "ipa": "/skɛr/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "are → /ɛr/",
@@ -72228,7 +72228,7 @@
   {
     "w": "scold",
     "ipa": "/skoʊld/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /oʊ/",
@@ -72258,7 +72258,7 @@
   {
     "w": "scope",
     "ipa": "/skoʊp/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o_e → /oʊ/ (マジックe)",
@@ -72288,7 +72288,7 @@
   {
     "w": "score",
     "ipa": "/skɔr/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ore → /ɔr/",
@@ -72318,7 +72318,7 @@
   {
     "w": "scratch",
     "ipa": "/skrætʃ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -72369,7 +72369,7 @@
   {
     "w": "sex",
     "ipa": "/sɛks/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -72399,7 +72399,7 @@
   {
     "w": "shame",
     "ipa": "/ʃeɪm/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -72429,7 +72429,7 @@
   {
     "w": "sharp",
     "ipa": "/ʃɑrp/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ar → /ɑr/",
@@ -72459,7 +72459,7 @@
   {
     "w": "shave",
     "ipa": "/ʃeɪv/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -72489,7 +72489,7 @@
   {
     "w": "sheer",
     "ipa": "/ʃɪr/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "eer → /ɪr/",
@@ -72519,7 +72519,7 @@
   {
     "w": "sheet",
     "ipa": "/ʃit/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ee → /i/",
@@ -72549,7 +72549,7 @@
   {
     "w": "shift",
     "ipa": "/ʃɪft/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -72579,7 +72579,7 @@
   {
     "w": "shrimp",
     "ipa": "/ʃrɪmp/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -72609,7 +72609,7 @@
   {
     "w": "sigh",
     "ipa": "/saɪ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "igh → /aɪ/",
@@ -72639,7 +72639,7 @@
   {
     "w": "silk",
     "ipa": "/sɪlk/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -72669,7 +72669,7 @@
   {
     "w": "skin",
     "ipa": "/skɪn/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -72699,7 +72699,7 @@
   {
     "w": "sleeve",
     "ipa": "/sliv/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ee → /i/",
@@ -72729,7 +72729,7 @@
   {
     "w": "slight",
     "ipa": "/slaɪt/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "igh → /aɪ/",
@@ -72759,7 +72759,7 @@
   {
     "w": "slip",
     "ipa": "/slɪp/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -72789,7 +72789,7 @@
   {
     "w": "slope",
     "ipa": "/sloʊp/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o_e → /oʊ/ (マジックe)",
@@ -72819,7 +72819,7 @@
   {
     "w": "slot",
     "ipa": "/slɑt/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɑ/",
@@ -72849,7 +72849,7 @@
   {
     "w": "sneeze",
     "ipa": "/sniz/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ee → /i/",
@@ -72879,7 +72879,7 @@
   {
     "w": "soil",
     "ipa": "/sɔɪl/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "oi → /ɔɪ/",
@@ -72909,7 +72909,7 @@
   {
     "w": "soothe",
     "ipa": "/suð/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "oo → /u/",
@@ -72939,7 +72939,7 @@
   {
     "w": "sore",
     "ipa": "/sɔr/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ore → /ɔr/",
@@ -72969,7 +72969,7 @@
   {
     "w": "sort",
     "ipa": "/sɔrt/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "or → /ɔr/",
@@ -72999,7 +72999,7 @@
   {
     "w": "soul",
     "ipa": "/soʊl/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ou → /oʊ/",
@@ -73029,7 +73029,7 @@
   {
     "w": "sphere",
     "ipa": "/sfɪr/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ere → /ɪr/",
@@ -73059,7 +73059,7 @@
   {
     "w": "spice",
     "ipa": "/spaɪs/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /aɪ/",
@@ -73089,7 +73089,7 @@
   {
     "w": "spoil",
     "ipa": "/spɔɪl/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "oi → /ɔɪ/",
@@ -73119,7 +73119,7 @@
   {
     "w": "stall",
     "ipa": "/stɔl/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /ɔ/",
@@ -73149,7 +73149,7 @@
   {
     "w": "stare",
     "ipa": "/stɛr/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "are → /ɛr/",
@@ -73179,7 +73179,7 @@
   {
     "w": "steam",
     "ipa": "/stim/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /i/",
@@ -73209,7 +73209,7 @@
   {
     "w": "steel",
     "ipa": "/stil/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ee → /i/",
@@ -73239,7 +73239,7 @@
   {
     "w": "steep",
     "ipa": "/stip/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ee → /i/",
@@ -73269,7 +73269,7 @@
   {
     "w": "stem",
     "ipa": "/stɛm/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -73299,7 +73299,7 @@
   {
     "w": "stick",
     "ipa": "/stɪk/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -73329,7 +73329,7 @@
   {
     "w": "stir",
     "ipa": "/stɝ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ir → /ɝ/",
@@ -73359,7 +73359,7 @@
   {
     "w": "strain",
     "ipa": "/streɪn/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ai → /eɪ/",
@@ -73389,7 +73389,7 @@
   {
     "w": "straw",
     "ipa": "/strɔ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "aw → /ɔ/",
@@ -73419,7 +73419,7 @@
   {
     "w": "stream",
     "ipa": "/strim/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /i/",
@@ -73449,7 +73449,7 @@
   {
     "w": "stress",
     "ipa": "/strɛs/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -73479,7 +73479,7 @@
   {
     "w": "stretch",
     "ipa": "/strɛtʃ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -73509,7 +73509,7 @@
   {
     "w": "strip",
     "ipa": "/strɪp/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -73539,7 +73539,7 @@
   {
     "w": "stripe",
     "ipa": "/straɪp/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i_e → /aɪ/ (マジックe)",
@@ -73569,7 +73569,7 @@
   {
     "w": "stuck",
     "ipa": "/stʌk/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -73599,7 +73599,7 @@
   {
     "w": "stun",
     "ipa": "/stʌn/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -73629,7 +73629,7 @@
   {
     "w": "swarm",
     "ipa": "/swɔrm/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ar → /ɔr/",
@@ -73659,7 +73659,7 @@
   {
     "w": "swear",
     "ipa": "/swɛr/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ear → /ɛr/",
@@ -73689,7 +73689,7 @@
   {
     "w": "swell",
     "ipa": "/swɛl/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -73719,7 +73719,7 @@
   {
     "w": "switch",
     "ipa": "/swɪtʃ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -73749,7 +73749,7 @@
   {
     "w": "tale",
     "ipa": "/teɪl/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -73779,7 +73779,7 @@
   {
     "w": "taste",
     "ipa": "/teɪst/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -73809,7 +73809,7 @@
   {
     "w": "tax",
     "ipa": "/tæks/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -73839,7 +73839,7 @@
   {
     "w": "tease",
     "ipa": "/tiz/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /i/",
@@ -73869,7 +73869,7 @@
   {
     "w": "teen",
     "ipa": "/tin/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ee → /i/",
@@ -73899,7 +73899,7 @@
   {
     "w": "tempt",
     "ipa": "/tɛmpt/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -73929,7 +73929,7 @@
   {
     "w": "tend",
     "ipa": "/tɛnd/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -73959,7 +73959,7 @@
   {
     "w": "tense",
     "ipa": "/tɛns/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -73989,7 +73989,7 @@
   {
     "w": "tent",
     "ipa": "/tɛnt/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -74019,7 +74019,7 @@
   {
     "w": "term",
     "ipa": "/tɝm/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "er → /ɝ/",
@@ -74049,7 +74049,7 @@
   {
     "w": "theft",
     "ipa": "/θɛft/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -74079,7 +74079,7 @@
   {
     "w": "thirst",
     "ipa": "/θɝst/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ir → /ɝ/",
@@ -74109,7 +74109,7 @@
   {
     "w": "threat",
     "ipa": "/θrɛt/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /ɛ/",
@@ -74139,7 +74139,7 @@
   {
     "w": "thumb",
     "ipa": "/θʌm/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -74169,7 +74169,7 @@
   {
     "w": "thump",
     "ipa": "/θʌmp/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -74199,7 +74199,7 @@
   {
     "w": "thus",
     "ipa": "/ðʌs/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -74229,7 +74229,7 @@
   {
     "w": "tick",
     "ipa": "/tɪk/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -74259,7 +74259,7 @@
   {
     "w": "tide",
     "ipa": "/taɪd/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i_e → /aɪ/ (マジックe)",
@@ -74289,7 +74289,7 @@
   {
     "w": "tile",
     "ipa": "/taɪl/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i_e → /aɪ/ (マジックe)",
@@ -74319,7 +74319,7 @@
   {
     "w": "tin",
     "ipa": "/tɪn/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -74349,7 +74349,7 @@
   {
     "w": "toss",
     "ipa": "/tɔs/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɔ/",
@@ -74379,7 +74379,7 @@
   {
     "w": "trace",
     "ipa": "/treɪs/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /eɪ/",
@@ -74409,7 +74409,7 @@
   {
     "w": "trail",
     "ipa": "/treɪl/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ai → /eɪ/",
@@ -74439,7 +74439,7 @@
   {
     "w": "trash",
     "ipa": "/træʃ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -74469,7 +74469,7 @@
   {
     "w": "treat",
     "ipa": "/trit/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /i/",
@@ -74499,7 +74499,7 @@
   {
     "w": "trend",
     "ipa": "/trɛnd/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -74529,7 +74529,7 @@
   {
     "w": "trim",
     "ipa": "/trɪm/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -74559,7 +74559,7 @@
   {
     "w": "twin",
     "ipa": "/twɪn/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -74589,7 +74589,7 @@
   {
     "w": "twist",
     "ipa": "/twɪst/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -74619,7 +74619,7 @@
   {
     "w": "urge",
     "ipa": "/ɝdʒ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ur → /ɝ/",
@@ -74649,7 +74649,7 @@
   {
     "w": "vain",
     "ipa": "/veɪn/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ai → /eɪ/",
@@ -74679,7 +74679,7 @@
   {
     "w": "van",
     "ipa": "/væn/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -74709,7 +74709,7 @@
   {
     "w": "vast",
     "ipa": "/væst/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -74739,7 +74739,7 @@
   {
     "w": "vet",
     "ipa": "/vɛt/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -74769,7 +74769,7 @@
   {
     "w": "vice",
     "ipa": "/vaɪs/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /aɪ/",
@@ -74880,7 +74880,7 @@
   {
     "w": "ward",
     "ipa": "/wɔrd/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ar → /ɔr/",
@@ -74910,7 +74910,7 @@
   {
     "w": "warmth",
     "ipa": "/wɔrmθ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ar → /ɔr/",
@@ -74940,7 +74940,7 @@
   {
     "w": "warn",
     "ipa": "/wɔrn/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ar → /ɔr/",
@@ -74970,7 +74970,7 @@
   {
     "w": "waste",
     "ipa": "/weɪst/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -75000,7 +75000,7 @@
   {
     "w": "wax",
     "ipa": "/wæks/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -75030,7 +75030,7 @@
   {
     "w": "weird",
     "ipa": "/wɪrd/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -75060,7 +75060,7 @@
   {
     "w": "whale",
     "ipa": "/weɪl/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -75090,7 +75090,7 @@
   {
     "w": "wing",
     "ipa": "/wɪŋ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -75120,7 +75120,7 @@
   {
     "w": "worn",
     "ipa": "/wɔrn/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "or → /ɔr/",
@@ -75150,7 +75150,7 @@
   {
     "w": "worth",
     "ipa": "/wɝθ/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "or → /ɝ/",
@@ -75180,7 +75180,7 @@
   {
     "w": "wound",
     "ipa": "/waʊnd/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ou → /aʊ/",
@@ -75210,7 +75210,7 @@
   {
     "w": "wrap",
     "ipa": "/ræp/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -75240,7 +75240,7 @@
   {
     "w": "wrist",
     "ipa": "/rɪst/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -75270,7 +75270,7 @@
   {
     "w": "yell",
     "ipa": "/jɛl/",
-    "cefr": "B1",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -75300,7 +75300,7 @@
   {
     "w": "arch",
     "ipa": "/ɑrtʃ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ar → /ɑr/",
@@ -75330,7 +75330,7 @@
   {
     "w": "ash",
     "ipa": "/æʃ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -75360,7 +75360,7 @@
   {
     "w": "badge",
     "ipa": "/bædʒ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -75390,7 +75390,7 @@
   {
     "w": "ban",
     "ipa": "/bæn/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -75420,7 +75420,7 @@
   {
     "w": "barn",
     "ipa": "/bɑrn/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ar → /ɑr/",
@@ -75450,7 +75450,7 @@
   {
     "w": "beak",
     "ipa": "/bik/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /i/",
@@ -75480,7 +75480,7 @@
   {
     "w": "beam",
     "ipa": "/bim/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /i/",
@@ -75510,7 +75510,7 @@
   {
     "w": "bid",
     "ipa": "/bɪd/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -75540,7 +75540,7 @@
   {
     "w": "bind",
     "ipa": "/baɪnd/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /aɪ/",
@@ -75570,7 +75570,7 @@
   {
     "w": "blade",
     "ipa": "/bleɪd/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -75600,7 +75600,7 @@
   {
     "w": "blast",
     "ipa": "/blæst/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -75630,7 +75630,7 @@
   {
     "w": "blaze",
     "ipa": "/bleɪz/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -75660,7 +75660,7 @@
   {
     "w": "blur",
     "ipa": "/blɝ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ur → /ɝ/",
@@ -75690,7 +75690,7 @@
   {
     "w": "blurt",
     "ipa": "/blɝt/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ur → /ɝ/",
@@ -75720,7 +75720,7 @@
   {
     "w": "bolt",
     "ipa": "/boʊlt/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /oʊ/",
@@ -75750,7 +75750,7 @@
   {
     "w": "boost",
     "ipa": "/bust/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "oo → /u/",
@@ -75780,7 +75780,7 @@
   {
     "w": "booth",
     "ipa": "/buθ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "oo → /u/",
@@ -75810,7 +75810,7 @@
   {
     "w": "brag",
     "ipa": "/bræɡ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -75840,7 +75840,7 @@
   {
     "w": "browse",
     "ipa": "/braʊz/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ow → /aʊ/",
@@ -75870,7 +75870,7 @@
   {
     "w": "bruise",
     "ipa": "/bruz/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ui → /u/",
@@ -75900,7 +75900,7 @@
   {
     "w": "bud",
     "ipa": "/bʌd/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -75930,7 +75930,7 @@
   {
     "w": "bum",
     "ipa": "/bʌm/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -75960,7 +75960,7 @@
   {
     "w": "bun",
     "ipa": "/bʌn/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -75990,7 +75990,7 @@
   {
     "w": "buzz",
     "ipa": "/bʌz/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -76020,7 +76020,7 @@
   {
     "w": "cane",
     "ipa": "/keɪn/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -76050,7 +76050,7 @@
   {
     "w": "carve",
     "ipa": "/kɑrv/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ar → /ɑr/",
@@ -76080,7 +76080,7 @@
   {
     "w": "cast",
     "ipa": "/kæst/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -76110,7 +76110,7 @@
   {
     "w": "cease",
     "ipa": "/sis/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /i/",
@@ -76140,7 +76140,7 @@
   {
     "w": "cheat",
     "ipa": "/tʃit/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /i/",
@@ -76170,7 +76170,7 @@
   {
     "w": "chew",
     "ipa": "/tʃu/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ew → /u/",
@@ -76200,7 +76200,7 @@
   {
     "w": "chip",
     "ipa": "/tʃɪp/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -76230,7 +76230,7 @@
   {
     "w": "chop",
     "ipa": "/tʃɑp/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɑ/",
@@ -76260,7 +76260,7 @@
   {
     "w": "clam",
     "ipa": "/klæm/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -76290,7 +76290,7 @@
   {
     "w": "clap",
     "ipa": "/klæp/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -76320,7 +76320,7 @@
   {
     "w": "clause",
     "ipa": "/klɔz/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "au → /ɔ/",
@@ -76350,7 +76350,7 @@
   {
     "w": "clog",
     "ipa": "/klɑɡ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɑ/",
@@ -76380,7 +76380,7 @@
   {
     "w": "coarse",
     "ipa": "/kɔrs/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "oar → /ɔr/",
@@ -76410,7 +76410,7 @@
   {
     "w": "cone",
     "ipa": "/koʊn/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o_e → /oʊ/ (マジックe)",
@@ -76440,7 +76440,7 @@
   {
     "w": "cope",
     "ipa": "/koʊp/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o_e → /oʊ/ (マジックe)",
@@ -76470,7 +76470,7 @@
   {
     "w": "core",
     "ipa": "/kɔr/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ore → /ɔr/",
@@ -76500,7 +76500,7 @@
   {
     "w": "crab",
     "ipa": "/kræb/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -76530,7 +76530,7 @@
   {
     "w": "crack",
     "ipa": "/kræk/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -76560,7 +76560,7 @@
   {
     "w": "crawl",
     "ipa": "/krɔl/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "aw → /ɔ/",
@@ -76590,7 +76590,7 @@
   {
     "w": "crease",
     "ipa": "/kris/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /i/",
@@ -76620,7 +76620,7 @@
   {
     "w": "creek",
     "ipa": "/krik/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ee → /i/",
@@ -76650,7 +76650,7 @@
   {
     "w": "crew",
     "ipa": "/kru/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ew → /u/",
@@ -76680,7 +76680,7 @@
   {
     "w": "cube",
     "ipa": "/kjub/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u_e → /ju/ (マジックe)",
@@ -76710,7 +76710,7 @@
   {
     "w": "cuff",
     "ipa": "/kʌf/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -76740,7 +76740,7 @@
   {
     "w": "curl",
     "ipa": "/kɝl/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ur → /ɝ/",
@@ -76770,7 +76770,7 @@
   {
     "w": "daft",
     "ipa": "/dæft/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -76800,7 +76800,7 @@
   {
     "w": "dash",
     "ipa": "/dæʃ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -76830,7 +76830,7 @@
   {
     "w": "dawn",
     "ipa": "/dɔn/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "aw → /ɔ/",
@@ -76860,7 +76860,7 @@
   {
     "w": "deck",
     "ipa": "/dɛk/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -76890,7 +76890,7 @@
   {
     "w": "deem",
     "ipa": "/dim/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ee → /i/",
@@ -76920,7 +76920,7 @@
   {
     "w": "deer",
     "ipa": "/dɪr/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "eer → /ɪr/",
@@ -76950,7 +76950,7 @@
   {
     "w": "dense",
     "ipa": "/dɛns/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -76980,7 +76980,7 @@
   {
     "w": "dim",
     "ipa": "/dɪm/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -77010,7 +77010,7 @@
   {
     "w": "dime",
     "ipa": "/daɪm/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i_e → /aɪ/ (マジックe)",
@@ -77040,7 +77040,7 @@
   {
     "w": "dip",
     "ipa": "/dɪp/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -77070,7 +77070,7 @@
   {
     "w": "dock",
     "ipa": "/dɑk/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɑ/",
@@ -77100,7 +77100,7 @@
   {
     "w": "doom",
     "ipa": "/dum/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "oo → /u/",
@@ -77130,7 +77130,7 @@
   {
     "w": "dorm",
     "ipa": "/dɔrm/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "or → /ɔr/",
@@ -77160,7 +77160,7 @@
   {
     "w": "dose",
     "ipa": "/doʊs/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /oʊ/",
@@ -77190,7 +77190,7 @@
   {
     "w": "drain",
     "ipa": "/dreɪn/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ai → /eɪ/",
@@ -77220,7 +77220,7 @@
   {
     "w": "dread",
     "ipa": "/drɛd/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /ɛ/",
@@ -77250,7 +77250,7 @@
   {
     "w": "droop",
     "ipa": "/drup/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "oo → /u/",
@@ -77280,7 +77280,7 @@
   {
     "w": "drought",
     "ipa": "/draʊt/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ough → /aʊ/",
@@ -77310,7 +77310,7 @@
   {
     "w": "dumb",
     "ipa": "/dʌm/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -77340,7 +77340,7 @@
   {
     "w": "dwarf",
     "ipa": "/dwɔrf/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ar → /ɔr/",
@@ -77370,7 +77370,7 @@
   {
     "w": "dye",
     "ipa": "/daɪ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "y → /aɪ/",
@@ -77400,7 +77400,7 @@
   {
     "w": "ease",
     "ipa": "/iz/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /i/",
@@ -77430,7 +77430,7 @@
   {
     "w": "faith",
     "ipa": "/feɪθ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ai → /eɪ/",
@@ -77460,7 +77460,7 @@
   {
     "w": "fame",
     "ipa": "/feɪm/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -77490,7 +77490,7 @@
   {
     "w": "fate",
     "ipa": "/feɪt/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -77520,7 +77520,7 @@
   {
     "w": "feat",
     "ipa": "/fit/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /i/",
@@ -77550,7 +77550,7 @@
   {
     "w": "fierce",
     "ipa": "/fɪrs/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -77580,7 +77580,7 @@
   {
     "w": "flame",
     "ipa": "/fleɪm/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -77610,7 +77610,7 @@
   {
     "w": "flap",
     "ipa": "/flæp/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -77640,7 +77640,7 @@
   {
     "w": "flaw",
     "ipa": "/flɔ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "aw → /ɔ/",
@@ -77670,7 +77670,7 @@
   {
     "w": "flax",
     "ipa": "/flæks/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -77700,7 +77700,7 @@
   {
     "w": "flee",
     "ipa": "/fli/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ee → /i/",
@@ -77730,7 +77730,7 @@
   {
     "w": "fleet",
     "ipa": "/flit/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ee → /i/",
@@ -77760,7 +77760,7 @@
   {
     "w": "flesh",
     "ipa": "/flɛʃ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -77790,7 +77790,7 @@
   {
     "w": "flip",
     "ipa": "/flɪp/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -77820,7 +77820,7 @@
   {
     "w": "foul",
     "ipa": "/faʊl/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ou → /aʊ/",
@@ -77850,7 +77850,7 @@
   {
     "w": "found",
     "ipa": "/faʊnd/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ou → /aʊ/",
@@ -77880,7 +77880,7 @@
   {
     "w": "fox",
     "ipa": "/fɑks/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɑ/",
@@ -77910,7 +77910,7 @@
   {
     "w": "fraud",
     "ipa": "/frɔd/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "au → /ɔ/",
@@ -77940,7 +77940,7 @@
   {
     "w": "freak",
     "ipa": "/frik/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /i/",
@@ -77970,7 +77970,7 @@
   {
     "w": "fume",
     "ipa": "/fjum/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u_e → /ju/ (マジックe)",
@@ -78000,7 +78000,7 @@
   {
     "w": "gang",
     "ipa": "/ɡæŋ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -78030,7 +78030,7 @@
   {
     "w": "gasp",
     "ipa": "/ɡæsp/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -78060,7 +78060,7 @@
   {
     "w": "gaze",
     "ipa": "/ɡeɪz/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -78090,7 +78090,7 @@
   {
     "w": "gear",
     "ipa": "/ɡɪr/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ear → /ɪr/",
@@ -78120,7 +78120,7 @@
   {
     "w": "germ",
     "ipa": "/dʒɝm/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "er → /ɝ/",
@@ -78150,7 +78150,7 @@
   {
     "w": "glare",
     "ipa": "/ɡlɛr/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "are → /ɛr/",
@@ -78180,7 +78180,7 @@
   {
     "w": "gleam",
     "ipa": "/ɡlim/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /i/",
@@ -78210,7 +78210,7 @@
   {
     "w": "glee",
     "ipa": "/ɡli/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ee → /i/",
@@ -78240,7 +78240,7 @@
   {
     "w": "glow",
     "ipa": "/ɡloʊ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ow → /oʊ/",
@@ -78270,7 +78270,7 @@
   {
     "w": "goat",
     "ipa": "/ɡoʊt/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "oa → /oʊ/",
@@ -78300,7 +78300,7 @@
   {
     "w": "god",
     "ipa": "/ɡɑd/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɑ/",
@@ -78330,7 +78330,7 @@
   {
     "w": "gook",
     "ipa": "/ɡʊk/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "oo → /ʊ/",
@@ -78360,7 +78360,7 @@
   {
     "w": "gorge",
     "ipa": "/ɡɔrdʒ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "or → /ɔr/",
@@ -78390,7 +78390,7 @@
   {
     "w": "grain",
     "ipa": "/ɡreɪn/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ai → /eɪ/",
@@ -78420,7 +78420,7 @@
   {
     "w": "grand",
     "ipa": "/ɡrænd/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -78450,7 +78450,7 @@
   {
     "w": "grasp",
     "ipa": "/ɡræsp/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -78480,7 +78480,7 @@
   {
     "w": "grief",
     "ipa": "/ɡrif/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ie → /i/",
@@ -78510,7 +78510,7 @@
   {
     "w": "grieve",
     "ipa": "/ɡriv/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ie → /i/",
@@ -78540,7 +78540,7 @@
   {
     "w": "grim",
     "ipa": "/ɡrɪm/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -78570,7 +78570,7 @@
   {
     "w": "grin",
     "ipa": "/ɡrɪn/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -78600,7 +78600,7 @@
   {
     "w": "grip",
     "ipa": "/ɡrɪp/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -78630,7 +78630,7 @@
   {
     "w": "gross",
     "ipa": "/ɡroʊs/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /oʊ/",
@@ -78660,7 +78660,7 @@
   {
     "w": "gulp",
     "ipa": "/ɡʌlp/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -78690,7 +78690,7 @@
   {
     "w": "gum",
     "ipa": "/ɡʌm/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -78720,7 +78720,7 @@
   {
     "w": "hail",
     "ipa": "/heɪl/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ai → /eɪ/",
@@ -78750,7 +78750,7 @@
   {
     "w": "haste",
     "ipa": "/heɪst/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -78780,7 +78780,7 @@
   {
     "w": "hay",
     "ipa": "/heɪ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ay → /eɪ/",
@@ -78810,7 +78810,7 @@
   {
     "w": "heap",
     "ipa": "/hip/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /i/",
@@ -78840,7 +78840,7 @@
   {
     "w": "hedge",
     "ipa": "/hɛdʒ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -78870,7 +78870,7 @@
   {
     "w": "hell",
     "ipa": "/hɛl/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -78900,7 +78900,7 @@
   {
     "w": "hemp",
     "ipa": "/hɛmp/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -78930,7 +78930,7 @@
   {
     "w": "hint",
     "ipa": "/hɪnt/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -78960,7 +78960,7 @@
   {
     "w": "hone",
     "ipa": "/hoʊn/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o_e → /oʊ/ (マジックe)",
@@ -78990,7 +78990,7 @@
   {
     "w": "hood",
     "ipa": "/hʊd/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "oo → /ʊ/",
@@ -79020,7 +79020,7 @@
   {
     "w": "hook",
     "ipa": "/hʊk/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "oo → /ʊ/",
@@ -79050,7 +79050,7 @@
   {
     "w": "hush",
     "ipa": "/hʌʃ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -79080,7 +79080,7 @@
   {
     "w": "itch",
     "ipa": "/ɪtʃ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -79110,7 +79110,7 @@
   {
     "w": "jaw",
     "ipa": "/dʒɔ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "aw → /ɔ/",
@@ -79140,7 +79140,7 @@
   {
     "w": "keen",
     "ipa": "/kin/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ee → /i/",
@@ -79170,7 +79170,7 @@
   {
     "w": "kneel",
     "ipa": "/nil/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ee → /i/",
@@ -79200,7 +79200,7 @@
   {
     "w": "knot",
     "ipa": "/nɑt/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɑ/",
@@ -79230,7 +79230,7 @@
   {
     "w": "known",
     "ipa": "/noʊn/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ow → /oʊ/",
@@ -79260,7 +79260,7 @@
   {
     "w": "lame",
     "ipa": "/leɪm/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -79290,7 +79290,7 @@
   {
     "w": "lance",
     "ipa": "/læns/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -79320,7 +79320,7 @@
   {
     "w": "lap",
     "ipa": "/læp/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -79350,7 +79350,7 @@
   {
     "w": "lark",
     "ipa": "/lɑrk/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ar → /ɑr/",
@@ -79380,7 +79380,7 @@
   {
     "w": "lawn",
     "ipa": "/lɔn/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "aw → /ɔ/",
@@ -79410,7 +79410,7 @@
   {
     "w": "leak",
     "ipa": "/lik/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /i/",
@@ -79440,7 +79440,7 @@
   {
     "w": "lease",
     "ipa": "/lis/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /i/",
@@ -79470,7 +79470,7 @@
   {
     "w": "leash",
     "ipa": "/liʃ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /i/",
@@ -79500,7 +79500,7 @@
   {
     "w": "leek",
     "ipa": "/lik/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ee → /i/",
@@ -79530,7 +79530,7 @@
   {
     "w": "lest",
     "ipa": "/lɛst/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -79560,7 +79560,7 @@
   {
     "w": "lick",
     "ipa": "/lɪk/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -79590,7 +79590,7 @@
   {
     "w": "lid",
     "ipa": "/lɪd/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -79620,7 +79620,7 @@
   {
     "w": "limb",
     "ipa": "/lɪm/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -79650,7 +79650,7 @@
   {
     "w": "ling",
     "ipa": "/lɪŋ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -79680,7 +79680,7 @@
   {
     "w": "loan",
     "ipa": "/loʊn/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "oa → /oʊ/",
@@ -79710,7 +79710,7 @@
   {
     "w": "lush",
     "ipa": "/lʌʃ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -79740,7 +79740,7 @@
   {
     "w": "mask",
     "ipa": "/mæsk/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -79770,7 +79770,7 @@
   {
     "w": "mate",
     "ipa": "/meɪt/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -79800,7 +79800,7 @@
   {
     "w": "merge",
     "ipa": "/mɝdʒ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "er → /ɝ/",
@@ -79830,7 +79830,7 @@
   {
     "w": "midst",
     "ipa": "/mɪdst/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -79860,7 +79860,7 @@
   {
     "w": "mill",
     "ipa": "/mɪl/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -79890,7 +79890,7 @@
   {
     "w": "mint",
     "ipa": "/mɪnt/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -79920,7 +79920,7 @@
   {
     "w": "mist",
     "ipa": "/mɪst/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -79950,7 +79950,7 @@
   {
     "w": "mock",
     "ipa": "/mɑk/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɑ/",
@@ -79980,7 +79980,7 @@
   {
     "w": "muse",
     "ipa": "/mjuz/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ju/",
@@ -80010,7 +80010,7 @@
   {
     "w": "neat",
     "ipa": "/nit/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /i/",
@@ -80040,7 +80040,7 @@
   {
     "w": "nerve",
     "ipa": "/nɝv/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "er → /ɝ/",
@@ -80070,7 +80070,7 @@
   {
     "w": "nut",
     "ipa": "/nʌt/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -80100,7 +80100,7 @@
   {
     "w": "oath",
     "ipa": "/oʊθ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "oa → /oʊ/",
@@ -80130,7 +80130,7 @@
   {
     "w": "odd",
     "ipa": "/ɑd/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɑ/",
@@ -80160,7 +80160,7 @@
   {
     "w": "ounce",
     "ipa": "/aʊns/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ou → /aʊ/",
@@ -80190,7 +80190,7 @@
   {
     "w": "ow",
     "ipa": "/oʊ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ow → /oʊ/",
@@ -80220,7 +80220,7 @@
   {
     "w": "owl",
     "ipa": "/aʊl/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ow → /aʊ/",
@@ -80250,7 +80250,7 @@
   {
     "w": "ox",
     "ipa": "/ɑks/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɑ/",
@@ -80280,7 +80280,7 @@
   {
     "w": "pa",
     "ipa": "/pɑ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /ɑ/",
@@ -80310,7 +80310,7 @@
   {
     "w": "pad",
     "ipa": "/pæd/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -80340,7 +80340,7 @@
   {
     "w": "patch",
     "ipa": "/pætʃ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -80370,7 +80370,7 @@
   {
     "w": "pave",
     "ipa": "/peɪv/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -80400,7 +80400,7 @@
   {
     "w": "paw",
     "ipa": "/pɔ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "aw → /ɔ/",
@@ -80430,7 +80430,7 @@
   {
     "w": "peach",
     "ipa": "/pitʃ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /i/",
@@ -80460,7 +80460,7 @@
   {
     "w": "peak",
     "ipa": "/pik/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /i/",
@@ -80490,7 +80490,7 @@
   {
     "w": "pearl",
     "ipa": "/pɝl/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ear → /ɝ/",
@@ -80520,7 +80520,7 @@
   {
     "w": "pee",
     "ipa": "/pi/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ee → /i/",
@@ -80550,7 +80550,7 @@
   {
     "w": "peel",
     "ipa": "/pil/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ee → /i/",
@@ -80580,7 +80580,7 @@
   {
     "w": "peep",
     "ipa": "/pip/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ee → /i/",
@@ -80610,7 +80610,7 @@
   {
     "w": "peer",
     "ipa": "/pɪr/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "eer → /ɪr/",
@@ -80640,7 +80640,7 @@
   {
     "w": "peg",
     "ipa": "/pɛɡ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -80670,7 +80670,7 @@
   {
     "w": "phase",
     "ipa": "/feɪz/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /eɪ/",
@@ -80700,7 +80700,7 @@
   {
     "w": "pi",
     "ipa": "/paɪ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /aɪ/",
@@ -80730,7 +80730,7 @@
   {
     "w": "pine",
     "ipa": "/paɪn/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i_e → /aɪ/ (マジックe)",
@@ -80760,7 +80760,7 @@
   {
     "w": "pint",
     "ipa": "/paɪnt/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /aɪ/",
@@ -80790,7 +80790,7 @@
   {
     "w": "pitch",
     "ipa": "/pɪtʃ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -80820,7 +80820,7 @@
   {
     "w": "plead",
     "ipa": "/plid/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /i/",
@@ -80850,7 +80850,7 @@
   {
     "w": "plot",
     "ipa": "/plɑt/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɑ/",
@@ -80880,7 +80880,7 @@
   {
     "w": "pluck",
     "ipa": "/plʌk/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -80910,7 +80910,7 @@
   {
     "w": "plum",
     "ipa": "/plʌm/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -80940,7 +80940,7 @@
   {
     "w": "porch",
     "ipa": "/pɔrtʃ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "or → /ɔr/",
@@ -80970,7 +80970,7 @@
   {
     "w": "pose",
     "ipa": "/poʊz/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /oʊ/",
@@ -81000,7 +81000,7 @@
   {
     "w": "posh",
     "ipa": "/pɑʃ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɑ/",
@@ -81030,7 +81030,7 @@
   {
     "w": "prance",
     "ipa": "/præns/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -81060,7 +81060,7 @@
   {
     "w": "prawn",
     "ipa": "/prɔn/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "aw → /ɔ/",
@@ -81090,7 +81090,7 @@
   {
     "w": "prick",
     "ipa": "/prɪk/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -81120,7 +81120,7 @@
   {
     "w": "prime",
     "ipa": "/praɪm/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i_e → /aɪ/ (マジックe)",
@@ -81150,7 +81150,7 @@
   {
     "w": "probe",
     "ipa": "/proʊb/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o_e → /oʊ/ (マジックe)",
@@ -81180,7 +81180,7 @@
   {
     "w": "prom",
     "ipa": "/prɑm/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɑ/",
@@ -81210,7 +81210,7 @@
   {
     "w": "prompt",
     "ipa": "/prɑmpt/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɑ/",
@@ -81234,7 +81234,7 @@
   {
     "w": "prose",
     "ipa": "/proʊz/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /oʊ/",
@@ -81264,7 +81264,7 @@
   {
     "w": "pulse",
     "ipa": "/pʌls/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -81294,7 +81294,7 @@
   {
     "w": "punch",
     "ipa": "/pʌntʃ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -81324,7 +81324,7 @@
   {
     "w": "queer",
     "ipa": "/kwɪr/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "eer → /ɪr/",
@@ -81354,7 +81354,7 @@
   {
     "w": "quote",
     "ipa": "/kwoʊt/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o_e → /oʊ/ (マジックe)",
@@ -81384,7 +81384,7 @@
   {
     "w": "rack",
     "ipa": "/ræk/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -81414,7 +81414,7 @@
   {
     "w": "rag",
     "ipa": "/ræɡ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -81444,7 +81444,7 @@
   {
     "w": "ram",
     "ipa": "/ræm/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -81474,7 +81474,7 @@
   {
     "w": "ramp",
     "ipa": "/ræmp/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -81504,7 +81504,7 @@
   {
     "w": "rape",
     "ipa": "/reɪp/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -81534,7 +81534,7 @@
   {
     "w": "rash",
     "ipa": "/ræʃ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -81564,7 +81564,7 @@
   {
     "w": "rear",
     "ipa": "/rɪr/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ear → /ɪr/",
@@ -81594,7 +81594,7 @@
   {
     "w": "reed",
     "ipa": "/rid/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ee → /i/",
@@ -81624,7 +81624,7 @@
   {
     "w": "rib",
     "ipa": "/rɪb/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -81654,7 +81654,7 @@
   {
     "w": "ridge",
     "ipa": "/rɪdʒ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -81684,7 +81684,7 @@
   {
     "w": "rim",
     "ipa": "/rɪm/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -81714,7 +81714,7 @@
   {
     "w": "rip",
     "ipa": "/rɪp/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -81744,7 +81744,7 @@
   {
     "w": "rite",
     "ipa": "/raɪt/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i_e → /aɪ/ (マジックe)",
@@ -81774,7 +81774,7 @@
   {
     "w": "roam",
     "ipa": "/roʊm/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "oa → /oʊ/",
@@ -81804,7 +81804,7 @@
   {
     "w": "roar",
     "ipa": "/rɔr/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "oar → /ɔr/",
@@ -81834,7 +81834,7 @@
   {
     "w": "route",
     "ipa": "/rut/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ou → /u/",
@@ -81864,7 +81864,7 @@
   {
     "w": "rub",
     "ipa": "/rʌb/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -81894,7 +81894,7 @@
   {
     "w": "rug",
     "ipa": "/rʌɡ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -81924,7 +81924,7 @@
   {
     "w": "sack",
     "ipa": "/sæk/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -81954,7 +81954,7 @@
   {
     "w": "sag",
     "ipa": "/sæɡ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -81984,7 +81984,7 @@
   {
     "w": "sage",
     "ipa": "/seɪdʒ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -82014,7 +82014,7 @@
   {
     "w": "sail",
     "ipa": "/seɪl/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ai → /eɪ/",
@@ -82044,7 +82044,7 @@
   {
     "w": "scar",
     "ipa": "/skɑr/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ar → /ɑr/",
@@ -82074,7 +82074,7 @@
   {
     "w": "scheme",
     "ipa": "/skim/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e_e → /i/ (マジックe)",
@@ -82104,7 +82104,7 @@
   {
     "w": "scrooge",
     "ipa": "/skrudʒ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "oo → /u/",
@@ -82132,7 +82132,7 @@
   {
     "w": "seal",
     "ipa": "/sil/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /i/",
@@ -82162,7 +82162,7 @@
   {
     "w": "shield",
     "ipa": "/ʃild/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ie → /i/",
@@ -82192,7 +82192,7 @@
   {
     "w": "shrug",
     "ipa": "/ʃrʌɡ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -82222,7 +82222,7 @@
   {
     "w": "sketch",
     "ipa": "/skɛtʃ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -82252,7 +82252,7 @@
   {
     "w": "skim",
     "ipa": "/skɪm/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -82282,7 +82282,7 @@
   {
     "w": "skip",
     "ipa": "/skɪp/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -82312,7 +82312,7 @@
   {
     "w": "slam",
     "ipa": "/slæm/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -82342,7 +82342,7 @@
   {
     "w": "slang",
     "ipa": "/slæŋ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -82372,7 +82372,7 @@
   {
     "w": "slap",
     "ipa": "/slæp/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -82402,7 +82402,7 @@
   {
     "w": "slash",
     "ipa": "/slæʃ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -82432,7 +82432,7 @@
   {
     "w": "smash",
     "ipa": "/smæʃ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -82462,7 +82462,7 @@
   {
     "w": "snap",
     "ipa": "/snæp/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -82492,7 +82492,7 @@
   {
     "w": "sneak",
     "ipa": "/snik/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /i/",
@@ -82522,7 +82522,7 @@
   {
     "w": "sneer",
     "ipa": "/snɪr/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "eer → /ɪr/",
@@ -82552,7 +82552,7 @@
   {
     "w": "sniff",
     "ipa": "/snɪf/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -82582,7 +82582,7 @@
   {
     "w": "snore",
     "ipa": "/snɔr/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ore → /ɔr/",
@@ -82612,7 +82612,7 @@
   {
     "w": "soak",
     "ipa": "/soʊk/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "oa → /oʊ/",
@@ -82642,7 +82642,7 @@
   {
     "w": "soar",
     "ipa": "/sɔr/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "oar → /ɔr/",
@@ -82672,7 +82672,7 @@
   {
     "w": "sob",
     "ipa": "/sɑb/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɑ/",
@@ -82702,7 +82702,7 @@
   {
     "w": "spa",
     "ipa": "/spɑ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /ɑ/",
@@ -82732,7 +82732,7 @@
   {
     "w": "span",
     "ipa": "/spæn/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -82762,7 +82762,7 @@
   {
     "w": "spare",
     "ipa": "/spɛr/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "are → /ɛr/",
@@ -82792,7 +82792,7 @@
   {
     "w": "spark",
     "ipa": "/spɑrk/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ar → /ɑr/",
@@ -82822,7 +82822,7 @@
   {
     "w": "spin",
     "ipa": "/spɪn/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -82852,7 +82852,7 @@
   {
     "w": "spite",
     "ipa": "/spaɪt/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i_e → /aɪ/ (マジックe)",
@@ -82882,7 +82882,7 @@
   {
     "w": "spray",
     "ipa": "/spreɪ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ay → /eɪ/",
@@ -82912,7 +82912,7 @@
   {
     "w": "sprint",
     "ipa": "/sprɪnt/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -82942,7 +82942,7 @@
   {
     "w": "spur",
     "ipa": "/spɝ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ur → /ɝ/",
@@ -82972,7 +82972,7 @@
   {
     "w": "squad",
     "ipa": "/skwɑd/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /ɑ/",
@@ -83000,7 +83000,7 @@
   {
     "w": "squash",
     "ipa": "/skwɑʃ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /ɑ/",
@@ -83027,7 +83027,7 @@
   {
     "w": "squeeze",
     "ipa": "/skwiz/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ee → /i/",
@@ -83057,7 +83057,7 @@
   {
     "w": "stab",
     "ipa": "/stæb/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -83087,7 +83087,7 @@
   {
     "w": "stack",
     "ipa": "/stæk/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -83117,7 +83117,7 @@
   {
     "w": "stain",
     "ipa": "/steɪn/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ai → /eɪ/",
@@ -83147,7 +83147,7 @@
   {
     "w": "stake",
     "ipa": "/steɪk/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -83177,7 +83177,7 @@
   {
     "w": "starve",
     "ipa": "/stɑrv/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ar → /ɑr/",
@@ -83207,7 +83207,7 @@
   {
     "w": "steer",
     "ipa": "/stɪr/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "eer → /ɪr/",
@@ -83237,7 +83237,7 @@
   {
     "w": "stern",
     "ipa": "/stɝn/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "er → /ɝ/",
@@ -83267,7 +83267,7 @@
   {
     "w": "stew",
     "ipa": "/stu/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ew → /u/",
@@ -83297,7 +83297,7 @@
   {
     "w": "stiff",
     "ipa": "/stɪf/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -83327,7 +83327,7 @@
   {
     "w": "stitch",
     "ipa": "/stɪtʃ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -83357,7 +83357,7 @@
   {
     "w": "stock",
     "ipa": "/stɑk/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ɑ/",
@@ -83387,7 +83387,7 @@
   {
     "w": "stool",
     "ipa": "/stul/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "oo → /u/",
@@ -83417,7 +83417,7 @@
   {
     "w": "strait",
     "ipa": "/streɪt/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ai → /eɪ/",
@@ -83447,7 +83447,7 @@
   {
     "w": "strand",
     "ipa": "/strænd/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -83476,7 +83476,7 @@
   {
     "w": "stride",
     "ipa": "/straɪd/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i_e → /aɪ/ (マジックe)",
@@ -83506,7 +83506,7 @@
   {
     "w": "strive",
     "ipa": "/straɪv/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i_e → /aɪ/ (マジックe)",
@@ -83536,7 +83536,7 @@
   {
     "w": "stroke",
     "ipa": "/stroʊk/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o_e → /oʊ/ (マジックe)",
@@ -83566,7 +83566,7 @@
   {
     "w": "suck",
     "ipa": "/sʌk/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -83596,7 +83596,7 @@
   {
     "w": "sue",
     "ipa": "/su/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ue → /u/",
@@ -83626,7 +83626,7 @@
   {
     "w": "surge",
     "ipa": "/sɝdʒ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ur → /ɝ/",
@@ -83656,7 +83656,7 @@
   {
     "w": "swan",
     "ipa": "/swɑn/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /ɑ/",
@@ -83686,7 +83686,7 @@
   {
     "w": "sweep",
     "ipa": "/swip/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ee → /i/",
@@ -83716,7 +83716,7 @@
   {
     "w": "swift",
     "ipa": "/swɪft/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -83746,7 +83746,7 @@
   {
     "w": "swing",
     "ipa": "/swɪŋ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -83776,7 +83776,7 @@
   {
     "w": "tack",
     "ipa": "/tæk/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -83806,7 +83806,7 @@
   {
     "w": "tag",
     "ipa": "/tæɡ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -83836,7 +83836,7 @@
   {
     "w": "tail",
     "ipa": "/teɪl/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ai → /eɪ/",
@@ -83866,7 +83866,7 @@
   {
     "w": "tame",
     "ipa": "/teɪm/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -83896,7 +83896,7 @@
   {
     "w": "tan",
     "ipa": "/tæn/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -83926,7 +83926,7 @@
   {
     "w": "taunt",
     "ipa": "/tɔnt/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "au → /ɔ/",
@@ -83956,7 +83956,7 @@
   {
     "w": "theme",
     "ipa": "/θim/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e_e → /i/ (マジックe)",
@@ -83986,7 +83986,7 @@
   {
     "w": "thigh",
     "ipa": "/θaɪ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "igh → /aɪ/",
@@ -84016,7 +84016,7 @@
   {
     "w": "thread",
     "ipa": "/θrɛd/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /ɛ/",
@@ -84046,7 +84046,7 @@
   {
     "w": "thrill",
     "ipa": "/θrɪl/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -84076,7 +84076,7 @@
   {
     "w": "throat",
     "ipa": "/θroʊt/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "oa → /oʊ/",
@@ -84106,7 +84106,7 @@
   {
     "w": "toil",
     "ipa": "/tɔɪl/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "oi → /ɔɪ/",
@@ -84136,7 +84136,7 @@
   {
     "w": "toll",
     "ipa": "/toʊl/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /oʊ/",
@@ -84166,7 +84166,7 @@
   {
     "w": "tomb",
     "ipa": "/tum/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /u/",
@@ -84196,7 +84196,7 @@
   {
     "w": "ton",
     "ipa": "/tʌn/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ʌ/",
@@ -84226,7 +84226,7 @@
   {
     "w": "torch",
     "ipa": "/tɔrtʃ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "or → /ɔr/",
@@ -84256,7 +84256,7 @@
   {
     "w": "tough",
     "ipa": "/tʌf/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ou → /ʌ/",
@@ -84286,7 +84286,7 @@
   {
     "w": "trait",
     "ipa": "/treɪt/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ai → /eɪ/",
@@ -84316,7 +84316,7 @@
   {
     "w": "tramp",
     "ipa": "/træmp/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /æ/",
@@ -84346,7 +84346,7 @@
   {
     "w": "tray",
     "ipa": "/treɪ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ay → /eɪ/",
@@ -84376,7 +84376,7 @@
   {
     "w": "tread",
     "ipa": "/trɛd/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /ɛ/",
@@ -84406,7 +84406,7 @@
   {
     "w": "trek",
     "ipa": "/trɛk/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -84436,7 +84436,7 @@
   {
     "w": "tribe",
     "ipa": "/traɪb/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i_e → /aɪ/ (マジックe)",
@@ -84466,7 +84466,7 @@
   {
     "w": "troop",
     "ipa": "/trup/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "oo → /u/",
@@ -84496,7 +84496,7 @@
   {
     "w": "tub",
     "ipa": "/tʌb/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -84526,7 +84526,7 @@
   {
     "w": "tug",
     "ipa": "/tʌɡ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "u → /ʌ/",
@@ -84556,7 +84556,7 @@
   {
     "w": "verse",
     "ipa": "/vɝs/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "er → /ɝ/",
@@ -84586,7 +84586,7 @@
   {
     "w": "vow",
     "ipa": "/vaʊ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ow → /aʊ/",
@@ -84616,7 +84616,7 @@
   {
     "w": "wage",
     "ipa": "/weɪdʒ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a_e → /eɪ/ (マジックe)",
@@ -84646,7 +84646,7 @@
   {
     "w": "waist",
     "ipa": "/weɪst/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ai → /eɪ/",
@@ -84676,7 +84676,7 @@
   {
     "w": "wasp",
     "ipa": "/wɑsp/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "a → /ɑ/",
@@ -84706,7 +84706,7 @@
   {
     "w": "weave",
     "ipa": "/wiv/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /i/",
@@ -84736,7 +84736,7 @@
   {
     "w": "wed",
     "ipa": "/wɛd/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -84766,7 +84766,7 @@
   {
     "w": "weed",
     "ipa": "/wid/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ee → /i/",
@@ -84796,7 +84796,7 @@
   {
     "w": "wheat",
     "ipa": "/wit/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ea → /i/",
@@ -84826,7 +84826,7 @@
   {
     "w": "whip",
     "ipa": "/wɪp/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -84856,7 +84856,7 @@
   {
     "w": "width",
     "ipa": "/wɪdθ/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -84886,7 +84886,7 @@
   {
     "w": "wipe",
     "ipa": "/waɪp/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i_e → /aɪ/ (マジックe)",
@@ -84916,7 +84916,7 @@
   {
     "w": "wit",
     "ipa": "/wɪt/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -84946,7 +84946,7 @@
   {
     "w": "wolf",
     "ipa": "/wʊlf/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "o → /ʊ/",
@@ -84976,7 +84976,7 @@
   {
     "w": "worm",
     "ipa": "/wɝm/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "or → /ɝ/",
@@ -85006,7 +85006,7 @@
   {
     "w": "wreck",
     "ipa": "/rɛk/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "e → /ɛ/",
@@ -85036,7 +85036,7 @@
   {
     "w": "yawn",
     "ipa": "/jɔn/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "aw → /ɔ/",
@@ -85066,7 +85066,7 @@
   {
     "w": "yearn",
     "ipa": "/jɝn/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ear → /ɝ/",
@@ -85096,7 +85096,7 @@
   {
     "w": "yield",
     "ipa": "/jild/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "ie → /i/",
@@ -85126,7 +85126,7 @@
   {
     "w": "zip",
     "ipa": "/zɪp/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "i → /ɪ/",
@@ -85156,7 +85156,7 @@
   {
     "w": "zoom",
     "ipa": "/zum/",
-    "cefr": "B2",
+    "cefr": null,
     "pos": null,
     "src": "phonics",
     "pattern": "oo → /u/",
