@@ -1321,7 +1321,7 @@ function updateSetupFields(){
   show("connectedSetup",connected);
   if(!connected)setConnectedFilterAdvanced(false);
   show("grpField",words&&S.reg==="regular");
-  show("cefrField",words&&S.reg!=="regular");
+  show("cefrField",words);
   $("focusTrapNote").textContent=words&&(S.focus==="traps"?t("focus.traps_d"):S.focus==="weak"?t("focus.weak_d"):"");
   $("regNote").textContent=words&&(S.reg==="regular"?t("reg.regular_d"):S.reg==="irregular"?t("reg.irregular_d"):"");
   $("dInput").placeholder=(S.tab==="connected"&&S.csFilter!=="weak")?t("input_phrase"):t("input_ph");
@@ -1354,10 +1354,8 @@ function filteredPool(){
   if(S.reg==="regular")p=p.filter(w=>w.grp);
   else if(S.reg==="irregular")p=p.filter(w=>!w.grp);
   if(S.reg==="regular"&&S.grp!=="all")p=p.filter(w=>w.grp===S.grp);
-  if(S.reg!=="regular"){
-    if(S.cefrLevels.size===0)p=[];
-    else p=p.filter(w=>w.cefr&&S.cefrLevels.has(w.cefr));
-  }
+  if(S.cefrLevels.size===0)p=[];
+  else p=p.filter(w=>w.cefr&&S.cefrLevels.has(w.cefr));
   if(S.focus==="traps")p=p.filter(hasTrapPhoneme);
   else if(S.focus==="weak")p=p.filter(matchesWeakFocus);
   else if(S.focus==="letters")p=p.filter(w=>w.src==="letter");
