@@ -19,7 +19,9 @@
       "ja": "弱形の a は子音前で常に /ə/",
       "fil": "mahinang 'a' ay laging /ə/ bago ang katinig"
     },
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "wf002",
@@ -41,7 +43,9 @@
       "ja": "弱形の an は母音前で /ən/",
       "fil": "mahinang 'an' → /ən/ bago ang patinig"
     },
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "wf003",
@@ -63,7 +67,9 @@
       "ja": "弱形の the は子音前で /ðə/",
       "fil": "mahinang 'the' → /ðə/ bago ang katinig"
     },
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "wf004",
@@ -85,7 +91,9 @@
       "ja": "弱形の to は子音前で /tə/",
       "fil": "mahinang 'to' → /tə/ bago ang katinig"
     },
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "wf005",
@@ -107,7 +115,9 @@
       "ja": "弱形の of は /əv/、子音前では /ə/ も",
       "fil": "mahinang 'of' → /əv/, kadalasang /ə/ bago ang katinig"
     },
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "wf006",
@@ -129,7 +139,9 @@
       "ja": "弱形の and は /ən/(d脱落)",
       "fil": "mahinang 'and' → /ən/ (kinakaltas ang d)"
     },
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "wf007",
@@ -151,7 +163,9 @@
       "ja": "弱形の for は /fɚ/(GA)/fə/(RP)",
       "fil": "mahinang 'for' → /fɚ/ (GA) / /fə/ (RP)"
     },
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "rhoticity"
   },
   {
     "id": "wf008",
@@ -173,7 +187,9 @@
       "ja": "弱形の at は /ət/",
       "fil": "mahinang 'at' → /ət/"
     },
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "wf009",
@@ -195,7 +211,9 @@
       "ja": "弱形の but は /bət/",
       "fil": "mahinang 'but' → /bət/"
     },
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "wf010",
@@ -217,7 +235,9 @@
       "ja": "弱形の you は連結時 /jə/",
       "fil": "mahinang 'you' → /jə/ sa konektadong pananalita"
     },
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "wf011",
@@ -239,7 +259,9 @@
       "ja": "弱形の can は /kən/(強形は /kæn/)",
       "fil": "mahinang 'can' → /kən/ (malakas /kæn/ kapag may diin)"
     },
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "wf012",
@@ -261,7 +283,9 @@
       "ja": "弱形の are は /ɚ/(GA)/ə/(RP)",
       "fil": "mahinang 'are' → /ɚ/ (GA) / /ə/ (RP)"
     },
-    "cefr": "B1"
+    "cefr": "B1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "rhoticity"
   },
   {
     "id": "wf013",
@@ -283,7 +307,9 @@
       "ja": "弱形の was は /wəz/",
       "fil": "mahinang 'was' → /wəz/"
     },
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "wf014",
@@ -305,7 +331,9 @@
       "ja": "弱形の were は /wɚ/(GA)/wə/(RP)",
       "fil": "mahinang 'were' → /wɚ/ (GA) / /wə/ (RP)"
     },
-    "cefr": "B1"
+    "cefr": "B1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "rhoticity"
   },
   {
     "id": "wf015",
@@ -327,7 +355,9 @@
       "ja": "弱形の have は /həv/、代名詞後では /əv/ も",
       "fil": "mahinang 'have' → /həv/, kadalasang /əv/ pagkatapos ng panghalip"
     },
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "wf016",
@@ -349,7 +379,9 @@
       "ja": "弱形の has は /həz/",
       "fil": "mahinang 'has' → /həz/"
     },
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "wf017",
@@ -371,7 +403,9 @@
       "ja": "弱形の had は /həd/、代名詞後では /əd/ も",
       "fil": "mahinang 'had' → /həd/, kadalasang /əd/ pagkatapos ng panghalip"
     },
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "wf018",
@@ -393,7 +427,9 @@
       "ja": "弱形の your は /jɚ/(GA)/jə/(RP)",
       "fil": "mahinang 'your' → /jɚ/ (GA) / /jə/ (RP)"
     },
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "rhoticity"
   },
   {
     "id": "wf019",
@@ -415,7 +451,9 @@
       "ja": "弱形の them は /ðəm/、口語では /əm/ も",
       "fil": "mahinang 'them' → /ðəm/, kadalasang /əm/ sa impormal"
     },
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "wf020",
@@ -437,7 +475,9 @@
       "ja": "弱形の us は /əs/",
       "fil": "mahinang 'us' → /əs/"
     },
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "wf021",
@@ -459,7 +499,9 @@
       "ja": "弱形の from は /frəm/",
       "fil": "mahinang 'from' → /frəm/"
     },
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "wf022",
@@ -481,7 +523,9 @@
       "ja": "弱形の as は /əz/",
       "fil": "mahinang 'as' → /əz/"
     },
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "wf023",
@@ -503,7 +547,9 @@
       "ja": "弱形の than は /ðən/",
       "fil": "mahinang 'than' → /ðən/"
     },
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "wf024",
@@ -525,7 +571,9 @@
       "ja": "弱形の some は /səm/(不可算)",
       "fil": "mahinang 'some' → /səm/ (di-mabilang; malakas kapag 'iilan')"
     },
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "wf025",
@@ -547,7 +595,9 @@
       "ja": "弱形の could は /kəd/(強形 /kʊd/)",
       "fil": "mahinang 'could' → /kəd/ (malakas /kʊd/ kapag may diin)"
     },
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "wf026",
@@ -569,7 +619,9 @@
       "ja": "弱形の would は /wəd/、代名詞後では /əd/ も",
       "fil": "mahinang 'would' → /wəd/, kadalasang /əd/ pagkatapos ng panghalip"
     },
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "wf027",
@@ -591,7 +643,9 @@
       "ja": "弱形の should は /ʃəd/",
       "fil": "mahinang 'should' → /ʃəd/"
     },
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "wf028",
@@ -613,7 +667,9 @@
       "ja": "弱形の must は /məst/",
       "fil": "mahinang 'must' → /məst/"
     },
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "wf029",
@@ -635,7 +691,9 @@
       "ja": "弱形の do は疑問で子音前 /də/",
       "fil": "mahinang 'do' → /də/ bago ang katinig sa mga tanong"
     },
-    "cefr": "B1"
+    "cefr": "B1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "wf030",
@@ -657,7 +715,9 @@
       "ja": "弱形の does は /dəz/",
       "fil": "mahinang 'does' → /dəz/"
     },
-    "cefr": "B1"
+    "cefr": "B1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "wf031",
@@ -679,7 +739,9 @@
       "ja": "弱形の am は /əm/、I の後では /m/ も",
       "fil": "mahinang 'am' → /əm/, kadalasang /m/ pagkatapos ng I"
     },
-    "cefr": "B1"
+    "cefr": "B1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "wf032",
@@ -701,7 +763,9 @@
       "ja": "弱形の he は /i/(語の後で h 脱落)",
       "fil": "mahinang 'he' → /i/ (kinakaltas ang h pagkatapos ng salita)"
     },
-    "cefr": "B1"
+    "cefr": "B1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "length_marking_only"
   },
   {
     "id": "wf033",
@@ -723,7 +787,9 @@
       "ja": "弱形の him は /ɪm/(h脱落)",
       "fil": "mahinang 'him' → /ɪm/ (kinakaltas ang h)"
     },
-    "cefr": "B1"
+    "cefr": "B1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "wf034",
@@ -745,7 +811,9 @@
       "ja": "弱形の her は /ɚ/(GA)/ə/(RP)、h脱落",
       "fil": "mahinang 'her' → /ɚ/ (GA) / /ə/ (RP), kinakaltas ang h"
     },
-    "cefr": "B1"
+    "cefr": "B1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "rhoticity"
   },
   {
     "id": "wf035",
@@ -767,7 +835,9 @@
       "ja": "弱形の his は /ɪz/(文中で h 脱落)",
       "fil": "mahinang 'his' → /ɪz/ (kinakaltas ang h sa gitna ng pangungusap)"
     },
-    "cefr": "B1"
+    "cefr": "B1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "wf036",
@@ -789,6 +859,8 @@
       "ja": "存在の there は弱形 /ðɚ/(GA)/ðə/(RP)",
       "fil": "mahinang 'there' (existential) → /ðɚ/ (GA) / /ðə/ (RP)"
     },
-    "cefr": "B1"
+    "cefr": "B1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "rhoticity"
   }
 ]

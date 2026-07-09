@@ -24,7 +24,9 @@
       "There's {P} on the table.",
       "He gave me {P}."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs002",
@@ -51,7 +53,9 @@
       "Please {P} before you go.",
       "I'll {P} on my way out."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs003",
@@ -78,7 +82,9 @@
       "{P}, the bus is here.",
       "Hey, {P} and join us."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "lot_vowel"
   },
   {
     "id": "cs004",
@@ -105,7 +111,9 @@
       "Let's {P} the map first.",
       "{P} what you did."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs005",
@@ -132,7 +140,9 @@
       "I'll {P} one more time.",
       "Please {P} carefully."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "dress_notation_only"
   },
   {
     "id": "cs006",
@@ -159,7 +169,9 @@
       "Can you {P} the TV?",
       "I'll {P} the heater now."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs007",
@@ -186,7 +198,9 @@
       "I'll be there in {P}.",
       "It takes {P} to get there."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs008",
@@ -213,7 +227,9 @@
       "He moved {P} last year.",
       "It's not that {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "length_marking_only"
   },
   {
     "id": "cs009",
@@ -240,7 +256,9 @@
       "Yes, {P} listening.",
       "{P} sure it will work."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs010",
@@ -267,7 +285,9 @@
       "Tell them to {P}.",
       "I watched the train {P}."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "goat_vowel"
   },
   {
     "id": "cs011",
@@ -294,7 +314,9 @@
       "Read it to {P}.",
       "That was {P} of the movie."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "dress_notation_only"
   },
   {
     "id": "cs012",
@@ -321,7 +343,9 @@
       "Where {P} put my keys?",
       "{P} call her yesterday?"
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs013",
@@ -348,7 +372,9 @@
       "{P} mind helping me?",
       "{P} come with us?"
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs014",
@@ -375,7 +401,9 @@
       "{P} explain it again?",
       "{P} wait a moment?"
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs015",
@@ -402,7 +430,9 @@
       "{P} like this one better?",
       "{P} agree with me?"
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "goat_vowel"
   },
   {
     "id": "cs016",
@@ -429,7 +459,9 @@
       "{P} try the other door?",
       "{P} call me later?"
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "goat_vowel"
   },
   {
     "id": "cs017",
@@ -456,7 +488,9 @@
       "I'll start the {P}.",
       "The {P} was sunny."
     ],
-    "cefr": "B1"
+    "cefr": "B1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "dress_notation_only"
   },
   {
     "id": "cs018",
@@ -483,7 +517,9 @@
       "There {P} a reason.",
       "That {P} the answer."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs019",
@@ -510,7 +546,9 @@
       "That {P} is my neighbor.",
       "A kind {P} helped us."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "goat_vowel"
   },
   {
     "id": "cs020",
@@ -537,7 +575,9 @@
       "It rained all {P}.",
       "She called me {P}."
     ],
-    "cefr": "B1"
+    "cefr": "B1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "trap_bath"
   },
   {
     "id": "cs021",
@@ -564,7 +604,9 @@
       "My {P} lives nearby.",
       "You're my {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "dress_notation_only"
   },
   {
     "id": "cs022",
@@ -591,7 +633,9 @@
       "She knows {P} people.",
       "We had {P} fun."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs023",
@@ -618,7 +662,9 @@
       "This is {P}.",
       "He explained {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs024",
@@ -645,7 +691,9 @@
       "{P}, check the date.",
       "{P}, sit down."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs025",
@@ -672,7 +720,9 @@
       "Prices rise {P}.",
       "We hear it {P}."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs026",
@@ -699,7 +749,9 @@
       "Try to {P} trouble.",
       "Help me {P} this."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs027",
@@ -726,7 +778,9 @@
       "{P}, let me check.",
       "Just {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "lot_vowel"
   },
   {
     "id": "cs028",
@@ -753,7 +807,9 @@
       "That's {P} true.",
       "No trouble {P}."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs029",
@@ -780,7 +836,9 @@
       "He's {P}.",
       "Pick {P}."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs030",
@@ -807,7 +865,9 @@
       "{P} on that one.",
       "Okay, {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "lot_vowel"
   },
   {
     "id": "cs031",
@@ -834,7 +894,9 @@
       "Tell me {P} need.",
       "That's {P} said."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs032",
@@ -861,7 +923,9 @@
       "{P} helping me?",
       "{P} repeating that?"
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs033",
@@ -888,7 +952,9 @@
       "Save some {P} we need it.",
       "Call me {P} of trouble."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs034",
@@ -915,7 +981,9 @@
       "{P} were playing.",
       "We counted {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "dress_notation_only"
   },
   {
     "id": "cs035",
@@ -942,7 +1010,9 @@
       "Such a {P}.",
       "That's a {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs036",
@@ -969,7 +1039,9 @@
       "Take {P} to court.",
       "We dropped {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs037",
@@ -996,7 +1068,9 @@
       "{P}, take care.",
       "{P}! That was a big sneeze."
     ],
-    "cefr": "B2"
+    "cefr": "B2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "dress_notation_only"
   },
   {
     "id": "cs038",
@@ -1023,7 +1097,9 @@
       "That's {P} strange.",
       "He's {P} shy."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs039",
@@ -1050,7 +1126,9 @@
       "That's {P} odd.",
       "She's {P} busy."
     ],
-    "cefr": "B2"
+    "cefr": "B2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs040",
@@ -1077,7 +1155,9 @@
       "Please {P} about it.",
       "We should {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs041",
@@ -1104,7 +1184,9 @@
       "Don't {P} yet.",
       "Can you {P}?"
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "dress_notation_only"
   },
   {
     "id": "cs042",
@@ -1131,7 +1213,9 @@
       "We should {P} a chance.",
       "Let me {P} this."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs043",
@@ -1158,7 +1242,9 @@
       "A {P}, please.",
       "He poured a {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "length_marking_only"
   },
   {
     "id": "cs044",
@@ -1185,7 +1271,9 @@
       "Take {P}.",
       "I need {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "lot_vowel"
   },
   {
     "id": "cs045",
@@ -1212,7 +1300,9 @@
       "Please {P} home.",
       "Let me {P}."
     ],
-    "cefr": "B1"
+    "cefr": "B1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "dress_notation_only"
   },
   {
     "id": "cs046",
@@ -1239,7 +1329,9 @@
       "{P} from the shop?",
       "{P} to drink?"
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs047",
@@ -1266,7 +1358,9 @@
       "So, {P}?",
       "Hey, {P}?"
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs048",
@@ -1293,7 +1387,9 @@
       "{P} the new place.",
       "Won't you {P}?"
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "length_marking_only"
   },
   {
     "id": "cs049",
@@ -1320,7 +1416,9 @@
       "I failed to {P}.",
       "Try to {P}."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "lot_vowel"
   },
   {
     "id": "cs050",
@@ -1347,7 +1445,9 @@
       "He ate {P}.",
       "I learned {P}."
     ],
-    "cefr": "B1"
+    "cefr": "B1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs051",
@@ -1374,7 +1474,9 @@
       "Please {P}.",
       "We'll {P} now."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs052",
@@ -1401,7 +1503,9 @@
       "Then, {P}, it stopped.",
       "{P}, everyone cheered."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "length_marking_only"
   },
   {
     "id": "cs053",
@@ -1428,7 +1532,9 @@
       "So, {P}?",
       "{P}, friend?"
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "notation_composite"
   },
   {
     "id": "cs054",
@@ -1455,7 +1561,9 @@
       "Excuse me, {P}?",
       "{P} cake?"
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs055",
@@ -1482,7 +1590,9 @@
       "It's {P}.",
       "{P}, sir."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "length_marking_only"
   },
   {
     "id": "cs056",
@@ -1509,7 +1619,9 @@
       "But {P}?",
       "Really, {P}?"
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "trap_bath"
   },
   {
     "id": "cs057",
@@ -1536,7 +1648,9 @@
       "We meet at {P}.",
       "It's already {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "trap_bath"
   },
   {
     "id": "cs058",
@@ -1563,7 +1677,9 @@
       "Meet me at {P}.",
       "{P} has a pond."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "rhoticity"
   },
   {
     "id": "cs059",
@@ -1590,7 +1706,9 @@
       "{P} for tea?",
       "Oh, {P}?"
     ],
-    "cefr": "B1"
+    "cefr": "B1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "goat_vowel"
   },
   {
     "id": "cs060",
@@ -1617,7 +1735,9 @@
       "We met {P}.",
       "Maybe {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "rhoticity"
   },
   {
     "id": "cs061",
@@ -1644,7 +1764,9 @@
       "I really {P}.",
       "They {P} too."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs062",
@@ -1671,7 +1793,9 @@
       "Well, {P}.",
       "Sorry, {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "goat_vowel"
   },
   {
     "id": "cs063",
@@ -1698,7 +1822,9 @@
       "So, {P}?",
       "Hey, {P}?"
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs064",
@@ -1725,7 +1851,9 @@
       "Wait {P}.",
       "In {P}, we'll know."
     ],
-    "cefr": "B1"
+    "cefr": "B1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs065",
@@ -1752,7 +1880,9 @@
       "Order {P}.",
       "{P}, please."
     ],
-    "cefr": "B2"
+    "cefr": "B2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs066",
@@ -1779,7 +1909,9 @@
       "Just {P}, please.",
       "I made {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs067",
@@ -1806,7 +1938,9 @@
       "Between {P}, it's fine.",
       "{P} against the world."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "length_marking_only"
   },
   {
     "id": "cs068",
@@ -1833,7 +1967,9 @@
       "Honestly, {P}.",
       "Well, {P}."
     ],
-    "cefr": "B2"
+    "cefr": "B2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs069",
@@ -1860,7 +1996,9 @@
       "Easy — {P}.",
       "Truly {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "length_marking_only"
   },
   {
     "id": "cs070",
@@ -1887,7 +2025,9 @@
       "Sorry, it's {P}.",
       "Quitting is {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs071",
@@ -1914,7 +2054,9 @@
       "Put your name {P}.",
       "Don't step {P}."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "lot_vowel"
   },
   {
     "id": "cs072",
@@ -1941,7 +2083,9 @@
       "Nothing is {P}.",
       "Keep the money {P}."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs073",
@@ -1968,7 +2112,9 @@
       "We need to {P}.",
       "Time to {P}."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs074",
@@ -1995,7 +2141,9 @@
       "Let's {P} together.",
       "He told me to {P}."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs075",
@@ -2022,7 +2170,9 @@
       "{P} tight!",
       "Just {P} for me."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "lot_vowel"
   },
   {
     "id": "cs076",
@@ -2049,7 +2199,9 @@
       "I'll {P} for you.",
       "{P} when it gets dark."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs077",
@@ -2076,7 +2228,9 @@
       "I'll {P} later.",
       "Don't {P} too fast."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs078",
@@ -2103,7 +2257,9 @@
       "Can you {P} for me?",
       "She'll {P} to the class."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs079",
@@ -2130,7 +2286,9 @@
       "They'll {P} tomorrow.",
       "Just {P} anytime."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "length_marking_only"
   },
   {
     "id": "cs080",
@@ -2157,7 +2315,9 @@
       "They came to {P}.",
       "{P} carry the boxes."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "dress_notation_only"
   },
   {
     "id": "cs081",
@@ -2184,7 +2344,9 @@
       "{P} finished it already?",
       "{P} met him once?"
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs082",
@@ -2211,7 +2373,9 @@
       "We'll {P} there soon.",
       "I'll {P} a ticket."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "dress_notation_only"
   },
   {
     "id": "cs083",
@@ -2238,7 +2402,9 @@
       "We'll {P} go early.",
       "I'll {P} decide."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "dress_notation_only"
   },
   {
     "id": "cs084",
@@ -2265,7 +2431,9 @@
       "She {P} the truth.",
       "I already {P} that."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "goat_vowel"
   },
   {
     "id": "cs085",
@@ -2292,7 +2460,9 @@
       "There were {P}.",
       "I counted {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "dress_notation_only"
   },
   {
     "id": "cs086",
@@ -2319,7 +2489,9 @@
       "I know {P} who tried it.",
       "{P} were kind."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "goat_vowel"
   },
   {
     "id": "cs087",
@@ -2346,7 +2518,9 @@
       "That's the {P} I've seen it.",
       "This is the {P} today."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "rhoticity"
   },
   {
     "id": "cs088",
@@ -2373,7 +2547,9 @@
       "A {P} is coming up.",
       "He made a {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "rhoticity"
   },
   {
     "id": "cs089",
@@ -2400,7 +2576,9 @@
       "They {P} about it.",
       "He {P} all evening."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "dress_notation_only"
   },
   {
     "id": "cs090",
@@ -2427,7 +2605,9 @@
       "What a {P}!",
       "It's a {P} outside."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "goat_vowel"
   },
   {
     "id": "cs091",
@@ -2454,7 +2634,9 @@
       "Let me {P}.",
       "Please {P} online."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs092",
@@ -2481,7 +2663,9 @@
       "Please {P} carefully.",
       "We should {P}."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs093",
@@ -2508,7 +2692,9 @@
       "Leave {P} possible.",
       "We'll start {P} ready."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "length_marking_only"
   },
   {
     "id": "cs094",
@@ -2535,7 +2721,9 @@
       "Try a sport {P} tennis.",
       "Use a tool {P} a hammer."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs095",
@@ -2562,7 +2750,9 @@
       "They {P} happy.",
       "I always {P} here."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "dress_notation_only"
   },
   {
     "id": "cs096",
@@ -2589,7 +2779,9 @@
       "I'll {P} later.",
       "{P} carefully."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs097",
@@ -2616,7 +2808,9 @@
       "They {P} money.",
       "I'll {P} ideas soon."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs098",
@@ -2643,7 +2837,9 @@
       "It's fine, {P}.",
       "{P}, we're ready."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "rhoticity"
   },
   {
     "id": "cs099",
@@ -2670,7 +2866,9 @@
       "{P} happy now?",
       "{P} ready yet?"
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "rhoticity"
   },
   {
     "id": "cs100",
@@ -2697,7 +2895,9 @@
       "{P} seen it?",
       "{P} been there?"
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs101",
@@ -2724,7 +2924,9 @@
       "This is {P}.",
       "Tell me {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs102",
@@ -2751,7 +2953,9 @@
       "The door is {P}.",
       "Someone is {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs103",
@@ -2778,7 +2982,9 @@
       "He's a {P}.",
       "Such a {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs104",
@@ -2805,7 +3011,9 @@
       "Tell {P} to wait.",
       "{P} runs fast."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs105",
@@ -2832,7 +3040,9 @@
       "Give me {P}.",
       "{P} won't hurt."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "rhoticity"
   },
   {
     "id": "cs106",
@@ -2859,7 +3069,9 @@
       "The {P} tore.",
       "Here's a {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs107",
@@ -2886,7 +3098,9 @@
       "{P} agreed.",
       "There were {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs108",
@@ -2913,7 +3127,9 @@
       "{P} left early.",
       "Take {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "goat_vowel"
   },
   {
     "id": "cs109",
@@ -2940,7 +3156,9 @@
       "{P}, please.",
       "Could you {P}?"
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs110",
@@ -2967,7 +3185,9 @@
       "I visited {P}.",
       "{P} is napping."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "length_marking_only"
   },
   {
     "id": "cs111",
@@ -2994,7 +3214,9 @@
       "{P} matters.",
       "It's a true {P}."
     ],
-    "cefr": "B1"
+    "cefr": "B1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "dress_notation_only"
   },
   {
     "id": "cs112",
@@ -3021,7 +3243,9 @@
       "A {P} walked by.",
       "That {P} is brave."
     ],
-    "cefr": "B2"
+    "cefr": "B2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs113",
@@ -3048,7 +3272,9 @@
       "Let's {P}.",
       "Can you {P}?"
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs114",
@@ -3075,7 +3301,9 @@
       "Can you {P}?",
       "Let's {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs115",
@@ -3102,7 +3330,9 @@
       "{P} this weekend?",
       "{P} these days?"
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs116",
@@ -3129,7 +3359,9 @@
       "Let's {P}.",
       "I'll {P}."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs117",
@@ -3156,7 +3388,9 @@
       "Just {P}.",
       "{P} this weekend."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs118",
@@ -3183,7 +3417,9 @@
       "{P}, treat yourself.",
       "I call her {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs119",
@@ -3210,7 +3446,9 @@
       "The kids ran {P}.",
       "It moved {P}."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs120",
@@ -3237,7 +3475,9 @@
       "Flowers grew {P}.",
       "People stood {P}."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs121",
@@ -3264,7 +3504,9 @@
       "It played {P}.",
       "He said it {P}."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs122",
@@ -3291,7 +3533,9 @@
       "{P}, I've got this.",
       "Please {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs123",
@@ -3318,7 +3562,9 @@
       "Tell me, {P}?",
       "Hey, {P}?"
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs124",
@@ -3345,7 +3591,9 @@
       "{P} your name?",
       "Please, {P}?"
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "dress_notation_only"
   },
   {
     "id": "cs125",
@@ -3372,7 +3620,9 @@
       "Excuse me, {P} it?",
       "Sorry, {P} that?"
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "goat_vowel"
   },
   {
     "id": "cs126",
@@ -3399,7 +3649,9 @@
       "Hey, {P} going?",
       "{P} so far?"
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs127",
@@ -3426,7 +3678,9 @@
       "As you like — {P}.",
       "Fine, {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs128",
@@ -3453,7 +3707,9 @@
       "{P} hand against it.",
       "{P} key now."
     ],
-    "cefr": "B2"
+    "cefr": "B2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs129",
@@ -3480,7 +3736,9 @@
       "I think {P} win.",
       "{P} leave soon."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs130",
@@ -3507,7 +3765,9 @@
       "We {P} now.",
       "They {P} too."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "lot_vowel"
   },
   {
     "id": "cs131",
@@ -3534,7 +3794,9 @@
       "{P}, please.",
       "Bring me {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs132",
@@ -3561,7 +3823,9 @@
       "She made a {P}.",
       "Want a {P}?"
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs133",
@@ -3588,7 +3852,9 @@
       "{P}, we go home.",
       "By {P}, it's done."
     ],
-    "cefr": "B1"
+    "cefr": "B1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "dress_notation_only"
   },
   {
     "id": "cs134",
@@ -3615,7 +3881,9 @@
       "{P}, we all do.",
       "You'll know {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs135",
@@ -3642,7 +3910,9 @@
       "{P}, I visit.",
       "She calls {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "dress_notation_only"
   },
   {
     "id": "cs136",
@@ -3669,7 +3939,9 @@
       "Good evening, {P}.",
       "{P}, the show begins."
     ],
-    "cefr": "B2"
+    "cefr": "B2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs137",
@@ -3696,7 +3968,9 @@
       "Honestly, {P}.",
       "{P} with you."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs138",
@@ -3723,7 +3997,9 @@
       "Grab your hat and {P}.",
       "{P} before you leave."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs139",
@@ -3750,7 +4026,9 @@
       "Time to {P}.",
       "We {P} at dawn."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs140",
@@ -3777,7 +4055,9 @@
       "Let's {P} together.",
       "He told me to {P}."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs141",
@@ -3804,7 +4084,9 @@
       "There's {P} left.",
       "He dropped {P}."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "dress_notation_only"
   },
   {
     "id": "cs142",
@@ -3831,7 +4113,9 @@
       "Look at {P}.",
       "{P} were closed."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs143",
@@ -3858,7 +4142,9 @@
       "Try {P} instead.",
       "{P} looks better."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs144",
@@ -3885,7 +4171,9 @@
       "They'll {P} the form.",
       "Let me {P} it."
     ],
-    "cefr": "B1"
+    "cefr": "B1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "dress_notation_only"
   },
   {
     "id": "cs145",
@@ -3912,7 +4200,9 @@
       "We'll {P} soon.",
       "Glad to {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "length_marking_only"
   },
   {
     "id": "cs146",
@@ -3939,7 +4229,9 @@
       "Buy {P}.",
       "I counted {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "dress_notation_only"
   },
   {
     "id": "cs147",
@@ -3966,7 +4258,9 @@
       "I want a {P}.",
       "That {P} is fast."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "rhoticity"
   },
   {
     "id": "cs148",
@@ -3993,7 +4287,9 @@
       "A {P}, please.",
       "He drank a {P}."
     ],
-    "cefr": "B1"
+    "cefr": "B1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs149",
@@ -4020,7 +4316,9 @@
       "A {P}, please.",
       "She grilled a {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs150",
@@ -4047,7 +4345,9 @@
       "The {P} sang.",
       "That {P} is rare."
     ],
-    "cefr": "B1"
+    "cefr": "B1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "rhoticity"
   },
   {
     "id": "cs151",
@@ -4074,7 +4374,9 @@
       "The {P} went to her.",
       "They claimed the {P}."
     ],
-    "cefr": "B2"
+    "cefr": "B2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs152",
@@ -4101,7 +4403,9 @@
       "Wait {P} the line.",
       "{P} the month, we pay."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "dress_notation_only"
   },
   {
     "id": "cs153",
@@ -4128,7 +4432,9 @@
       "I'll {P}.",
       "{P} before bed."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs154",
@@ -4155,7 +4461,9 @@
       "Such {P}!",
       "Famous {P} hang here."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "rhoticity"
   },
   {
     "id": "cs155",
@@ -4182,7 +4490,9 @@
       "It surprised {P}.",
       "{P} were ready."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs156",
@@ -4209,7 +4519,9 @@
       "{P} swim?",
       "{P} see it?"
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs157",
@@ -4236,7 +4548,9 @@
       "Smile {P} can.",
       "Leave {P} like."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "dress_notation_only"
   },
   {
     "id": "cs158",
@@ -4263,7 +4577,9 @@
       "A real {P}!",
       "He dropped the {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs159",
@@ -4290,7 +4606,9 @@
       "Such a {P}.",
       "He met a {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "rhoticity"
   },
   {
     "id": "cs160",
@@ -4317,7 +4635,9 @@
       "She {P} despite it.",
       "He {P} for hours."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "goat_vowel"
   },
   {
     "id": "cs161",
@@ -4344,7 +4664,9 @@
       "He {P} sadly.",
       "They {P} together."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs162",
@@ -4371,7 +4693,9 @@
       "Buy a {P}.",
       "A {P} fits everyone."
     ],
-    "cefr": "B1"
+    "cefr": "B1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs163",
@@ -4398,7 +4722,9 @@
       "Can you {P}?",
       "Let's {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs164",
@@ -4425,7 +4751,9 @@
       "Well, {P}.",
       "{P}, she called."
     ],
-    "cefr": "B1"
+    "cefr": "B1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs165",
@@ -4452,7 +4780,9 @@
       "That's {P}.",
       "Meet {P}."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "dress_notation_only"
   },
   {
     "id": "cs166",
@@ -4479,7 +4809,9 @@
       "It breathes {P}.",
       "She ran {P}."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs167",
@@ -4506,7 +4838,9 @@
       "{P}, we learn.",
       "Save {P}."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs168",
@@ -4533,7 +4867,9 @@
       "No, {P}.",
       "{P}, but soon."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "lot_vowel"
   },
   {
     "id": "cs169",
@@ -4560,7 +4896,9 @@
       "We met {P}.",
       "It rained a lot {P}."
     ],
-    "cefr": "B1"
+    "cefr": "B1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "trap_bath"
   },
   {
     "id": "cs170",
@@ -4587,7 +4925,9 @@
       "Honestly, {P}?",
       "{P} that?"
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "length_marking_only"
   },
   {
     "id": "cs171",
@@ -4614,7 +4954,9 @@
       "Hey, {P}?",
       "{P} the truth?"
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "goat_vowel"
   },
   {
     "id": "cs172",
@@ -4641,7 +4983,9 @@
       "Enjoy {P}.",
       "That's {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "goat_vowel"
   },
   {
     "id": "cs173",
@@ -4668,7 +5012,9 @@
       "Only {P}.",
       "It's only {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs174",
@@ -4695,7 +5041,9 @@
       "{P} here.",
       "It has {P}."
     ],
-    "cefr": "B1"
+    "cefr": "B1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs175",
@@ -4722,7 +5070,9 @@
       "Where are {P}?",
       "{P} stayed."
     ],
-    "cefr": "B2"
+    "cefr": "B2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "dress_notation_only"
   },
   {
     "id": "cs176",
@@ -4749,7 +5099,9 @@
       "Above all, {P}.",
       "{P}, stay calm."
     ],
-    "cefr": "B2"
+    "cefr": "B2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "goat_vowel"
   },
   {
     "id": "cs177",
@@ -4776,7 +5128,9 @@
       "She crawled on {P}.",
       "On {P}, they searched."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "length_marking_only"
   },
   {
     "id": "cs178",
@@ -4803,7 +5157,9 @@
       "Nothing {P}.",
       "Is it cold {P}?"
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "length_marking_only"
   },
   {
     "id": "cs179",
@@ -4830,7 +5186,9 @@
       "That's a {P}!",
       "Here's a {P}."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs180",
@@ -4857,7 +5215,9 @@
       "We need to {P}.",
       "Time to {P}."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "rhoticity"
   },
   {
     "id": "cs181",
@@ -4884,7 +5244,9 @@
       "They faced {P}.",
       "Through {P}, we coped."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "rhoticity"
   },
   {
     "id": "cs182",
@@ -4911,7 +5273,9 @@
       "He has a {P}.",
       "There's a {P} here."
     ],
-    "cefr": "B2"
+    "cefr": "B2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "lot_vowel"
   },
   {
     "id": "cs183",
@@ -4938,7 +5302,9 @@
       "{P}, no more.",
       "We lost, {P}."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "notation_composite"
   },
   {
     "id": "cs184",
@@ -4965,7 +5331,9 @@
       "Love {P}.",
       "They met {P}."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs185",
@@ -4992,7 +5360,9 @@
       "Let me {P}.",
       "They'll {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "dress_notation_only"
   },
   {
     "id": "cs186",
@@ -5019,7 +5389,9 @@
       "{P}, this stays here.",
       "Just {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "length_marking_only"
   },
   {
     "id": "cs187",
@@ -5046,7 +5418,9 @@
       "Don't worry, {P}.",
       "I {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs188",
@@ -5073,7 +5447,9 @@
       "{P}, stay safe.",
       "Above all, {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "goat_vowel"
   },
   {
     "id": "cs189",
@@ -5100,7 +5476,9 @@
       "{P} today?",
       "{P}, friend?"
     ],
-    "cefr": "B1"
+    "cefr": "B1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs190",
@@ -5127,7 +5505,9 @@
       "Don't worry, {P}.",
       "{P} tomorrow."
     ],
-    "cefr": "B1"
+    "cefr": "B1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "goat_vowel"
   },
   {
     "id": "cs191",
@@ -5154,7 +5534,9 @@
       "Okay, {P}.",
       "Bye, {P}."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "length_marking_only"
   },
   {
     "id": "cs192",
@@ -5181,7 +5563,9 @@
       "{P}, stay put.",
       "Use this {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs193",
@@ -5208,7 +5592,9 @@
       "We discussed {P}.",
       "{P} went wrong."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs194",
@@ -5235,7 +5621,9 @@
       "By {P}, we're tired.",
       "{P}, what matters is health."
     ],
-    "cefr": "B1"
+    "cefr": "B1",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "dress_notation_only"
   },
   {
     "id": "cs195",
@@ -5262,7 +5650,9 @@
       "Frankly, {P}.",
       "Sorry, {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "rhoticity"
   },
   {
     "id": "cs196",
@@ -5289,7 +5679,9 @@
       "Oh, {P}.",
       "And {P}, here he is."
     ],
-    "cefr": "B2"
+    "cefr": "B2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "notation_composite"
   },
   {
     "id": "cs197",
@@ -5316,7 +5708,9 @@
       "{P} is quieter.",
       "Look at {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs198",
@@ -5343,7 +5737,9 @@
       "That's {P} right.",
       "We're {P} ready."
     ],
-    "cefr": "B1"
+    "cefr": "B1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs199",
@@ -5370,7 +5766,9 @@
       "Please {P}.",
       "We should {P}."
     ],
-    "cefr": "B2"
+    "cefr": "B2",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   },
   {
     "id": "cs200",
@@ -5397,7 +5795,9 @@
       "{P}, that's kind.",
       "I just want to say {P}."
     ],
-    "cefr": "A2"
+    "cefr": "A2",
+    "ga_rp_same": true,
+    "ga_rp_same_reason": "identical"
   },
   {
     "id": "cs201",
@@ -5424,6 +5824,8 @@
       "Bye, {P}.",
       "Okay, {P}."
     ],
-    "cefr": "A1"
+    "cefr": "A1",
+    "ga_rp_same": false,
+    "ga_rp_same_reason": "structural_other"
   }
 ]

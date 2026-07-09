@@ -200,13 +200,13 @@ Staging outputs go to `data/pipeline/`. Merge scripts write `wordlist_GA_a1a2_pl
 
 | Feature | Implementation |
 |---------|----------------|
-| Alt-accent same display | `/ipa/ (same)` via `formatSameAccentIpa()`; compare `ipa === rp_ipa` |
+| Alt-accent same display | `/ipa/（同じ）` via `formatSameAccentIpa()`; **`ga_rp_same` フラグ**（`scripts/gen_ga_rp_same.py`） |
 | Alt-accent labels | `GA` / `RP` only (`reveal.ga_note` / `reveal.rp_note`) |
 | Session exit | `#exitConfirmModal` on drill screens; Yes → summary |
 | CEFR setup filters | Pills with 0 results for selected CEFR levels are `disabled` |
 | Nucleus highlight | Soft amber fill + `text-decoration` underline (iOS-safe) |
 
-Planned: `ga_rp_same` flag — see `docs/cursor/briefs/cursor-ga-rp-same-flag-consultation.md`.
+Implemented: `ga_rp_same` / `ga_rp_same_reason` on wordlist, connected_speech, weak_forms. See `docs/SPECIFICATION.md` §5.1.
 
 ---
 

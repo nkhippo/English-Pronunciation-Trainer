@@ -4,7 +4,7 @@
 > 機能追加や仕様相談の前提資料として利用してください。  
 > 目的の正本は `docs/PURPOSE.md`、実装設計は `docs/DESIGN.md`（衝突時は PURPOSE → DESIGN → 本書の順で参照）。
 
-**最終更新:** 2026-07-09（離脱確認モーダル・反対アクセント表示形式・CEFR フィルタ非活性・`ga_rp_same` 相談ブリーフ）  
+**最終更新:** 2026-07-09（`ga_rp_same` フラグ導入・離脱確認モーダル・反対アクセント表示形式・CEFR フィルタ非活性）  
 **対象コード:** `index.html`、`wordlist_GA_a1a2_plus_phonics.json`、`data/connected_speech.json`、`data/weak_forms.json`、`data/guide.json`、`i18n/`、`gas/`（`Code.gs`・`BatchWarm.gs`・`BatchWords.gs`）  
 **リポジトリ構成:** `docs/REPOSITORY-STRUCTURE.md`（フォルダマップ・AI向け）
 
@@ -311,6 +311,73 @@ topbar の `#vocabBtn` から起動。プレイ中も利用可。Words（wordlis
 
 **パイプライン補足:** narrow IPA 候補・respelling のステージング JSON は `data/pipeline/`。バッチソースは `data/batches/`。詳細は `docs/REPOSITORY-STRUCTURE.md`。
 
+#### GA / RP 「実質同じ」判定 (`ga_rp_same`)
+
+##### データフィールド
+
+各語彙エントリ（wordlist / connected_speech / weak_forms）に以下 2 フィールドを追加:
+
+| フィールド | 型 | 意味 |
+|---|---|---|
+| `ga_rp_same` | `boolean` | GA と RP が学習者にとって実質同じ発音か |
+| `ga_rp_same_reason` | `string` | 判定理由（同じ / 異なる、いずれの場合も付与）|
+
+これらは **`scripts/gen_ga_rp_same.py`** により全語彙一括で生成される派生フィールドで、`ipa` / `rp_ipa` / `ipa_actual_ga` から決定的に導出される（LLM 判定なし）。
+
+##### 「same」の定義
+
+以下の差異のみを持つペアを same と判定する（STRICT）:
+
+1. **長音記号 `ː` の有無** — GA 系辞書は緊張母音に付けない慣習
+2. **第二強勢 `ˌ` の有無・位置差** — 辞書ソース間の揺れ
+3. **DRESS 母音の表記差 (`ɛ` ↔ `e`)** — 同一音素の表記慣習差
+
+第一強勢 `ˈ` は削除しない — 強勢の syllable 位置が異なるペアは different。
+
+##### 「different」となる主な差異
+
+| 種類 | reason 値 | 例 |
+|---|---|---|
+| GA 内音（フラップ T 等） | `ga_allophony` | `city` (`[ˈsɪɾi]`), `water` (`[ˈwɔɾɚ]`) |
+| 第一強勢位置差 | `stress_placement` | `baseball`, `discount` |
+| Non-rhotic 差 | `rhoticity` | `actor`, `winner` |
+| GOAT 母音 | `goat_vowel` | `boat`, `ago` |
+| LOT 母音 | `lot_vowel` | `hot`, `block` |
+| TRAP-BATH | `trap_bath` | `path`, `bath`, `after` |
+| COT-CAUGHT | `cot_caught` | `bought` |
+| SQUARE / NEAR / CURE | `square_near_cure` | `bear`, `dear` |
+| 弱母音の質差 | `weak_vowel` | `biscuit` (`ə`/`ɪ`) |
+| Yod-dropping | `yod` | `new`, `due` |
+| 語彙音韻差 | `lexical` | `schedule`, `vitamin` |
+| その他構造差 | `structural_other` / `composite_structural` | 目視レビュー対象 |
+
+##### GA-only 異音カーブアウト（重要）
+
+`ipa_actual_ga`（narrow 転写）が存在し `ipa`（phonemic）と異なる語は、**phonemic レベルで RP と一致していても different** と判定する。Flap T・音節主音子音・声門閉鎖など、GA でのみ生じる異音を audibly-different として扱う（例: `city`）。
+
+##### UI 挙動
+
+1. **Reveal 画面の反対アクセント表示** (`altAccentValue`) — same のとき `/ipa/（同じ）` 表示
+2. **語彙ブラウザの RP 行表示** — 同上
+
+判定は `c.ga_rp_same` を参照。未設定時は旧ロジック（文字列一致）にフォールバック。
+
+##### 分布統計（2026-07-09 初回生成時）
+
+| ファイル | 総数 | same | different |
+|---|---:|---:|---:|
+| wordlist | 4,828 | 2,378 (49%) | 2,450 (51%) |
+| connected_speech | 201 | 94 (47%) | 107 (53%) |
+| weak_forms | 36 | 30 (83%) | 6 (17%) |
+
+##### 更新手順
+
+`ipa` / `rp_ipa` / `ipa_actual_ga` を変更した場合:
+
+```bash
+python3 scripts/gen_ga_rp_same.py --report data/pipeline/ga_rp_same_report.json
+```
+
 ### 5.2 連結句 — `data/connected_speech.json`
 
 **201 句。** フィールド: `id`, `w`, `ipa`, `rp_ipa`, `cs_type`, `level` (1–3), **`cefr`** (A1–B2、2026-07-09 付与), `cs_rule` (en/ja/**fil**), `gloss`, `carrier`（キャリア文テンプレート）。
@@ -374,6 +441,7 @@ UI i18n とは独立。各言語キー（`en`, `ja`, `ko`, `zh-Hans`, `zh-Hant`,
 
 | 日付 | 内容 |
 |------|------|
+| 2026-07-09 | v3.15 `ga_rp_same` / `ga_rp_same_reason` フラグ導入（`scripts/gen_ga_rp_same.py`）。UI 同一判定をフラグ参照に切替 |
 | 2026-07-09 | v3.14 Phase 1 M5: B1 最終 389語マージ。語数 4,828・B1=2,116（Phase 1 B1 拡充完了） |
 | 2026-07-09 | v3.12 反対アクセント同一表示 `/ipa/（同じ）`・GA/RP ラベル簡素化・離脱確認モーダル・CEFR 連動フィルタ非活性・`docs/reference/README.md` |
 | 2026-07-09 | v3.11 リポジトリ構成整理（`data/batches`・`pipeline`・`patches`、`docs/cursor`）。語数 4,439・B1=1,727。連結/弱形 `cefr`。`REPOSITORY-STRUCTURE.md` 追加。 |
