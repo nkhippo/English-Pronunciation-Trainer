@@ -89,11 +89,12 @@
   .seg:hover{background:var(--signal-soft)}
   .seg.sel{background:var(--signal-soft);color:var(--signal)}
   .seg.mark{color:var(--faint);font-size:.62em;vertical-align:.35em}
-  /* text-decoration tracks glyphs on iOS; border-bottom detaches on narrow IPA spans. */
+  /* Soft fill + text-decoration underline: former look, iOS-safe (border-bottom detaches on narrow spans). */
   .seg.nucleus{
-    background:transparent;border:none;box-shadow:none;padding:0;
+    background:linear-gradient(transparent 62%,var(--stress-soft) 62%);
+    border:none;box-shadow:none;padding:0 1px;
     text-decoration:underline;text-decoration-color:var(--stress);
-    text-decoration-thickness:max(2px,.12em);text-underline-offset:.14em;
+    text-decoration-thickness:max(3px,.14em);text-underline-offset:.08em;
     -webkit-text-decoration-skip-ink:none;text-decoration-skip-ink:none;
   }
   .seg.tok-ok{color:var(--ok)} .seg.tok-bad{color:var(--bad);background:var(--bad-soft)}
