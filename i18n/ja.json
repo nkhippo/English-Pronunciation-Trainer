@@ -159,6 +159,12 @@
   "reflect": {
     "btn": "振り返り"
   },
+  "exit_confirm": {
+    "title": "終了しますか？",
+    "body": "このセッションを終了しますか？",
+    "yes": "Yes",
+    "no": "No"
+  },
   "meter_done": "完了",
   "hint": {
     "syl": "音節数",

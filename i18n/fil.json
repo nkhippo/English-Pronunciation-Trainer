@@ -112,6 +112,12 @@
   "reflect": {
     "btn": "Pagbalik-tanaw"
   },
+  "exit_confirm": {
+    "title": "Tapusin ang session?",
+    "body": "Gusto mo bang tapusin ang session na ito?",
+    "yes": "Yes",
+    "no": "No"
+  },
   "mode": {
     "a": "Basahin at isulat ang IPA",
     "label": "Mode ng pag-aaral"

@@ -159,6 +159,12 @@
   "reflect": {
     "btn": "돌아보기"
   },
+  "exit_confirm": {
+    "title": "종료하시겠어요?",
+    "body": "이 세션을 종료할까요?",
+    "yes": "Yes",
+    "no": "No"
+  },
   "meter_done": "완료",
   "hint": {
     "syl": "음절 수",

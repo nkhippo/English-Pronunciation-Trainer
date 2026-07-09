@@ -159,6 +159,12 @@
   "reflect": {
     "btn": "Reflect"
   },
+  "exit_confirm": {
+    "title": "End session?",
+    "body": "Do you want to end this session?",
+    "yes": "Yes",
+    "no": "No"
+  },
   "meter_done": "done",
   "hint": {
     "syl": "Syllables",

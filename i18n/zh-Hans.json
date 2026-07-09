@@ -159,6 +159,12 @@
   "reflect": {
     "btn": "回顾"
   },
+  "exit_confirm": {
+    "title": "要结束吗？",
+    "body": "要结束本次练习吗？",
+    "yes": "Yes",
+    "no": "No"
+  },
   "meter_done": "完成",
   "hint": {
     "syl": "音节数",
