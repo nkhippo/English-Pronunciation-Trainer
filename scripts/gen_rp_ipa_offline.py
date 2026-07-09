@@ -1,13 +1,20 @@
 #!/usr/bin/env python3
-"""Generate data/rp_complete.json via rule-based GA→RP conversion."""
+"""Generate data/derived/rp_complete.json via rule-based GA→RP conversion."""
+
+import sys
+from pathlib import Path
+
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+import paths
 import json
 from pathlib import Path
 
 from ga_to_rp import ga_to_rp
 
-ROOT = Path(__file__).resolve().parents[1]
-INPUT = ROOT / "wordlist_GA_a1a2_plus_phonics.json"
-OUTPUT = ROOT / "data" / "rp_complete.json"
+INPUT = paths.WORDLIST
+OUTPUT = paths.RP_COMPLETE
 
 
 def main():

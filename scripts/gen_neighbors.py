@@ -1,4 +1,12 @@
 #!/usr/bin/env python3
+
+import sys
+from pathlib import Path
+
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+import paths
 # -*- coding: utf-8 -*-
 """
 gen_neighbors.py  (STEP4-b)
@@ -25,13 +33,12 @@ import json, sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
 K = 8                    # 近傍トップK
 MAX_DIST = 2             # これより遠い語は近傍にしない
-INPUT = ROOT / "wordlist_GA_a1a2_plus_phonics.json"
-OUTPUT = ROOT / "data" / "wordlist_with_neighbors.json"
-SLIM_OUTPUT = ROOT / "data" / "wordlist_with_neighbors_slim.json"
-REPORT = ROOT / "docs" / "neighbors_report.md"
+INPUT = paths.WORDLIST
+OUTPUT = paths.WORDLIST_NEIGHBORS
+SLIM_OUTPUT = paths.WORDLIST_NEIGHBORS_SLIM
+REPORT = paths.NEIGHBORS_REPORT
 
 MULTI = ['tʃ','dʒ','eɪ','aɪ','ɔɪ','oʊ','aʊ']
 

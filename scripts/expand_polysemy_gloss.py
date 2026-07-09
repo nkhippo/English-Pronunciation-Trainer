@@ -8,9 +8,16 @@ from pathlib import Path
 from deep_translator import GoogleTranslator
 from nltk.corpus import wordnet as wn
 
-ROOT = Path(__file__).resolve().parents[1]
-WORDLIST = ROOT / "wordlist_GA_a1a2_plus_phonics.json"
-CLEAR = ROOT / "docs" / "gloss-corrections.clear.json"
+import sys
+from pathlib import Path
+
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+import paths
+
+WORDLIST = paths.WORDLIST
+CLEAR = paths.GLOSS_CORRECTIONS
 SLEEP = 0.05
 SKIP_RE = re.compile(
     r"geology|physics|chemistry|anatomy|zoology|botany|crust|electromagnetic|"

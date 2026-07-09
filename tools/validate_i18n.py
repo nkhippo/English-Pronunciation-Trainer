@@ -20,7 +20,7 @@ i18n 整合性チェッカー  (English Pronunciation Trainer)
 言語を増やすとき:
   i18n/<lang>.json と i18n/phonemes/<lang>.json を en からコピーして翻訳し、
   index.html の言語ピッカー(.langopt)に1ボタン追加 → 本スクリプトで検査。
-  詳細は docs/i18n-language-scaling.md を参照。
+  詳細は docs/reference/i18n-language-scaling.md を参照。
 """
 import json, re, sys, glob, os
 

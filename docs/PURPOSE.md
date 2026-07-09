@@ -3,7 +3,7 @@
 > アプリの**本丸（measured outcome）**と**モード構成**を確定し、背景メモ・Cursor仕様書・実装コードの目的を一致させる正本。
 > 目的・評価方針に関する記述が衝突した場合は、本ドキュメントを正とする。
 >
-> **更新日:** 2026-07-06 ／ **ステータス:** Mode A・Mode B 実装済み。GA/RP 切替・連結句・弱形・RP TTS・語彙ブラウザ・TTS プリフェッチ・UI 5言語（fil 含む）・**narrow IPA 全3,059語**対応済み。反対アクセント（GA↔RP）表示・学習モード名称刷新（2026-07-06）を反映。
+> **更新日:** 2026-07-09 ／ **ステータス:** Mode A・Mode B 実装済み。語彙 4,439語。GA/RP 切替・連結句・弱形・RP TTS・語彙ブラウザ・TTS プリフェッチ・UI 5言語（fil 含む）・narrow IPA 対応済み。
 > 詳細な実装仕様は `docs/DESIGN.md`、画面・データの正本は `docs/SPECIFICATION.md` を参照。
 
 ---
@@ -37,7 +37,7 @@
 
 **CEFRの位置づけ:** 主軸としてMode Aには不適（頻度はIPA読み書き難易度の弱い代理であり、本アプリは既知語前提のため頻度の意味が薄い）。CEFRは破棄せず **Mode B の主軸へ移設**する。Mode Aではコールドスタート時の出題順にのみ残す。
 
-**アクセント（GA / RP）:** 設定で切替。IPA 表示・Encode キーボード・TTS（単語・弱形）が追従。連結句 TTS は GA 固定。反対アクセントの phonemic IPA は Reveal・Decode（単語）・Mode B Study・語彙ブラウザに表示。同一時は `reveal.alt_same`（例: 同じ (/əˈbaʊt/)）で明示。Mode B の MCQ distractor は GA `neighbors` を RP でも流用（`neighbors_rp` 再計算は保留。`docs/rp-neighbors-priority-decision.md`）。
+**アクセント（GA / RP）:** 設定で切替。IPA 表示・Encode キーボード・TTS（単語・弱形）が追従。連結句 TTS は GA 固定。反対アクセントの phonemic IPA は Reveal・Decode（単語）・Mode B Study・語彙ブラウザに表示。同一時は `reveal.alt_same`（例: 同じ (/əˈbaʊt/)）で明示。Mode B の MCQ distractor は GA `neighbors` を RP でも流用（`neighbors_rp` 再計算は保留。`docs/reference/rp-neighbors-priority-decision.md`）。
 
 ---
 
@@ -76,8 +76,8 @@
 | 弱形（36語） | **実装済み**（Connected Speech 内 Type=weak。`weak_forms.json` + `?weak=` TTS。**CEFR ラベル付与済み**） |
 | 連結句拡張（201句） | **実装済み**（STEP6・キャリア文出題。**CEFR ラベル付与済み**） |
 | 多言語学習ガイド | ✅ フェーズ1（en/ja/ko/zh-Hant/zh-Hans/**fil**） |
-| 語彙ブラウザ | **実装済み**（Words 3,059 / Phrases 201） |
-| `neighbors` 事前計算 | 実装済み（2,623/3,059語） |
+| 語彙ブラウザ | **実装済み**（Words 4,439 / Phrases 201） |
+| `neighbors` 事前計算 | 実装済み（オリジナル 2,623/3,059語。Phase 1 追加分は空 `[]`） |
 | Mode B 実装 | **実装済み**（STEP7） |
 | GA/RP IPA・キーボード | **実装済み**（STEP5） |
 | RP TTS（単語） | **実装済み**（GAS 再デプロイ済み） |
@@ -91,7 +91,7 @@
 | B1/B2 語彙の実データ | **B1: 1,727語（M1: 180 + M2: 400 + M3: 400 + M4: 400 の Phase 1 拡充分を含む）/ B2: 330語**。CEFR-J 完全版との差分（B1: 残り389語 / B2: 2,186語）を Phase 1 M5 / Phase 2 で拡充予定 |
 | Mode A の CEFR フィルタ | **実装済み**（Phase 0-b。A1/A2/B1 の複数選択。デフォルト A1+A2） |
 | Mode B 空バンド対応 | **実装済み**（Phase 0-b。空プールへの解放を防止） |
-| narrow IPA（全語彙） | **完了**（`ipa_actual_ga` 192語。表示専用。採点は phonemic のまま） |
+| narrow IPA（全語彙） | **完了**（`ipa_actual_ga` ~391語 flap 候補。R4 pending ~96語は TTS レビュー待ち） |
 | 反対アクセント表示（Reveal / Decode words / Mode B Study / 語彙ブラウザ） | **実装済み**（2026-07-06） |
 | 学習モード UI 名称（Set B: 行為ベース対比） | **実装済み**（2026-07-06） |
 
@@ -109,6 +109,7 @@
 
 | 日付 | 版 | 内容 |
 |------|----|------|
+| 2026-07-09 | v3.11 | リポジトリ構成を整理（`data/batches`・`data/pipeline`・`data/patches`・`docs/cursor` 等）。`docs/REPOSITORY-STRUCTURE.md` 追加。`scripts/paths.py` でパス正本化。 |
 | 2026-07-09 | v3.10 | Phase 1 M4: B1 拡充 400語（`marked`〜`restore`）を IPA/pos/def/gloss5言語付きでマージ。総語数 4,439、B1=1,727。 |
 | 2026-07-09 | v3.9 | 連結句 201句・弱形 36語に `cefr` フィールドを付与（Claude 提案を算出結果どおり採用）。UI バッジ表示は別途。 |
 | 2026-07-09 | v3.8.1 | `friendliness` の GA IPA 誤記（RP 用 `ː` 混入）を訂正。respelling 例外を解消（`FREHND-lee-nuhs`）。 |
@@ -117,7 +118,7 @@
 | 2026-07-07 | v3.6 | Phase 1 M1: パイロット180語の gloss 5言語（ja/zh/ko/fil）翻訳を追加。Claude によるスタイル準拠翻訳、同義語ペアの整合性確認済み。 |
 | 2026-07-07 | v3.5 | Phase 1 M1 パイロット: CEFR-J B1 拡充対象の先頭 180 語を wordlist に追加（3,239語）。gloss ja/zh/ko/fil は未着手。 |
 | 2026-07-07 | v3.4 | Phase 0-b: Mode A に CEFR 複数選択フィルタを追加（A1/A2/B1、デフォルト A1+A2）。Mode B の空バンド解放防止。C1 は UI 非表示（キー残置）。 |
-| 2026-07-07 | v3.3.1 | Phase 0-a の訂正: phonics 652語の cefr null化を復元。CEFR-J 一次データとの照合で 652語全てが正当な B1/B2 語彙と判明したため。詳細は docs/wordlist-cefr-audit.md 訂正セクション参照。 |
+| 2026-07-07 | v3.3.1 | Phase 0-a の訂正: phonics 652語の cefr null化を復元。CEFR-J 一次データとの照合で 652語全てが正当な B1/B2 語彙と判明したため。詳細は `docs/reference/wordlist-cefr-audit.md` 訂正セクション参照。 |
 | 2026-07-07 | v3.3 | Phase 0-a: 誤った前提に基づく変更として phonics 652語の cefr を null 化（後日 v3.3.1 で訂正）。 |
 | 2026-07-06 | v3.2 | 学習モード名称を行為ベースに刷新（IPA読み書き / 聞いて覚える 等）。反対アクセント全画面表示。respelling は UI 非表示（データは保持）。 |
 | 2026-07-02 | v3.1.1 | respelling v2 品質パッチ（18語の `respell_ga` 可読性修正）。 |

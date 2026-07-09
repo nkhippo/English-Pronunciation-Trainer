@@ -1,4 +1,12 @@
 #!/usr/bin/env python3
+
+import sys
+from pathlib import Path
+
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+import paths
 # -*- coding: utf-8 -*-
 """
 gen_casual_connected.py  (STEP4-e)
@@ -50,7 +58,7 @@ for w,ipa,exp_en,exp in CASUAL:
         }
     })
 
-json.dump(casual_out, open(ROOT / 'data' / 'casual_patch.json','w',encoding='utf-8'), ensure_ascii=False, indent=1)
+json.dump(casual_out, open(paths.CASUAL_PATCH,'w',encoding='utf-8'), ensure_ascii=False, indent=1)
 
 # ============================================================
 # (2) 連結句 — 新カテゴリ connected_speech
@@ -128,7 +136,7 @@ for phrase,ipa,typ,rule,gloss in CONNECTED:
         'gloss':gloss,
     })
 
-json.dump(connected_out, open(ROOT / 'data' / 'connected_speech.json','w',encoding='utf-8'), ensure_ascii=False, indent=1)
+json.dump(connected_out, open(paths.CONNECTED_SPEECH,'w',encoding='utf-8'), ensure_ascii=False, indent=1)
 
 # ── レポート ──
 print(f'(1) casual_patch.json: {len(casual_out)}語')

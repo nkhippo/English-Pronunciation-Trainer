@@ -10,14 +10,22 @@ on pending words, so re-running after a batch merge is idempotent for existing
 entries. Use --clear-pending together with --batch-words to clear tentative
 respelling only on pending words from the current batch.
 """
+
+import sys
+from pathlib import Path
+
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+import paths
 import argparse
 import json
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-WORDLIST = ROOT / "wordlist_GA_a1a2_plus_phonics.json"
-DEFAULT_DRAFT = ROOT / "phase2b_respell_draft.json"
-PENDING = ROOT / "phase2b_respell_pending.json"
+ROOT = paths.ROOT
+WORDLIST = paths.WORDLIST
+DEFAULT_DRAFT = paths.RESPELL_DRAFT
+PENDING = paths.RESPELL_PENDING
 
 
 def load_batch_words(path: Path) -> set[str]:
@@ -37,7 +45,7 @@ def main():
         "--draft",
         type=Path,
         default=DEFAULT_DRAFT,
-        help="Respelling draft JSON (default: phase2b_respell_draft.json)",
+        help="Respelling draft JSON (default: data/pipeline/phase2b_respell_draft.json)",
     )
     parser.add_argument(
         "--clear-pending",

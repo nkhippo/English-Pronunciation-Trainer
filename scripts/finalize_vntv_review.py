@@ -41,14 +41,22 @@ underwater), this script starts from that candidate's ipa_actual_ga
 instead of the raw phonemic ipa, so both changes end up combined in the
 final result.
 """
+
+import sys
+from pathlib import Path
+
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+import paths
 import json
 import pathlib
 
-REVIEW_LIST = pathlib.Path("phase2a_review_needed.json")
-EXPORT = pathlib.Path("review-vntv-export.json")
-EXISTING_CANDIDATES = pathlib.Path("phase2a_flap_candidates.json")
-OUT_FINAL = pathlib.Path("phase2a_final_candidates.json")
-OUT_UNRESOLVED = pathlib.Path("phase2a_still_unresolved.json")
+REVIEW_LIST = paths.REVIEW_NEEDED
+EXPORT = paths.VNTV_EXPORT
+EXISTING_CANDIDATES = paths.FLAP_CANDIDATES
+OUT_FINAL = paths.FINAL_CANDIDATES
+OUT_UNRESOLVED = paths.STILL_UNRESOLVED
 
 MULTI_GA = ["tʃ", "dʒ", "eɪ", "aɪ", "ɔɪ", "oʊ", "aʊ", "n̩", "l̩", "m̩"]
 VOWELS_GA = {"i", "ɪ", "ɛ", "æ", "ə", "ʌ", "ɑ", "ɔ", "ʊ", "u", "ɝ", "ɚ",

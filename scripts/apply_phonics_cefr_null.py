@@ -26,14 +26,21 @@ independent phonics axis (src: "phonics") for Mode A phonics drills.
 
 See docs/wordlist-cefr-audit.md for before/after statistics.
 """
+
+import sys
+from pathlib import Path
+
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+import paths
 import json
 import pathlib
 import sys
 from collections import Counter
 
-ROOT = pathlib.Path(__file__).resolve().parents[1]
-INPUT = ROOT / "wordlist_GA_a1a2_plus_phonics.json"
-BACKUP = ROOT / "wordlist_GA_a1a2_plus_phonics.pre-phase0a.json"
+INPUT = paths.WORDLIST
+BACKUP = paths.WORDLIST_BACKUP_PHASE0A
 
 
 def main():

@@ -8,12 +8,20 @@ for the two words this intentionally corrects: middle, thirty).
 
 Does NOT touch: ipa_actual_rp, respell_ga, respell_rp, or any other field.
 """
+
+import sys
+from pathlib import Path
+
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+import paths
 import json
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-WORDLIST = ROOT / "wordlist_GA_a1a2_plus_phonics.json"
-CANDIDATES = ROOT / "phase2a_flap_candidates.json"
+ROOT = paths.ROOT
+WORDLIST = paths.WORDLIST
+CANDIDATES = paths.FLAP_CANDIDATES
 
 
 def main():

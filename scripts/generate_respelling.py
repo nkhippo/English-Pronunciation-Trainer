@@ -19,13 +19,21 @@ other edge case the algorithm can't resolve confidently) are written to
 an exceptions file for manual / Sonnet / (rarely) Opus review, rather than
 guessed.
 """
+
+import sys
+from pathlib import Path
+
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+import paths
 import json
 import pathlib
 from collections import Counter
 
-WORDLIST = pathlib.Path("wordlist_GA_a1a2_plus_phonics.json")
-OUT_RESPELL = pathlib.Path("phase2b_respell_draft.json")
-OUT_EXCEPTIONS = pathlib.Path("phase2b_respell_exceptions.json")
+WORDLIST = paths.WORDLIST
+OUT_RESPELL = paths.RESPELL_DRAFT
+OUT_EXCEPTIONS = paths.RESPELL_EXCEPTIONS
 
 # ---------------------------------------------------------------------------
 # Tokenizers (mirror index.html MULTI_GA / MULTI_RP / VOWELS_GA / VOWELS_RP,
@@ -283,7 +291,7 @@ def respell(ipa_str, accent):
 
 def main():
     data = json.loads(WORDLIST.read_text(encoding="utf-8"))
-    pending_path = pathlib.Path("phase2a_review_needed.json")
+    pending_path = paths.REVIEW_NEEDED
     pending_words = set()
     if pending_path.exists():
         pending_words = {r["w"] for r in json.loads(pending_path.read_text(encoding="utf-8"))}
@@ -315,7 +323,7 @@ def main():
         if not ok:
             continue
         if word in pending_words:
-            entry["note"] = "tentative — GA narrow IPA not yet confirmed by TTS review (see phase2a_review_needed.json)"
+            entry["note"] = "tentative — GA narrow IPA not yet confirmed by TTS review (see data/pipeline/phase2a_review_needed.json)"
             pending.append(entry)
         else:
             drafts.append(entry)
@@ -328,7 +336,7 @@ def main():
         json.dumps(exceptions, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8"
     )
-    pathlib.Path("phase2b_respell_pending.json").write_text(
+    paths.RESPELL_PENDING.write_text(
         json.dumps(pending, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8"
     )

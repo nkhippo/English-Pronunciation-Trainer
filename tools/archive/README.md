@@ -11,4 +11,4 @@ python3 -m http.server 8000
 # open http://localhost:8000/tools/archive/review-vntv.html
 ```
 
-Note: `review-vntv.html` fetches `phase2a_review_needed.json` from the same directory.
+Note: `review-vntv.html` fetches `data/pipeline/phase2a_review_needed.json` (relative to repo root via `../../data/pipeline/`).

@@ -1,12 +1,20 @@
 #!/usr/bin/env python3
+
+import sys
+from pathlib import Path
+
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+import paths
 """Merge thin_phoneme_patch.json into production wordlist."""
 import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-WORDLIST = ROOT / "wordlist_GA_a1a2_plus_phonics.json"
-PATCH = ROOT / "data" / "thin_phoneme_patch.json"
-CLEAR = ROOT / "docs" / "gloss-corrections.clear.json"
+WORDLIST = paths.WORDLIST
+PATCH = paths.THIN_PHONEME_PATCH
+CLEAR = paths.GLOSS_CORRECTIONS
 
 CEFR_ORDER = {"A1": 0, "A2": 1, "B1": 2, "B2": 3}
 

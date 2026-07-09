@@ -1,10 +1,17 @@
 #!/usr/bin/env python3
 """Verify tokenizer can parse every ipa_actual_ga entry without errors."""
+
+import sys
+from pathlib import Path
+
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+import paths
 import json
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-WORDLIST = ROOT / "wordlist_GA_a1a2_plus_phonics.json"
+WORDLIST = paths.WORDLIST
 
 MULTI_GA = ["tʃ", "dʒ", "eɪ", "aɪ", "ɔɪ", "oʊ", "aʊ", "n̩", "l̩", "m̩"]
 

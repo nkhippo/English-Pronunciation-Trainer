@@ -136,7 +136,7 @@
     URL.revokeObjectURL(a.href);
   }
   async function init() {
-    const res = await fetch("phase2a_review_needed.json");
+    const res = await fetch("../../data/pipeline/phase2a_review_needed.json");
     const raw = await res.json();
     entries = Array.isArray(raw) ? raw : (raw.entries || []);
     loadState();

@@ -8,10 +8,11 @@ from pathlib import Path
 
 from deep_translator import GoogleTranslator
 
-ROOT = Path(__file__).resolve().parents[1]
-JSON_PATH = ROOT / "wordlist_GA_a1a2_plus_phonics.json"
-CSV_PATH = ROOT / "wordlist_GA_a1a2_plus_phonics.csv"
-CHECKPOINT_DIR = ROOT / "scripts"
+import paths
+
+JSON_PATH = paths.WORDLIST
+CSV_PATH = paths.WORDLIST_CSV
+CHECKPOINT_DIR = paths.ROOT / "scripts"
 BATCH = 50
 SLEEP = 0.15
 TARGETS = [("ja", "ja"), ("zh-CN", "zh"), ("ko", "ko")]

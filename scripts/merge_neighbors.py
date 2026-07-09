@@ -1,13 +1,21 @@
 #!/usr/bin/env python3
 """Merge neighbors field from slim wordlist into production wordlist."""
+
+import sys
+from pathlib import Path
+
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+import paths
 import json
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-WORDLIST = ROOT / "wordlist_GA_a1a2_plus_phonics.json"
-NEIGHBORS_SRC = ROOT / "data" / "wordlist_with_neighbors_slim.json"
-CLEAR = ROOT / "docs" / "gloss-corrections.clear.json"
+WORDLIST = paths.WORDLIST
+NEIGHBORS_SRC = paths.WORDLIST_NEIGHBORS_SLIM
+CLEAR = paths.GLOSS_CORRECTIONS
 
 
 def apply_clear(rows, clear):

@@ -1,11 +1,19 @@
 #!/usr/bin/env python3
 """Apply Phase 2a final narrow IPA candidates (52 VntV words) to the wordlist."""
+
+import sys
+from pathlib import Path
+
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+import paths
 import json
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-WORDLIST = ROOT / "wordlist_GA_a1a2_plus_phonics.json"
-FINAL = ROOT / "phase2a_final_candidates.json"
+ROOT = paths.ROOT
+WORDLIST = paths.WORDLIST
+FINAL = paths.FINAL_CANDIDATES
 
 
 def main():

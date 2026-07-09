@@ -1,4 +1,12 @@
 #!/usr/bin/env python3
+
+import sys
+from pathlib import Path
+
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+import paths
 # -*- coding: utf-8 -*-
 """
 gen_rp_ipa.py
@@ -12,9 +20,9 @@ import json, time, re, sys, os
 
 # ── 設定 ──────────────────────────────────────────
 BATCH_SIZE   = 80
-PROGRESS_FILE = "rp_progress.json"
-COMPLETE_FILE = "rp_complete.json"
-INPUT_FILE    = "wordlist_GA_a1a2_plus_phonics.json"
+PROGRESS_FILE = str(paths.RP_PROGRESS)
+COMPLETE_FILE = str(paths.RP_COMPLETE)
+INPUT_FILE    = str(paths.WORDLIST)
 # ──────────────────────────────────────────────────
 
 SYSTEM_PROMPT = """You are a precise British English phonetician. 

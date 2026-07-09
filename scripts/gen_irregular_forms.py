@@ -10,7 +10,15 @@ gen_irregular_forms.py  (STEP4-c)
 import json, re
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
+import sys
+from pathlib import Path
+
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+import paths
+
+ROOT = paths.ROOT
 
 # ── ARPAbet → IPA (既存パイプラインと同一の変換器) ──
 ARPA={'AA':'ɑ','AE':'æ','AO':'ɔ','AW':'aʊ','AY':'aɪ','EH':'ɛ','EY':'eɪ','IH':'ɪ','IY':'i',
@@ -77,7 +85,7 @@ for line in open('cmudict.dict',encoding='utf-8'):
     cmu.setdefault(w,p[1:])
 
 # ── 既存 wordlist（原形の gloss 流用元）──
-data=json.load(open(ROOT / 'wordlist_GA_a1a2_plus_phonics.json', encoding='utf-8'))
+data=json.load(open(paths.WORDLIST, encoding='utf-8'))
 EX={e['w']:e for e in data}
 
 # ── 役割ラベルの各言語表記 ──
@@ -184,7 +192,7 @@ for base,form,role in VERB_FORMS:
 for base,form in PLURALS:
     add_entry(form, base, 'plural', '名詞（不規則複数）', 'irregular_plural')
 
-json.dump(out, open(ROOT / 'data' / 'irregular_forms_patch.json','w',encoding='utf-8'), ensure_ascii=False, indent=1)
+json.dump(out, open(paths.IRREGULAR_FORMS_PATCH,'w',encoding='utf-8'), ensure_ascii=False, indent=1)
 
 print(f'生成: {len(out)}語 (動詞変化形 + 不規則複数)')
 print()

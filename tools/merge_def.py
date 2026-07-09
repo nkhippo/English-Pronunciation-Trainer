@@ -5,8 +5,8 @@ import glob
 import os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-WL = os.path.join(ROOT, "wordlist_GA_a1a2_plus_phonics.json")
-BATCH_GLOB = os.path.join(ROOT, "data", "def-batch*.json")
+WL = str(paths.WORDLIST)
+BATCH_GLOB = str(paths.PATCHES / "def-batch*.json")
 
 wl = json.load(open(WL, encoding="utf-8"))
 def_map = {}

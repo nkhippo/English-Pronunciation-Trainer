@@ -1,4 +1,12 @@
 #!/usr/bin/env python3
+
+import sys
+from pathlib import Path
+
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+import paths
 # -*- coding: utf-8 -*-
 """
 gen_thin_phoneme_words.py  (STEP4-d)
@@ -132,7 +140,7 @@ for w,cefr,pos,gloss in WORDS:
     out.append({'w':w,'ipa':ipa,'cefr':cefr,'pos':pos,
                 'src':'phoneme_fill','pattern':None,'group':None,'gloss':gloss})
 
-json.dump(out, open(ROOT / 'data' / 'thin_phoneme_patch.json','w',encoding='utf-8'), ensure_ascii=False, indent=1)
+json.dump(out, open(paths.THIN_PHONEME_PATCH,'w',encoding='utf-8'), ensure_ascii=False, indent=1)
 print(f'生成: {len(out)}語')
 print()
 # 音素別確認

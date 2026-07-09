@@ -1,5 +1,14 @@
 #!/usr/bin/env python3
-"""Regenerate docs/i18n-audit.md and docs/gloss-flags.md from repo state."""
+
+import sys
+from pathlib import Path
+
+_ROOT = Path(__file__).resolve().parents[1]
+_SCRIPTS = _ROOT / "scripts"
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+import paths
+"""Regenerate docs/reference/i18n-audit.md and gloss-flags.md from repo state."""
 import json
 import os
 import re
@@ -9,9 +18,9 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 UI_DIR = os.path.join(ROOT, "i18n")
 PH_DIR = os.path.join(ROOT, "i18n", "phonemes")
 HTML = os.path.join(ROOT, "index.html")
-WORDLIST = os.path.join(ROOT, "wordlist_GA_a1a2_plus_phonics.json")
-AUDIT_OUT = os.path.join(ROOT, "docs", "i18n-audit.md")
-FLAGS_OUT = os.path.join(ROOT, "docs", "gloss-flags.md")
+WORDLIST = str(paths.WORDLIST)
+AUDIT_OUT = str(paths.DOCS / "reference" / "i18n-audit.md")
+FLAGS_OUT = str(paths.DOCS / "reference" / "gloss-flags.md")
 LANGS = ["en", "ja", "zh-Hans", "zh-Hant", "ko", "fil"]
 GEN_DATE = "2026-07-07"
 

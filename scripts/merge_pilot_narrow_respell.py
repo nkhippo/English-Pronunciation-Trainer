@@ -1,11 +1,19 @@
 #!/usr/bin/env python3
 """Merge pilot 30-word narrow IPA + respelling data into wordlist."""
+
+import sys
+from pathlib import Path
+
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+import paths
 import json
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-WORDLIST = ROOT / "wordlist_GA_a1a2_plus_phonics.json"
-PILOT = ROOT / "pilot-30words.json"
+ROOT = paths.ROOT
+WORDLIST = paths.WORDLIST
+PILOT = paths.PILOT_30
 
 
 def main():

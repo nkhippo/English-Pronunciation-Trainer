@@ -7,7 +7,9 @@ from pathlib import Path
 from deep_translator import GoogleTranslator
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "i18n" / "phonemes"
+import paths
+
+OUT = paths.I18N / "phonemes"
 EN_PATH = OUT / "en.json"
 SLEEP = 0.15
 

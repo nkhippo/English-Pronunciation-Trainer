@@ -4,8 +4,9 @@
 > 機能追加や仕様相談の前提資料として利用してください。  
 > 目的の正本は `docs/PURPOSE.md`、実装設計は `docs/DESIGN.md`（衝突時は PURPOSE → DESIGN → 本書の順で参照）。
 
-**最終更新:** 2026-07-06  
-**対象コード:** `index.html`、`wordlist_GA_a1a2_plus_phonics.json`、`data/connected_speech.json`、`data/weak_forms.json`、`data/guide.json`、`i18n/`、`gas/`（`Code.gs`・`BatchWarm.gs`・`BatchWords.gs`）
+**最終更新:** 2026-07-09  
+**対象コード:** `index.html`、`wordlist_GA_a1a2_plus_phonics.json`、`data/connected_speech.json`、`data/weak_forms.json`、`data/guide.json`、`i18n/`、`gas/`（`Code.gs`・`BatchWarm.gs`・`BatchWords.gs`）  
+**リポジトリ構成:** `docs/REPOSITORY-STRUCTURE.md`（フォルダマップ・AI向け）
 
 ---
 
@@ -249,7 +250,7 @@ topbar の `#vocabBtn` から起動。プレイ中も利用可。Words（wordlis
 
 ### 5.1 単語データ — `wordlist_GA_a1a2_plus_phonics.json`
 
-約 **3,059 語**。主要フィールド:
+約 **4,439 語**（オリジナル 3,059 + Phase 1 M1–M4 で +1,380 B1）。主要フィールド:
 
 ```json
 {
@@ -286,21 +287,23 @@ topbar の `#vocabBtn` から起動。プレイ中も利用可。Words（wordlis
 | `pattern` / `group` | 規則語フィルタ・発音ポイント |
 | `cefr` | CEFR レベル（`A1` / `A2` / `B1` / `B2`）。2026-07-07 訂正で `src: phonics` 652語の `cefr` は CEFR-J 一次データに基づく B1/B2 へ復元 |
 
-#### `cefr` フィールドの現状（2026-07-07 訂正後）
+#### `cefr` フィールドの現状（2026-07-09）
 
 - 値: `"A1"` / `"A2"` / `"B1"` / `"B2"`
-- 分布: A1=1,187 / A2=1,195 / B1=347 / B2=330
+- 分布: A1=1,187 / A2=1,195 / **B1=1,727** / B2=330
 - `src: "phonics"` の 652語は CEFR-J Wordlist v1.5 一次データ照合で B1/B2 正当語彙と確認され、`null` 化は取り消し済み
-- Mode A の CEFR フィルタは Phase 0-b で実装済み（A1/A2/B1 UI）
-- Mode B は `MODEB_BANDS` を参照し、B1/B2 バンドは空ではない（B1=347, B2=330）
+- Mode A の CEFR フィルタは Phase 0-b で実装済み（A1/A2/B1 UI、複数選択）
+- Mode B は `MODEB_BANDS` を参照。B1/B2 バンドは空ではない
+
+**パイプライン補足:** narrow IPA 候補・respelling のステージング JSON は `data/pipeline/`。バッチソースは `data/batches/`。詳細は `docs/REPOSITORY-STRUCTURE.md`。
 
 ### 5.2 連結句 — `data/connected_speech.json`
 
-**201 句。** フィールド: `id`, `w`, `ipa`, `rp_ipa`, `cs_type`, `level` (1–3), `cs_rule` (en/ja/**fil**), `gloss`, `carrier`（キャリア文テンプレート）。
+**201 句。** フィールド: `id`, `w`, `ipa`, `rp_ipa`, `cs_type`, `level` (1–3), **`cefr`** (A1–B2、2026-07-09 付与), `cs_rule` (en/ja/**fil**), `gloss`, `carrier`（キャリア文テンプレート）。
 
 ### 5.2b 弱形 — `data/weak_forms.json`
 
-**36 語。** フィールド: `id`, `w`（機能語）, `ipa`（弱形）, `strong_ipa`, `level` (1–3), `cs_rule` (en/ja/**fil**), `carrier`（キャリア文テンプレート）。Decode のみ。TTS は `?weak=/IPA/&ww=word&accent=ga|rp`。
+**36 語。** フィールド: `id`, `w`（機能語）, `ipa`（弱形）, `strong_ipa`, `level` (1–3), **`cefr`** (A2/B1、2026-07-09 付与), `cs_rule` (en/ja/**fil**), `carrier`（キャリア文テンプレート）。Decode のみ。TTS は `?weak=/IPA/&ww=word&accent=ga|rp`。
 
 ### 5.2c 学習ガイド — `data/guide.json`
 
@@ -342,14 +345,14 @@ UI i18n とは独立。各言語キー（`en`, `ja`, `ko`, `zh-Hans`, `zh-Hant`,
 | 進捗 | localStorage のみ（端末・ブラウザ単位） |
 | 連結句 TTS | GA 固定。RP 連結音声は未対応 |
 | 弱形 TTS | GA/RP 対応（`?weak=`）。キャリア文内の弱形 IPA を指示文で指定 |
-| gloss.fil / cs_rule.fil | gloss.fil **3,059/3,059**（batch01–34）。cs_rule.fil **237/237**（Tier 4 完了） |
-| `def`（英語定義） | **3,059/3,059**（batch01–08）。Mode B Study reveal・語彙ブラウザ（英語 UI） |
-| Mode B 語彙 | 主データは A1–A2 + phonics。上級日常語拡張は継続 |
-| `neighbors_rp` | 保留（`docs/rp-neighbors-priority-decision.md`） |
+| gloss.fil / cs_rule.fil | gloss.fil **4,439/4,439**（全語彙）。cs_rule.fil **237/237**（連結201+弱形36） |
+| `def`（英語定義） | オリジナル 3,059語 batch01–08 完走。Phase 1 追加語は各バッチの `def` 付き |
+| Mode B 語彙 | B1=1,727 まで拡充（Phase 1 M4 完了。M5 で残り ~389 B1 予定） |
+| `neighbors_rp` | 保留（`docs/reference/rp-neighbors-priority-decision.md`） |
 | TTS プリフェッチ | Words / Mode B のみ。Connected Speech はオンデマンド |
 | GA バッチ warm | `gas/BatchWarm.gs`（`gas/README.md` 参照） |
 | 要注意音素 | `phonemes/*.json` の `t:1` + コード内 TRAPSET |
-| 関連ドキュメント | `PURPOSE.md`, `DESIGN.md`, `gas/README.md`, `docs/rp-tts-design-and-priority.md` |
+| 関連ドキュメント | `PURPOSE.md`, `DESIGN.md`, `REPOSITORY-STRUCTURE.md`, `gas/README.md`, `docs/reference/rp-tts-design-and-priority.md` |
 
 ---
 
@@ -357,6 +360,7 @@ UI i18n とは独立。各言語キー（`en`, `ja`, `ko`, `zh-Hans`, `zh-Hant`,
 
 | 日付 | 内容 |
 |------|------|
+| 2026-07-09 | v3.11 リポジトリ構成整理（`data/batches`・`pipeline`・`patches`、`docs/cursor`）。語数 4,439・B1=1,727。連結/弱形 `cefr`。`REPOSITORY-STRUCTURE.md` 追加。 |
 | 2026-07-06 | 学習モード名称を行為ベースに刷新（`mode.a` / `modeb.title`）。セットアップの詳細フィルタを折りたたみ。プレイ中パンくず追加。反対アクセント表示拡張。respelling UI 非表示。Mode B [次へ] 統一。i18n 161 キー |
 | 2026-07-07 | CEFR Phase 0-a 訂正: phonics 652語の `cefr` を CEFR-J 一次データに基づく B1/B2 へ復元（B1=347、B2=330） |
 | 2026-07-07 | 中文 UI を `zh-Hant`（繁體）と `zh-Hans`（简体）に分離。旧 `zh` ユーザーは `zh-Hans` へ自動移行 |

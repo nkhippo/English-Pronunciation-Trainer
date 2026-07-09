@@ -33,13 +33,21 @@ MECE rule set (GA, citation-form single words; no cross-word sandhi):
 No LLM is used in this script. Every word below is produced by pure regex /
 tokenizer logic over the existing phonemic `ipa` field.
 """
+
+import sys
+from pathlib import Path
+
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+import paths
 import json
 import re
 import pathlib
 
-WORDLIST = pathlib.Path("wordlist_GA_a1a2_plus_phonics.json")
-OUT_CANDIDATES = pathlib.Path("phase2a_flap_candidates.json")
-OUT_REVIEW = pathlib.Path("phase2a_review_needed.json")
+WORDLIST = paths.WORDLIST
+OUT_CANDIDATES = paths.FLAP_CANDIDATES
+OUT_REVIEW = paths.REVIEW_NEEDED
 
 # --- tokenizer: mirrors index.html MULTI_GA / VOWELS_GA -------------------
 MULTI_GA = ["tʃ", "dʒ", "eɪ", "aɪ", "ɔɪ", "oʊ", "aʊ"]
