@@ -40,4 +40,4 @@ neighbors 再計算は不要（`rp_ipa` は neighbors 生成に未使用）。
 
 - `docs/reference/phase2-m2-completion-summary.md`
 - `docs/reference/r4-pending-review-guide.md`
-- `docs/reference/r4_pending_review_list.csv` / `.json`
+- `data/pipeline/r4_pending_review_list.csv` / `.json`

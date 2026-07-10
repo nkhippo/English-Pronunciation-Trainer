@@ -4,8 +4,8 @@
 > 機能追加や仕様相談の前提資料として利用してください。  
 > 目的の正本は `docs/PURPOSE.md`、実装設計は `docs/DESIGN.md`（衝突時は PURPOSE → DESIGN → 本書の順で参照）。
 
-**最終更新:** 2026-07-09（`ga_rp_same` フラグ導入・離脱確認モーダル・反対アクセント表示形式・CEFR フィルタ非活性）  
-**対象コード:** `index.html`、`wordlist_GA_a1a2_plus_phonics.json`、`data/connected_speech.json`、`data/weak_forms.json`、`data/guide.json`、`i18n/`、`gas/`（`Code.gs`・`BatchWarm.gs`・`BatchWords.gs`）  
+**最終更新:** 2026-07-10（進捗チェック・Phrases CEFR バッジ・Phase 2 M2 語彙 5,397）  
+**対象コード:** `index.html`、`wordlist_GA_a1a2_plus_phonics.json`（**5,397 語**）、`data/connected_speech.json`、`data/weak_forms.json`、`data/guide.json`、`i18n/`、`gas/`  
 **リポジトリ構成:** `docs/REPOSITORY-STRUCTURE.md`（フォルダマップ・AI向け）
 
 ---
@@ -69,7 +69,7 @@
 - **音素フォーカス（主）:** All / Trap sounds / Weak spots / Alphabet / Contractions / Irregular forms / Casual speech
 - **綴りタイプ（従）:** All / Regular patterns / Irregular
 - **規則グループ（Regular 時）:** Short / Long·silent e / Vowel teams / R-colored vowels
-- **適応出題:** セッション開始時に `ept_hist_v1`・`ept_sym_v1` に基づき全プール分の出題順を決定（Leitner + 弱点記号ターゲット。詳細は `DESIGN.md` §1.4）
+- **適応出題:** セッション開始時に `ept_hist_v1`・`ept_sym_v1`・**`ept_checks_v1`** に基づき全プール分の出題順を決定（Leitner + 弱点記号 + **進捗重み付けシャッフル**。詳細は `DESIGN.md` §1.4）
 
 ### 2.3b セッション共通 — 先読み・終了
 
@@ -401,6 +401,7 @@ UI i18n とは独立。各言語キー（`en`, `ja`, `ko`, `zh-Hans`, `zh-Hant`,
 | `ept_sym_v1` | Mode A 記号弱点（Encode のみ更新） |
 | `ept_vocab_v1` | Mode B 語彙 SRS |
 | `ept_vocab_band` | Mode B 現在バンド |
+| `ept_checks_v1` | 手動進捗（モード `d`/`e`/`l` 各 0–3）。語彙ブラウザ・Reveal・Mode B Study で更新 |
 | `ipa_tts_v2:{accent}:{slug}` | TTS MP3（旧キーは GA として移行） |
 
 ### 5.4 セッション状態（メモリ `S`）
@@ -426,9 +427,9 @@ UI i18n とは独立。各言語キー（`en`, `ja`, `ko`, `zh-Hans`, `zh-Hant`,
 | 進捗 | localStorage のみ（端末・ブラウザ単位） |
 | 連結句 TTS | GA 固定。RP 連結音声は未対応 |
 | 弱形 TTS | GA/RP 対応（`?weak=`）。キャリア文内の弱形 IPA を指示文で指定 |
-| gloss.fil / cs_rule.fil | gloss.fil **4,828/4,828**（全語彙）。cs_rule.fil **237/237**（連結201+弱形36） |
-| `def`（英語定義） | オリジナル 3,059語 batch01–08 完走。Phase 1 追加語は各バッチの `def` 付き |
-| Mode B 語彙 | B1=2,116（**Phase 1 B1 拡充完了** 2026-07-09） |
+| gloss.fil / cs_rule.fil | gloss.fil **5,397/5,397**。cs_rule.fil **237/237** |
+| `def`（英語定義） | 全語彙（Phase 1/2 バッチ含む） |
+| Mode B 語彙 | B1=2,116 / **B2=899**（Phase 2 M2 完了 2026-07-10） |
 | `neighbors_rp` | 保留（`docs/reference/rp-neighbors-priority-decision.md`） |
 | TTS プリフェッチ | 全モード。キュー追加時に `prefetchItemsAudio`（6 問初期 / ストック&lt;5 で 5 問追加） |
 | GA バッチ warm | `gas/BatchWarm.gs`（`gas/README.md` 参照） |

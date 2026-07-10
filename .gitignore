@@ -2,3 +2,4 @@
 .env
 .env.*
 *.pre-phase0a.json
+scripts/*.log

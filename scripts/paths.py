@@ -6,14 +6,14 @@ Runtime assets loaded by index.html keep stable URLs under data/ and repo root.
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+DATA = ROOT / "data"
 
 # --- Production wordlist (runtime: index.html fetch) ---
 WORDLIST = ROOT / "wordlist_GA_a1a2_plus_phonics.json"
 WORDLIST_CSV = ROOT / "wordlist_GA_a1a2_plus_phonics.csv"
-WORDLIST_BACKUP_PHASE0A = ROOT / "wordlist_GA_a1a2_plus_phonics.pre-phase0a.json"
+WORDLIST_BACKUP_PHASE0A = DATA / "archive" / "wordlist_GA_a1a2_plus_phonics.pre-phase0a.json"
 
 # --- Runtime JSON (loaded by index.html) ---
-DATA = ROOT / "data"
 CONNECTED_SPEECH = DATA / "connected_speech.json"
 WEAK_FORMS = DATA / "weak_forms.json"
 GUIDE = DATA / "guide.json"
@@ -25,6 +25,9 @@ BATCHES = DATA / "batches"
 PIPELINE = DATA / "pipeline"
 FLAP_CANDIDATES = PIPELINE / "phase2a_flap_candidates.json"
 REVIEW_NEEDED = PIPELINE / "phase2a_review_needed.json"
+R4_REVIEW_LIST_JSON = PIPELINE / "r4_pending_review_list.json"
+R4_REVIEW_LIST_CSV = PIPELINE / "r4_pending_review_list.csv"
+GA_RP_SAME_REPORT = PIPELINE / "ga_rp_same_report.json"
 FINAL_CANDIDATES = PIPELINE / "phase2a_final_candidates.json"
 STILL_UNRESOLVED = PIPELINE / "phase2a_still_unresolved.json"
 RESPELL_DRAFT = PIPELINE / "phase2b_respell_draft.json"
@@ -37,6 +40,7 @@ VNTV_EXPORT = PIPELINE / "review-vntv-export.json"
 
 # --- Generated / intermediate datasets ---
 DERIVED = DATA / "derived"
+ARCHIVE = DATA / "archive"
 RP_COMPLETE = DERIVED / "rp_complete.json"
 RP_PROGRESS = DERIVED / "rp_progress.json"
 WORDLIST_NEIGHBORS = DERIVED / "wordlist_with_neighbors.json"

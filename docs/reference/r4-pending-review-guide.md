@@ -69,7 +69,7 @@
 
 ### 3-2. レビューフロー（推奨: バッチで進める）
 
-**添付ファイル `r4_pending_review_list.csv` を使う:**
+**添付ファイル `data/pipeline/r4_pending_review_list.csv` を使う:**
 
 | 列 | 意味 |
 |---|---|
@@ -144,8 +144,11 @@ Naoya が CSV に列を追加して判定を記入:
 
 | ファイル | 用途 |
 |---|---|
-| `r4_pending_review_list.json` | 機械可読形式（Claude や Cursor で使用） |
-| `r4_pending_review_list.csv` | Naoya がレビュー時に列追記する作業ファイル |
+| File | 場所 | 意味 |
+|------|------|------|
+| `r4_pending_review_list.json` | `data/pipeline/` | 機械可読形式（Claude や Cursor で使用） |
+| `r4_pending_review_list.csv` | `data/pipeline/` | Naoya がレビュー時に列追記する作業ファイル |
+| `phase2a_review_needed.json` | `data/pipeline/` | 抽出元（127 語） |
 
 ---
 

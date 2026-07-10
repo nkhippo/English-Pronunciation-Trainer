@@ -9,20 +9,23 @@ GitHub Pages: https://nkhippo.github.io/English-Pronunciation-Trainer/
 ## 機能
 
 - **IPA読み書き (Mode A)** — Decode（IPA→綴り）/ Encode（綴り→IPA）、音素フォーカス・CEFR フィルタ
-- **聞いて覚える (Mode B)** — Study + MCQ/ディクテーション、CEFR バンド進行
+- **聞いて覚える (Mode B)** — Study、CEFR バンド進行（A1–B2）
 - **連結音・弱形** — 201 句 + 36 弱形（Connected Speech タブ）
-- 語彙 **4,439 語**（gloss 5 言語）、TTS は GAS プロキシ + Drive/localStorage キャッシュ
+- 語彙 **5,397 語**（gloss 5 言語、B2=899）、進捗チェック（3 スロット × 3 モード）
+- TTS は GAS プロキシ + Drive/localStorage キャッシュ
 
-## ドキュメント
+## ドキュメント（AI / 開発者向け）
 
 | ファイル | 説明 |
 |---------|------|
-| [`docs/REPOSITORY-STRUCTURE.md`](docs/REPOSITORY-STRUCTURE.md) | **フォルダ構成マップ（Claude / AI 向け）** |
+| [`docs/REPOSITORY-STRUCTURE.md`](docs/REPOSITORY-STRUCTURE.md) | **フォルダ構成マップ（Claude 共有用・最初に読む）** |
 | [`docs/PURPOSE.md`](docs/PURPOSE.md) | 目的・モード構成の正本 |
 | [`docs/DESIGN.md`](docs/DESIGN.md) | 実装設計仕様 |
-| [`docs/SPECIFICATION.md`](docs/SPECIFICATION.md) | 仕様書（画面・データの正本） |
+| [`docs/SPECIFICATION.md`](docs/SPECIFICATION.md) | 画面・データ・localStorage の正本 |
+| [`docs/reference/README.md`](docs/reference/README.md) | 監査・運用ガイドの索引 |
+| [`data/README.md`](data/README.md) | `data/` 配下（runtime / batches / pipeline / derived）の見分け方 |
 
-## 主要ファイル
+## 主要パス
 
 | パス | 説明 |
 |------|------|
@@ -30,19 +33,11 @@ GitHub Pages: https://nkhippo.github.io/English-Pronunciation-Trainer/
 | `wordlist_GA_a1a2_plus_phonics.json` | 本番語彙（ルート・ランタイム読込） |
 | `data/connected_speech.json` | 連結句 201 |
 | `data/weak_forms.json` | 弱形 36 |
-| `data/batches/` | Phase 1 マージ用ソース JSON |
+| `data/batches/` | 語彙マージ入力 JSON |
 | `data/pipeline/` | narrow IPA / respelling ステージング |
+| `data/derived/` | neighbors・RP IPA 進捗 |
 | `scripts/paths.py` | パイプライン用パス正本 |
-| `gas/` | TTS プロキシ（`gas/README.md` 参照） |
-
-## ドキュメント
-
-| パス | 説明 |
-|------|------|
-| `docs/REPOSITORY-STRUCTURE.md` | フォルダ構成・AI 向けオリエンテーション |
-| `docs/PURPOSE.md` / `DESIGN.md` / `SPECIFICATION.md` | 正本仕様 |
-| `docs/reference/README.md` | 相談用 reference 資料の索引 |
-| `docs/cursor/briefs/cursor-ga-rp-same-flag-consultation.md` | GA↔RP 同一判定フラグ（Claude 相談ブリーフ） |
+| `gas/` | TTS プロキシ（`gas/README.md`） |
 
 ## ローカル確認
 
