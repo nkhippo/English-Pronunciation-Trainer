@@ -2253,6 +2253,14 @@ async function prefetchIdleBodies(words, accent, token) {
   }
 }
 
+function scheduleIdle(fn, timeout) {
+  if (typeof requestIdleCallback === "function") {
+    requestIdleCallback(() => fn(), { timeout: timeout || 5000 });
+  } else {
+    setTimeout(fn, timeout || 5000);
+  }
+}
+
 async function prefetchAccentBodies(accent) {
   if (!S.queue.length) return;
   const token = ++prefetchToken;
@@ -2313,34 +2321,49 @@ function prefetchItemsAudio(items) {
   refreshAllSpeakers();
 
   (async () => {
-    if (words.length) {
-      await Promise.all([gasWarm(words, cur, token), gasWarm(words, other, token)]);
+    // FAST PATH: first word body fetch without waiting for warm
+    const firstWord = wordItems[0] && wordItems[0].w;
+    if (firstWord && !hasCachedAudioFor(firstWord, cur)) {
+      fetchBodyToCache(firstWord, cur, token);
+    } else if (firstWord) {
+      audioReady.set(audioReadyKey(firstWord, cur), "ready");
+      refreshSpeakerFor(firstWord, cur);
     }
-    if (token !== prefetchToken) return;
+
+    // Current-accent warm is fire-and-forget (does not gate body pipeline)
+    if (words.length) gasWarm(words, cur, token);
+
+    // Remaining words: parallel body fetch (firstWord excluded to avoid double-fetch)
+    const remaining = firstWord ? words.filter(w => w !== firstWord) : words.slice();
     let wi = 0;
     async function bodyWorker() {
-      while (wi < words.length) {
+      while (wi < remaining.length) {
         if (token !== prefetchToken) return;
-        const w = words[wi++];
+        const w = remaining[wi++];
         await fetchBodyToCache(w, cur, token);
       }
     }
-    await Promise.all(Array.from({ length: PREFETCH.bodyParallel }, bodyWorker));
+    if (remaining.length) {
+      await Promise.all(Array.from({ length: PREFETCH.bodyParallel }, bodyWorker));
+    }
     if (token !== prefetchToken) return;
+
     for (const c of specialItems) {
       if (token !== prefetchToken) return;
       if (isConnectedItem(c)) await fetchBodyToCacheItem(c, "ga", token);
       else {
         await fetchBodyToCacheItem(c, cur, token);
-        if (token !== prefetchToken) return;
-        if (cur !== other) await fetchBodyToCacheItem(c, other, token);
+        // Opposite-accent weak body deferred with idle warm (not on Start critical path)
       }
     }
     if (token !== prefetchToken) return;
+
+    // Opposite accent: idle warm only (body fetch on accent switch via prefetchAccentBodies)
     if (words.length) {
-      const idleFn = () => prefetchIdleBodies(words, other, token);
-      if (typeof requestIdleCallback === "function") requestIdleCallback(idleFn, { timeout: 30000 });
-      else setTimeout(idleFn, 2000);
+      scheduleIdle(() => {
+        if (token !== prefetchToken) return;
+        gasWarm(words, other, token);
+      }, 8000);
     }
   })();
 }
