@@ -2069,6 +2069,30 @@ async function fetchAudioFromGasAccent(word, accent) {
   return data;
 }
 
+async function fetchUrlsFromGas(words, accent) {
+  const chunk = words.slice(0, PREFETCH.warmChunk);
+  const q = "urls=1&accent=" + accent + "&words=" + encodeURIComponent(chunk.join(","));
+  const res = await fetch(GAS_TTS_URL + "?" + q);
+  if (!res.ok) throw new Error("GAS HTTP " + res.status);
+  const data = await res.json();
+  if (!data.ok) throw new Error(data.error || "GAS urls error");
+  const map = new Map();
+  for (const r of data.results || []) {
+    if (r.url) map.set(r.word, r.url);
+  }
+  return map;
+}
+
+async function fetchAudioFromDriveUrl(url) {
+  const res = await fetch(url);
+  if (!res.ok) throw new Error("Drive HTTP " + res.status);
+  const buf = await res.arrayBuffer();
+  const bytes = new Uint8Array(buf);
+  let bin = "";
+  for (let i = 0; i < bytes.length; i++) bin += String.fromCharCode(bytes[i]);
+  return { mimeType: "audio/mpeg", audio: btoa(bin) };
+}
+
 async function fetchAudioFromGas(text, opts) {
   const o = parseSpeakOpts(opts);
   let q;
@@ -2230,7 +2254,19 @@ async function fetchBodyToCache(word, accent, token) {
     return;
   }
   try {
-    const data = await fetchAudioFromGasAccent(word, accent);
+    // Prefer Drive public URL (bypass GAS base64 proxy); fall back to ?word= base64
+    let data = null;
+    try {
+      const urlMap = await fetchUrlsFromGas([word], accent);
+      if (token !== prefetchToken) return;
+      const url = urlMap.get(word);
+      if (url) data = await fetchAudioFromDriveUrl(url);
+    } catch (urlErr) {
+      data = null;
+    }
+    if (!data) {
+      data = await fetchAudioFromGasAccent(word, accent);
+    }
     if (token !== prefetchToken) return;
     saveAudioToLSAccent(word, accent, data.mimeType, data.audio);
     const blob = new Blob([bytesFromB64(data.audio)], { type: data.mimeType || "audio/mpeg" });
@@ -2333,19 +2369,44 @@ function prefetchItemsAudio(items) {
     // Current-accent warm is fire-and-forget (does not gate body pipeline)
     if (words.length) gasWarm(words, cur, token);
 
-    // Remaining words: parallel body fetch (firstWord excluded to avoid double-fetch)
+    // Remaining words: batch URL fetch (6/chunk) then parallel Drive download
     const remaining = firstWord ? words.filter(w => w !== firstWord) : words.slice();
-    let wi = 0;
-    async function bodyWorker() {
-      while (wi < remaining.length) {
+    async function bodyWorkerBatch() {
+      const chunks = [];
+      for (let k = 0; k < remaining.length; k += PREFETCH.warmChunk) {
+        chunks.push(remaining.slice(k, k + PREFETCH.warmChunk));
+      }
+      for (const chunk of chunks) {
         if (token !== prefetchToken) return;
-        const w = remaining[wi++];
-        await fetchBodyToCache(w, cur, token);
+        try {
+          const urlMap = await fetchUrlsFromGas(chunk, cur);
+          if (token !== prefetchToken) return;
+          await Promise.all(chunk.map(async (w) => {
+            if (token !== prefetchToken) return;
+            if (hasCachedAudioFor(w, cur)) {
+              audioReady.set(audioReadyKey(w, cur), "ready");
+              refreshSpeakerFor(w, cur);
+              return;
+            }
+            const url = urlMap.get(w);
+            if (!url) throw new Error("no url for " + w);
+            const data = await fetchAudioFromDriveUrl(url);
+            if (token !== prefetchToken) return;
+            saveAudioToLSAccent(w, cur, data.mimeType, data.audio);
+            const blob = new Blob([bytesFromB64(data.audio)], { type: data.mimeType || "audio/mpeg" });
+            memAudioCache.set(memKeyAccent(w, cur), URL.createObjectURL(blob));
+            audioReady.set(audioReadyKey(w, cur), "ready");
+            refreshSpeakerFor(w, cur);
+          }));
+        } catch (e) {
+          for (const w of chunk) {
+            if (token !== prefetchToken) return;
+            await fetchBodyToCache(w, cur, token);
+          }
+        }
       }
     }
-    if (remaining.length) {
-      await Promise.all(Array.from({ length: PREFETCH.bodyParallel }, bodyWorker));
-    }
+    if (remaining.length) await bodyWorkerBatch();
     if (token !== prefetchToken) return;
 
     for (const c of specialItems) {
