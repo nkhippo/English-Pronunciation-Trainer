@@ -2,7 +2,7 @@
 
 > 作成日: 2026-06-23  
 > 対象ブランチ: `main`（最新コミット `f60a8c9`）  
-> リポジトリ: [IpaSoundDrill](https://github.com/nkhippo/IpaSoundDrill)
+> リポジトリ: [IPASoundDrill](https://github.com/nkhippo/IPASoundDrill)
 
 Claude 側への作業報告用サマリー。本セッションで実施した実装・反映・検証結果をまとめる。
 

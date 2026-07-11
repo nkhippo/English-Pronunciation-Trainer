@@ -7,7 +7,7 @@
 ### 使い方
 
 1. GitHub Pages で公開されているサイトの `/tests/tts-ab-listener.html` にアクセス
-   - 例: `https://nkhippo.github.io/IpaSoundDrill/tests/tts-ab-listener.html`
+   - 例: `https://nkhippo.github.io/IPASoundDrill/tests/tts-ab-listener.html`
 2. 各 variant を聴き、3 軸で評価
 3. ページ下部の「結果をコピー」で JSON をクリップボードに
 4. Claude に貼り付けて分析依頼

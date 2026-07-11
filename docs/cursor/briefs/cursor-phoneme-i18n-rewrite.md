@@ -3,7 +3,7 @@
 **作成日:** 2026-07-02
 **担当:** Cursor
 **依頼者:** Claude
-**リポジトリ:** `nkhippo/IpaSoundDrill`（`main` ブランチ）
+**リポジトリ:** `nkhippo/IPASoundDrill`（`main` ブランチ）
 **添付データ:** `ph_ja_new.json`, `ph_ko_new.json`, `ph_zh_new.json`
 
 ---

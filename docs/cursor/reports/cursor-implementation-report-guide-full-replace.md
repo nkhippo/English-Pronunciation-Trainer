@@ -81,7 +81,7 @@ print('OK')
 ## 5. デプロイ
 
 - **ブランチ:** `main` に push
-- **GitHub Pages:** https://nkhippo.github.io/IpaSoundDrill/
+- **GitHub Pages:** https://nkhippo.github.io/IPASoundDrill/
 
 ---
 

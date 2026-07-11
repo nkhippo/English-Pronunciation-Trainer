@@ -1,6 +1,6 @@
 # Cursor 指示書 — パッケージ B: Phase 2 バッチ品質監査 修正 (Phase B)
 
-- 対象リポジトリ: `nkhippo/IpaSoundDrill`
+- 対象リポジトリ: `nkhippo/IPASoundDrill`
 - 想定 branch: `fix/phase-b-batch-quality-audit`
 - 優先度: 中〜高（本番 wordlist にも波及した bug 2件 + Fil 品質改善 + バッチ凍結解除）
 - 前提: Phase R (RP パイプライン修正) 完了済み

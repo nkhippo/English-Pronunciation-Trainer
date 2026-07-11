@@ -4,7 +4,7 @@
 **担当:** Cursor
 **依頼者:** Claude
 **前提:** Phase 1（表示ロジック実装）・Phase 2a 指示書（narrow IPA マージ + VntV レビューツール）を確認済み
-**リポジトリ:** `nkhippo/IpaSoundDrill`（`main` ブランチ）
+**リポジトリ:** `nkhippo/IPASoundDrill`（`main` ブランチ）
 **添付データ:** `phase2b_respell_draft.json`（3,007語）、`phase2b_respell_pending.json`（52語・参考情報のみ、今回マージ対象外）
 
 ---

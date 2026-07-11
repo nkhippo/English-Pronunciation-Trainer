@@ -1,6 +1,6 @@
 # Cursor 指示書 — Phase 2 M2a（B2 拡充 100 語）
 
-- 対象リポジトリ: `nkhippo/IpaSoundDrill`
+- 対象リポジトリ: `nkhippo/IPASoundDrill`
 - 前提: `cursor-instructions-rp-ipa-bugfix.md` の適用が完了していること（必須）
 - 想定 branch: `feat/phase2-m2a-b2-100`
 

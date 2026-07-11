@@ -1,6 +1,6 @@
 # Cursor 指示書 — Phase R (Repair): RP パイプライン品質修正
 
-- 対象リポジトリ: `nkhippo/IpaSoundDrill`
+- 対象リポジトリ: `nkhippo/IPASoundDrill`
 - 想定 branch: `fix/phase-r-rp-pipeline-repair`
 - 優先度: 高（本番 wordlist の rp_ipa 品質バグ **82語 + 9語**、および分類器の dead-code / composite gap 修正）
 - 前提: Phase 2 M2 完了時点（wordlist 5,397語、`ga_rp_same` 全語付与済み）

@@ -1,6 +1,6 @@
 # Cursor 指示書 — 進捗チェック機能（3スロット × 3モード）
 
-- 対象リポジトリ: `nkhippo/IpaSoundDrill`
+- 対象リポジトリ: `nkhippo/IPASoundDrill`
 - 想定 branch: `feat/progress-checks`
 - 目的:
   1. **自分の学習の道標**として、単語ごとに進捗を可視化する

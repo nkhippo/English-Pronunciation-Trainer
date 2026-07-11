@@ -1,7 +1,7 @@
 # Cursor 指示書 — CEFR Phase 0-a: フォニックス語の CEFR ラベル是正
 
 > 作成日: 2026-07-07
-> 対象リポジトリ: `nkhippo/IpaSoundDrill`（`main` ブランチ）
+> 対象リポジトリ: `nkhippo/IPASoundDrill`（`main` ブランチ）
 > ゴール: 誤って B1/B2 とラベル付けされているフォニックス練習語 652 語の `cefr` を `null` 化し、CEFR 軸とフォニックス軸を直交する 2 つの独立カテゴリとして扱えるようデータを是正する。
 > **重要な非スコープ:** `index.html` は絶対に触りません。UI 配線（`filteredPool()` 拡張・`lvl.*` ドロップダウン追加）は Phase 0-b として別指示書で発注します（今並行で進行中の zh 分離作業との競合回避のため）。
 

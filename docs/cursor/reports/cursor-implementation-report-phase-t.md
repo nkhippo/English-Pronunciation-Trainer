@@ -3,7 +3,7 @@
 - 実施日: 2026-07-10
 - 指示書: `docs/cursor/instructions/cursor-instructions-phase-t-tts-latency.md`
 - ブランチ: `feat/phase-t-tts-latency` → `main` にマージ済み
-- GitHub Pages: https://nkhippo.github.io/IpaSoundDrill/
+- GitHub Pages: https://nkhippo.github.io/IPASoundDrill/
 
 ## 1. 実施内容
 

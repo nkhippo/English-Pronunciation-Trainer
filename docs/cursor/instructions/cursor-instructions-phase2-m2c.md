@@ -1,6 +1,6 @@
 # Cursor 指示書 — Phase 2 M2c（B2 拡充 201-300 語）
 
-- 対象リポジトリ: `nkhippo/IpaSoundDrill`
+- 対象リポジトリ: `nkhippo/IPASoundDrill`
 - 前提: M2b マージ済み（5,207語）
 - 想定 branch: `feat/phase2-m2c-b2-100`
 

@@ -1,7 +1,7 @@
 # Cursor 指示書 — 中文 UI 分離（`zh` → `zh-Hant` + `zh-Hans`）
 
 > 作成日: 2026-07-07
-> 対象リポジトリ: `nkhippo/IpaSoundDrill`（`main` ブランチ）
+> 対象リポジトリ: `nkhippo/IPASoundDrill`（`main` ブランチ）
 > ゴール: 設定モーダルの言語ピッカーで、中文を「繁體（台灣繁體）」と「简体（简体中文）」の 2 択に分離する。既存 `zh` ユーザーは `zh-Hans` に自動移行。
 > 事前確認済み: `data/guide.json` は既に `zh-Hant` / `zh-Hans` で分離済み（今回は触らない）。Tier 1（UI）と Tier 3（音素解説）のみ対応。
 

@@ -97,7 +97,7 @@ identical fil cells (Mode B distractor-collision candidates): 0
 |------|------|
 | ブランチ | `main` にコミット・push |
 | GitHub Pages | Actions 自動デプロイ |
-| 本番 URL | https://nkhippo.github.io/IpaSoundDrill/ |
+| 本番 URL | https://nkhippo.github.io/IPASoundDrill/ |
 
 **実機確認（fil + Mode B）:**
 

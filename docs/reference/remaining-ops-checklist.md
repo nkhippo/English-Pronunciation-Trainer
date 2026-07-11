@@ -4,7 +4,7 @@
 > **対象:** Phase R / T / V / B を `main` にマージ済みの時点で、**コード外の手動作業**と**意図的に未着手の項目**。  
 > 正本の設計は `PURPOSE.md` / `DESIGN.md` / `SPECIFICATION.md`。詳細手順は各 Phase レポートと `gas/README.md`。
 
-GitHub Pages（静的）: https://nkhippo.github.io/IpaSoundDrill/  
+GitHub Pages（静的）: https://nkhippo.github.io/IPASoundDrill/  
 （`main` push で自動公開。**GAS は別デプロイ**）
 
 ---

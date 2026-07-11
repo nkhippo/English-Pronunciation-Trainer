@@ -96,7 +96,7 @@ identical fil cells (Mode B distractor-collision candidates): 0
 | 項目 | 内容 |
 |------|------|
 | ブランチ | `main` |
-| GitHub Pages | https://nkhippo.github.io/IpaSoundDrill/ |
+| GitHub Pages | https://nkhippo.github.io/IPASoundDrill/ |
 
 **実機確認:** 設定 → Filipino → Mode B。任意の語でタガログ語義が表示される（en フォールバックなし）。
 

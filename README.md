@@ -4,7 +4,7 @@ CEFR 向けの IPA 音写トレーナー（General American / Received Pronuncia
 
 ## デモ
 
-GitHub Pages: https://nkhippo.github.io/IpaSoundDrill/
+GitHub Pages: https://nkhippo.github.io/IPASoundDrill/
 
 ## 機能
 
