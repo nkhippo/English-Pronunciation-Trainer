@@ -117,7 +117,7 @@ https://script.google.com/macros/s/AKfycbyQgqctjbVgZiXoPtUzqnoXNFDvCYKZsN0PLAwMi
 | 項目 | 内容 |
 |------|------|
 | ブランチ | `main` |
-| GitHub Pages | https://nkhippo.github.io/English-Pronunciation-Trainer/ |
+| GitHub Pages | https://nkhippo.github.io/IpaSoundDrill/ |
 | 実機確認 | Start → DevTools Network で `warm=1` リクエスト。運用アクセントの ▶ が先読み完了後に活性化 |
 
 ---

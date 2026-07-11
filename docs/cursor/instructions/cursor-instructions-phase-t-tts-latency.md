@@ -1,6 +1,6 @@
 # Cursor 指示書 — TTS 1問目遅延の解消 (Phase T)
 
-- 対象リポジトリ: `nkhippo/English-Pronunciation-Trainer`
+- 対象リポジトリ: `nkhippo/IpaSoundDrill`
 - 想定 branch: `feat/phase-t-tts-latency`
 - 優先度: 高（全ユーザー・全モードで発生している 20 秒 UX バグ）
 - 前提: Phase R 完了済み。2026-06 の TTS プリフェッチ B+A 方式（`docs/cursor/reports/cursor-implementation-report-tts-prefetch.md`）が実装済み

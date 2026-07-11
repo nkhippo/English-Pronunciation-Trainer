@@ -91,7 +91,7 @@ python3 tools/gen_audit_docs.py  # i18n-audit.md 再生成
 | 項目 | 内容 |
 |------|------|
 | ブランチ | `main` |
-| GitHub Pages | https://nkhippo.github.io/English-Pronunciation-Trainer/ |
+| GitHub Pages | https://nkhippo.github.io/IpaSoundDrill/ |
 
 **実機確認:**
 

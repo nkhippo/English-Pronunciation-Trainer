@@ -132,7 +132,7 @@ Archived (completed internal tool):
 
 ## 8) Phase 2 complete
 
-**English Pronunciation Trainer narrow IPA + respelling coverage: 3,059/3,059 words.**
+**IPA Sound Drill narrow IPA + respelling coverage: 3,059/3,059 words.**
 
 - `ipa_actual_ga`: 192 words (only where narrow differs from phonemic)
 - `respell_ga` / `respell_rp`: 3,059/3,059 words

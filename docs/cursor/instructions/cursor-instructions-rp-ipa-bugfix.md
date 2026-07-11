@@ -1,6 +1,6 @@
 # Cursor 指示書 — RP IPA バグ修正（`ga_to_rp.py` r 脱落バグ）
 
-- 対象リポジトリ: `nkhippo/English-Pronunciation-Trainer`
+- 対象リポジトリ: `nkhippo/IpaSoundDrill`
 - 優先度: **高**（Phase 2 M2 着手前に必須）
 - 背景: Phase 2 pilot 実装レポートの Britfone カバー率未達（60.9%）を Opus で検証した結果、
   カバー率不足そのものより深刻な **`scripts/ga_to_rp.py` のロジックバグ**を発見

@@ -16,7 +16,7 @@
 | `accent.rp` | British (RP) | イギリス英語 | 英式 | 英式 | 영국식 | Britaniko (RP) | settings（動的参照） |
 | `back_top` | Menu | TOPへ | 首页 | 首頁 | 처음 | Menu | 共通 |
 | `brand.home` | Back to top | トップへ戻る | 返回首页 | 返回首頁 | 처음으로 | Bumalik sa itaas | 共通（トップバー） |
-| `brand.name` | IPA Drill | IPAドリル | IPA操练 | IPA操練 | IPA 드릴 | IPA Drill | 共通（トップバー） |
+| `brand.name` | IPA Sound Drill | IPAドリル | IPA操练 | IPA操練 | IPA 드릴 | IPA Sound Drill | 共通（トップバー） |
 | `build_ph` | Tap the IPA keys below to build the pronunciation | 下のIPAキーをタップして発音を組み立てる | 点击下方IPA键拼出发音 | 點選下方IPA鍵拼出發音 | 아래 IPA 키를 눌러 발음을 만드세요 | I-tap ang mga IPA key sa ibaba para buuin ang pagbigkas | encode |
 | `cefr.pending` | CEFR? | CEFR? | CEFR? | CEFR? | CEFR? | CEFR? | setup / 練習 |
 | `cefr.pending_hint` | CEFR not assigned yet | CEFR未設定（相談中） | 尚未设定 CEFR | 尚未設定 CEFR | CEFR 미설정 | Wala pang CEFR | setup / 練習 |

@@ -89,7 +89,7 @@ python3 tools/gen_audit_docs.py
 ## 5. デプロイ
 
 - **ブランチ:** `main` に push
-- **GitHub Pages:** https://nkhippo.github.io/English-Pronunciation-Trainer/
+- **GitHub Pages:** https://nkhippo.github.io/IpaSoundDrill/
 
 ---
 

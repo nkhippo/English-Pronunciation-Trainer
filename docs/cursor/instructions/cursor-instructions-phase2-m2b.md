@@ -1,6 +1,6 @@
 # Cursor 指示書 — Phase 2 M2b（B2 拡充 101-200 語）
 
-- 対象リポジトリ: `nkhippo/English-Pronunciation-Trainer`
+- 対象リポジトリ: `nkhippo/IpaSoundDrill`
 - 前提: M2a マージ済み（5,107語）
 - 想定 branch: `feat/phase2-m2b-b2-100`
 

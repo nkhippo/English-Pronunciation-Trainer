@@ -1,4 +1,4 @@
-# English Pronunciation Trainer — 実装設計仕様（DESIGN.md）
+# IPA Sound Drill — 実装設計仕様（DESIGN.md）
 
 > `PURPOSE.md` で確定した目的・2モード構成を、Cursorが実装に落とせる粒度まで具体化した仕様。
 > 本ドキュメントは「何を作るか（what / how）」の正本。目的の正本は `PURPOSE.md`。

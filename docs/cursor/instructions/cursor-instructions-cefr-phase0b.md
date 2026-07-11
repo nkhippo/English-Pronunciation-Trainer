@@ -1,7 +1,7 @@
 # Cursor 指示書 — CEFR Phase 0-b: Mode A への CEFR フィルタ UI 配線 + Mode B 空バンド対応
 
 > 作成日: 2026-07-07
-> 対象リポジトリ: `nkhippo/English-Pronunciation-Trainer`（`main` ブランチ）
+> 対象リポジトリ: `nkhippo/IpaSoundDrill`（`main` ブランチ）
 > 前提: Phase 0-a（`cursor-instructions-cefr-phase0a.md`）が完了・push 済み、および zh 分離（`cursor-instructions-zh-split.md`）が完了・push 済み。両方が main に入った状態から着手すること。
 > ゴール: Mode A の設定に CEFR レベル複数選択フィルタを追加、Mode B の空バンド問題を修正、C1 を UI から非表示化。
 

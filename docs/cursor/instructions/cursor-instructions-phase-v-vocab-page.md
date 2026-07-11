@@ -1,6 +1,6 @@
 # Cursor 指示書 — 語彙ブラウザのページ化 + UI 整備 (Phase V)
 
-- 対象リポジトリ: `nkhippo/English-Pronunciation-Trainer`
+- 対象リポジトリ: `nkhippo/IpaSoundDrill`
 - 想定 branch: `feat/phase-v-vocab-page`
 - 優先度: 中（機能自体は稼働中。ページ化 + UI 改善で操作性を上げる）
 - 前提: Phase T 完了推奨（同 index.html を触るため commit を分けやすい）

@@ -1,6 +1,6 @@
 # Cursor 指示書 — `dignify` / `dignity` RP IPA ホットフィックス
 
-- 対象リポジトリ: `nkhippo/English-Pronunciation-Trainer`
+- 対象リポジトリ: `nkhippo/IpaSoundDrill`
 - 優先度: 高（データ品質バグ、他の作業と並行して速やかに適用推奨）
 - 想定 branch: `fix/dignify-dignity-rp-typo`
 

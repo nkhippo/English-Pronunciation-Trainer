@@ -2,7 +2,7 @@
 
 - 作成日: 2026-07-09
 - 作成モデル: Claude Opus 4.7
-- 対象: `nkhippo/English-Pronunciation-Trainer` の語彙拡充 Phase 2 (B2) + Phase 3 (C1)
+- 対象: `nkhippo/IpaSoundDrill` の語彙拡充 Phase 2 (B2) + Phase 3 (C1)
 - Q3 回答反映: productive/receptive 両方を receptive C1 まで押し上げる
 
 ---

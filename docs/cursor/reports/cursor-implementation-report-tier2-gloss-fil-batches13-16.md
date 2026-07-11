@@ -90,7 +90,7 @@ identical fil cells (Mode B distractor-collision candidates): 0
 | 項目 | 内容 |
 |------|------|
 | ブランチ | `main` |
-| GitHub Pages | https://nkhippo.github.io/English-Pronunciation-Trainer/ |
+| GitHub Pages | https://nkhippo.github.io/IpaSoundDrill/ |
 
 **実機確認:** 設定 → Filipino → Mode B。`sugar` / `water` はタガログ語義、`balcony` は en フォールバック。
 

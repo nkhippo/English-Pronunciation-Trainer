@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-i18n 整合性チェッカー  (English Pronunciation Trainer)
+i18n 整合性チェッカー  (IPA Sound Drill)
 
 目的:
   言語ファイルを追加・編集したあと、これ1本で「壊れていないか」を検査する。

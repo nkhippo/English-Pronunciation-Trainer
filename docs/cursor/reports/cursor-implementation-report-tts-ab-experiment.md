@@ -116,7 +116,7 @@ shasum: 5ファイルすべて同一
 ## 7) Naoya 向けアクセス URL
 
 - GitHub Pages:
-  - `https://nkhippo.github.io/English-Pronunciation-Trainer/tests/tts-ab-listener.html`
+  - `https://nkhippo.github.io/IpaSoundDrill/tests/tts-ab-listener.html`
 
 ---
 

@@ -2,7 +2,7 @@
 
 > 作成日: 2026-07-07  
 > 目的: 連結音ドリルで **IPA と音声が一致しない**問題について、今後の対応方針を Claude と検討するための材料。  
-> リポジトリ: `nkhippo/English-Pronunciation-Trainer`（GitHub Pages 静的アプリ + GAS TTS プロキシ）
+> リポジトリ: `nkhippo/IpaSoundDrill`（GitHub Pages 静的アプリ + GAS TTS プロキシ）
 
 ---
 

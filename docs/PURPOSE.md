@@ -1,4 +1,4 @@
-# English Pronunciation Trainer — 目的ステートメント（確定版 / source of truth）
+# IPA Sound Drill — 目的ステートメント（確定版 / source of truth）
 
 > アプリの**本丸（measured outcome）**と**モード構成**を確定し、背景メモ・Cursor仕様書・実装コードの目的を一致させる正本。
 > 目的・評価方針に関する記述が衝突した場合は、本ドキュメントを正とする。

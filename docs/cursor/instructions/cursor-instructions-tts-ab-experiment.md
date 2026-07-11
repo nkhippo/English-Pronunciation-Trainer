@@ -1,7 +1,7 @@
 # Cursor 指示書 — 連結音 TTS A/B テスト実験環境の構築
 
 > 作成日: 2026-07-07
-> 対象リポジトリ: `nkhippo/English-Pronunciation-Trainer`（`main` ブランチ）
+> 対象リポジトリ: `nkhippo/IpaSoundDrill`（`main` ブランチ）
 > 独立性: Phase 0-b（CEFR UI）や zh 分離の実装状況とは無関係に着手可能
 > ゴール: 連結音 TTS の品質改善方針を確定するための A/B 実験環境を構築。GAS に voice/speed 実験パラメータを追加（下位互換保持）、静的リスナーページで Naoya が耳検証できる状態にする。
 
@@ -347,7 +347,7 @@ localStorage に自動保存（キー: `tts_ab_v1_{variant_id}_{phrase_id}_{axis
 ### 使い方
 
 1. GitHub Pages で公開されているサイトの `/tests/tts-ab-listener.html` にアクセス
-   - 例: `https://nkhippo.github.io/English-Pronunciation-Trainer/tests/tts-ab-listener.html`
+   - 例: `https://nkhippo.github.io/IpaSoundDrill/tests/tts-ab-listener.html`
 2. 各 variant を聴き、3 軸で評価
 3. ページ下部の「結果をコピー」で JSON をクリップボードに
 4. Claude に貼り付けて分析依頼

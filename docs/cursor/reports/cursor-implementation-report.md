@@ -1,8 +1,8 @@
-# Cursor 実装レポート — English Pronunciation Trainer
+# Cursor 実装レポート — IPA Sound Drill
 
 > 作成日: 2026-06-23  
 > 対象ブランチ: `main`（最新コミット `f60a8c9`）  
-> リポジトリ: [English-Pronunciation-Trainer](https://github.com/nkhippo/English-Pronunciation-Trainer)
+> リポジトリ: [IpaSoundDrill](https://github.com/nkhippo/IpaSoundDrill)
 
 Claude 側への作業報告用サマリー。本セッションで実施した実装・反映・検証結果をまとめる。
 

@@ -1,4 +1,4 @@
-# English Pronunciation Trainer — 仕様書
+# IPA Sound Drill — 仕様書
 
 > 本ドキュメントは、アプリの目的・設計・データ管理の正本（source of truth）です。  
 > 機能追加や仕様相談の前提資料として利用してください。  
@@ -185,7 +185,7 @@
 
 ### 3.3 デプロイ
 
-- **本番 URL:** https://nkhippo.github.io/English-Pronunciation-Trainer/
+- **本番 URL:** https://nkhippo.github.io/IpaSoundDrill/
 - **ローカル:** `python3 -m http.server 8080`（`file://` 不可）
 - **GAS:** `gas/README.md` 参照。`index.html` の `GAS_TTS_URL` に Web App URL を設定。Phase T（`?urls=1` / `migratePublicSharing`）の手動手順は `docs/reference/remaining-ops-checklist.md`
 

@@ -1,6 +1,6 @@
 # Cursor 指示書 — 連結音・弱形 CEFR バッジ UI 配線
 
-- 対象リポジトリ: `nkhippo/English-Pronunciation-Trainer`
+- 対象リポジトリ: `nkhippo/IpaSoundDrill`
 - 想定 branch: `feat/connected-weak-cefr-badges`
 - 前提: `data/connected_speech.json`（201句）と `data/weak_forms.json`（36語）に `cefr` フィールドが既に付与済み（2026-07-09 完了）
 

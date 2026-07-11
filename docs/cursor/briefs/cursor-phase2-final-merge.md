@@ -164,7 +164,7 @@ ERROR なしを確認。
 
 ## 7. 実装レポート提出物
 
-完了時、`report-phase2-final-merge.md` として Naoya 経由で Claude に提出してください。これで **English Pronunciation Trainer の narrow IPA + respelling 対応が全3,059語で完了**となります。
+完了時、`report-phase2-final-merge.md` として Naoya 経由で Claude に提出してください。これで **IPA Sound Drill の narrow IPA + respelling 対応が全3,059語で完了**となります。
 
 ---
 

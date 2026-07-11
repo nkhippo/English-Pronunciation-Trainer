@@ -1,4 +1,4 @@
-# English Pronunciation Trainer — narrow IPA / respelling プロジェクト最終ステータス
+# IPA Sound Drill — narrow IPA / respelling プロジェクト最終ステータス
 
 **作成日:** 2026-07-02
 

@@ -202,7 +202,7 @@ Return ONLY a JSON object: {"word": {...}, ...}
 
 ## 6. Claude への質問文（コピペ用）
 
-> IPA Drill アプリで、GA phonemic (`ipa`) と RP phonemic (`rp_ipa`) が  
+> IPA Sound Drill アプリで、GA phonemic (`ipa`) と RP phonemic (`rp_ipa`) が  
 > **学習者にとって実質同じか** を事前フラグ `ga_rp_same` で管理したい。  
 > 現状は文字列完全一致のみで、例えば `/əˈɡri/` vs `/əˈɡriː/` が別扱いになる。  
 >  

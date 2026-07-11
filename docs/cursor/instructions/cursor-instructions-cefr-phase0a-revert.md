@@ -1,7 +1,7 @@
 # Cursor 指示書 — Phase 0-a 訂正: phonics 652語の cefr 復元
 
 > 作成日: 2026-07-07
-> 対象リポジトリ: `nkhippo/English-Pronunciation-Trainer`（`main` ブランチ、Phase 0-a 実装は push 済み）
+> 対象リポジトリ: `nkhippo/IpaSoundDrill`（`main` ブランチ、Phase 0-a 実装は push 済み）
 > 種別: **訂正コミット**（前回の Phase 0-a 実装は誤った前提に基づいていたため復元する）
 > ゴール: `src: phonics` かつ `cefr` が B1/B2 だった 652 語の `cefr` を元の値に復元し、関連ドキュメントの誤った記述を訂正する。
 

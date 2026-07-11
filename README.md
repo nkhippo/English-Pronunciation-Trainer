@@ -1,10 +1,10 @@
-# English Pronunciation Trainer
+# IPA Sound Drill
 
 CEFR 向けの IPA 音写トレーナー（General American / Received Pronunciation）。
 
 ## デモ
 
-GitHub Pages: https://nkhippo.github.io/English-Pronunciation-Trainer/
+GitHub Pages: https://nkhippo.github.io/IpaSoundDrill/
 
 ## 機能
 

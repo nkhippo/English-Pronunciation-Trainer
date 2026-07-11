@@ -84,7 +84,7 @@ print('OK')
 ## 5. デプロイ
 
 - **ブランチ:** `main` にマージ・push
-- **GitHub Pages:** https://nkhippo.github.io/English-Pronunciation-Trainer/
+- **GitHub Pages:** https://nkhippo.github.io/IpaSoundDrill/
 
 ---
 

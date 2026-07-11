@@ -1,6 +1,6 @@
 # Cursor 指示書 — Phase 2 pilot (B2 拡充・パイロット 180)
 
-- 対象リポジトリ: `nkhippo/English-Pronunciation-Trainer`
+- 対象リポジトリ: `nkhippo/IpaSoundDrill`
 - 目的: CEFR-J v1.5 B2 の先頭 180 語（`attribute` 名詞+動詞の統合により実 179 エントリ）を wordlist にマージし、以降の Phase 2 M2-M6 の品質基盤とする
 - 参照:
   - `docs/reference/c1-expansion-scope-design.md`（Wave 2/3 全体設計）

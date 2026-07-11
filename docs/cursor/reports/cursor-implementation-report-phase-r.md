@@ -3,7 +3,7 @@
 - 実施日: 2026-07-10
 - 指示書: `docs/cursor/instructions/cursor-instructions-phase-r-rp-pipeline-repair.md`
 - ブランチ: `fix/phase-r-rp-pipeline-repair` → `main` にマージ済み
-- GitHub Pages: https://nkhippo.github.io/English-Pronunciation-Trainer/
+- GitHub Pages: https://nkhippo.github.io/IpaSoundDrill/
 
 ## 1. 実施内容
 

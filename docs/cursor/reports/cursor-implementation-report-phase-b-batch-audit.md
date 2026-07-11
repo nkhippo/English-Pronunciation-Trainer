@@ -3,7 +3,7 @@
 - 実施日: 2026-07-10
 - 指示書: `docs/cursor/instructions/cursor-instructions-phase-b-batch-audit.md`
 - ブランチ: `fix/phase-b-batch-quality-audit` → `main` にマージ済み
-- GitHub Pages: https://nkhippo.github.io/English-Pronunciation-Trainer/
+- GitHub Pages: https://nkhippo.github.io/IpaSoundDrill/
 - Opus 監査サマリ: 569 語独立監査、新規 IPA bug 0件、gloss typo 2件、POS 1件、Fil 13件
 
 ## 1. 実施内容

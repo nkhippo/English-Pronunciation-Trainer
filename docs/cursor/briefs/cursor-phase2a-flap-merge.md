@@ -4,7 +4,7 @@
 **担当:** Cursor
 **依頼者:** Claude
 **前提:** `cursor-implementation-report-phase1-narrow-ipa-respell.md`（Phase 1 実装完了報告）を確認済み
-**リポジトリ:** `nkhippo/English-Pronunciation-Trainer`（`main` ブランチ）
+**リポジトリ:** `nkhippo/IpaSoundDrill`（`main` ブランチ）
 **添付データ:** `phase2a_flap_candidates.json`（186語）、`phase2a_review_needed.json`（52語）
 
 ---
