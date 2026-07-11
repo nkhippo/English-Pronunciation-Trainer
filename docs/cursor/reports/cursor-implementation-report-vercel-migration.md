@@ -2,7 +2,7 @@
 
 ## 関連 Issue / PR
 - Issue: #4
-- PR: #(作成後)
+- PR: #5（マージ済み）
 
 ## 実装内容
 - ホワイトリスト内ドキュメントに対して調整済み置換ルールを適用
@@ -35,12 +35,33 @@ docs/cursor/reports/cursor-implementation-report-vercel-migration.md
 - 既存機能への影響: なし（index.html / data / scripts / gas/*.gs / i18n / fonts 未変更）
 - データ整合性: 対象外（wordlist 未変更）
 
+## Naoya 手動フェーズ（Phase D–F）— 完了記録（2026-07-11）
+
+Cursor 実装（Phase C / C-2）とは別枠。Naoya が実施し、本番到達を確認済み。
+
+| Phase | 内容 | 結果 |
+|-------|------|------|
+| D | Vercel プロジェクト作成・`IPASoundDrill` リポ接続・Production デプロイ | OK（`ipa-sound-drill.vercel.app` で UI 確認） |
+| E | カスタムドメイン `ipasounddrill.app` / `www.ipasounddrill.app` を Vercel に追加、DNS 設定 | OK |
+| F | `https://ipasounddrill.app` で現行 UI 表示を確認 | OK |
+
+### DNS（レジストラ: Namecheap / BasicDNS）
+
+| Type | Host | Value | 備考 |
+|------|------|--------|------|
+| A | `@` | `216.198.79.1` | Vercel 推奨 IP（旧 `76.76.21.21` から差し替え済み） |
+| CNAME | `www` | `52646c530fa600df.vercel-dns-017.com.` | Vercel 表示値どおり |
+
+- Parking / URL Redirect の既存レコードは削除済み
+- リポ名は `IPASoundDrill` のまま（`ipasounddrill` へのリネームは実施しない）
+- ドメイン登録先は Namecheap（OPERATIONS.md 記載の Hostinger とは異なる。Phase G でマニュアル更新推奨）
+
 ## 残課題・申し送り
-- Vercel 接続後の URL 検証: Naoya さんが Phase D-F で実施
-- GitHub Pages workflow 削除は Vercel 動作 24 時間確認後の別 Issue
-- OPERATIONS.md への実 URL 記入は Phase G の別 Issue（または手動）
+- GitHub Pages workflow（`.github/workflows/static.yml`）削除は Vercel 動作 24 時間確認後の別 Issue
+- OPERATIONS.md: レジストラを Namecheap に、実 DNS / ダッシュボード URL を Phase G で反映
+- Namecheap AUTO-RENEW が OFF の場合は ON 推奨（失効防止）
 - 過去レポート内の Pages URL は意図的に未更新
 
 ## 今後の派生 Issue 候補
 - chore: remove GitHub Pages workflow after Vercel stable
-- docs: update OPERATIONS with actual URLs
+- docs: update OPERATIONS with Namecheap DNS and actual dashboard URLs
