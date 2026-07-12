@@ -362,7 +362,7 @@ Repository Settings > Secrets and variables > Actions:
 - [ ] Google Search Console「ページ」レポートでインデックス状況確認（登録済み / 未登録の件数変化）
 - [ ] Google Search Console「サイトマップ」ステータス確認（`sitemap.xml` が「成功」を維持）
 - [ ] 主要キーワード「IPA Sound Drill」「IPA drill」「English pronunciation IPA」等の順位変動チェック
-- [ ] 新規追加 URL があれば URL 検査 → インデックス登録リクエスト（月次でも可）
+- [ ] 新規追加 URL があれば Google Search Console URL 検査 → インデックス登録リクエスト（月次でも可）
 
 ### 8.2 月次チェック（Track B 開始後）
 
