@@ -29,7 +29,7 @@
 - [x] GitHub Secrets 登録（`CURSOR_AUTOMATION_WEBHOOK_URL` / `CURSOR_AUTOMATION_WEBHOOK_TOKEN`）
 - [x] Cursor Automation `IPASoundDrill ready-for-cursor` 作成、webhook 疎通確認済み（Cloud Agent 起動は `resource_exhausted` のため見送り、追加コストなしで現状 OK）
 - [x] docs/CHANGE-CLASSIFICATION.md 導入（Issue #33 / PR #34）
-- [x] docs/DEV-GUARDRAILS.md § 3-alt パターン C + § 10 セルフチェックリスト追加（Issue #35 / PR #YY）
+- [x] docs/DEV-GUARDRAILS.md § 3-alt パターン C + § 10 セルフチェックリスト追加（Issue #35 / PR #36）
 
 ---
 
