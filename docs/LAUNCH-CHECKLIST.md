@@ -95,7 +95,7 @@
 
 ### 完了定義
 
-- [ ] Vercel Dashboard > Analytics タブに本番トラフィックが表示される（マージ後確認）
+- [x] Vercel Dashboard > Analytics タブに本番トラフィックが表示される（Issue #43 / PR #44 マージ後、2026-07-12 確認: Visitors 1 / Page Views 1 / `/fil`）
 - [ ] カスタムイベント 6 種が全て記録される（Track B）
 - [ ] Tally form 送信で Naoya のメールに通知が届く（Issue E2）
 - [ ] footer から Tally form / X DM リンクが動作する（Issue E2）
