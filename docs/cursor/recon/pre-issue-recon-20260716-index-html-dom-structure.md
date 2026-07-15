@@ -8,7 +8,8 @@
 | 補足 | ルート `index.html` は **存在しない**（F2 以降は `src/index.template.html` → build → `/{lang}/index.html`）。生成物 `en/index.html` と構造は同等（head meta 差分のみ） |
 | 目的 | UI/UX 抜本見直し Phase 0 — 画面 DOM / トップバー / Setup vs SPEC / モーダル |
 
-参照: `docs/SPECIFICATION.md` §4.0–4.8b
+参照: `docs/SPECIFICATION.md` §4.0–4.8b  
+追補（データ↔UI↔GAS の中途半端棚卸し）: [`pre-issue-recon-20260716-data-ui-gas-halfbaked.md`](pre-issue-recon-20260716-data-ui-gas-halfbaked.md)
 
 ---
 

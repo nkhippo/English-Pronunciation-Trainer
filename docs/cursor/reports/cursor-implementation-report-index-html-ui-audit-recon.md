@@ -11,11 +11,12 @@ UI/UX 抜本見直し Phase 0 の基盤 Recon。ルートに巨大 `index.html` 
 
 ## 実装内容
 
-### Phase A: Recon 3 ファイル
+### Phase A: Recon ファイル
 
 1. `docs/cursor/recon/pre-issue-recon-20260716-index-html-dom-structure.md` — DOM / トップバー / Setup / モーダル  
 2. `docs/cursor/recon/pre-issue-recon-20260716-index-html-functions.md` — 関数 / ハンドラ / `S` / 適応出題  
 3. `docs/cursor/recon/pre-issue-recon-20260716-index-html-i18n-css-storage.md` — i18n / CSS vars / LS / SPEC・DESIGN 差分  
+4. `docs/cursor/recon/pre-issue-recon-20260716-data-ui-gas-halfbaked.md` — **データ↔UI↔GAS の中途半端棚卸し**（B2 未選択・Band 死コード・respell 未表示等）  
 
 ### Phase B: Category A 意図的更新
 
@@ -29,6 +30,7 @@ UI/UX 抜本見直し Phase 0 の基盤 Recon。ルートに巨大 `index.html` 
 - docs/cursor/recon/pre-issue-recon-20260716-index-html-dom-structure.md (A)
 - docs/cursor/recon/pre-issue-recon-20260716-index-html-functions.md (A)
 - docs/cursor/recon/pre-issue-recon-20260716-index-html-i18n-css-storage.md (A)
+- docs/cursor/recon/pre-issue-recon-20260716-data-ui-gas-halfbaked.md (A)
 - docs/REPOSITORY-STRUCTURE.md (M)
 - docs/DOCUMENT-MAP.md (M)
 - docs/cursor/README.md (M)
@@ -45,7 +47,9 @@ UI/UX 抜本見直し Phase 0 の基盤 Recon。ルートに巨大 `index.html` 
 
 - ルート `index.html` は F2 以降未配置。正本は template / `/{lang}/`  
 - Mode B Quiz DOM 残存、`MODEB_QUIZ_ENABLED=false`  
-- Mode B Band UI 無し（CEFR ピル流用）  
+- Mode B Band UI 無し（CEFR ピル流用）＋ **`refreshVocabBandUnlock` 呼び出し 0**  
+- **B2=899 語はランタイムに在るが Setup ピル無し → 出題到達不可**（Vocab 閲覧のみ）  
+- respell 5,322 語読込・未表示／Connected `cefr` 未フィルタ／連結 TTS GA 固定  
 - i18n orphan 22 / missing 1（`audio_tap_hint`）  
 - Undocumented: footer 法務、`va-disable`、`#audioHint`、死コード Reflect dock  
 
