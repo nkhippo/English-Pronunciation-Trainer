@@ -5,6 +5,7 @@ aliases:
 title: PURPOSE ペルソナ・ジャーニー + タグライン候補 — 実装レポート
 created: '2026-07-16'
 ---
+
 # PURPOSE ペルソナ・ジャーニー + タグライン候補 — 実装レポート
 
 ## 関連 Issue / PR

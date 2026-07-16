@@ -5,6 +5,7 @@ aliases:
 title: OPERATIONS — ipasounddrill 運用マニュアル
 created: '2026-07-11'
 ---
+
 # OPERATIONS — ipasounddrill 運用マニュアル
 
 このドキュメントは本番運用中のトラブル対応と定常オペレーション手順。CLAUDE.md の Track A/B 分離方針、`REPOSITORY-STRUCTURE.md` のランタイム契約を前提とする。

@@ -5,6 +5,7 @@ aliases:
 title: 連結音 TTS（脱落・連結）— Claude 相談用ブリーフ
 created: '2026-07-09'
 ---
+
 # 連結音 TTS（脱落・連結）— Claude 相談用ブリーフ
 
 > 作成日: 2026-07-07  

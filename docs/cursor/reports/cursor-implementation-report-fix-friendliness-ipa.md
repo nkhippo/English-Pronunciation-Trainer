@@ -5,6 +5,7 @@ aliases:
 title: '`friendliness` GA IPA 訂正 — 実装レポート'
 created: '2026-07-09'
 ---
+
 # `friendliness` GA IPA 訂正 — 実装レポート
 
 - 実施日: 2026-07-09

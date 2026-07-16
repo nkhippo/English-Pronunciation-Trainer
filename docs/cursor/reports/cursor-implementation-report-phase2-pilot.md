@@ -5,6 +5,7 @@ aliases:
 title: Phase 2 pilot（B2 拡充 179 語）— 実装レポート
 created: '2026-07-10'
 ---
+
 # Phase 2 pilot（B2 拡充 179 語）— 実装レポート
 
 - 実施日: 2026-07-09

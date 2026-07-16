@@ -5,6 +5,7 @@ aliases:
 title: IPA Sound Drill — narrow IPA / respelling プロジェクト最終ステータス
 created: '2026-07-02'
 ---
+
 # IPA Sound Drill — narrow IPA / respelling プロジェクト最終ステータス
 
 **作成日:** 2026-07-02

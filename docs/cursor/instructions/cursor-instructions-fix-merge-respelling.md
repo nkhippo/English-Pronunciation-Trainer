@@ -5,6 +5,7 @@ aliases:
 title: Cursor 指示書 — `merge_respelling.py` pending クリア問題の恒久修正
 created: '2026-07-09'
 ---
+
 # Cursor 指示書 — `merge_respelling.py` pending クリア問題の恒久修正
 
 > 作成日: 2026-07-08

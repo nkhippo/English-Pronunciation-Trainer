@@ -5,6 +5,7 @@ aliases:
 title: Cursor 指示書 — 進捗チェック機能（3スロット × 3モード）
 created: '2026-07-10'
 ---
+
 # Cursor 指示書 — 進捗チェック機能（3スロット × 3モード）
 
 - 対象リポジトリ: `nkhippo/IPASoundDrill`

@@ -5,6 +5,7 @@ aliases:
 title: Phase 2a Manual Test Checklist (Sample-based)
 created: '2026-07-02'
 ---
+
 # Phase 2a Manual Test Checklist (Sample-based)
 
 Phase 2a では narrow 対応語が 192 語に増えたため、全件ではなく代表サンプルで確認する。

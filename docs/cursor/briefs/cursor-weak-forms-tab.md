@@ -5,6 +5,7 @@ aliases:
 title: Cursor 指示書 — 弱形（Weak Forms）タブの実装
 created: '2026-06-26'
 ---
+
 # Cursor 指示書 — 弱形（Weak Forms）タブの実装
 
 > 作成日: 2026-06-26

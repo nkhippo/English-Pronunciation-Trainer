@@ -5,6 +5,7 @@ aliases:
 title: Cursor Implementation Report — Phoneme Guide i18n Rewrite (ja / ko / zh)
 created: '2026-07-06'
 ---
+
 # Cursor Implementation Report — Phoneme Guide i18n Rewrite (ja / ko / zh)
 
 - Date: 2026-07-06

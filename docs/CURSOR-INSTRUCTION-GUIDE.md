@@ -5,6 +5,7 @@ aliases:
 title: CURSOR-INSTRUCTION-GUIDE — Cursor 指示の抽象度ガイドライン
 created: '2026-07-12'
 ---
+
 # CURSOR-INSTRUCTION-GUIDE — Cursor 指示の抽象度ガイドライン
 
 > **Last updated**: 2026-07-12

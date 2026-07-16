@@ -5,6 +5,7 @@ aliases:
 title: Phase 2 M2（B2 拡充）— 完了サマリ
 created: '2026-07-10'
 ---
+
 # Phase 2 M2（B2 拡充）— 完了サマリ
 
 - 完了日: 2026-07-10

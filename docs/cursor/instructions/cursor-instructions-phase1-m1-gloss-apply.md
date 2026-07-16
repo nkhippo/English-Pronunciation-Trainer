@@ -5,6 +5,7 @@ aliases:
 title: Cursor 指示書 — Phase 1 M1 パイロット gloss 5 言語翻訳の適用
 created: '2026-07-07'
 ---
+
 # Cursor 指示書 — Phase 1 M1 パイロット gloss 5 言語翻訳の適用
 
 > 作成日: 2026-07-07

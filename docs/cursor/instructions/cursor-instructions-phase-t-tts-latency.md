@@ -5,6 +5,7 @@ aliases:
 title: Cursor 指示書 — TTS 1問目遅延の解消 (Phase T)
 created: '2026-07-10'
 ---
+
 # Cursor 指示書 — TTS 1問目遅延の解消 (Phase T)
 
 - 対象リポジトリ: `nkhippo/IPASoundDrill`

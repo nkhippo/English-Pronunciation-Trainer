@@ -5,6 +5,7 @@ aliases:
 title: Tagline Candidates for IPA Sound Drill
 created: '2026-07-16'
 ---
+
 # Tagline Candidates for IPA Sound Drill
 
 This document collects tagline candidates for IPA Sound Drill, with voice/tone evaluation, emotional profile, and 6-language translation considerations. Candidates are for testing in Claude Design prototypes and final selection at Phase 3 (launch materials).

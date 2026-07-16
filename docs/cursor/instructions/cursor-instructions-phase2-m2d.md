@@ -5,6 +5,7 @@ aliases:
 title: Cursor 指示書 — Phase 2 M2d（B2 拡充 301-390 語・M2 最終バッチ）
 created: '2026-07-10'
 ---
+
 # Cursor 指示書 — Phase 2 M2d（B2 拡充 301-390 語・M2 最終バッチ）
 
 - 対象リポジトリ: `nkhippo/IPASoundDrill`

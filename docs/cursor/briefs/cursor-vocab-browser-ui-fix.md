@@ -5,6 +5,7 @@ aliases:
 title: Cursor 指示書 — 語彙ブラウザ UI 改善（4点）
 created: '2026-06-29'
 ---
+
 # Cursor 指示書 — 語彙ブラウザ UI 改善（4点）
 
 > 作成日: 2026-06-29

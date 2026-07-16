@@ -5,6 +5,7 @@ aliases:
 title: 'Cursor 指示書 — Phase R (Repair): RP パイプライン品質修正'
 created: '2026-07-10'
 ---
+
 # Cursor 指示書 — Phase R (Repair): RP パイプライン品質修正
 
 - 対象リポジトリ: `nkhippo/IPASoundDrill`

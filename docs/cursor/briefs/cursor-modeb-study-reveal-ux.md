@@ -5,6 +5,7 @@ aliases:
 title: 'Cursor 指示書 — Mode B Study: 2段階 reveal UX + `def` フィールド導入'
 created: '2026-06-28'
 ---
+
 # Cursor 指示書 — Mode B Study: 2段階 reveal UX + `def` フィールド導入
 
 > 作成日: 2026-06-28

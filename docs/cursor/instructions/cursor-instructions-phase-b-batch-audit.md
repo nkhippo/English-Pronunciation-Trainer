@@ -5,6 +5,7 @@ aliases:
 title: 'Cursor 指示書 — パッケージ B: Phase 2 バッチ品質監査 修正 (Phase B)'
 created: '2026-07-10'
 ---
+
 # Cursor 指示書 — パッケージ B: Phase 2 バッチ品質監査 修正 (Phase B)
 
 - 対象リポジトリ: `nkhippo/IPASoundDrill`

@@ -5,6 +5,7 @@ aliases:
 title: 'Cursor 実装レポート — STEP4-c: 不規則変化形'
 created: '2026-06-25'
 ---
+
 # Cursor 実装レポート — STEP4-c: 不規則変化形
 
 > 作成日: 2026-06-23  

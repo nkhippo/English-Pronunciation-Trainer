@@ -5,6 +5,7 @@ aliases:
 title: DOC-SYNC-PLAYBOOK — ソース ⇔ ドキュメント同期プレイブック
 created: '2026-07-12'
 ---
+
 # DOC-SYNC-PLAYBOOK — ソース ⇔ ドキュメント同期プレイブック
 
 > **Last updated**: 2026-07-12

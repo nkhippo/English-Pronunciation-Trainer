@@ -5,6 +5,7 @@ aliases:
 title: 'Cursor 実装レポート — STEP7: Mode B（音から語彙）'
 created: '2026-06-26'
 ---
+
 # Cursor 実装レポート — STEP7: Mode B（音から語彙）
 
 > 作成日: 2026-06-26  

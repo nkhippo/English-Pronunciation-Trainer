@@ -5,6 +5,7 @@ aliases:
 title: Cursor 指示書 — 学習ガイド `welcome` 章のナラティブ強化（全6言語）
 created: '2026-06-28'
 ---
+
 # Cursor 指示書 — 学習ガイド `welcome` 章のナラティブ強化（全6言語）
 
 > 作成日: 2026-06-28

@@ -5,6 +5,7 @@ aliases:
 title: Pre-Issue Recon — F2 build infrastructure
 created: '2026-07-12'
 ---
+
 # Pre-Issue Recon — F2 build infrastructure
 
 ## 対象 Issue

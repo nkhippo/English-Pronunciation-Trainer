@@ -5,6 +5,7 @@ aliases:
 title: G2 legal footer links — 実装レポート
 created: '2026-07-13'
 ---
+
 # G2 legal footer links — 実装レポート
 
 ## 関連 Issue / PR

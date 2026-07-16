@@ -5,6 +5,7 @@ aliases:
 title: 'Cursor 作業指示書 — Phase 2b: Respelling 本データマージ（3,007語）'
 created: '2026-07-02'
 ---
+
 # Cursor 作業指示書 — Phase 2b: Respelling 本データマージ（3,007語）
 
 **作成日:** 2026-07-02

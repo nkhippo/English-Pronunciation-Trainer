@@ -5,6 +5,7 @@ aliases:
 title: Vercel migration (docs update) — 実装レポート
 created: '2026-07-11'
 ---
+
 # Vercel migration (docs update) — 実装レポート
 
 ## 関連 Issue / PR

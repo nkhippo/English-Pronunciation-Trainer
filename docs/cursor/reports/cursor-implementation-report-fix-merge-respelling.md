@@ -5,6 +5,7 @@ aliases:
 title: '`merge_respelling.py` pending クリア問題 — 恒久修正レポート'
 created: '2026-07-09'
 ---
+
 # `merge_respelling.py` pending クリア問題 — 恒久修正レポート
 
 - 実施日: 2026-07-09

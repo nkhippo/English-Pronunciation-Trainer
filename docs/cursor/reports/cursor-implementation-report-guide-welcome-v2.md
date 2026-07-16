@@ -5,6 +5,7 @@ aliases:
 title: Cursor 実装レポート — 学習ガイド `welcome` 章ナラティブ強化
 created: '2026-06-28'
 ---
+
 # Cursor 実装レポート — 学習ガイド `welcome` 章ナラティブ強化
 
 > 作成日: 2026-06-28  

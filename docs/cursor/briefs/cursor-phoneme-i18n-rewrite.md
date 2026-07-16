@@ -5,6 +5,7 @@ aliases:
 title: Cursor 作業指示書 — 音素ガイド i18n 全面書き直し（ja / ko / zh）
 created: '2026-07-06'
 ---
+
 # Cursor 作業指示書 — 音素ガイド i18n 全面書き直し（ja / ko / zh）
 
 **作成日:** 2026-07-02

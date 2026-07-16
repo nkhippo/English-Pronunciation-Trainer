@@ -5,6 +5,7 @@ aliases:
 title: Cursor 指示書 — 連結音・弱形への CEFR 付与マージ
 created: '2026-07-09'
 ---
+
 # Cursor 指示書 — 連結音・弱形への CEFR 付与マージ
 
 > 作成日: 2026-07-09

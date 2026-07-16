@@ -5,6 +5,7 @@ aliases:
 title: Cursor 指示書 — `friendliness` の GA IPA 表記ミス訂正
 created: '2026-07-09'
 ---
+
 # Cursor 指示書 — `friendliness` の GA IPA 表記ミス訂正
 
 > 作成日: 2026-07-09

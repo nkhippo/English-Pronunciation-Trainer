@@ -5,6 +5,7 @@ aliases:
 title: Cursor 実装レポート — IPA Sound Drill
 created: '2026-06-24'
 ---
+
 # Cursor 実装レポート — IPA Sound Drill
 
 > 作成日: 2026-06-23  

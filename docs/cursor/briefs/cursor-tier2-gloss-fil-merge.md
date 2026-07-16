@@ -5,6 +5,7 @@ aliases:
 title: 'Cursor 指示書 — Tier 2: `gloss.fil` バッチのマージ'
 created: '2026-06-27'
 ---
+
 # Cursor 指示書 — Tier 2: `gloss.fil` バッチのマージ
 
 > 作成日: 2026-06-26

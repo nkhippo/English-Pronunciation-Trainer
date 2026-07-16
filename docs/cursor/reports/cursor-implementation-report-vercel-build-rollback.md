@@ -5,6 +5,7 @@ aliases:
 title: Vercel Build rollback — 実装レポート
 created: '2026-07-12'
 ---
+
 # Vercel Build rollback — 実装レポート
 
 ## 関連 Issue / PR

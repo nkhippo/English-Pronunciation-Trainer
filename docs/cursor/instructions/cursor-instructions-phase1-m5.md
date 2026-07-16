@@ -5,6 +5,7 @@ aliases:
 title: Cursor 指示書 — Phase 1 M5バッチ（389語・最終バッチ）のマージ
 created: '2026-07-09'
 ---
+
 # Cursor 指示書 — Phase 1 M5バッチ（389語・最終バッチ）のマージ
 
 > 作成日: 2026-07-09

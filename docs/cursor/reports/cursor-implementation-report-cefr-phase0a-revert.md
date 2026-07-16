@@ -5,6 +5,7 @@ aliases:
 title: CEFR Phase 0-a Revert 実装レポート
 created: '2026-07-07'
 ---
+
 # CEFR Phase 0-a Revert 実装レポート
 
 - 実施日: 2026-07-07

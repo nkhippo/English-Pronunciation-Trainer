@@ -5,6 +5,7 @@ aliases:
 title: Cursor 実装レポート — TTS プリフェッチ（GAS warm + クライアント先読み）
 created: '2026-06-26'
 ---
+
 # Cursor 実装レポート — TTS プリフェッチ（GAS warm + クライアント先読み）
 
 > 作成日: 2026-06-27（再確認・ドキュメント整備）  

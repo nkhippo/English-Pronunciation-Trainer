@@ -5,6 +5,7 @@ aliases:
 title: Hardening pattern C — 実装レポート
 created: '2026-07-12'
 ---
+
 # Hardening pattern C — 実装レポート
 
 ## 関連 Issue / PR

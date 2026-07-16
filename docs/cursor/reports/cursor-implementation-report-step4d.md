@@ -5,6 +5,7 @@ aliases:
 title: 'Cursor 実装レポート — STEP4-d: 薄い音素の補強'
 created: '2026-06-25'
 ---
+
 # Cursor 実装レポート — STEP4-d: 薄い音素の補強
 
 > 作成日: 2026-06-23  

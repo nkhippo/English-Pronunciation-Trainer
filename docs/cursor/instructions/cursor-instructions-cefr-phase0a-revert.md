@@ -5,6 +5,7 @@ aliases:
 title: 'Cursor 指示書 — Phase 0-a 訂正: phonics 652語の cefr 復元'
 created: '2026-07-07'
 ---
+
 # Cursor 指示書 — Phase 0-a 訂正: phonics 652語の cefr 復元
 
 > 作成日: 2026-07-07

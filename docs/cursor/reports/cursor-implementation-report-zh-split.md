@@ -5,6 +5,7 @@ aliases:
 title: Cursor Implementation Report — Chinese UI Split (zh-Hant / zh-Hans)
 created: '2026-07-07'
 ---
+
 # Cursor Implementation Report — Chinese UI Split (zh-Hant / zh-Hans)
 
 - Date: 2026-07-07

@@ -5,6 +5,7 @@ aliases:
 title: G1 Legal Documents — 実装レポート
 created: '2026-07-13'
 ---
+
 # G1 Legal Documents — 実装レポート
 
 ## 関連 Issue / PR

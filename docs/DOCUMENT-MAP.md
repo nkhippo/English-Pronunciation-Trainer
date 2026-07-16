@@ -5,6 +5,7 @@ aliases:
 title: DOCUMENT-MAP — IPA Sound Drill ドキュメント運用マップ
 created: '2026-07-12'
 ---
+
 # DOCUMENT-MAP — IPA Sound Drill ドキュメント運用マップ
 
 > **Last updated**: 2026-07-16

@@ -5,6 +5,7 @@ aliases:
 title: VA opt-out — 実装レポート
 created: '2026-07-13'
 ---
+
 # VA opt-out — 実装レポート
 
 ## 関連 Issue / PR

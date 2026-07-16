@@ -5,6 +5,7 @@ aliases:
 title: Connected cs_rule 3 言語追加 — 実装レポート
 created: '2026-07-16'
 ---
+
 # Connected cs_rule 3 言語追加 — 実装レポート
 
 ## 関連 Issue / PR
