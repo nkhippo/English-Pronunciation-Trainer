@@ -440,7 +440,7 @@ GAS 側の `?urls=1` / `migratePublicSharing` 反映は `docs/reference/remainin
 | GA/RP（プロフィール固定予定・IPA・キーボード・RP TTS） | ✅（セッション固定 UI は Phase 1-C） |
 | 連結句 201句（キャリア文） | ✅ |
 | 弱形 36語 + `?weak=` TTS | ✅ Connected Speech 内 Type=weak |
-| 目的 `2c`（Study/Quiz・vocab SRS） | ✅ Study のみ。**Band 廃止**（シンボル削除は後続） |
+| 目的 `2c`（Study/Quiz・vocab SRS） | ✅ Study のみ。**Band Unlock 削除済**（`MODEB_BANDS` は CEFR 許可として残置） |
 | 練習タブ統一（Connected ⊃ Weak） | ✅ |
 | 語彙ブラウザ（`#vocabPage` / hash / 進捗チェック / CEFR バッジ両タブ） | ✅ Phase V |
 | TTS プリフェッチ（body-first + `?urls=1` + setup preread + スピーカー gating） | ✅ Phase T（GAS 反映は残作業） |
@@ -466,5 +466,5 @@ GAS 側の `?urls=1` / `migratePublicSharing` 反映は `docs/reference/remainin
 
 - PURPOSE/SPEC/DESIGN を目的 4 カード前提に先行改訂（Issue #75）
 - near 採点をテンプレートから削除
-- Mode B Band UI/仕様を削除（実装シンボル削除は Phase 1-A〜1-H）
+- Mode B Band Unlock 実装シンボルを削除（Phase 1-D-PR2）。`MODEB_BANDS` は CEFR 許可リストとして残置
 - frame ID を 13 concept + variant suffix に再採番
