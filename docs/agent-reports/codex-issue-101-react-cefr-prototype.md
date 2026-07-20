@@ -11,7 +11,7 @@ created: '2026-07-20'
 ## 関連 Issue / PR
 
 - Issue: #101
-- PR: draft PR（作成予定）
+- PR: #113（draft）
 - Agent: codex
 
 ## Issue 背景（Issue 本文から要約）
@@ -79,6 +79,7 @@ created: '2026-07-20'
 - TypeScript 7 では CSS の side-effect import に宣言が必要だったため、標準の `vite/client` 型参照を追加した。
 - ローカルブラウザ検証が、ビルドだけでは見つからない React の親更新タイミング警告の発見と修正につながった。
 - `.gitignore` はプロトタイプ直下に置くことで、本番や将来の別 Track B 実験への暗黙の影響を避けた。
+- Codex の GitHub コネクタによる PR 作成は既知の 403（`Resource not accessible by integration`）となったため、AGENTS.md の規定どおり認証済み `gh` CLI にフォールバックして draft PR を作成した。
 
 ## 後続への影響
 
