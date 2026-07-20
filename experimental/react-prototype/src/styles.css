@@ -1,0 +1,77 @@
+:root {
+  color: #172033;
+  background: #f4f6fb;
+  font-family:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button {
+  font: inherit;
+}
+
+.prototype {
+  width: min(42rem, calc(100% - 2rem));
+  margin: 4rem auto;
+}
+
+.cefr-filter {
+  margin: 2rem 0;
+  padding: 1rem;
+  border: 1px solid #c7cedd;
+  border-radius: 0.75rem;
+  background: #ffffff;
+}
+
+.cefr-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.cefr-button {
+  min-width: 3.5rem;
+  padding: 0.65rem 1rem;
+  border: 1px solid #8c98af;
+  border-radius: 999px;
+  color: inherit;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.cefr-button[aria-pressed="true"] {
+  border-color: #2655c7;
+  color: #ffffff;
+  background: #2655c7;
+}
+
+.cefr-button:focus-visible {
+  outline: 3px solid #8fb2ff;
+  outline-offset: 2px;
+}
+
+.debug-output {
+  padding: 1rem;
+  border-radius: 0.75rem;
+  color: #edf2ff;
+  background: #172033;
+}
+
+.debug-output h2 {
+  margin-top: 0;
+}
+
+.debug-output pre {
+  margin-bottom: 0;
+}
