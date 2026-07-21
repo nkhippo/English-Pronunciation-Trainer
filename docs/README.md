@@ -45,7 +45,7 @@ created: '2026-07-10'
 
 | フォルダ | 役割 | README |
 |----------|------|--------|
-| [`agent-reports/`](agent-reports/) | AI エージェント（Codex / Cursor / Claude Code 等）の実装レポート統合（2026-07-20 以降の正本）。規約は repo root `AGENTS.md` | [`agent-reports/README.md`](agent-reports/README.md) |
+| [`agent-reports/`](agent-reports/) | AI エージェント（Codex / Cursor / Claude Code 等）の実装レポート統合（2026-07-20 以降の正本）。規約は repo root `AGENTS.md` | [[pj-2026-07-20-e7a1|`agent-reports/README.md`]] |
 | [`cursor/`](cursor/) | 指示書・設計ブリーフ・recon。`reports/` は historical archive（2026-07-20 以前） | [[pj-2026-07-10-a25d|`cursor/README.md`]] |
 | [`design/`](design/) | Phase 1 デザイン入力・画面×データマッピング（例: `phase-1/screen-data-mapping.md`） | — |
 | [`reference/`](reference/) | 監査・運用ガイド・意思決定メモ（人間＋AI 参照） | [[pj-2026-07-09-77a4|`reference/README.md`]] |
