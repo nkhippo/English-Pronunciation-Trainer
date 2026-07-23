@@ -43,7 +43,7 @@ Issue #130 / PR #132 で `docs/DOCUMENT-MAP.md` / `CLAUDE.md` / `AGENTS.md` に 
 
 ## 動作確認
 
-- `rg "Category A-E|Category A–E" docs/ CLAUDE.md AGENTS.md README.md`: 0 matches
+- 旧 Category 範囲表記の残存チェック（`docs/`・repo root docs 対象）: 0 matches
 - `git diff --name-only`: 変更ファイルが docs-only であることを確認
 - 既存機能への影響: なし
 - データ整合性: 対象外
