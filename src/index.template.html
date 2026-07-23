@@ -364,8 +364,9 @@
   .reveal-checks{margin-top:14px;padding:12px;border:1px solid var(--hair);border-radius:14px;background:var(--panel)}
   .reveal-checks .rc-label{font-family:var(--font-mono);font-size:10.5px;color:var(--muted);text-transform:none;letter-spacing:.03em;margin-bottom:9px;display:flex;justify-content:space-between;align-items:center}
   .reveal-checks .rc-label strong{font-size:12px;color:var(--signal);font-weight:800}
-  .reveal-checks .pc-mode{flex-direction:row;gap:8px;justify-content:center}
-  .reveal-checks .pc-slot{width:20px;height:20px;border-radius:4px;background:var(--panel)}
+  .reveal-checks .pc-mode{display:flex;flex-direction:row;gap:8px;justify-content:center;width:100%}
+  .reveal-checks .pc-slot{width:20px;height:20px;border-radius:4px;background:var(--panel);position:relative}
+  .reveal-checks .pc-slot[data-filled="1"]::after{content:"";position:absolute;left:5px;top:2px;width:7px;height:12px;border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg)}
   .vocab-type-linking{background:#ddf4ff;color:#0550ae}
   .vocab-type-assimilation{background:#fff3cd;color:#9a5700}
   .vocab-type-elision{background:#fde8e8;color:#cf222e}
@@ -553,7 +554,7 @@
   /* Marking UI Mood B (#revealChecks + #mbSChecks) */
   #revealChecks.reveal-checks,#mbSChecks.reveal-checks{border:1px solid var(--hair)}
   #revealChecks .rc-label,#mbSChecks .rc-label{font-family:var(--font-mono);font-size:10.5px;color:var(--muted);text-transform:none;letter-spacing:.03em;margin-bottom:9px}
-  #revealChecks .pc-slot,#mbSChecks .pc-slot{width:20px;height:20px;border:1px solid var(--hair);border-radius:4px;background:var(--panel);cursor:pointer;padding:0}
+  #revealChecks .pc-slot,#mbSChecks .pc-slot{width:20px;height:20px;border:1px solid var(--hair);border-radius:4px;background:var(--panel);cursor:pointer;padding:0;position:relative}
   #revealChecks .pc-slot[data-filled="1"],#mbSChecks .pc-slot[data-filled="1"]{border-color:var(--signal);background:var(--signal-soft)}
   #revealChecks .pc-mode[data-graduated="1"] .pc-slot[data-filled="1"],#mbSChecks .pc-mode[data-graduated="1"] .pc-slot[data-filled="1"]{background:var(--signal);border-color:var(--signal)}
   #revealChecks .pc-slot:hover,#mbSChecks .pc-slot:hover{border-color:var(--signal)}

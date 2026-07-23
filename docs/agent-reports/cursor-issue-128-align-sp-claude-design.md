@@ -52,9 +52,21 @@ Issue #128 は、Phase 1-E 完了後の実機確認で SP UI と `docs/claude-de
 
 ## 動作確認
 
-- 実装初回コミット時点: 未実施（この後、`npm run build`、`python3 tools/validate_i18n.py`、grep、ブラウザ確認を実施して追記）。
-- 既存機能への影響: 検証後に追記。
-- データ整合性: `i18n/*.json` を変更したため `tools/validate_i18n.py` を実行予定。wordlist / data 本番 JSON は未変更。
+- `python3 tools/validate_i18n.py`: OK（hard error なし。既存の同一値 warning のみ）
+- `npm run build`: OK（6 言語 HTML 生成成功）
+- 残参照 grep: `guide-modal|onboarding|howToUse` / `review-queue|srsReview` / i18n の `"guide"`・`"review_queue"`・`"c1"` は対象範囲で残存なし
+- md5: data / CD 正典 / governance docs / fonts / phoneme i18n のブラックリストは Phase 0 と一致（`i18n/*.json` は Issue 明示のホワイトリスト変更）
+- ブラウザ手動確認（Chrome / local static server）:
+  - SP 400px: トップにスワッシュ・副文・属性ストリップ・4 目的カード・別意匠の学習状況カードが表示され、ガイドアイコンなし、About 非表示、footer 4 pill 維持
+  - 3a: A1/A2/B1/B2/すべての CEFR カード表示、C1 なし、すべてトグルで全レベル選択、詳細設定 collapsible と Start ボタン維持
+  - Reveal / Mode B Study: 3 つの 20px 相当スロット、signal 色チェック、`0/3 → 3/3` の count 更新を確認
+  - 3b: CEFR pills / Words-Phrases toggle / search / A-Z rail / list cards が SP で overflow なし
+  - 3c: sticky query bar + palette/results split、最大 3 query chip、active symbol highlight を確認
+  - 3d: progress view に「Words to review」/ review queue セクションが表示されない
+  - ja / en / ko / zh-Hans / zh-Hant / fil: 言語切替可能、ガイドアイコン不在、致命的な崩れなし
+  - PC 1280px: About block 表示、SP 変更による明確な PC 破壊なし
+- 既存機能への影響: TTS のローカル CORS warning と `favicon.ico` / `script.js` 404 はローカル静的確認上の既存・環境由来。UI 操作に影響する新規 JS error はなし。
+- データ整合性: wordlist / data 本番 JSON は未変更。`i18n/*.json` は validate pass。
 
 ## 実装過程での気づき
 
